@@ -598,5 +598,741 @@
       "section": "Terrorism Risk Insurance Act (reactivo N del plan)"
     },
     "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G6-Q013",
+    "domain": "G6",
+    "subtopic": "Declaraciones y responsabilidades administrativas",
+    "difficulty": "basica",
+    "stem": "Una corporación aparece primero en las declaraciones de una póliza CGL junto con dos afiliadas. ¿Qué responsabilidad corresponde específicamente a la corporación como First Named Insured?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pagar las primas exigidas y verificar la exactitud de la información de las declaraciones.",
+        "rationale": "Es correcta porque el First Named Insured asume las responsabilidades administrativas principales, entre ellas pagar las primas y verificar las declaraciones."
+      },
+      {
+        "id": "B",
+        "text": "Determinar unilateralmente si una exclusión se aplica a una reclamación.",
+        "rationale": "Es incorrecta porque la aplicación de exclusiones depende del contrato y, en una controversia, el asegurador debe probar la exclusión."
+      },
+      {
+        "id": "C",
+        "text": "Otorgar condición de asegurado adicional mediante certificados informativos.",
+        "rationale": "Es incorrecta porque la condición de asegurado adicional requiere un endoso; un certificado no modifica la póliza."
+      },
+      {
+        "id": "D",
+        "text": "Autorizar a cualquier empleado para modificar los límites sin intervención del asegurador.",
+        "rationale": "Es incorrecta porque los límites y demás términos contractuales no pueden modificarse unilateralmente por cualquier empleado."
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "La entidad indicada primero en las declaraciones es el First Named Insured y posee las obligaciones administrativas principales de la póliza, incluidas la verificación de la información y el pago de primas.",
+    "keyTerms": [
+      {
+        "es": "primer asegurado nombrado",
+        "en": "First Named Insured"
+      },
+      {
+        "es": "declaraciones",
+        "en": "Declarations"
+      }
+    ],
+    "source": {
+      "file": "G6 - Texas Casualty Policy Research.es.md",
+      "section": "Declaraciones (reactivo A del plan)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G6-Q014",
+    "domain": "G6",
+    "subtopic": "Deber de defender",
+    "difficulty": "intermedia",
+    "stem": "Una demanda contra una empresa contiene alegatos que, si fueran ciertos, quedarían dentro de su CGL, aunque el asegurador considera que probablemente serán refutados en el juicio. ¿Qué obligación se activa inicialmente?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Solamente indemnizar después de que se dicte una sentencia definitiva.",
+        "rationale": "Es incorrecta porque la posible falsedad de los alegatos no impide que se active antes el deber más amplio de defender."
+      },
+      {
+        "id": "B",
+        "text": "Defender a la empresa porque los alegatos exponen hechos potencialmente comprendidos en la cobertura.",
+        "rationale": "Es correcta porque el deber de defender se activa por alegatos potencialmente cubiertos, independientemente de su veracidad final."
+      },
+      {
+        "id": "C",
+        "text": "Negar toda intervención hasta que el asegurado pruebe su responsabilidad jurídica.",
+        "rationale": "Es incorrecta porque la defensa no depende de que el asegurado pruebe primero que es responsable."
+      },
+      {
+        "id": "D",
+        "text": "Pagar inmediatamente al demandante el límite completo de la póliza.",
+        "rationale": "Es incorrecta porque los alegatos activan la defensa, no un pago automático del límite al tercero."
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "El deber de defender es más amplio que el deber de indemnizar. Surge cuando los alegatos presentan hechos potencialmente cubiertos, aunque posteriormente no se establezca responsabilidad indemnizable.",
+    "keyTerms": [
+      {
+        "es": "deber de defender",
+        "en": "duty to defend"
+      },
+      {
+        "es": "deber de indemnizar",
+        "en": "duty to indemnify"
+      }
+    ],
+    "source": {
+      "file": "G6 - Texas Casualty Policy Research.es.md",
+      "section": "Acuerdos de seguro (reactivo B del plan)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G6-Q015",
+    "domain": "G6",
+    "subtopic": "Condición de auditoría de primas",
+    "difficulty": "intermedia",
+    "stem": "Al terminar una póliza comercial, el asegurador solicita los registros financieros necesarios para la auditoría de primas. El titular se niega a entregarlos. ¿Cuál es la consecuencia contractual más respaldada?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La negativa convierte automáticamente todas las reclamaciones previas en riesgos excluidos.",
+        "rationale": "Es incorrecta porque una condición de auditoría no transforma las reclamaciones en categorías de riesgo excluidas."
+      },
+      {
+        "id": "B",
+        "text": "La prima originalmente estimada se vuelve inmodificable.",
+        "rationale": "Es incorrecta porque la auditoría existe precisamente para determinar la prima devengada con base en la exposición real."
+      },
+      {
+        "id": "C",
+        "text": "El asegurador puede calcular una prima por incumplimiento o aplicar consecuencias por falta de cooperación.",
+        "rationale": "Es correcta porque negarse a proporcionar registros infringe una condición sustancial de auditoría y cooperación."
+      },
+      {
+        "id": "D",
+        "text": "El asegurador debe renovar la póliza sin revisar las clasificaciones.",
+        "rationale": "Es incorrecta porque la condición de auditoría no impone una renovación obligatoria ni elimina la revisión de clasificaciones."
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Las condiciones establecen obligaciones operativas exigibles. La negativa a presentar registros durante una auditoría puede permitir una determinación de prima por incumplimiento u otras consecuencias contractuales por falta de cooperación.",
+    "keyTerms": [
+      {
+        "es": "auditoría de primas",
+        "en": "premium audit"
+      },
+      {
+        "es": "condiciones",
+        "en": "conditions"
+      }
+    ],
+    "source": {
+      "file": "G6 - Texas Casualty Policy Research.es.md",
+      "section": "Condiciones (reactivo C del plan)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G6-Q016",
+    "domain": "G6",
+    "subtopic": "Clasificación errónea en las declaraciones",
+    "difficulty": "avanzada",
+    "stem": "Una fábrica fue clasificada por error como almacén de bajo riesgo, sin evidencia de intención fraudulenta. Durante la vigencia, un visitante resulta lesionado por la operación fabril. ¿Cuál es el tratamiento más adecuado según el paquete?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La lesión queda excluida automáticamente porque la clasificación incorrecta elimina el acuerdo de seguro.",
+        "rationale": "Es incorrecta porque un error de clasificación no elimina automáticamente la cobertura de responsabilidad frente a terceros."
+      },
+      {
+        "id": "B",
+        "text": "El visitante solamente puede cobrar la diferencia entre la prima estimada y la prima correcta.",
+        "rationale": "Es incorrecta porque la diferencia de prima corresponde a la auditoría y no constituye la indemnización del visitante."
+      },
+      {
+        "id": "C",
+        "text": "La póliza se considera rescindida desde su inicio aun sin declaración falsa intencional.",
+        "rationale": "Es incorrecta porque el paquete vincula la posible rescisión con una declaración falsa sustancial e intención fraudulenta."
+      },
+      {
+        "id": "D",
+        "text": "La cobertura de responsabilidad puede permanecer activa y el asegurador puede auditar y cobrar la prima devengada adicional.",
+        "rationale": "Es correcta porque el error no fraudulento no anula por sí solo la cobertura, pero la condición de auditoría permite ajustar la prima."
+      }
+    ],
+    "correctOption": "D",
+    "explanation": "Sin intención fraudulenta, el error de clasificación no anula automáticamente la protección frente al tercero lesionado. El asegurador conserva el derecho de auditar la exposición y cobrar la prima adicional devengada.",
+    "keyTerms": [
+      {
+        "es": "clasificación tarifaria",
+        "en": "rating classification"
+      },
+      {
+        "es": "prima devengada",
+        "en": "earned premium"
+      }
+    ],
+    "source": {
+      "file": "G6 - Texas Casualty Policy Research.es.md",
+      "section": "Escenario 1: Error de clasificación o límite en la página de declaraciones"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G6-Q017",
+    "domain": "G6",
+    "subtopic": "Limitaciones y sublímites",
+    "difficulty": "basica",
+    "stem": "Una cobertura permanece disponible para una categoría de pérdida, pero la póliza fija un máximo especial de $25,000 para esa categoría. ¿Cómo se clasifica esa disposición?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Como una limitación o sublímite, porque restringe el pago sin eliminar totalmente la cobertura.",
+        "rationale": "Es correcta porque un sublímite conserva cobertura parcial hasta el importe especificado."
+      },
+      {
+        "id": "B",
+        "text": "Como una exclusión total, porque toda restricción monetaria reduce la cobertura a cero.",
+        "rationale": "Es incorrecta porque una exclusión elimina la cobertura, mientras que el máximo de $25,000 permite una recuperación parcial."
+      },
+      {
+        "id": "C",
+        "text": "Como una condición de cooperación, porque exige asistencia durante la defensa.",
+        "rationale": "Es incorrecta porque el máximo monetario no establece una obligación procesal de cooperación."
+      },
+      {
+        "id": "D",
+        "text": "Como una cláusula de subrogación, porque transfiere derechos contra terceros.",
+        "rationale": "Es incorrecta porque el sublímite no transfiere derechos de recuperación."
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "Una limitación restringe el importe, la duración, el territorio o las circunstancias de la cobertura. A diferencia de una exclusión, no reduce necesariamente la indemnización a cero.",
+    "keyTerms": [
+      {
+        "es": "sublímite",
+        "en": "sublimit"
+      },
+      {
+        "es": "limitación",
+        "en": "limitation"
+      }
+    ],
+    "source": {
+      "file": "G6 - Texas Casualty Policy Research.es.md",
+      "section": "Exclusiones y limitaciones (reactivo D del plan)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G6-Q018",
+    "domain": "G6",
+    "subtopic": "Condición de asegurado en una LLC",
+    "difficulty": "intermedia",
+    "stem": "Una LLC figura como asegurado nombrado en una CGL. Uno de sus gerentes es demandado por una decisión que tomó exclusivamente en el desempeño de sus obligaciones gerenciales. ¿Qué condición tiene normalmente el gerente?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ninguna, porque solamente los miembros propietarios pueden ser asegurados en una LLC.",
+        "rationale": "Es incorrecta porque la estructura CGL también reconoce a los gerentes respecto de sus funciones como gerentes."
+      },
+      {
+        "id": "B",
+        "text": "Es asegurado respecto de sus obligaciones como gerente de la LLC.",
+        "rationale": "Es correcta porque los gerentes designados de una LLC son asegurados cuando actúan en sus funciones gerenciales."
+      },
+      {
+        "id": "C",
+        "text": "Es únicamente Loss Payee respecto de los bienes de la LLC.",
+        "rationale": "Es incorrecta porque un Loss Payee posee un interés financiero sobre bienes y no describe la condición de responsabilidad del gerente."
+      },
+      {
+        "id": "D",
+        "text": "Es Certificate Holder sin derechos de defensa.",
+        "rationale": "Es incorrecta porque la condición surge de la definición de asegurado para la LLC, no de un certificado informativo."
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "En una LLC asegurada, los miembros son asegurados respecto de la operación del negocio y los gerentes lo son respecto de sus obligaciones como gerentes.",
+    "keyTerms": [
+      {
+        "es": "sociedad de responsabilidad limitada",
+        "en": "limited liability company"
+      },
+      {
+        "es": "gerente",
+        "en": "manager"
+      }
+    ],
+    "source": {
+      "file": "G6 - Texas Casualty Policy Research.es.md",
+      "section": "Definición del asegurado (reactivo E del plan)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G6-Q019",
+    "domain": "G6",
+    "subtopic": "Reporte en pólizas claims-made",
+    "difficulty": "avanzada",
+    "stem": "Una reclamación contra un consultor se presenta por primera vez durante el período de una póliza claims-made, pero el consultor no la reporta hasta después de vencer tanto la póliza como su período extendido de notificación. El retraso no perjudicó la investigación. ¿Cuál es el resultado?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La cobertura se conserva porque toda demora exige perjuicio sustancial en Texas.",
+        "rationale": "Es incorrecta porque la regla de perjuicio descrita para avisos tardíos en pólizas por suceso no se aplica de igual manera a la ventana estricta de una póliza claims-made."
+      },
+      {
+        "id": "B",
+        "text": "La reclamación queda cubierta si el acto profesional ocurrió en cualquier fecha anterior.",
+        "rationale": "Es incorrecta porque también deben satisfacerse el reporte oportuno y, cuando corresponda, la fecha retroactiva."
+      },
+      {
+        "id": "C",
+        "text": "La cobertura se pierde por reportarse fuera del período permitido, sin necesidad de que el asegurador pruebe perjuicio.",
+        "rationale": "Es correcta porque el reporte dentro del período de la póliza o del período extendido constituye una condición estricta del activador claims-made."
+      },
+      {
+        "id": "D",
+        "text": "La póliza se convierte automáticamente en un formulario por suceso.",
+        "rationale": "Es incorrecta porque el reporte tardío no modifica el mecanismo contractual de activación."
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "En un formulario claims-made, reportar la reclamación dentro de la ventana contractual es parte del activador de cobertura. El reporte posterior al vencimiento de la póliza y del ERP puede extinguir la cobertura sin prueba de perjuicio.",
+    "keyTerms": [
+      {
+        "es": "reclamaciones presentadas",
+        "en": "claims-made"
+      },
+      {
+        "es": "período extendido de notificación",
+        "en": "Extended Reporting Period"
+      }
+    ],
+    "source": {
+      "file": "G6 - Texas Casualty Policy Research.es.md",
+      "section": "Obligaciones del asegurado después de una pérdida (reactivo F del plan), prueba de pérdida (reactivo I del plan) y aviso de reclamación (reactivo J del plan)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G6-Q020",
+    "domain": "G6",
+    "subtopic": "Cancelación iniciada por el asegurado",
+    "difficulty": "intermedia",
+    "stem": "El titular de una póliza comercial solicita terminarla antes del vencimiento porque cerrará el negocio. ¿Qué método de devolución de prima no devengada describe el paquete para una cancelación iniciada por el asegurado?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Devolución íntegra de toda la prima, incluida la parte ya devengada.",
+        "rationale": "Es incorrecta porque la prima correspondiente al período durante el cual existió cobertura ya fue devengada."
+      },
+      {
+        "id": "B",
+        "text": "Cálculo obligatorio a prorrata sin posibilidad de retención administrativa.",
+        "rationale": "Es incorrecta porque el cálculo a prorrata se asocia en el paquete con la cancelación iniciada por el asegurador."
+      },
+      {
+        "id": "C",
+        "text": "Ninguna devolución, aunque quede un período completo sin cobertura.",
+        "rationale": "Es incorrecta porque puede existir prima no devengada susceptible de devolución."
+      },
+      {
+        "id": "D",
+        "text": "Cálculo mediante tarifa corta, que permite retener parte de la prima no devengada por gastos administrativos.",
+        "rationale": "Es correcta porque el paquete asigna el método short-rate a las cancelaciones iniciadas por el asegurado."
+      }
+    ],
+    "correctOption": "D",
+    "explanation": "Cuando el asegurado inicia la cancelación, la prima no devengada se calcula mediante tarifa corta, lo que permite al asegurador conservar una porción para gastos administrativos.",
+    "keyTerms": [
+      {
+        "es": "tarifa corta",
+        "en": "short-rate"
+      },
+      {
+        "es": "prima no devengada",
+        "en": "unearned premium"
+      }
+    ],
+    "source": {
+      "file": "G6 - Texas Casualty Policy Research.es.md",
+      "section": "Disposiciones de cancelación y no renovación (reactivo G del plan)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G6-Q021",
+    "domain": "G6",
+    "subtopic": "Pagos suplementarios de automóvil comercial",
+    "difficulty": "basica",
+    "stem": "Tras un accidente derivado del uso de un automóvil comercial cubierto, se exige una fianza de libertad provisional de $1,600 al conductor asegurado. ¿Cuánto puede pagar como máximo la disposición estándar de Supplementary Payments de Business Auto por esa fianza?",
+    "options": [
+      {
+        "id": "A",
+        "text": "$1,600, porque está por debajo del máximo de $2,000 de Business Auto.",
+        "rationale": "Es correcta porque Business Auto cubre hasta $2,000 y el costo real de la fianza es de $1,600."
+      },
+      {
+        "id": "B",
+        "text": "$250, porque ese es el máximo aplicable a toda póliza de responsabilidad.",
+        "rationale": "Es incorrecta porque $250 es el tope de fianza indicado para CGL, no para Business Auto."
+      },
+      {
+        "id": "C",
+        "text": "$2,000, aunque el costo real de la fianza sea solamente $1,600.",
+        "rationale": "Es incorrecta porque $2,000 es el límite máximo, no un pago fijo superior al gasto incurrido."
+      },
+      {
+        "id": "D",
+        "text": "$0, porque las fianzas nunca forman parte de los pagos suplementarios.",
+        "rationale": "Es incorrecta porque las fianzas derivadas de accidentes o infracciones relacionados con un automóvil cubierto están expresamente contempladas."
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "Business Auto CA 00 01 contempla hasta $2,000 por determinadas fianzas. Como el gasto real es de $1,600, ese es el importe pagadero, además de los límites de responsabilidad.",
+    "keyTerms": [
+      {
+        "es": "fianza de libertad provisional",
+        "en": "bail bond"
+      },
+      {
+        "es": "pagos suplementarios",
+        "en": "Supplementary Payments"
+      }
+    ],
+    "source": {
+      "file": "G6 - Texas Casualty Policy Research.es.md",
+      "section": "Pagos suplementarios (reactivo H del plan)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G6-Q022",
+    "domain": "G6",
+    "subtopic": "Contribución a prorrata",
+    "difficulty": "avanzada",
+    "stem": "Dos pólizas primarias concurrentes deben distribuir a prorrata una pérdida cubierta de $400,000. La póliza A tiene un límite de $3,000,000 y la póliza B uno de $1,000,000. ¿Cuánto corresponde a la póliza B?",
+    "options": [
+      {
+        "id": "A",
+        "text": "$200,000, porque las dos pólizas deben aportar partes iguales.",
+        "rationale": "Es incorrecta porque el escenario exige distribución a prorrata según los límites, no contribución por partes iguales."
+      },
+      {
+        "id": "B",
+        "text": "$100,000, porque su límite representa una cuarta parte de los límites combinados.",
+        "rationale": "Es correcta porque $1,000,000 dividido entre $4,000,000 equivale al 25%, y el 25% de $400,000 es $100,000."
+      },
+      {
+        "id": "C",
+        "text": "$300,000, porque la póliza con menor límite responde primero.",
+        "rationale": "Es incorrecta porque el método pro rata distribuye según límites relativos y no asigna prioridad a la póliza de menor límite."
+      },
+      {
+        "id": "D",
+        "text": "$400,000, porque cada póliza primaria debe pagar inicialmente la pérdida completa.",
+        "rationale": "Es incorrecta porque la cláusula de otros seguros distribuye la pérdida e impide una recuperación duplicada."
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Los límites combinados son $4,000,000. La participación de B es $1,000,000/$4,000,000, o 25%; por tanto, paga $100,000 de la pérdida.",
+    "keyTerms": [
+      {
+        "es": "contribución a prorrata",
+        "en": "pro rata contribution"
+      },
+      {
+        "es": "límites relativos",
+        "en": "relative limits"
+      }
+    ],
+    "source": {
+      "file": "G6 - Texas Casualty Policy Research.es.md",
+      "section": "Otros seguros (reactivo K del plan)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G6-Q023",
+    "domain": "G6",
+    "subtopic": "Prioridad de automóvil comercial",
+    "difficulty": "intermedia",
+    "stem": "Una empresa asegurada es propietaria de una camioneta incluida como automóvil cubierto en su Business Auto Policy. Durante una entrega, un empleado autorizado causa un accidente. Frente a otro seguro aplicable, ¿qué posición ocupa normalmente la BAP respecto de ese vehículo?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Siempre excedente, porque el conductor es un empleado.",
+        "rationale": "Es incorrecta porque la prioridad depende de si el vehículo es propio o no propio, no simplemente de que lo conduzca un empleado."
+      },
+      {
+        "id": "B",
+        "text": "Sin cobertura, porque un empleado nunca es usuario con permiso.",
+        "rationale": "Es incorrecta porque un empleado autorizado puede ser usuario con permiso de un automóvil cubierto."
+      },
+      {
+        "id": "C",
+        "text": "Primaria, porque el vehículo es propiedad del asegurado nombrado.",
+        "rationale": "Es correcta porque CA 00 01 establece cobertura primaria para la responsabilidad derivada de vehículos propios."
+      },
+      {
+        "id": "D",
+        "text": "Sombrilla, porque solamente responde después del agotamiento de todos los seguros.",
+        "rationale": "Es incorrecta porque una BAP sobre un automóvil propio funciona como cobertura primaria, no como sombrilla."
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "La regla de prioridad de Business Auto dispone que la responsabilidad sobre vehículos propiedad del asegurado nombrado es primaria; para automóviles no propios, la BAP es normalmente excedente.",
+    "keyTerms": [
+      {
+        "es": "automóvil propio",
+        "en": "owned auto"
+      },
+      {
+        "es": "cobertura primaria",
+        "en": "primary coverage"
+      }
+    ],
+    "source": {
+      "file": "G6 - Texas Casualty Policy Research.es.md",
+      "section": "Otros seguros (reactivo K del plan)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G6-Q024",
+    "domain": "G6",
+    "subtopic": "Renuncia a la subrogación",
+    "difficulty": "avanzada",
+    "stem": "Después de que ocurre una pérdida, el asegurado libera por escrito al tercero negligente de toda responsabilidad sin obtener el consentimiento del asegurador. La liberación destruye los derechos de recuperación del asegurador. ¿Cuál es la consecuencia más adecuada?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La liberación es válida frente al asegurador porque toda renuncia escrita está permitida en cualquier momento.",
+        "rationale": "Es incorrecta porque la autorización descrita se limita a renuncias escritas formalizadas antes de la pérdida."
+      },
+      {
+        "id": "B",
+        "text": "El asegurador debe subrogarse contra su propio asegurado nombrado.",
+        "rationale": "Es incorrecta porque el asegurador no puede subrogarse contra su propio asegurado nombrado por un riesgo cubierto."
+      },
+      {
+        "id": "C",
+        "text": "La liberación convierte al tercero negligente en asegurado adicional.",
+        "rationale": "Es incorrecta porque una liberación posterior a la pérdida no concede condición de asegurado adicional."
+      },
+      {
+        "id": "D",
+        "text": "El asegurado incumple la obligación de no perjudicar la subrogación y puede perder la cobertura correspondiente.",
+        "rationale": "Es correcta porque una renuncia posterior a la pérdida sin consentimiento menoscaba los derechos de recuperación del asegurador."
+      }
+    ],
+    "correctOption": "D",
+    "explanation": "Las renuncias escritas anteriores a la pérdida pueden estar permitidas. Después de la pérdida, el asegurado no debe liberar al responsable ni perjudicar los derechos de subrogación sin consentimiento del asegurador.",
+    "keyTerms": [
+      {
+        "es": "renuncia a la subrogación",
+        "en": "waiver of subrogation"
+      },
+      {
+        "es": "derechos de recuperación",
+        "en": "rights of recovery"
+      }
+    ],
+    "source": {
+      "file": "G6 - Texas Casualty Policy Research.es.md",
+      "section": "Subrogación (reactivo L del plan)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G6-Q025",
+    "domain": "G6",
+    "subtopic": "Autoridad para transigir en CGL",
+    "difficulty": "basica",
+    "stem": "Una CGL estándar permite al asegurador resolver una reclamación cubierta por un importe razonable. El asegurado se opone porque teme publicidad negativa. ¿Quién posee la autoridad contractual para transigir?",
+    "options": [
+      {
+        "id": "A",
+        "text": "El asegurador, que puede investigar, negociar y transigir según lo considere conveniente.",
+        "rationale": "Es correcta porque la CGL estándar concede al asegurador discreción contractual sobre la transacción y no otorga al asegurado derecho de veto."
+      },
+      {
+        "id": "B",
+        "text": "El asegurado exclusivamente, porque toda póliza de responsabilidad contiene Consent to Settle.",
+        "rationale": "Es incorrecta porque las cláusulas de consentimiento son características frecuentes de responsabilidad profesional, no de la CGL estándar."
+      },
+      {
+        "id": "C",
+        "text": "El reclamante exclusivamente, porque puede imponer la transacción al asegurador.",
+        "rationale": "Es incorrecta porque el reclamante puede hacer una oferta, pero no posee autoridad contractual unilateral sobre la póliza."
+      },
+      {
+        "id": "D",
+        "text": "El First Named Insured y el reclamante conjuntamente, sin participación del asegurador.",
+        "rationale": "Es incorrecta porque la póliza asigna al asegurador el control de la investigación, negociación y transacción."
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "En los formularios estándar CGL y Business Auto, el asegurador controla la transacción de reclamaciones de terceros. El asegurado no cuenta con un derecho contractual de veto.",
+    "keyTerms": [
+      {
+        "es": "autoridad para transigir",
+        "en": "settlement authority"
+      },
+      {
+        "es": "discreción del asegurador",
+        "en": "insurer discretion"
+      }
+    ],
+    "source": {
+      "file": "G6 - Texas Casualty Policy Research.es.md",
+      "section": "Disposiciones de liquidación de pérdidas, incluido el consentimiento para transigir (reactivo M del plan)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G6-Q026",
+    "domain": "G6",
+    "subtopic": "Obligación de ofrecer cobertura TRIA",
+    "difficulty": "intermedia",
+    "stem": "Al renovar una póliza comercial incluida en los ramos de TRIA, el asegurador pretende omitir toda oferta de cobertura contra terrorismo porque el cliente la rechazó el año anterior. ¿Qué exige el programa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Omitir permanentemente la oferta después del primer rechazo del titular.",
+        "rationale": "Es incorrecta porque el rechazo anterior no elimina la obligación de ofrecer cobertura en una renovación posterior."
+      },
+      {
+        "id": "B",
+        "text": "Volver a ofrecer la cobertura en la renovación, con divulgación clara de la prima y del respaldo federal.",
+        "rationale": "Es correcta porque la obligación make-available se aplica tanto a la oferta inicial como a la renovación de pólizas comerciales cubiertas."
+      },
+      {
+        "id": "C",
+        "text": "Añadir gratuitamente la cobertura sin permitir que el titular la rechace.",
+        "rationale": "Es incorrecta porque, salvo mandatos legales aplicables como los de compensación para trabajadores, el titular conserva el derecho de rechazarla."
+      },
+      {
+        "id": "D",
+        "text": "Sustituir la cobertura de TRIA por cobertura de automóvil personal.",
+        "rationale": "Es incorrecta porque el automóvil personal está excluido de los ramos respaldados por TRIA."
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Los aseguradores participantes deben ofrecer cobertura contra terrorismo en la emisión inicial y en cada renovación de las pólizas comerciales comprendidas, acompañada de una divulgación clara de la prima y del respaldo federal.",
+    "keyTerms": [
+      {
+        "es": "obligación de ofrecer cobertura",
+        "en": "make-available duty"
+      },
+      {
+        "es": "renovación",
+        "en": "renewal"
+      }
+    ],
+    "source": {
+      "file": "G6 - Texas Casualty Policy Research.es.md",
+      "section": "Terrorism Risk Insurance Act (reactivo N del plan)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G6-Q027",
+    "domain": "G6",
+    "subtopic": "Ramos excluidos de TRIA",
+    "difficulty": "basica",
+    "stem": "¿Cuál de las siguientes pólizas pertenece a un ramo expresamente excluido del respaldo federal de TRIA según el paquete?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Commercial General Liability.",
+        "rationale": "Es incorrecta porque Commercial General Liability figura entre los ramos comerciales cubiertos por TRIA."
+      },
+      {
+        "id": "B",
+        "text": "Workers Compensation.",
+        "rationale": "Es incorrecta porque Workers Compensation está incluido entre los ramos cubiertos por el programa."
+      },
+      {
+        "id": "C",
+        "text": "Automóvil personal.",
+        "rationale": "Es correcta porque TRIA excluye los ramos personales, incluido el seguro de automóvil personal."
+      },
+      {
+        "id": "D",
+        "text": "Commercial Umbrella.",
+        "rationale": "Es incorrecta porque la sombrilla comercial figura entre los ramos comprendidos por TRIA."
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "TRIA se aplica a determinados ramos comerciales de propiedad y accidentes, pero excluye los ramos personales, entre ellos propietarios de vivienda y automóvil personal.",
+    "keyTerms": [
+      {
+        "es": "ramos personales",
+        "en": "personal lines"
+      },
+      {
+        "es": "automóvil personal",
+        "en": "personal auto"
+      }
+    ],
+    "source": {
+      "file": "G6 - Texas Casualty Policy Research.es.md",
+      "section": "Terrorism Risk Insurance Act (reactivo N del plan)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G6-Q028",
+    "domain": "G6",
+    "subtopic": "Activadores y participación federal de TRIA",
+    "difficulty": "avanzada",
+    "stem": "Un evento cumple la pérdida mínima de $5,000,000 para ser certificado como acto de terrorismo, pero las pérdidas certificadas totales del sector ascienden solamente a $150,000,000. ¿Qué efecto tiene el umbral sectorial sobre la distribución federal de TRIA?",
+    "options": [
+      {
+        "id": "A",
+        "text": "El gobierno paga de inmediato el 80% porque la certificación por sí sola activa la distribución federal.",
+        "rationale": "Es incorrecta porque la certificación y el activador sectorial de $200,000,000 son requisitos distintos."
+      },
+      {
+        "id": "B",
+        "text": "El gobierno paga el 100% porque las pérdidas superan el mínimo de certificación.",
+        "rationale": "Es incorrecta porque TRIA no asigna al gobierno el 100% y el activador sectorial aún no se ha alcanzado."
+      },
+      {
+        "id": "C",
+        "text": "El asegurador recibe participación federal después de aplicar solamente un deducible del 5% de su prima.",
+        "rationale": "Es incorrecta porque el deducible indicado es 20% de la DEP del año anterior y, además, no se alcanzó el activador sectorial."
+      },
+      {
+        "id": "D",
+        "text": "La distribución federal no se activa porque las pérdidas del sector no exceden $200,000,000.",
+        "rationale": "Es correcta porque alcanzar el mínimo de certificación de $5,000,000 no sustituye el activador separado de $200,000,000."
+      }
+    ],
+    "correctOption": "D",
+    "explanation": "La certificación exige una pérdida mínima de $5,000,000, pero el mecanismo federal de distribución de pérdidas solamente se activa cuando las pérdidas certificadas totales del sector exceden $200,000,000.",
+    "keyTerms": [
+      {
+        "es": "acto de terrorismo certificado",
+        "en": "certified act of terrorism"
+      },
+      {
+        "es": "activador del programa",
+        "en": "program trigger"
+      }
+    ],
+    "source": {
+      "file": "G6 - Texas Casualty Policy Research.es.md",
+      "section": "Terrorism Risk Insurance Act (reactivo N del plan)"
+    },
+    "reviewStatus": "pending_expert_review"
   }
 ]

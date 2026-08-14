@@ -724,5 +724,925 @@
       "section": "5.12 Situación: Análisis de una disputa sobre cobertura provisional"
     },
     "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G2-Q016",
+    "domain": "G2",
+    "subtopic": "Interés asegurable concurrente",
+    "difficulty": "intermedia",
+    "stem": "Un edificio comercial vale $900,000 y tiene un saldo hipotecario pendiente de $550,000. ¿Cuál afirmación describe correctamente los intereses asegurables del propietario y del acreedor hipotecario?",
+    "options": [
+      {
+        "id": "A",
+        "text": "El acreedor tiene un interés de hasta $550,000 y el propietario conserva un interés patrimonial de $350,000.",
+        "rationale": "Correcta. Varias partes pueden tener intereses concurrentes; el del acreedor se limita a la deuda pendiente y el del propietario corresponde a su participación patrimonial."
+      },
+      {
+        "id": "B",
+        "text": "Solo el acreedor tiene interés asegurable porque mantiene un gravamen sobre todo el edificio.",
+        "rationale": "Incorrecta. El gravamen no elimina el interés económico del propietario en el patrimonio restante."
+      },
+      {
+        "id": "C",
+        "text": "Ambas partes tienen derecho individual a recuperar los $900,000 completos.",
+        "rationale": "Incorrecta. La recuperación de cada parte se limita al valor de su propio interés económico y no permite duplicar la indemnización."
+      },
+      {
+        "id": "D",
+        "text": "Solo el propietario tiene interés asegurable porque posee el título legal.",
+        "rationale": "Incorrecta. Un acreedor garantizado también posee interés asegurable, aunque no sea titular del dominio."
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "El interés asegurable puede pertenecer simultáneamente a distintas partes. El acreedor hipotecario está limitado al saldo de $550,000 y el propietario conserva $350,000 de patrimonio.",
+    "keyTerms": [
+      {
+        "es": "interés asegurable",
+        "en": "insurable interest"
+      },
+      {
+        "es": "acreedor hipotecario",
+        "en": "mortgagee"
+      }
+    ],
+    "source": {
+      "file": "G2 - Texas P&C Exam G2 Research.es.md",
+      "section": "3.2 Interés asegurable (Inciso B del plan)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G2-Q017",
+    "domain": "G2",
+    "subtopic": "Riesgos nombrados",
+    "difficulty": "basica",
+    "stem": "Un comerciante reclama daños bajo una póliza de riesgos nombrados. ¿Qué debe demostrar inicialmente para establecer que la pérdida está cubierta?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Que ninguna exclusión de la póliza podría relacionarse remotamente con los daños.",
+        "rationale": "Incorrecta. Esa formulación no representa la carga inicial descrita para una póliza de riesgos nombrados."
+      },
+      {
+        "id": "B",
+        "text": "Que un riesgo expresamente enumerado en la póliza ocasionó la pérdida.",
+        "rationale": "Correcta. En una póliza de riesgos nombrados, el asegurado debe vincular la pérdida con una causa incluida expresamente."
+      },
+      {
+        "id": "C",
+        "text": "Que la propiedad tenía valor de mercado al emitirse la póliza.",
+        "rationale": "Incorrecta. El valor de mercado no determina si la causa de pérdida figura entre los riesgos nombrados."
+      },
+      {
+        "id": "D",
+        "text": "Que el asegurador no puede identificar ningún peligro físico en el inmueble.",
+        "rationale": "Incorrecta. Un peligro físico aumenta la probabilidad de pérdida, pero no sustituye la prueba de un riesgo cubierto nombrado."
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Los formularios de riesgos nombrados cubren solamente las causas enumeradas, por lo que el asegurado soporta la carga inicial de demostrar que una de ellas produjo la pérdida.",
+    "keyTerms": [
+      {
+        "es": "riesgos nombrados",
+        "en": "named perils"
+      },
+      {
+        "es": "carga de la prueba",
+        "en": "burden of proof"
+      }
+    ],
+    "source": {
+      "file": "G2 - Texas P&C Exam G2 Research.es.md",
+      "section": "3.5 Riesgo cubierto (Inciso E del plan)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G2-Q018",
+    "domain": "G2",
+    "subtopic": "Causas especiales de pérdida",
+    "difficulty": "intermedia",
+    "stem": "Una póliza de causas especiales cubre toda pérdida física directa salvo las causas expresamente excluidas. Ante una pérdida física, ¿qué fundamento permitiría al asegurador denegarla?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Que la causa no aparece en una lista de riesgos nombrados.",
+        "rationale": "Incorrecta. La cobertura especial no exige que cada causa cubierta aparezca en una lista afirmativa."
+      },
+      {
+        "id": "B",
+        "text": "Que el asegurado no predijo la fecha exacta del siniestro.",
+        "rationale": "Incorrecta. La capacidad de predecir la fecha de una pérdida individual no es un requisito de este formulario."
+      },
+      {
+        "id": "C",
+        "text": "Que una exclusión expresa de la póliza se aplica a la pérdida.",
+        "rationale": "Correcta. En la cobertura de riesgos abiertos, el asegurador debe demostrar que una exclusión contractual elimina la pérdida."
+      },
+      {
+        "id": "D",
+        "text": "Que la propiedad dañada conserva algún valor de salvamento.",
+        "rationale": "Incorrecta. El salvamento afecta el ajuste económico posterior, no convierte por sí solo una causa cubierta en excluida."
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "La cobertura de causas especiales parte de la cobertura de pérdidas físicas directas y desplaza al asegurador la carga de demostrar una exclusión aplicable.",
+    "keyTerms": [
+      {
+        "es": "causas especiales de pérdida",
+        "en": "special causes of loss"
+      },
+      {
+        "es": "exclusión",
+        "en": "exclusion"
+      }
+    ],
+    "source": {
+      "file": "G2 - Texas P&C Exam G2 Research.es.md",
+      "section": "3.5 Riesgo cubierto (Inciso E del plan)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G2-Q019",
+    "domain": "G2",
+    "subtopic": "Valor de mercado",
+    "difficulty": "basica",
+    "stem": "¿Por qué el valor de mercado suele ser una base inadecuada para valorar una estructura asegurada?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Porque siempre equivale al costo original de construcción.",
+        "rationale": "Incorrecta. El valor de mercado puede diferir sustancialmente del costo original."
+      },
+      {
+        "id": "B",
+        "text": "Porque exige deducir únicamente la depreciación física.",
+        "rationale": "Incorrecta. Esa descripción se aproxima al cálculo ordinario del valor real en efectivo, no al valor de mercado."
+      },
+      {
+        "id": "C",
+        "text": "Porque necesariamente supera el límite de responsabilidad.",
+        "rationale": "Incorrecta. No existe una regla que obligue al valor de mercado a superar el límite."
+      },
+      {
+        "id": "D",
+        "text": "Porque incorpora factores como ubicación, terreno y tendencias económicas ajenos al costo físico de reconstrucción.",
+        "rationale": "Correcta. Esos factores de mercado pueden alterar el precio de venta sin reflejar el costo de reparar o reemplazar la estructura."
+      }
+    ],
+    "correctOption": "D",
+    "explanation": "El valor de mercado refleja lo que acordarían un comprador y un vendedor e incorpora ubicación y condiciones económicas, por lo que rara vez es apropiado para valorar estructuras.",
+    "keyTerms": [
+      {
+        "es": "valor de mercado",
+        "en": "market value"
+      },
+      {
+        "es": "costo de reconstrucción",
+        "en": "reconstruction cost"
+      }
+    ],
+    "source": {
+      "file": "G2 - Texas P&C Exam G2 Research.es.md",
+      "section": "3.7 Valoración de pérdidas (Incisos G, G.1, G.2, G.3, G.4 y G.5 del plan)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G2-Q020",
+    "domain": "G2",
+    "subtopic": "Valor acordado",
+    "difficulty": "intermedia",
+    "stem": "Una empresa entrega una tasación aceptada por el asegurador y obtiene una disposición de valor acordado para una máquina especializada. ¿Qué efecto distingue principalmente esta disposición?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Establece anticipadamente la base de liquidación y exime la propiedad de la condición estándar de coaseguro.",
+        "rationale": "Correcta. El valor acordado fija una suma aceptada al inicio y elimina la penalización ordinaria de coaseguro."
+      },
+      {
+        "id": "B",
+        "text": "Garantiza que cualquier pérdida parcial será pagada por el límite total.",
+        "rationale": "Incorrecta. La disposición no convierte toda pérdida parcial en una pérdida por el límite completo."
+      },
+      {
+        "id": "C",
+        "text": "Conserva el coaseguro, pero elimina todos los deducibles.",
+        "rationale": "Incorrecta. Su efecto descrito es eximir del coaseguro; no se afirma que elimine deducibles."
+      },
+      {
+        "id": "D",
+        "text": "Limita siempre el pago al menor entre ACV, reparación y suma acordada.",
+        "rationale": "Incorrecta. Esa mecánica corresponde al valor declarado, no al valor acordado."
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "El valor acordado se respalda normalmente con una lista o tasación, establece la base de liquidación por anticipado y exime la condición de coaseguro.",
+    "keyTerms": [
+      {
+        "es": "valor acordado",
+        "en": "agreed value"
+      },
+      {
+        "es": "coaseguro",
+        "en": "coinsurance"
+      }
+    ],
+    "source": {
+      "file": "G2 - Texas P&C Exam G2 Research.es.md",
+      "section": "3.7 Valoración de pérdidas (Incisos G, G.1, G.2, G.3, G.4 y G.5 del plan)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G2-Q021",
+    "domain": "G2",
+    "subtopic": "Ley de póliza valorada de Texas",
+    "difficulty": "avanzada",
+    "stem": "Un incendio cubierto destruye totalmente un inmueble asegurado en Texas. El límite aplicable es $420,000, aunque el valor real en efectivo demostrado es $360,000. ¿Qué importe establece la Texas Valued Policy Law como obligación líquida, antes de considerar cualquier cuestión ajena al supuesto?",
+    "options": [
+      {
+        "id": "A",
+        "text": "$360,000, porque la indemnización siempre se limita al ACV.",
+        "rationale": "Incorrecta. La ley de póliza valorada constituye una excepción al resultado ordinario basado exclusivamente en ACV."
+      },
+      {
+        "id": "B",
+        "text": "$420,000, correspondiente al límite completo de la póliza.",
+        "rationale": "Correcta. Para una pérdida total por incendio de bienes inmuebles, la ley convierte el límite completo en obligación líquida."
+      },
+      {
+        "id": "C",
+        "text": "$60,000, correspondiente a la diferencia entre el límite y el ACV.",
+        "rationale": "Incorrecta. La obligación no se limita a la diferencia entre ambas cifras."
+      },
+      {
+        "id": "D",
+        "text": "$390,000, como promedio entre el límite y el ACV.",
+        "rationale": "Incorrecta. La ley no utiliza un promedio para valorar la pérdida total por incendio."
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "El Texas Insurance Code § 862.053 exige el límite completo de $420,000 cuando un incendio produce la pérdida total del inmueble asegurado.",
+    "keyTerms": [
+      {
+        "es": "ley de póliza valorada",
+        "en": "valued policy law"
+      },
+      {
+        "es": "obligación líquida",
+        "en": "liquidated demand"
+      }
+    ],
+    "source": {
+      "file": "G2 - Texas P&C Exam G2 Research.es.md",
+      "section": "3.7 Valoración de pérdidas (Incisos G, G.1, G.2, G.3, G.4 y G.5 del plan)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G2-Q022",
+    "domain": "G2",
+    "subtopic": "Valor de salvamento",
+    "difficulty": "intermedia",
+    "stem": "Después de pagar una pérdida total cubierta sobre maquinaria dañada, quedan piezas con valor de reventa. ¿Quién adquiere normalmente los derechos sobre ese salvamento?",
+    "options": [
+      {
+        "id": "A",
+        "text": "El productor, como compensación por haber colocado la póliza.",
+        "rationale": "Incorrecta. La colocación de la póliza no concede al productor derechos de propiedad sobre los restos."
+      },
+      {
+        "id": "B",
+        "text": "El acreedor hipotecario, aunque no tenga interés en la maquinaria.",
+        "rationale": "Incorrecta. Un tercero sin interés económico aplicable no adquiere automáticamente el salvamento."
+      },
+      {
+        "id": "C",
+        "text": "El asegurador, para compensar parcialmente el pago de la reclamación total.",
+        "rationale": "Correcta. Tras liquidar una pérdida total, el asegurador adquiere los derechos sobre el valor residual de los bienes."
+      },
+      {
+        "id": "D",
+        "text": "El ajustador, por haber determinado el importe de la pérdida.",
+        "rationale": "Incorrecta. La función de ajuste no transfiere al ajustador la propiedad del salvamento."
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "El valor de salvamento es el valor residual de los bienes dañados; después del pago de una pérdida total, sus derechos corresponden al asegurador.",
+    "keyTerms": [
+      {
+        "es": "valor de salvamento",
+        "en": "salvage value"
+      },
+      {
+        "es": "pérdida total",
+        "en": "total loss"
+      }
+    ],
+    "source": {
+      "file": "G2 - Texas P&C Exam G2 Research.es.md",
+      "section": "3.7 Valoración de pérdidas (Incisos G, G.1, G.2, G.3, G.4 y G.5 del plan)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G2-Q023",
+    "domain": "G2",
+    "subtopic": "Deducible porcentual",
+    "difficulty": "basica",
+    "stem": "Un edificio tiene un límite de $750,000 y un deducible de vendaval equivalente al 2% del límite. ¿Cuál es el deducible aplicable?",
+    "options": [
+      {
+        "id": "A",
+        "text": "$1,500",
+        "rationale": "Incorrecta. Esta cifra resulta de aplicar 0.2%, no 2%, al límite."
+      },
+      {
+        "id": "B",
+        "text": "$7,500",
+        "rationale": "Incorrecta. Esta cifra equivale al 1% del límite."
+      },
+      {
+        "id": "C",
+        "text": "$20,000",
+        "rationale": "Incorrecta. Esta cifra no corresponde al 2% de $750,000."
+      },
+      {
+        "id": "D",
+        "text": "$15,000",
+        "rationale": "Correcta. El 2% de $750,000 es $15,000."
+      }
+    ],
+    "correctOption": "D",
+    "explanation": "Un deducible porcentual se calcula sobre el límite de la póliza: $750,000 × 0.02 = $15,000.",
+    "keyTerms": [
+      {
+        "es": "deducible porcentual",
+        "en": "percentage deductible"
+      },
+      {
+        "es": "límite de la póliza",
+        "en": "policy limit"
+      }
+    ],
+    "source": {
+      "file": "G2 - Texas P&C Exam G2 Research.es.md",
+      "section": "3.9 Deducible (Inciso I del plan)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G2-Q024",
+    "domain": "G2",
+    "subtopic": "Sublímite",
+    "difficulty": "intermedia",
+    "stem": "Una póliza tiene un límite principal de $500,000 y un sublímite de $3,000 para robo de joyas. Ocurre un robo cubierto de joyas por $8,000. Sin deducible, ¿cuál es el pago máximo por esa categoría?",
+    "options": [
+      {
+        "id": "A",
+        "text": "$3,000, porque el sublímite restringe el pago de esa categoría dentro del límite principal.",
+        "rationale": "Correcta. El sublímite es el tope específico aplicable al robo de joyas, aunque el límite general sea mayor."
+      },
+      {
+        "id": "B",
+        "text": "$8,000, porque la pérdida es inferior al límite principal.",
+        "rationale": "Incorrecta. Estar por debajo del límite principal no permite superar el sublímite de joyas."
+      },
+      {
+        "id": "C",
+        "text": "$497,000, porque debe restarse el sublímite del límite principal.",
+        "rationale": "Incorrecta. El sublímite no se calcula restándolo del límite para determinar el pago de la pérdida."
+      },
+      {
+        "id": "D",
+        "text": "$500,000, porque todo el límite principal está disponible por reclamación.",
+        "rationale": "Incorrecta. La categoría está sujeta a un tope interno mucho menor."
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "El sublímite limita una clase determinada de bienes o riesgo. Por ello, el pago máximo por las joyas es $3,000.",
+    "keyTerms": [
+      {
+        "es": "sublímite",
+        "en": "sublimit"
+      },
+      {
+        "es": "límite de responsabilidad",
+        "en": "limit of liability"
+      }
+    ],
+    "source": {
+      "file": "G2 - Texas P&C Exam G2 Research.es.md",
+      "section": "3.11 Límites de responsabilidad (Inciso K del plan)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G2-Q025",
+    "domain": "G2",
+    "subtopic": "Indemnización y seguros concurrentes",
+    "difficulty": "intermedia",
+    "stem": "Un inventario con una pérdida cubierta demostrada de $70,000 está asegurado por dos pólizas aplicables. ¿Qué resultado concuerda con el principio de indemnización?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cada asegurador paga $70,000, porque cada póliza constituye un contrato separado.",
+        "rationale": "Incorrecta. Un cobro total de $140,000 produciría una ganancia sobre una pérdida de $70,000."
+      },
+      {
+        "id": "B",
+        "text": "Los aseguradores distribuyen proporcionalmente un pago total que no exceda $70,000.",
+        "rationale": "Correcta. La contribución proporcional evita una doble recuperación y mantiene al asegurado en su situación económica previa."
+      },
+      {
+        "id": "C",
+        "text": "Ningún asegurador paga porque la existencia de dos pólizas anula el interés asegurable.",
+        "rationale": "Incorrecta. Varias pólizas no eliminan el interés asegurable; limitan la recuperación conjunta a la pérdida."
+      },
+      {
+        "id": "D",
+        "text": "El asegurado elige una póliza para cobrar $70,000 y recibe además el valor de salvamento en efectivo.",
+        "rationale": "Incorrecta. El principio de indemnización no autoriza beneficios adicionales que excedan la pérdida económica."
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "La indemnización prohíbe que el asegurado obtenga ganancias. Las condiciones de contribución reparten la pérdida de $70,000 sin duplicarla.",
+    "keyTerms": [
+      {
+        "es": "indemnización",
+        "en": "indemnity"
+      },
+      {
+        "es": "contribución proporcional",
+        "en": "pro rata contribution"
+      }
+    ],
+    "source": {
+      "file": "G2 - Texas P&C Exam G2 Research.es.md",
+      "section": "3.10 Indemnización (Inciso J del plan)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G2-Q026",
+    "domain": "G2",
+    "subtopic": "Suceso",
+    "difficulty": "basica",
+    "stem": "Durante cuatro días, una tubería con una fuga continua moja repetidamente la misma pared y causa daños a la propiedad durante el periodo de la póliza. Según la definición general del paquete, ¿qué término puede agrupar esa exposición continua como unidad para límites y deducibles?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cotización",
+        "rationale": "Incorrecta. Una cotización es una estimación de prima y no agrupa eventos de pérdida."
+      },
+      {
+        "id": "B",
+        "text": "Valor declarado",
+        "rationale": "Incorrecta. El valor declarado limita una base de liquidación, pero no define el evento de pérdida."
+      },
+      {
+        "id": "C",
+        "text": "Suceso",
+        "rationale": "Correcta. Un suceso incluye la exposición continua o repetida a condiciones perjudiciales sustancialmente iguales."
+      },
+      {
+        "id": "D",
+        "text": "No renovación",
+        "rationale": "Incorrecta. La no renovación termina la cobertura al vencimiento y no clasifica la exposición dañina."
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "La definición de suceso abarca tanto accidentes como exposiciones continuas o repetidas y sirve para aplicar límites y deducibles.",
+    "keyTerms": [
+      {
+        "es": "suceso",
+        "en": "occurrence"
+      },
+      {
+        "es": "exposición continua",
+        "en": "continuous exposure"
+      }
+    ],
+    "source": {
+      "file": "G2 - Texas P&C Exam G2 Research.es.md",
+      "section": "3.13 Suceso (Inciso M del plan)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G2-Q027",
+    "domain": "G2",
+    "subtopic": "Cancelación comercial en Texas",
+    "difficulty": "avanzada",
+    "stem": "Una póliza de propiedad comercial de Texas lleva 90 días vigente. El asegurador descubre que perdió el reaseguro necesario para esa exposición. ¿Cuál afirmación refleja la regla descrita en el paquete?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Debe esperar al vencimiento porque nunca puede cancelar después de 60 días.",
+        "rationale": "Incorrecta. La prohibición posterior a 60 días contiene excepciones legales expresas."
+      },
+      {
+        "id": "B",
+        "text": "Solo puede reducir el límite mediante un endoso sin tratarlo como cancelación.",
+        "rationale": "Incorrecta. Reducir cobertura mediante endoso a mitad del plazo constituye un evento legal de cancelación."
+      },
+      {
+        "id": "C",
+        "text": "Puede cancelar únicamente si además existe falta de pago de la prima.",
+        "rationale": "Incorrecta. La pérdida del reaseguro es una excepción independiente de la falta de pago."
+      },
+      {
+        "id": "D",
+        "text": "Puede cancelar a mitad del plazo porque la pérdida del reaseguro es una excepción legal.",
+        "rationale": "Correcta. Texas incluye la pérdida del reaseguro entre las causas permitidas después de que la póliza lleva 60 días vigente."
+      }
+    ],
+    "correctOption": "D",
+    "explanation": "Después de 60 días, una póliza comercial solo puede cancelarse por causas autorizadas, entre ellas falta de pago, fraude, aumento controlable del peligro o pérdida del reaseguro.",
+    "keyTerms": [
+      {
+        "es": "cancelación",
+        "en": "cancellation"
+      },
+      {
+        "es": "pérdida del reaseguro",
+        "en": "loss of reinsurance"
+      }
+    ],
+    "source": {
+      "file": "G2 - Texas P&C Exam G2 Research.es.md",
+      "section": "3.14 Cancelación y no renovación (Incisos N y O del plan)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G2-Q028",
+    "domain": "G2",
+    "subtopic": "Desocupación durante renovación",
+    "difficulty": "intermedia",
+    "stem": "Un edificio comercial está vacío de ocupantes y mobiliario durante 70 días, pero permanece bajo renovación activa durante todo ese periodo. Conforme a la regla estándar descrita, ¿cómo se clasifica para la condición de desocupación?",
+    "options": [
+      {
+        "id": "A",
+        "text": "No se considera desocupado mientras esté en renovación activa.",
+        "rationale": "Correcta. Los edificios en construcción o renovación activa están exceptuados de la clasificación de desocupación."
+      },
+      {
+        "id": "B",
+        "text": "Se considera desocupado desde el primer día porque carece de mobiliario.",
+        "rationale": "Incorrecta. Esa observación omite la excepción expresa por renovación activa."
+      },
+      {
+        "id": "C",
+        "text": "Se considera desocupado solamente si la superficie en obras supera el 31%.",
+        "rationale": "Incorrecta. El paquete no establece ese criterio para la excepción por renovación."
+      },
+      {
+        "id": "D",
+        "text": "Se considera falto de ocupación y pierde automáticamente toda cobertura.",
+        "rationale": "Incorrecta. La renovación activa impide tratarlo como desocupado, y la falta de ocupación tampoco implica pérdida automática de toda cobertura."
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "La condición estándar excluye de la definición de desocupación a los edificios que se encuentran en construcción o renovación activa.",
+    "keyTerms": [
+      {
+        "es": "renovación activa",
+        "en": "active renovation"
+      },
+      {
+        "es": "desocupación",
+        "en": "vacancy"
+      }
+    ],
+    "source": {
+      "file": "G2 - Texas P&C Exam G2 Research.es.md",
+      "section": "3.15 Desocupación y falta de ocupación (Inciso P del plan)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G2-Q029",
+    "domain": "G2",
+    "subtopic": "Responsabilidad estricta",
+    "difficulty": "intermedia",
+    "stem": "Un aparato vendido con un defecto de fabricación se incendia durante su uso normal y daña la propiedad del comprador. No se demuestra negligencia del fabricante. ¿Qué doctrina es la más pertinente?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Responsabilidad vicaria, porque todo producto actúa como agente del fabricante.",
+        "rationale": "Incorrecta. La responsabilidad vicaria exige una relación legal entre personas, como empleador y empleado."
+      },
+      {
+        "id": "B",
+        "text": "Responsabilidad estricta, porque el daño provino de un producto defectuoso.",
+        "rationale": "Correcta. La responsabilidad estricta se aplica principalmente a productos defectuosos sin exigir prueba de negligencia."
+      },
+      {
+        "id": "C",
+        "text": "Responsabilidad absoluta, porque fabricar cualquier aparato es una actividad ultrapeligrosa.",
+        "rationale": "Incorrecta. La fabricación ordinaria no se identifica aquí como actividad ultrapeligrosa; el fundamento es el defecto del producto."
+      },
+      {
+        "id": "D",
+        "text": "Negligencia, porque siempre debe probarse incumplimiento del deber en casos de productos.",
+        "rationale": "Incorrecta. La responsabilidad estricta por productos no requiere demostrar negligencia."
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Los daños ocasionados por un producto defectuoso pueden generar responsabilidad estricta, aun sin prueba de que el fabricante actuó negligentemente.",
+    "keyTerms": [
+      {
+        "es": "responsabilidad estricta",
+        "en": "strict liability"
+      },
+      {
+        "es": "producto defectuoso",
+        "en": "defective product"
+      }
+    ],
+    "source": {
+      "file": "G2 - Texas P&C Exam G2 Research.es.md",
+      "section": "3.16 Conceptos de responsabilidad: absoluta, estricta y vicaria (Incisos Q, Q.1, Q.2 y Q.3 del plan)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G2-Q030",
+    "domain": "G2",
+    "subtopic": "Elementos de negligencia",
+    "difficulty": "avanzada",
+    "stem": "El administrador de un edificio incumple su deber al no reparar una barandilla suelta. Antes de que alguien la use o sufra daños, un visitante presenta una demanda por negligencia. ¿Qué elemento falta de manera más clara?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Un contrato de seguro de propiedad",
+        "rationale": "Incorrecta. La existencia de una póliza no es uno de los cuatro elementos de la negligencia."
+      },
+      {
+        "id": "B",
+        "text": "Un endoso que modifique la obligación de mantenimiento",
+        "rationale": "Incorrecta. Un endoso de seguro no sustituye los elementos jurídicos de una reclamación por negligencia."
+      },
+      {
+        "id": "C",
+        "text": "Daños reales mensurables",
+        "rationale": "Correcta. Aunque pueda haber deber e incumplimiento, nadie ha sufrido todavía una pérdida física o económica real."
+      },
+      {
+        "id": "D",
+        "text": "Una actividad ultrapeligrosa",
+        "rationale": "Incorrecta. Una actividad ultrapeligrosa corresponde a responsabilidad absoluta, no es requisito de negligencia."
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "La negligencia exige deber, incumplimiento, causa próxima y daños reales. Sin una lesión o pérdida mensurable, la reclamación no reúne todos los elementos.",
+    "keyTerms": [
+      {
+        "es": "daños reales",
+        "en": "actual damages"
+      },
+      {
+        "es": "incumplimiento del deber",
+        "en": "breach of duty"
+      }
+    ],
+    "source": {
+      "file": "G2 - Texas P&C Exam G2 Research.es.md",
+      "section": "3.17 Negligencia (Inciso R del plan)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G2-Q031",
+    "domain": "G2",
+    "subtopic": "Cobertura provisional frente a certificado",
+    "difficulty": "basica",
+    "stem": "Un comprador necesita cobertura temporal activa mientras el asegurador prepara la póliza formal, no solo evidencia de una póliza ya existente. ¿Qué instrumento satisface esa necesidad?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Página de declaraciones",
+        "rationale": "Incorrecta. Las declaraciones resumen datos personalizados de una póliza, pero el supuesto solicita un contrato temporal previo a la póliza formal."
+      },
+      {
+        "id": "B",
+        "text": "Cotización",
+        "rationale": "Incorrecta. Una cotización estima el precio y no concede cobertura vinculante."
+      },
+      {
+        "id": "C",
+        "text": "Certificado de seguro",
+        "rationale": "Incorrecta. Un certificado solo acredita informativamente la existencia de cobertura y no la crea."
+      },
+      {
+        "id": "D",
+        "text": "Cobertura provisional",
+        "rationale": "Correcta. La cobertura provisional es un contrato temporal, oral o escrito, que proporciona cobertura activa durante la emisión de la póliza."
+      }
+    ],
+    "correctOption": "D",
+    "explanation": "La cobertura provisional concede protección temporal vinculante; un certificado, una cotización o unas declaraciones no cumplen esa función en el supuesto.",
+    "keyTerms": [
+      {
+        "es": "cobertura provisional",
+        "en": "binder"
+      },
+      {
+        "es": "certificado de seguro",
+        "en": "certificate of insurance"
+      }
+    ],
+    "source": {
+      "file": "G2 - Texas P&C Exam G2 Research.es.md",
+      "section": "3.18 Coberturas provisionales (Inciso S del plan)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G2-Q032",
+    "domain": "G2",
+    "subtopic": "Prioridad de los endosos",
+    "difficulty": "intermedia",
+    "stem": "La póliza base excluye cierta cobertura, pero un endoso posterior y válido la concede expresamente. Si los textos son incompatibles, ¿cuál controla?",
+    "options": [
+      {
+        "id": "A",
+        "text": "El endoso, porque representa el acuerdo más reciente y modifica la póliza base.",
+        "rationale": "Correcta. Ante un conflicto directo, el texto del endoso prevalece sobre el formulario base."
+      },
+      {
+        "id": "B",
+        "text": "La póliza base, porque siempre tiene mayor jerarquía que sus anexos.",
+        "rationale": "Incorrecta. Un endoso forma parte del contrato y puede modificar o reemplazar términos de la póliza base."
+      },
+      {
+        "id": "C",
+        "text": "La cotización original, aunque no forme parte de la póliza.",
+        "rationale": "Incorrecta. Una cotización es una estimación de precio y no controla sobre un endoso contractual."
+      },
+      {
+        "id": "D",
+        "text": "La disposición que conceda el límite monetario más bajo, sin considerar su fecha.",
+        "rationale": "Incorrecta. La prioridad descrita depende del carácter modificador del endoso, no de escoger automáticamente el menor límite."
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "El endoso modifica, amplía, restringe o aclara la póliza y prevalece cuando contradice el texto del formulario base.",
+    "keyTerms": [
+      {
+        "es": "endoso",
+        "en": "endorsement"
+      },
+      {
+        "es": "póliza base",
+        "en": "base policy"
+      }
+    ],
+    "source": {
+      "file": "G2 - Texas P&C Exam G2 Research.es.md",
+      "section": "3.19 Endosos (Inciso T del plan)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G2-Q033",
+    "domain": "G2",
+    "subtopic": "Seguro global",
+    "difficulty": "avanzada",
+    "stem": "Una empresa posee inventario en dos ubicaciones con valores de $400,000 y $600,000. Desea que un solo límite pueda responder flexiblemente si una pérdida se concentra en cualquiera de ellas. ¿Qué estructura corresponde y qué requisito de coaseguro suele acompañarla?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Seguro específico, normalmente con coaseguro de 100% para todas las ubicaciones.",
+        "rationale": "Incorrecta. El seguro específico asigna límites separados y no ofrece el fondo único solicitado."
+      },
+      {
+        "id": "B",
+        "text": "Seguro global, normalmente con un umbral de coaseguro de 90% o 100%.",
+        "rationale": "Correcta. El seguro global aplica un solo límite a varios bienes o ubicaciones y suele exigir un porcentaje de coaseguro mayor."
+      },
+      {
+        "id": "C",
+        "text": "Seguro específico, sin condición posible de coaseguro.",
+        "rationale": "Incorrecta. La cobertura específica puede estar sujeta a coaseguro y mantiene límites separados."
+      },
+      {
+        "id": "D",
+        "text": "Póliza umbrella, normalmente con coaseguro de propiedad de 80%.",
+        "rationale": "Incorrecta. Una umbrella proporciona cobertura secundaria de responsabilidad, no un límite común para bienes físicos."
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Un límite global puede aplicarse a varias ubicaciones y ofrece flexibilidad cuando la pérdida se concentra. Sus umbrales de coaseguro suelen ser de 90% o 100%.",
+    "keyTerms": [
+      {
+        "es": "seguro global",
+        "en": "blanket insurance"
+      },
+      {
+        "es": "seguro específico",
+        "en": "specific insurance"
+      }
+    ],
+    "source": {
+      "file": "G2 - Texas P&C Exam G2 Research.es.md",
+      "section": "3.20 Seguro global frente a seguro específico (Inciso U del plan)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G2-Q034",
+    "domain": "G2",
+    "subtopic": "Coaseguro y aumento de valor",
+    "difficulty": "avanzada",
+    "stem": "Una propiedad estaba valorada en $800,000 cuando se contrató un límite de $640,000 con coaseguro del 80%. Al ocurrir una pérdida parcial de $120,000, su valor había aumentado a $1,000,000. Sin deducible, ¿cuál es el pago conforme a la fórmula de coaseguro?",
+    "options": [
+      {
+        "id": "A",
+        "text": "$76,800",
+        "rationale": "Incorrecta. Esta cifra aplica erróneamente el 64% directamente a la pérdida; la proporción correcta compara $640,000 con los $800,000 requeridos."
+      },
+      {
+        "id": "B",
+        "text": "$120,000",
+        "rationale": "Incorrecta. Al momento de la pérdida se requerían $800,000, por lo que el límite de $640,000 produce una penalización."
+      },
+      {
+        "id": "C",
+        "text": "$96,000",
+        "rationale": "Correcta. El seguro requerido es $1,000,000 × 80% = $800,000; $640,000 ÷ $800,000 × $120,000 = $96,000."
+      },
+      {
+        "id": "D",
+        "text": "$80,000",
+        "rationale": "Incorrecta. Esta cifra es el seguro requerido expresado incorrectamente como si fuera el pago de la pérdida."
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "El valor se mide al momento de la pérdida. La proporción de cumplimiento es 0.80 y, aplicada a $120,000, produce un pago de $96,000.",
+    "keyTerms": [
+      {
+        "es": "seguro requerido",
+        "en": "insurance required"
+      },
+      {
+        "es": "penalización por coaseguro",
+        "en": "coinsurance penalty"
+      }
+    ],
+    "source": {
+      "file": "G2 - Texas P&C Exam G2 Research.es.md",
+      "section": "3.12 Coaseguro / Seguro al valor (Inciso L del plan)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G2-Q035",
+    "domain": "G2",
+    "subtopic": "Ley de los Grandes Números y catástrofes",
+    "difficulty": "avanzada",
+    "stem": "Un asegurador concentra miles de viviendas aseguradas en una misma franja costera. Un huracán causa pérdidas simultáneas en gran parte del grupo. ¿Qué limitación actuarial ilustra mejor este resultado?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Que la Ley de los Grandes Números solo funciona cuando todas las propiedades son físicamente idénticas.",
+        "rationale": "Incorrecta. La ley requiere exposiciones razonablemente homogéneas, no identidad física absoluta."
+      },
+      {
+        "id": "B",
+        "text": "Que la agrupación garantiza rentabilidad salvo cuando existe fraude del asegurado.",
+        "rationale": "Incorrecta. La Ley de los Grandes Números nunca garantiza la rentabilidad de suscripción."
+      },
+      {
+        "id": "C",
+        "text": "Que una muestra grande permite predecir cuáles viviendas individuales serán destruidas.",
+        "rationale": "Incorrecta. La capacidad predictiva se refiere al grupo y no identifica pérdidas individuales."
+      },
+      {
+        "id": "D",
+        "text": "Que una catástrofe regional debilita el supuesto de independencia al afectar muchas exposiciones simultáneamente.",
+        "rationale": "Correcta. Las pérdidas correlacionadas de un huracán incumplen el supuesto de independencia que sustenta la predictibilidad del grupo."
+      }
+    ],
+    "correctOption": "D",
+    "explanation": "Los eventos regionales pueden ocasionar pérdidas simultáneas y correlacionadas, reduciendo la independencia entre unidades de exposición sobre la cual descansa la agrupación actuarial.",
+    "keyTerms": [
+      {
+        "es": "Ley de los Grandes Números",
+        "en": "Law of Large Numbers"
+      },
+      {
+        "es": "independencia de exposiciones",
+        "en": "exposure independence"
+      }
+    ],
+    "source": {
+      "file": "G2 - Texas P&C Exam G2 Research.es.md",
+      "section": "3.1 El seguro y la Ley de los Grandes Números (Incisos A y A.1 del plan)"
+    },
+    "reviewStatus": "pending_expert_review"
   }
 ]

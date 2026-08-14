@@ -748,5 +748,933 @@
       "section": "3.19. Cumplimiento de las disposiciones de la Fair Credit Reporting Act (FCRA) (Tema S del temario)"
     },
     "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G5-Q016",
+    "domain": "G5",
+    "subtopic": "Riesgo, peligro y riesgo agravante",
+    "difficulty": "basica",
+    "stem": "Una empresa de mensajería enfrenta incertidumbre sobre futuras pérdidas por responsabilidad civil. Una colisión causa una pérdida y unos frenos desgastados aumentaron la probabilidad de que ocurriera. ¿Cómo se clasifican, respectivamente, estos tres elementos?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Riesgo, peligro y riesgo agravante físico",
+        "rationale": "Correcta. El riesgo es la incertidumbre de pérdida, la colisión es la causa activa o peligro y los frenos desgastados son una condición física que aumenta la probabilidad de pérdida."
+      },
+      {
+        "id": "B",
+        "text": "Peligro, riesgo agravante físico y riesgo",
+        "rationale": "Incorrecta. La incertidumbre no es un peligro, y la colisión no es una condición agravante; es el evento que causa la pérdida."
+      },
+      {
+        "id": "C",
+        "text": "Riesgo agravante moral, riesgo y peligro",
+        "rationale": "Incorrecta. No existe deshonestidad intencional, y los frenos desgastados son una condición física, no un peligro desencadenante."
+      },
+      {
+        "id": "D",
+        "text": "Riesgo especulativo, suceso y riesgo agravante de actitud",
+        "rationale": "Incorrecta. La exposición no ofrece posibilidad de lucro, y el desgaste tangible de los frenos constituye un riesgo agravante físico."
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "En contingencias, el riesgo es la incertidumbre subyacente, el peligro es la causa activa de la pérdida y el riesgo agravante es una condición que eleva su probabilidad o gravedad.",
+    "keyTerms": [
+      {
+        "es": "riesgo",
+        "en": "risk"
+      },
+      {
+        "es": "peligro",
+        "en": "peril"
+      },
+      {
+        "es": "riesgo agravante físico",
+        "en": "physical hazard"
+      }
+    ],
+    "source": {
+      "file": "G5 - Texas G5 Casualty Insurance Research.es.md",
+      "section": "3.1. Riesgo (Risk) (Tema A del temario)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G5-Q017",
+    "domain": "G5",
+    "subtopic": "Riesgo moral",
+    "difficulty": "basica",
+    "stem": "El propietario de una empresa coordina una colisión ficticia y presenta reclamaciones por lesiones inexistentes para cobrar del seguro. ¿Qué riesgo agravante predomina?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Riesgo físico",
+        "rationale": "Incorrecta. No se describe una condición tangible o estructural que aumente la posibilidad de pérdida."
+      },
+      {
+        "id": "B",
+        "text": "Riesgo moral",
+        "rationale": "Correcta. La simulación intencional de un accidente y la reclamación fraudulenta evidencian deshonestidad deliberada."
+      },
+      {
+        "id": "C",
+        "text": "Riesgo de actitud",
+        "rationale": "Incorrecta. El riesgo de actitud supone imprudencia o apatía sin necesidad de intención fraudulenta."
+      },
+      {
+        "id": "D",
+        "text": "Riesgo puro",
+        "rationale": "Incorrecta. El riesgo puro clasifica resultados posibles, pero no identifica la conducta fraudulenta que agrava la exposición."
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "El riesgo moral deriva de fraude, deshonestidad o intención de obtener un beneficio indebido, como ocurre al simular una colisión.",
+    "keyTerms": [
+      {
+        "es": "riesgo moral",
+        "en": "moral hazard"
+      },
+      {
+        "es": "fraude",
+        "en": "fraud"
+      }
+    ],
+    "source": {
+      "file": "G5 - Texas G5 Casualty Insurance Research.es.md",
+      "section": "3.2. Riesgos agravantes (Hazards) (Temas B, B.1, B.2 y B.3 del temario)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G5-Q018",
+    "domain": "G5",
+    "subtopic": "Principio de indemnización",
+    "difficulty": "intermedia",
+    "stem": "Un tercero demuestra $12,000 en reparaciones y $2,000 en alquiler temporal después de que un asegurado dañó su vehículo por negligencia. Ignorando deducibles y suponiendo límites suficientes, ¿qué pago concuerda con el principio de indemnización?",
+    "options": [
+      {
+        "id": "A",
+        "text": "$12,000, porque el alquiler nunca forma parte de una pérdida indemnizable",
+        "rationale": "Incorrecta. El paquete reconoce los gastos temporales de alquiler verificados como parte de la restitución financiera del tercero."
+      },
+      {
+        "id": "B",
+        "text": "$16,000, para añadir una recompensa por las molestias sufridas",
+        "rationale": "Incorrecta. La indemnización busca restituir la pérdida real, no producir una ganancia extraordinaria."
+      },
+      {
+        "id": "C",
+        "text": "$14,000, equivalente a las reparaciones y al alquiler comprobados",
+        "rationale": "Correcta. La suma de los costos verificados restituye al tercero sin enriquecerlo."
+      },
+      {
+        "id": "D",
+        "text": "$2,000, porque la póliza solo protege los activos del asegurado",
+        "rationale": "Incorrecta. En responsabilidad civil, la indemnización también proporciona compensación por daños reconocibles al tercero lesionado."
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "La indemnización mide el pago por la pérdida real sufrida. En este caso, $12,000 más $2,000 producen una restitución de $14,000 sin lucro.",
+    "keyTerms": [
+      {
+        "es": "indemnización",
+        "en": "indemnity"
+      },
+      {
+        "es": "restitución",
+        "en": "restoration"
+      }
+    ],
+    "source": {
+      "file": "G5 - Texas G5 Casualty Insurance Research.es.md",
+      "section": "3.3. Indemnización (Indemnity) (Tema C del temario)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G5-Q019",
+    "domain": "G5",
+    "subtopic": "Valor acordado",
+    "difficulty": "intermedia",
+    "stem": "La aseguradora y el dueño de un equipo especializado fijan mediante endoso un valor acordado de $75,000. El equipo sufre una pérdida total cubierta cuando su valor real en efectivo es de $58,000. ¿Qué base de pago corresponde según ese método?",
+    "options": [
+      {
+        "id": "A",
+        "text": "$58,000, porque toda pérdida total se limita al valor real en efectivo",
+        "rationale": "Incorrecta. Esa conclusión ignoraría el endoso de valor acordado que fija el monto pagadero por pérdida total."
+      },
+      {
+        "id": "B",
+        "text": "El menor entre $58,000 y $75,000, porque se trata de valor declarado",
+        "rationale": "Incorrecta. La regla del menor valor corresponde al valor declarado, no al valor acordado."
+      },
+      {
+        "id": "C",
+        "text": "El costo original del equipo, sin considerar el endoso",
+        "rationale": "Incorrecta. El precio original no sustituye la cifra formalmente pactada en el endoso."
+      },
+      {
+        "id": "D",
+        "text": "$75,000, porque la pérdida total se liquida por el monto acordado",
+        "rationale": "Correcta. El valor acordado garantiza la cifra programada sin deducir depreciación física."
+      }
+    ],
+    "correctOption": "D",
+    "explanation": "A diferencia del valor declarado, el valor acordado establece un monto fijo que se paga en una pérdida total cubierta.",
+    "keyTerms": [
+      {
+        "es": "valor acordado",
+        "en": "agreed value"
+      },
+      {
+        "es": "pérdida total",
+        "en": "total loss"
+      }
+    ],
+    "source": {
+      "file": "G5 - Texas G5 Casualty Insurance Research.es.md",
+      "section": "3.5. Valoración de pérdidas (Loss Valuation) (Temas E, E.1, E.2, E.3, E.4 y E.5 del temario)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G5-Q020",
+    "domain": "G5",
+    "subtopic": "Costo de reposición",
+    "difficulty": "basica",
+    "stem": "Una cobertura aplicable valora una máquina dañada según el costo actual de reemplazarla con otra de clase y calidad semejantes, sin descontar desgaste. ¿Qué método utiliza?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Costo de reposición",
+        "rationale": "Correcta. Este método utiliza el costo actual de reparación o reemplazo sin deducción por depreciación física."
+      },
+      {
+        "id": "B",
+        "text": "Valor real en efectivo",
+        "rationale": "Incorrecta. El valor real en efectivo normalmente resta la depreciación al costo de reposición."
+      },
+      {
+        "id": "C",
+        "text": "Valor de salvamento",
+        "rationale": "Incorrecta. El valor de salvamento es el valor residual de los bienes dañados después de una liquidación por pérdida total."
+      },
+      {
+        "id": "D",
+        "text": "Valor de mercado",
+        "rationale": "Incorrecta. El valor de mercado es el precio entre un comprador y un vendedor dispuestos, no necesariamente el costo de reemplazo sin depreciación."
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "El costo de reposición cubre materiales o bienes de clase y calidad semejantes a precios actuales sin aplicar depreciación física.",
+    "keyTerms": [
+      {
+        "es": "costo de reposición",
+        "en": "replacement cost"
+      },
+      {
+        "es": "depreciación",
+        "en": "depreciation"
+      }
+    ],
+    "source": {
+      "file": "G5 - Texas G5 Casualty Insurance Research.es.md",
+      "section": "3.5. Valoración de pérdidas (Loss Valuation) (Temas E, E.1, E.2, E.3, E.4 y E.5 del temario)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G5-Q021",
+    "domain": "G5",
+    "subtopic": "Valor de salvamento",
+    "difficulty": "intermedia",
+    "stem": "Después de pagar una pérdida total cubierta sobre una camioneta, la aseguradora adquiere la titularidad de los restos y los vende en una subasta. ¿Cuál es la función financiera de esa venta?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Aumentar retroactivamente el límite de responsabilidad",
+        "rationale": "Incorrecta. La recuperación de salvamento no modifica los límites contractuales de la póliza."
+      },
+      {
+        "id": "B",
+        "text": "Reducir el costo neto de indemnización mediante el valor residual",
+        "rationale": "Correcta. La aseguradora recupera el valor de salvamento para mitigar el costo neto de la pérdida total."
+      },
+      {
+        "id": "C",
+        "text": "Convertir la liquidación en una valoración de costo de reposición",
+        "rationale": "Incorrecta. La disposición de los restos no cambia el método de valoración aplicado a la pérdida."
+      },
+      {
+        "id": "D",
+        "text": "Otorgar al antiguo propietario una ganancia adicional obligatoria",
+        "rationale": "Incorrecta. Tras pagar la pérdida total y adquirir la titularidad, la aseguradora puede vender los restos para su propia recuperación."
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "El valor de salvamento es el valor residual de los bienes dañados cuya titularidad adquiere la aseguradora después de liquidar una pérdida total.",
+    "keyTerms": [
+      {
+        "es": "valor de salvamento",
+        "en": "salvage value"
+      },
+      {
+        "es": "valor residual",
+        "en": "residual value"
+      }
+    ],
+    "source": {
+      "file": "G5 - Texas G5 Casualty Insurance Research.es.md",
+      "section": "3.5. Valoración de pérdidas (Loss Valuation) (Temas E, E.1, E.2, E.3, E.4 y E.5 del temario)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G5-Q022",
+    "domain": "G5",
+    "subtopic": "Causa próxima",
+    "difficulty": "avanzada",
+    "stem": "Un taller deja una manguera atravesada en la única salida peatonal. Una visitante tropieza con ella y se fractura el brazo. Para establecer la causa próxima, ¿qué cuestión resulta decisiva?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Si el taller tenía una póliza vigente",
+        "rationale": "Incorrecta. La existencia de seguro no determina la relación jurídica causal entre la conducta y la lesión."
+      },
+      {
+        "id": "B",
+        "text": "Si la visitante podía obtener una ganancia con la reclamación",
+        "rationale": "Incorrecta. La causa próxima analiza la conexión causal y la previsibilidad, no una posible ganancia de la reclamante."
+      },
+      {
+        "id": "C",
+        "text": "Si la lesión fue un resultado previsible de dejar la manguera en el paso",
+        "rationale": "Correcta. La causa próxima exige una secuencia natural y continua y previsibilidad jurídica del daño."
+      },
+      {
+        "id": "D",
+        "text": "Si el taller pretendía deliberadamente fracturarle el brazo",
+        "rationale": "Incorrecta. La negligencia no requiere intención de causar daño; se basa en la falta de cuidado razonable."
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "La causa próxima requiere que el daño resulte de una secuencia natural no interrumpida y que sea jurídicamente previsible.",
+    "keyTerms": [
+      {
+        "es": "causa próxima",
+        "en": "proximate cause"
+      },
+      {
+        "es": "previsibilidad",
+        "en": "foreseeability"
+      }
+    ],
+    "source": {
+      "file": "G5 - Texas G5 Casualty Insurance Research.es.md",
+      "section": "3.6. Negligencia (Negligence) (Tema F del temario)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G5-Q023",
+    "domain": "G5",
+    "subtopic": "Daños como elemento de negligencia",
+    "difficulty": "basica",
+    "stem": "Un conductor atraviesa una señal de alto a exceso de velocidad, pero nadie resulta lesionado y ningún bien sufre daños. ¿Por qué no existe todavía una reclamación viable por negligencia?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Porque los conductores nunca tienen un deber de cuidado",
+        "rationale": "Incorrecta. Los conductores sí tienen el deber de ejercer cuidado razonable."
+      },
+      {
+        "id": "B",
+        "text": "Porque el exceso de velocidad siempre constituye un acto intencional no asegurable",
+        "rationale": "Incorrecta. La conducta imprudente puede constituir incumplimiento sin convertirse por ello en intención deliberada de causar daño."
+      },
+      {
+        "id": "C",
+        "text": "Porque solo una aseguradora puede iniciar una acción por negligencia",
+        "rationale": "Incorrecta. La viabilidad de la reclamación depende de sus elementos jurídicos, no de que la aseguradora la inicie."
+      },
+      {
+        "id": "D",
+        "text": "Porque no existen daños reales jurídicamente reconocibles",
+        "rationale": "Correcta. Aunque haya conducta deficiente, la negligencia requiere una lesión o pérdida real además de los demás elementos."
+      }
+    ],
+    "correctOption": "D",
+    "explanation": "El incumplimiento de un deber no basta por sí solo. Una reclamación por negligencia exige daños reales y jurídicamente reconocibles.",
+    "keyTerms": [
+      {
+        "es": "daños",
+        "en": "damages"
+      },
+      {
+        "es": "negligencia",
+        "en": "negligence"
+      }
+    ],
+    "source": {
+      "file": "G5 - Texas G5 Casualty Insurance Research.es.md",
+      "section": "3.6. Negligencia (Negligence) (Tema F del temario)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G5-Q024",
+    "domain": "G5",
+    "subtopic": "Responsabilidad estricta",
+    "difficulty": "intermedia",
+    "stem": "Un producto defectuoso causa lesiones aunque el reclamante no puede demostrar que el fabricante actuó con falta de cuidado. ¿Qué teoría de responsabilidad puede aplicarse según el paquete?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Responsabilidad estricta",
+        "rationale": "Correcta. La responsabilidad estricta puede imponerse por productos defectuosos sin que sea necesario probar culpa o negligencia."
+      },
+      {
+        "id": "B",
+        "text": "Responsabilidad vicaria",
+        "rationale": "Incorrecta. La responsabilidad vicaria atribuye los actos de una persona a otra debido a una relación jurídica."
+      },
+      {
+        "id": "C",
+        "text": "Responsabilidad contractual",
+        "rationale": "Incorrecta. La responsabilidad contractual surge de una obligación asumida mediante un contrato privado."
+      },
+      {
+        "id": "D",
+        "text": "Negligencia ordinaria",
+        "rationale": "Incorrecta. La negligencia ordinaria requiere demostrar falta de cuidado razonable, elemento que el supuesto no acredita."
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "La responsabilidad estricta impone responsabilidad sin necesidad de demostrar culpa en exposiciones como la fabricación de productos defectuosos.",
+    "keyTerms": [
+      {
+        "es": "responsabilidad estricta",
+        "en": "strict liability"
+      },
+      {
+        "es": "producto defectuoso",
+        "en": "defective product"
+      }
+    ],
+    "source": {
+      "file": "G5 - Texas G5 Casualty Insurance Research.es.md",
+      "section": "3.7. Responsabilidad (Liability) (Tema G del temario)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G5-Q025",
+    "domain": "G5",
+    "subtopic": "Responsabilidad contractual",
+    "difficulty": "intermedia",
+    "stem": "En un contrato de servicios, una empresa acepta indemnizar a otra por determinadas obligaciones de responsabilidad civil. ¿Cómo se clasifica principalmente esa obligación asumida?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Responsabilidad absoluta",
+        "rationale": "Incorrecta. La responsabilidad absoluta surge automáticamente por ciertas actividades y admite defensas extremadamente limitadas."
+      },
+      {
+        "id": "B",
+        "text": "Responsabilidad contractual",
+        "rationale": "Correcta. La empresa asumió voluntariamente la obligación mediante una cláusula contractual de indemnización."
+      },
+      {
+        "id": "C",
+        "text": "Responsabilidad vicaria",
+        "rationale": "Incorrecta. No se está atribuyendo la conducta de otra persona por una relación como la de empleador y empleado."
+      },
+      {
+        "id": "D",
+        "text": "Responsabilidad por negligencia",
+        "rationale": "Incorrecta. El fundamento descrito es la asunción contractual, no la falta de cuidado razonable."
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "La responsabilidad contractual nace cuando una parte asume obligaciones de otra mediante un contrato de indemnización o exención de responsabilidad.",
+    "keyTerms": [
+      {
+        "es": "responsabilidad contractual",
+        "en": "contractual liability"
+      },
+      {
+        "es": "acuerdo de indemnización",
+        "en": "indemnity agreement"
+      }
+    ],
+    "source": {
+      "file": "G5 - Texas G5 Casualty Insurance Research.es.md",
+      "section": "3.7. Responsabilidad (Liability) (Tema G del temario)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G5-Q026",
+    "domain": "G5",
+    "subtopic": "Póliza basada en sucesos",
+    "difficulty": "avanzada",
+    "stem": "Una lesión corporal ocurre el último día de una póliza de responsabilidad basada en sucesos. El tercero presenta su reclamación seis meses después de vencida la póliza. ¿Qué hecho determina principalmente la activación temporal de esa póliza?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Que la demanda se haya presentado antes de vencer la póliza",
+        "rationale": "Incorrecta. En un formulario basado en sucesos, la fecha posterior de presentación no controla si la lesión ocurrió durante el periodo."
+      },
+      {
+        "id": "B",
+        "text": "Que el asegurado haya pagado una prima adicional después del vencimiento",
+        "rationale": "Incorrecta. El desencadenante descrito depende de cuándo ocurrió la lesión, no de una prima posterior no indicada."
+      },
+      {
+        "id": "C",
+        "text": "Que la lesión corporal haya ocurrido durante el periodo de la póliza",
+        "rationale": "Correcta. Una póliza basada en sucesos se activa por lesiones o daños ocurridos durante su periodo, aunque la reclamación se informe después."
+      },
+      {
+        "id": "D",
+        "text": "Que el reclamante haya descubierto la identidad de la aseguradora durante el periodo",
+        "rationale": "Incorrecta. El conocimiento de la identidad de la aseguradora no es el desencadenante temporal del formulario por sucesos."
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "En la cobertura basada en sucesos, controla la fecha en que ocurren las lesiones corporales o los daños materiales, no la fecha posterior de la reclamación.",
+    "keyTerms": [
+      {
+        "es": "póliza basada en sucesos",
+        "en": "occurrence policy"
+      },
+      {
+        "es": "desencadenante de cobertura",
+        "en": "coverage trigger"
+      }
+    ],
+    "source": {
+      "file": "G5 - Texas G5 Casualty Insurance Research.es.md",
+      "section": "3.8. Suceso (Occurrence) (Tema H del temario)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G5-Q027",
+    "domain": "G5",
+    "subtopic": "Constancia provisional",
+    "difficulty": "basica",
+    "stem": "Mientras se prepara la póliza definitiva, un agente autorizado confirma cobertura temporal que incorpora las exclusiones y los límites estándar del formulario subyacente. ¿Qué documento o acuerdo describe esta situación?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Certificate of Insurance",
+        "rationale": "Incorrecta. Un certificado solo resume una cobertura existente y no crea cobertura contractual."
+      },
+      {
+        "id": "B",
+        "text": "Solicitud",
+        "rationale": "Incorrecta. La solicitud contiene información para la suscripción, pero no constituye por sí misma el contrato temporal descrito."
+      },
+      {
+        "id": "C",
+        "text": "Aviso de medida adversa",
+        "rationale": "Incorrecta. Ese aviso comunica una decisión basada en un informe del consumidor y no establece cobertura."
+      },
+      {
+        "id": "D",
+        "text": "Constancia provisional",
+        "rationale": "Correcta. Una constancia provisional crea cobertura interina mientras se expide y entrega la póliza o el endoso permanente."
+      }
+    ],
+    "correctOption": "D",
+    "explanation": "La constancia provisional es un contrato temporal, verbal o escrito, que incorpora las condiciones estándar de la cobertura subyacente.",
+    "keyTerms": [
+      {
+        "es": "constancia provisional",
+        "en": "binder"
+      },
+      {
+        "es": "cobertura interina",
+        "en": "interim coverage"
+      }
+    ],
+    "source": {
+      "file": "G5 - Texas G5 Casualty Insurance Research.es.md",
+      "section": "3.9. Constancias provisionales (Binders) (Tema I del temario)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G5-Q028",
+    "domain": "G5",
+    "subtopic": "Garantías en Texas",
+    "difficulty": "avanzada",
+    "stem": "Una póliza de Texas contiene una garantía cuyo texto afirma que cualquier incumplimiento anula automáticamente la cobertura. Ocurre un incumplimiento que no fue material para el riesgo ni contribuyó al evento asegurado. Según la regla descrita, ¿cuál es la conclusión más adecuada?",
+    "options": [
+      {
+        "id": "A",
+        "text": "El incumplimiento no anula automáticamente la cobertura en esas circunstancias",
+        "rationale": "Correcta. Texas exige que el asunto sea material para el riesgo o que haya contribuido al evento que hizo exigible la póliza."
+      },
+      {
+        "id": "B",
+        "text": "La cobertura queda anulada porque toda garantía exige cumplimiento literal",
+        "rationale": "Incorrecta. Esa sería la regla estricta del derecho consuetudinario, pero TIC § 705.004 la limita en Texas."
+      },
+      {
+        "id": "C",
+        "text": "El incumplimiento convierte automáticamente la póliza en una constancia provisional",
+        "rationale": "Incorrecta. Una garantía incumplida no transforma la naturaleza del contrato de seguro."
+      },
+      {
+        "id": "D",
+        "text": "La aseguradora debe pagar siempre, aun cuando el incumplimiento sea material y contribuya a la pérdida",
+        "rationale": "Incorrecta. La regla permite efecto cuando se demuestra materialidad para el riesgo o contribución al evento."
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "En Texas, una disposición que pretende anular la póliza por una declaración o garantía incumplida no opera automáticamente sin materialidad o contribución a la pérdida.",
+    "keyTerms": [
+      {
+        "es": "garantía",
+        "en": "warranty"
+      },
+      {
+        "es": "materialidad",
+        "en": "materiality"
+      }
+    ],
+    "source": {
+      "file": "G5 - Texas G5 Casualty Insurance Research.es.md",
+      "section": "3.10. Garantías (Warranties) (Tema J del temario)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G5-Q029",
+    "domain": "G5",
+    "subtopic": "Ocultación",
+    "difficulty": "intermedia",
+    "stem": "Una empresa que fabrica fuegos artificiales omite deliberadamente esa actividad en su solicitud de responsabilidad civil para inducir a la aseguradora a emitir la póliza. No hace una afirmación expresa falsa sobre la actividad; simplemente la retiene. ¿Qué concepto describe mejor la conducta?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Garantía",
+        "rationale": "Incorrecta. Una garantía es una promesa o estipulación incorporada al contrato, no la retención precontractual descrita."
+      },
+      {
+        "id": "B",
+        "text": "Ocultación",
+        "rationale": "Correcta. Existe una supresión intencional de un hecho material conocido para inducir la emisión de cobertura."
+      },
+      {
+        "id": "C",
+        "text": "Riesgo de actitud",
+        "rationale": "Incorrecta. La conducta no es mera apatía; implica retención intencional de información material."
+      },
+      {
+        "id": "D",
+        "text": "Endoso restrictivo",
+        "rationale": "Incorrecta. Un endoso es un formulario que modifica la póliza, no una omisión del solicitante."
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "La ocultación consiste en retener intencionalmente un hecho material que debería revelarse con honestidad y buena fe.",
+    "keyTerms": [
+      {
+        "es": "ocultación",
+        "en": "concealment"
+      },
+      {
+        "es": "hecho material",
+        "en": "material fact"
+      }
+    ],
+    "source": {
+      "file": "G5 - Texas G5 Casualty Insurance Research.es.md",
+      "section": "3.12. Ocultación (Concealment) (Tema L del temario)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G5-Q030",
+    "domain": "G5",
+    "subtopic": "Auditoría de primas con múltiples clasificaciones",
+    "difficulty": "avanzada",
+    "stem": "Una auditoría verifica $200,000 de nómina administrativa a una tarifa de $0.25 por cada $100 y $300,000 de nómina de campo a $3.00 por cada $100. El depósito pagado fue de $8,000 y no interviene una prima mínima. ¿Cuál es el ajuste final?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Prima de devolución de $1,500",
+        "rationale": "Incorrecta. La prima auditada es superior, no inferior, al depósito pagado."
+      },
+      {
+        "id": "B",
+        "text": "Prima adicional de $500",
+        "rationale": "Incorrecta. Esta cifra omite parte del cargo correspondiente a las unidades reales de exposición."
+      },
+      {
+        "id": "C",
+        "text": "Prima adicional de $1,500",
+        "rationale": "Correcta. La clase administrativa produce $500 y la de campo $9,000; la prima total de $9,500 excede el depósito en $1,500."
+      },
+      {
+        "id": "D",
+        "text": "Prima de devolución de $8,000",
+        "rationale": "Incorrecta. La auditoría confirma exposiciones sujetas a una prima devengada de $9,500."
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "La prima auditada es ($200,000 ÷ $100 × $0.25) + ($300,000 ÷ $100 × $3.00) = $9,500. Restado el depósito de $8,000, se deben $1,500 adicionales.",
+    "keyTerms": [
+      {
+        "es": "auditoría de primas",
+        "en": "premium audit"
+      },
+      {
+        "es": "prima adicional",
+        "en": "additional premium"
+      }
+    ],
+    "source": {
+      "file": "G5 - Texas G5 Casualty Insurance Research.es.md",
+      "section": "3.13. Prima de depósito / auditoría (Deposit Premium / Audit) (Tema M del temario)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G5-Q031",
+    "domain": "G5",
+    "subtopic": "Certificate of Insurance",
+    "difficulty": "avanzada",
+    "stem": "Un agente desea emitir en Texas un formulario de Certificate of Insurance creado por un cliente, pero el formulario no ha sido presentado ni aprobado por el TDI. Aunque el texto refleje correctamente la póliza, ¿qué debe hacer el agente?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Emitirlo si el titular del certificado renuncia a reclamar derechos contractuales",
+        "rationale": "Incorrecta. Una renuncia privada no elimina el requisito de utilizar un formulario presentado y aprobado."
+      },
+      {
+        "id": "B",
+        "text": "Emitirlo solo si la póliza tiene límites suficientemente altos",
+        "rationale": "Incorrecta. Los límites de la póliza no determinan si el formulario del certificado está autorizado."
+      },
+      {
+        "id": "C",
+        "text": "Convertirlo verbalmente en una constancia provisional",
+        "rationale": "Incorrecta. Un COI no puede transformarse de ese modo en un contrato temporal de cobertura."
+      },
+      {
+        "id": "D",
+        "text": "No emitirlo; debe utilizarse un formulario presentado y aprobado por el TDI",
+        "rationale": "Correcta. La normativa de Texas exige aprobación del formulario de COI antes de su entrega o emisión."
+      }
+    ],
+    "correctOption": "D",
+    "explanation": "Los agentes y aseguradores de Texas no pueden emitir un COI en un formulario que no haya sido presentado al TDI y aprobado por este.",
+    "keyTerms": [
+      {
+        "es": "certificado de seguro",
+        "en": "Certificate of Insurance"
+      },
+      {
+        "es": "aprobación del TDI",
+        "en": "TDI approval"
+      }
+    ],
+    "source": {
+      "file": "G5 - Texas G5 Casualty Insurance Research.es.md",
+      "section": "3.14. Certificado de seguro (Certificate of Insurance) (Tema N del temario)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G5-Q032",
+    "domain": "G5",
+    "subtopic": "Ley de los Grandes Números",
+    "difficulty": "intermedia",
+    "stem": "Una aseguradora duplica sustancialmente el número de unidades de exposición semejantes e independientes utilizadas para analizar una clasificación. ¿Qué efecto general respalda la Ley de los Grandes Números?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La experiencia agregada tenderá a acercarse más a la probabilidad esperada de pérdida",
+        "rationale": "Correcta. Al crecer un grupo homogéneo e independiente, disminuye la incertidumbre relativa de la predicción agregada."
+      },
+      {
+        "id": "B",
+        "text": "Cada asegurado individual tendrá exactamente la pérdida promedio",
+        "rationale": "Incorrecta. La ley mejora la predictibilidad grupal, pero no garantiza resultados individuales."
+      },
+      {
+        "id": "C",
+        "text": "La posibilidad de pérdidas futuras desaparecerá por completo",
+        "rationale": "Incorrecta. Un grupo mayor no elimina las pérdidas ni la incertidumbre individual."
+      },
+      {
+        "id": "D",
+        "text": "Los riesgos especulativos pasarán automáticamente a ser asegurables",
+        "rationale": "Incorrecta. El tamaño del grupo no elimina la posibilidad de ganancia propia del riesgo especulativo."
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "La Ley de los Grandes Números mejora la aproximación entre pérdidas agregadas reales y esperadas cuando aumenta el número de exposiciones semejantes e independientes.",
+    "keyTerms": [
+      {
+        "es": "Ley de los Grandes Números",
+        "en": "Law of Large Numbers"
+      },
+      {
+        "es": "predictibilidad agregada",
+        "en": "aggregate predictability"
+      }
+    ],
+    "source": {
+      "file": "G5 - Texas G5 Casualty Insurance Research.es.md",
+      "section": "3.15. Ley de los Grandes Números (Law of Large Numbers) (Tema O del temario)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G5-Q033",
+    "domain": "G5",
+    "subtopic": "Endosos",
+    "difficulty": "basica",
+    "stem": "Una empresa desea que otra entidad quede cubierta como Additional Insured en su póliza de responsabilidad civil. ¿Qué instrumento contractual debe utilizarse?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Una anotación en una solicitud no incorporada",
+        "rationale": "Incorrecta. Una solicitud sirve para la suscripción y no modifica por sí sola la póliza emitida."
+      },
+      {
+        "id": "B",
+        "text": "Un endoso formal de Additional Insured",
+        "rationale": "Correcta. Los endosos modifican la póliza y son el mecanismo requerido para conferir esa condición."
+      },
+      {
+        "id": "C",
+        "text": "Un aviso de auditoría de primas",
+        "rationale": "Incorrecta. La auditoría ajusta la prima según exposiciones reales y no añade asegurados."
+      },
+      {
+        "id": "D",
+        "text": "Una declaración oral del titular del certificado",
+        "rationale": "Incorrecta. El titular del certificado carece de autoridad para modificar los términos de la póliza."
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "La condición de Additional Insured requiere un endoso formal que modifique el contrato de seguro.",
+    "keyTerms": [
+      {
+        "es": "endoso",
+        "en": "endorsement"
+      },
+      {
+        "es": "asegurado adicional",
+        "en": "Additional Insured"
+      }
+    ],
+    "source": {
+      "file": "G5 - Texas G5 Casualty Insurance Research.es.md",
+      "section": "3.17. Endosos (Endorsements) (Tema Q del temario)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G5-Q034",
+    "domain": "G5",
+    "subtopic": "Daños ejemplares en Texas",
+    "difficulty": "avanzada",
+    "stem": "En una acción de Texas, el reclamante busca daños ejemplares alegando negligencia grave. ¿Qué combinación refleja los requisitos indicados en el paquete?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Preponderancia de la prueba y decisión mayoritaria del jurado",
+        "rationale": "Incorrecta. El paquete establece una norma probatoria más exigente y unanimidad para las determinaciones sobre daños ejemplares."
+      },
+      {
+        "id": "B",
+        "text": "Prueba más allá de toda duda razonable y aprobación de la aseguradora",
+        "rationale": "Incorrecta. Esa no es la norma civil señalada, y la aprobación de la aseguradora no determina la concesión judicial."
+      },
+      {
+        "id": "C",
+        "text": "Prueba clara y convincente y determinaciones unánimes del jurado",
+        "rationale": "Correcta. Texas exige prueba clara y convincente de fraude, malicia o negligencia grave, además de unanimidad sobre responsabilidad y monto."
+      },
+      {
+        "id": "D",
+        "text": "Prueba de cualquier negligencia y ausencia de daños compensatorios",
+        "rationale": "Incorrecta. La negligencia ordinaria no satisface por sí sola la norma aplicable a daños ejemplares."
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Conforme al TCPRC Chapter 41, los daños ejemplares exigen prueba clara y convincente de fraude, malicia o negligencia grave, y las determinaciones pertinentes del jurado deben ser unánimes.",
+    "keyTerms": [
+      {
+        "es": "daños ejemplares",
+        "en": "exemplary damages"
+      },
+      {
+        "es": "prueba clara y convincente",
+        "en": "clear and convincing evidence"
+      },
+      {
+        "es": "unanimidad",
+        "en": "unanimity"
+      }
+    ],
+    "source": {
+      "file": "G5 - Texas G5 Casualty Insurance Research.es.md",
+      "section": "3.18. Daños (Damages) (Temas R, R.1, R.1.a, R.1.b y R.2 del temario)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G5-Q035",
+    "domain": "G5",
+    "subtopic": "Informe investigativo del consumidor bajo la FCRA",
+    "difficulty": "avanzada",
+    "stem": "Para suscribir una póliza de contingencias, una aseguradora solicita un informe que incluirá entrevistas personales sobre el carácter y la reputación del solicitante. ¿Qué obligación temporal específica surge conforme a la FCRA?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Entregar un informe gratuito exactamente 60 días antes de solicitar las entrevistas",
+        "rationale": "Incorrecta. El periodo de 60 días se relaciona con el derecho a solicitar un informe gratuito después de una medida adversa."
+      },
+      {
+        "id": "B",
+        "text": "Esperar a que exista una reclamación antes de informar al consumidor",
+        "rationale": "Incorrecta. La divulgación se activa por la solicitud del informe investigativo, no por una reclamación futura."
+      },
+      {
+        "id": "C",
+        "text": "Notificar únicamente a la CRA dentro de 30 días",
+        "rationale": "Incorrecta. La obligación descrita consiste en divulgar al consumidor la solicitud del informe dentro del plazo legal."
+      },
+      {
+        "id": "D",
+        "text": "Enviar o entregar al consumidor una divulgación escrita a más tardar tres días después de solicitar inicialmente el informe",
+        "rationale": "Correcta. Los informes investigativos basados en entrevistas personales requieren esa divulgación escrita dentro de tres días."
+      }
+    ],
+    "correctOption": "D",
+    "explanation": "La FCRA exige que la divulgación escrita relativa a un Investigative Consumer Report se envíe o entregue al consumidor a más tardar tres días después de solicitarlo por primera vez.",
+    "keyTerms": [
+      {
+        "es": "informe investigativo del consumidor",
+        "en": "Investigative Consumer Report"
+      },
+      {
+        "es": "divulgación de tres días",
+        "en": "three-day disclosure"
+      }
+    ],
+    "source": {
+      "file": "G5 - Texas G5 Casualty Insurance Research.es.md",
+      "section": "3.19. Cumplimiento de las disposiciones de la Fair Credit Reporting Act (FCRA) (Tema S del temario)"
+    },
+    "reviewStatus": "pending_expert_review"
   }
 ]

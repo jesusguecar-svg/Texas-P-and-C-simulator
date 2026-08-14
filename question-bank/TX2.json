@@ -550,5 +550,695 @@
       "section": "Texas Property and Casualty Insurance Guaranty Association (TPCIGA) (TIC Chapter 462\\)"
     },
     "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "TX2-Q013",
+    "domain": "TX2",
+    "subtopic": "Seguro marítimo interior — importaciones",
+    "difficulty": "intermedia",
+    "stem": "Un importador mantiene mercancía extranjera en consignación, separada de otros inventarios y dentro de su empaque original. La mercancía aún no se ha vendido ni aceptado para procesamiento. ¿Cuál afirmación describe correctamente su clasificación?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Puede conservar el tratamiento de importación bajo seguro marítimo interior mientras permanezca en esas condiciones.",
+        "rationale": "Correcta. Las importaciones en consignación pueden conservar ese tratamiento sin restricciones de tiempo o lugar de almacenamiento si permanecen separadas, en su empaque original y fuera de la masa general de bienes."
+      },
+      {
+        "id": "B",
+        "text": "Pierde automáticamente el tratamiento de importación al llegar a cualquier almacén de Texas.",
+        "rationale": "Incorrecta. La llegada a un almacén no termina por sí sola la condición cuando se cumplen los requisitos especiales aplicables a mercancía en consignación."
+      },
+      {
+        "id": "C",
+        "text": "Solo puede asegurarse como importación durante los primeros 60 días de almacenamiento.",
+        "rationale": "Incorrecta. El paquete no establece un límite de 60 días para importaciones en consignación que permanecen separadas y en su empaque original."
+      },
+      {
+        "id": "D",
+        "text": "Debe tratarse como inventario minorista desde el momento en que entra en Estados Unidos.",
+        "rationale": "Incorrecta. La condición de importación termina cuando los bienes se venden, entregan, se ponen a la venta como inventario minorista o se aceptan para fabricación o procesamiento."
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "La regla especial para importaciones en consignación permite mantener la clasificación marítima interior mientras los bienes permanezcan separados, en su empaque original y sin incorporarse al inventario general.",
+    "keyTerms": [
+      {
+        "es": "importaciones en consignación",
+        "en": "consigned imports"
+      },
+      {
+        "es": "seguro marítimo interior",
+        "en": "inland marine insurance"
+      }
+    ],
+    "source": {
+      "file": "TX2 - Texas P&C Exam Research Plan.es.md",
+      "section": "1. Definiciones de propiedad y accidentes (28 TAC § 5.5002)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "TX2-Q014",
+    "domain": "TX2",
+    "subtopic": "Seguro de bienes adquiridos a crédito",
+    "difficulty": "avanzada",
+    "stem": "Una tienda financia bienes muebles por $18,000 y añade $1,200 de cargos financieros, $300 de entrega y $500 por un artículo no cubierto. ¿Sobre qué importe debe calcularse la prima del seguro de bienes adquiridos a crédito?",
+    "options": [
+      {
+        "id": "A",
+        "text": "$20,000",
+        "rationale": "Incorrecta. Este importe incluye cargos financieros, entrega y un artículo no cubierto, conceptos que deben excluirse."
+      },
+      {
+        "id": "B",
+        "text": "$18,000",
+        "rationale": "Correcta. La prima se calcula estrictamente sobre el saldo de los bienes muebles cubiertos."
+      },
+      {
+        "id": "C",
+        "text": "$19,500",
+        "rationale": "Incorrecta. Incluye cargos financieros y entrega, que no forman parte de la base permitida."
+      },
+      {
+        "id": "D",
+        "text": "$18,800",
+        "rationale": "Incorrecta. Incluye el cargo de entrega y el artículo no cubierto, aunque ambos deben excluirse."
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "28 TAC § 5.5002 exige calcular la prima únicamente sobre el saldo de los bienes muebles cubiertos, sin cargos financieros, servicios, entrega ni artículos no cubiertos.",
+    "keyTerms": [
+      {
+        "es": "seguro de bienes adquiridos a crédito",
+        "en": "credit property insurance"
+      },
+      {
+        "es": "saldo cubierto",
+        "en": "covered balance"
+      }
+    ],
+    "source": {
+      "file": "TX2 - Texas P&C Exam Research Plan.es.md",
+      "section": "1. Definiciones de propiedad y accidentes (28 TAC § 5.5002)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "TX2-Q015",
+    "domain": "TX2",
+    "subtopic": "Elegibilidad de aseguradoras de líneas excedentes",
+    "difficulty": "basica",
+    "stem": "Una aseguradora de líneas excedentes domiciliada en otro estado de Estados Unidos desea aceptar riesgos de Texas. ¿Qué requisito de elegibilidad identifica el paquete de investigación?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Debe estar admitida directamente por el TDI para todas las líneas ofrecidas.",
+        "rationale": "Incorrecta. Una aseguradora de líneas excedentes es no admitida en Texas, aunque debe satisfacer los requisitos legales de elegibilidad."
+      },
+      {
+        "id": "B",
+        "text": "Debe figurar obligatoriamente en la lista trimestral de aseguradoras alien de la NAIC.",
+        "rationale": "Incorrecta. Esa lista corresponde a aseguradoras no estadounidenses, no a compañías domiciliadas en Estados Unidos."
+      },
+      {
+        "id": "C",
+        "text": "Debe estar autorizada en su estado de domicilio y mantener al menos $15 millones de capital y excedente.",
+        "rationale": "Correcta. Estos son los requisitos señalados para una aseguradora de líneas excedentes domiciliada en Estados Unidos."
+      },
+      {
+        "id": "D",
+        "text": "Debe aportar al fondo de garantía de Texas antes de emitir la póliza.",
+        "rationale": "Incorrecta. Las pólizas de líneas excedentes no están protegidas por TPCIGA, y el aporte descrito no constituye el requisito de elegibilidad aplicable."
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Una aseguradora de líneas excedentes domiciliada en Estados Unidos debe estar autorizada en su estado de domicilio y mantener capital y excedente mínimos de $15 millones.",
+    "keyTerms": [
+      {
+        "es": "capital y excedente",
+        "en": "capital and surplus"
+      },
+      {
+        "es": "aseguradora no admitida",
+        "en": "nonadmitted insurer"
+      }
+    ],
+    "source": {
+      "file": "TX2 - Texas P&C Exam Research Plan.es.md",
+      "section": "Elegibilidad de la aseguradora"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "TX2-Q016",
+    "domain": "TX2",
+    "subtopic": "Aviso legal de líneas excedentes",
+    "difficulty": "intermedia",
+    "stem": "Un corredor entrega en Texas una póliza emitida por una aseguradora de líneas excedentes elegible. ¿Qué aviso debe aparecer prominentemente en la página de declaraciones?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Que el TDI aprobó previamente todas las tarifas y formularios de la póliza.",
+        "rationale": "Incorrecta. El aviso debe indicar precisamente que la póliza no está sujeta a la regulación de tarifas y formularios del TDI."
+      },
+      {
+        "id": "B",
+        "text": "Que la póliza está garantizada hasta $300,000 por TPCIGA.",
+        "rationale": "Incorrecta. Las líneas excedentes están excluidas de la protección de TPCIGA."
+      },
+      {
+        "id": "C",
+        "text": "Que la aseguradora se convertirá en admitida al presentarse la póliza ante SLTX.",
+        "rationale": "Incorrecta. La presentación ante SLTX no convierte a una aseguradora no admitida en una aseguradora admitida."
+      },
+      {
+        "id": "D",
+        "text": "Que la aseguradora no está autorizada en Texas, la póliza no está sujeta a regulación de tarifas y formularios del TDI y no tiene protección de TPCIGA.",
+        "rationale": "Correcta. Esos tres elementos forman el aviso legal obligatorio para las pólizas de líneas excedentes entregadas en Texas."
+      }
+    ],
+    "correctOption": "D",
+    "explanation": "La leyenda obligatoria informa al asegurado sobre la condición no admitida de la aseguradora, la ausencia de regulación ordinaria de tarifas y formularios y la exclusión de TPCIGA.",
+    "keyTerms": [
+      {
+        "es": "leyenda de aviso legal",
+        "en": "statutory notice legend"
+      },
+      {
+        "es": "página de declaraciones",
+        "en": "declarations page"
+      }
+    ],
+    "source": {
+      "file": "TX2 - Texas P&C Exam Research Plan.es.md",
+      "section": "Leyenda de aviso legal"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "TX2-Q017",
+    "domain": "TX2",
+    "subtopic": "Presentación de formularios de póliza",
+    "difficulty": "basica",
+    "stem": "Una aseguradora admitida desarrolla un endoso nuevo para una línea de propiedad y accidentes. Salvo que corresponda una excepción indicada, ¿cuándo debe presentar el formulario ante el TDI?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Por lo menos 60 días antes de la entrega o emisión propuesta.",
+        "rationale": "Correcta. Los formularios y endosos de líneas admitidas operan bajo aprobación previa y deben presentarse al menos 60 días antes."
+      },
+      {
+        "id": "B",
+        "text": "Dentro de los 60 días posteriores a su primera emisión.",
+        "rationale": "Incorrecta. Ese planteamiento confunde la aprobación previa de formularios con otros plazos de presentación."
+      },
+      {
+        "id": "C",
+        "text": "Únicamente después de que un asegurado presente una reclamación.",
+        "rationale": "Incorrecta. La obligación de presentación se relaciona con la entrega o emisión propuesta, no con la existencia de una reclamación."
+      },
+      {
+        "id": "D",
+        "text": "El mismo día de su entrada en vigor, mediante el sistema de presentación y uso de tarifas.",
+        "rationale": "Incorrecta. File-and-Use corresponde a tarifas; los formularios están sujetos al mecanismo de aprobación previa."
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "TIC Chapter 2301 exige la presentación de formularios y endosos al menos 60 días antes de su entrega o emisión propuesta.",
+    "keyTerms": [
+      {
+        "es": "aprobación previa",
+        "en": "prior approval"
+      },
+      {
+        "es": "endoso",
+        "en": "endorsement"
+      }
+    ],
+    "source": {
+      "file": "TX2 - Texas P&C Exam Research Plan.es.md",
+      "section": "Regulación de formularios (TIC Chapter 2301\\)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "TX2-Q018",
+    "domain": "TX2",
+    "subtopic": "Elegibilidad para Texas FAIR Plan",
+    "difficulty": "intermedia",
+    "stem": "Una propietaria presenta dos rechazos escritos de aseguradoras admitidas, pero la vivienda solicitada está condenada por la autoridad local. ¿Qué resultado corresponde respecto de Texas FAIR Plan?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Es elegible porque dos rechazos siempre bastan para obtener cobertura.",
+        "rationale": "Incorrecta. Los dos rechazos son necesarios, pero la propiedad tampoco puede estar desocupada ni condenada."
+      },
+      {
+        "id": "B",
+        "text": "No es elegible mientras la propiedad permanezca condenada.",
+        "rationale": "Correcta. Una propiedad condenada no satisface las condiciones de elegibilidad de TFPA."
+      },
+      {
+        "id": "C",
+        "text": "Es elegible únicamente para un límite de vivienda de $500,000.",
+        "rationale": "Incorrecta. El problema es la condición de propiedad condenada, no una reducción del límite."
+      },
+      {
+        "id": "D",
+        "text": "Debe solicitar automáticamente cobertura de vivienda mediante TWIA.",
+        "rationale": "Incorrecta. TWIA se limita a viento y granizo en áreas costeras designadas y no sustituye automáticamente a TFPA."
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "TFPA exige al menos dos rechazos del mercado admitido y, además, que la propiedad no esté desocupada ni condenada.",
+    "keyTerms": [
+      {
+        "es": "propiedad condenada",
+        "en": "condemned property"
+      },
+      {
+        "es": "mercado residual",
+        "en": "residual market"
+      }
+    ],
+    "source": {
+      "file": "TX2 - Texas P&C Exam Research Plan.es.md",
+      "section": "Texas FAIR Plan Association (TIC Chapter 2211\\)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "TX2-Q019",
+    "domain": "TX2",
+    "subtopic": "Cancelación de propietarios de vivienda",
+    "difficulty": "avanzada",
+    "stem": "Una póliza de propietarios de vivienda lleva 120 días vigente. La aseguradora descubre un aumento del riesgo que produce una exposición no tarifada y el asegurado no lo corrige. ¿Puede cancelar la póliza durante la vigencia?",
+    "options": [
+      {
+        "id": "A",
+        "text": "No, porque después de 60 días solo se permite cancelar por falta de pago.",
+        "rationale": "Incorrecta. Además de la falta de pago, existen otros motivos legales, incluido un aumento del riesgo no corregido que genere un riesgo no tarifado."
+      },
+      {
+        "id": "B",
+        "text": "Sí, pero únicamente si espera hasta el vencimiento y lo trata como no renovación.",
+        "rationale": "Incorrecta. El supuesto descrito constituye uno de los motivos permitidos para cancelación después del periodo inicial."
+      },
+      {
+        "id": "C",
+        "text": "Sí, porque un aumento del riesgo no corregido que genere un riesgo no tarifado es un motivo permitido después de 60 días.",
+        "rationale": "Correcta. La cancelación posterior al periodo inicial puede basarse en este aumento del riesgo."
+      },
+      {
+        "id": "D",
+        "text": "Sí, porque una aseguradora puede cancelar por cualquier razón de suscripción durante toda la vigencia.",
+        "rationale": "Incorrecta. La libertad amplia de suscripción se limita a los primeros 60 días; después se requieren motivos legales específicos."
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Después de los primeros 60 días, la cancelación de una póliza residencial está restringida, pero sigue permitida por un aumento del riesgo no corregido que produzca un riesgo no tarifado.",
+    "keyTerms": [
+      {
+        "es": "aumento del riesgo",
+        "en": "increase in hazard"
+      },
+      {
+        "es": "cancelación durante la vigencia",
+        "en": "midterm cancellation"
+      }
+    ],
+    "source": {
+      "file": "TX2 - Texas P&C Exam Research Plan.es.md",
+      "section": "Rechazo, cancelación y no renovación (TIC Chapter 551 Subchapter C)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "TX2-Q020",
+    "domain": "TX2",
+    "subtopic": "Aviso de acuerdo de responsabilidad",
+    "difficulty": "basica",
+    "stem": "Una aseguradora de accidentes acepta una oferta para resolver una reclamación de responsabilidad de un tercero. ¿A quién debe enviar el aviso escrito exigido dentro de los 10 días posteriores a la aceptación?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Exclusivamente al TDI.",
+        "rationale": "Incorrecta. La obligación descrita no consiste en notificar exclusivamente al regulador."
+      },
+      {
+        "id": "B",
+        "text": "Únicamente al abogado del tercero reclamante.",
+        "rationale": "Incorrecta. Aunque el tercero participe en el acuerdo, la regla específica protege el derecho de información del asegurado nombrado."
+      },
+      {
+        "id": "C",
+        "text": "A la Surplus Lines Stamping Office of Texas.",
+        "rationale": "Incorrecta. SLTX revisa presentaciones de líneas excedentes y no es el destinatario de este aviso de acuerdo."
+      },
+      {
+        "id": "D",
+        "text": "Al asegurado nombrado.",
+        "rationale": "Correcta. TIC § 542.153 exige que la aseguradora notifique por escrito al asegurado nombrado dentro de los 10 días posteriores a la aceptación."
+      }
+    ],
+    "correctOption": "D",
+    "explanation": "El aviso de acuerdo por una reclamación de responsabilidad de terceros debe enviarse al asegurado nombrado dentro de los 10 días posteriores a la aceptación de la oferta.",
+    "keyTerms": [
+      {
+        "es": "asegurado nombrado",
+        "en": "named insured"
+      },
+      {
+        "es": "aviso de acuerdo",
+        "en": "settlement notice"
+      }
+    ],
+    "source": {
+      "file": "TX2 - Texas P&C Exam Research Plan.es.md",
+      "section": "Liquidación de pérdidas y pago oportuno de reclamaciones (TIC Chapter 542\\)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "TX2-Q021",
+    "domain": "TX2",
+    "subtopic": "Protección contra lesiones personales",
+    "difficulty": "avanzada",
+    "stem": "Tras un accidente, una persona cubierta por PIP incurre dentro del periodo permitido en $1,600 de gastos médicos razonables y pierde $2,000 de ingresos. Su límite PIP disponible es suficiente. ¿Qué importe corresponde antes de considerar cualquier otra partida?",
+    "options": [
+      {
+        "id": "A",
+        "text": "$3,200",
+        "rationale": "Correcta. PIP cubre los $1,600 de gastos médicos y el 80% de $2,000 de ingresos perdidos, es decir, $1,600 adicionales."
+      },
+      {
+        "id": "B",
+        "text": "$3,600",
+        "rationale": "Incorrecta. Este importe reembolsa el 100% de los ingresos perdidos, pero PIP cubre el 80%."
+      },
+      {
+        "id": "C",
+        "text": "$2,500",
+        "rationale": "Incorrecta. $2,500 es el mínimo que debe ofrecerse por persona, no un límite obligatorio cuando se indica que existe cobertura suficiente."
+      },
+      {
+        "id": "D",
+        "text": "$1,600",
+        "rationale": "Incorrecta. Este importe omite la cobertura PIP del 80% de los ingresos perdidos."
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "PIP reembolsa el 100% de los gastos médicos razonables y el 80% de los ingresos perdidos: $1,600 + $1,600 = $3,200.",
+    "keyTerms": [
+      {
+        "es": "protección contra lesiones personales",
+        "en": "personal injury protection"
+      },
+      {
+        "es": "ingresos perdidos",
+        "en": "lost income"
+      }
+    ],
+    "source": {
+      "file": "TX2 - Texas P&C Exam Research Plan.es.md",
+      "section": "Coberturas legales y responsabilidad financiera"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "TX2-Q022",
+    "domain": "TX2",
+    "subtopic": "Cancelación de automóvil personal",
+    "difficulty": "intermedia",
+    "stem": "Una póliza de automóvil personal lleva 90 días vigente. La licencia de conducir de un conductor del hogar es revocada. ¿Cuál afirmación es correcta?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La aseguradora no puede actuar hasta el vencimiento porque toda cancelación posterior a 60 días está prohibida.",
+        "rationale": "Incorrecta. La revocación o suspensión de la licencia de un conductor del hogar es un motivo permitido de cancelación posterior a 60 días."
+      },
+      {
+        "id": "B",
+        "text": "La aseguradora puede cancelar durante la vigencia por la revocación de la licencia del conductor del hogar.",
+        "rationale": "Correcta. Este supuesto figura entre los motivos legales de cancelación de automóvil después del periodo inicial."
+      },
+      {
+        "id": "C",
+        "text": "La aseguradora solo puede cancelar si también existe falta de pago de la prima.",
+        "rationale": "Incorrecta. La falta de pago es un motivo distinto y no tiene que coexistir con la revocación de la licencia."
+      },
+      {
+        "id": "D",
+        "text": "La revocación permite cancelar una póliza de vivienda, pero no una póliza de automóvil.",
+        "rationale": "Incorrecta. La situación de la licencia es precisamente una regla distintiva de cancelación de automóvil personal."
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Después de 60 días, una póliza de automóvil personal puede cancelarse por suspensión o revocación de la licencia del asegurado nombrado o de un conductor del hogar.",
+    "keyTerms": [
+      {
+        "es": "revocación de licencia",
+        "en": "license revocation"
+      },
+      {
+        "es": "conductor del hogar",
+        "en": "household driver"
+      }
+    ],
+    "source": {
+      "file": "TX2 - Texas P&C Exam Research Plan.es.md",
+      "section": "No renovación y cancelación de pólizas de automóvil"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "TX2-Q023",
+    "domain": "TX2",
+    "subtopic": "Periodo de espera de beneficios temporales",
+    "difficulty": "basica",
+    "stem": "Un trabajador sufre una lesión indemnizable y permanece totalmente incapacitado durante 16 días. ¿Cómo se aplica el periodo de espera de los TIB?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Los primeros siete días nunca se pagan, sin importar la duración de la incapacidad.",
+        "rationale": "Incorrecta. Los siete días iniciales se pagan retroactivamente cuando la incapacidad supera 14 días."
+      },
+      {
+        "id": "B",
+        "text": "Solo se paga retroactivamente el primer día de incapacidad.",
+        "rationale": "Incorrecta. La regla retroactiva comprende el periodo inicial de siete días."
+      },
+      {
+        "id": "C",
+        "text": "Como la incapacidad supera 14 días, los siete días iniciales se pagan retroactivamente.",
+        "rationale": "Correcta. La duración de 16 días activa el pago retroactivo del periodo de espera."
+      },
+      {
+        "id": "D",
+        "text": "No se pagan TIB porque la incapacidad no llegó a 26 semanas.",
+        "rationale": "Incorrecta. Las 26 semanas determinan el cambio de porcentaje, no la elegibilidad inicial para TIB."
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Los TIB tienen un periodo de espera de siete días, pero esos días se pagan retroactivamente si la incapacidad dura más de 14 días.",
+    "keyTerms": [
+      {
+        "es": "periodo de espera",
+        "en": "waiting period"
+      },
+      {
+        "es": "beneficios de ingresos temporales",
+        "en": "temporary income benefits"
+      }
+    ],
+    "source": {
+      "file": "TX2 - Texas P&C Exam Research Plan.es.md",
+      "section": "Categorías de beneficios y límites de 2026 (DWC, vigentes del 1 de octubre de 2025 al 30 de septiembre de 2026\\)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "TX2-Q024",
+    "domain": "TX2",
+    "subtopic": "Beneficios de ingresos suplementarios",
+    "difficulty": "avanzada",
+    "stem": "Un trabajador tiene una calificación de impedimento del 20%, un AWW anterior de $1,000 y actualmente gana $500 por semana. Si satisface las demás condiciones de elegibilidad para SIB, ¿cuál es su beneficio semanal según la fórmula indicada?",
+    "options": [
+      {
+        "id": "A",
+        "text": "$240",
+        "rationale": "Incorrecta. Este resultado no aplica el 80% a la diferencia completa entre $800 y $500."
+      },
+      {
+        "id": "B",
+        "text": "$300",
+        "rationale": "Incorrecta. $300 es la diferencia entre el 80% del AWW y los ingresos actuales, pero todavía debe multiplicarse por 80%."
+      },
+      {
+        "id": "C",
+        "text": "$400",
+        "rationale": "Incorrecta. Este importe equivale al 80% de los ingresos actuales, no a la fórmula legal de SIB."
+      },
+      {
+        "id": "D",
+        "text": "$240",
+        "rationale": "Correcta. El 80% del AWW es $800; la diferencia frente a $500 es $300, y el 80% de esa diferencia es $240."
+      }
+    ],
+    "correctOption": "D",
+    "explanation": "La fórmula SIB es 80% de la diferencia entre el 80% del AWW anterior y los ingresos posteriores: 0.80 × ($800 − $500) = $240.",
+    "keyTerms": [
+      {
+        "es": "beneficios de ingresos suplementarios",
+        "en": "supplemental income benefits"
+      },
+      {
+        "es": "calificación de impedimento",
+        "en": "impairment rating"
+      }
+    ],
+    "source": {
+      "file": "TX2 - Texas P&C Exam Research Plan.es.md",
+      "section": "Categorías de beneficios y límites de 2026 (DWC, vigentes del 1 de octubre de 2025 al 30 de septiembre de 2026\\)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "TX2-Q025",
+    "domain": "TX2",
+    "subtopic": "Beneficios de ingresos vitalicios",
+    "difficulty": "intermedia",
+    "stem": "Un empleado sufre una lesión laboral indemnizable que produce parálisis total. ¿Qué característica corresponde a los beneficios de ingresos vitalicios de Texas?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Se pagan de por vida al 70% del AWW y reciben un ajuste anual automático del 3% por costo de vida.",
+        "rationale": "Correcta. La parálisis total es una incapacidad catastrófica elegible para LIB, con pago vitalicio y COLA anual del 3%."
+      },
+      {
+        "id": "B",
+        "text": "Se pagan durante tres semanas por cada 1% de impedimento.",
+        "rationale": "Incorrecta. Esa duración corresponde a los IIB, no a los LIB."
+      },
+      {
+        "id": "C",
+        "text": "Terminan obligatoriamente a las 104 semanas desde el inicio de la incapacidad.",
+        "rationale": "Incorrecta. El límite de 104 semanas corresponde a TIB; los LIB se pagan durante toda la vida."
+      },
+      {
+        "id": "D",
+        "text": "Se limitan a un máximo total de 401 semanas.",
+        "rationale": "Incorrecta. El máximo de 401 semanas corresponde a SIB, no a beneficios vitalicios."
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "Los LIB cubren incapacidades totales catastróficas, incluida la parálisis total, y se pagan de por vida al 70% del AWW con COLA anual automático del 3%.",
+    "keyTerms": [
+      {
+        "es": "beneficios de ingresos vitalicios",
+        "en": "lifetime income benefits"
+      },
+      {
+        "es": "ajuste por costo de vida",
+        "en": "cost-of-living adjustment"
+      }
+    ],
+    "source": {
+      "file": "TX2 - Texas P&C Exam Research Plan.es.md",
+      "section": "Categorías de beneficios y límites de 2026 (DWC, vigentes del 1 de octubre de 2025 al 30 de septiembre de 2026\\)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "TX2-Q026",
+    "domain": "TX2",
+    "subtopic": "Exclusiones de la asociación de garantía",
+    "difficulty": "basica",
+    "stem": "Una aseguradora no admitida que emitió legalmente una póliza de líneas excedentes queda insolvente. ¿Qué protección ofrece TPCIGA para la reclamación derivada de esa póliza?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La paga en su totalidad porque toda insolvencia queda cubierta.",
+        "rationale": "Incorrecta. TPCIGA no cubre todas las insolvencias; existen exclusiones expresas."
+      },
+      {
+        "id": "B",
+        "text": "No ofrece cobertura porque las líneas excedentes y las aseguradoras no admitidas están excluidas.",
+        "rationale": "Correcta. La protección de TPCIGA se dirige a aseguradoras admitidas y autorizadas, no a líneas excedentes."
+      },
+      {
+        "id": "C",
+        "text": "La paga hasta $300,000 porque ese límite se aplica a cualquier póliza de propiedad y accidentes.",
+        "rationale": "Incorrecta. El tope de $300,000 solo se aplica a reclamaciones cubiertas; una póliza de líneas excedentes está excluida."
+      },
+      {
+        "id": "D",
+        "text": "Reembolsa únicamente la prima no devengada hasta $10,000.",
+        "rationale": "Incorrecta. La exclusión de líneas excedentes impide también aplicar el beneficio ordinario de prima no devengada."
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "TPCIGA protege frente a la insolvencia de aseguradoras admitidas y autorizadas; el seguro de líneas excedentes y las aseguradoras no admitidas están excluidos.",
+    "keyTerms": [
+      {
+        "es": "asociación de garantía",
+        "en": "guaranty association"
+      },
+      {
+        "es": "líneas excedentes",
+        "en": "surplus lines"
+      }
+    ],
+    "source": {
+      "file": "TX2 - Texas P&C Exam Research Plan.es.md",
+      "section": "Texas Property and Casualty Insurance Guaranty Association (TPCIGA) (TIC Chapter 462\\)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "TX2-Q027",
+    "domain": "TX2",
+    "subtopic": "Medical Liability JUA",
+    "difficulty": "intermedia",
+    "stem": "Un hospital de Texas no puede obtener seguro primario de responsabilidad profesional médica en el mercado voluntario admitido. ¿Qué mecanismo estatal está diseñado para atender esa necesidad?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Texas Automobile Insurance Plan Association",
+        "rationale": "Incorrecta. TAIPA es el mercado residual de responsabilidad de automóvil, no de responsabilidad profesional médica."
+      },
+      {
+        "id": "B",
+        "text": "Texas Property and Casualty Insurance Guaranty Association",
+        "rationale": "Incorrecta. TPCIGA atiende reclamaciones cubiertas por insolvencia de aseguradoras admitidas; no suscribe pólizas médicas residuales."
+      },
+      {
+        "id": "C",
+        "text": "Texas Medical Liability Insurance Underwriting Association",
+        "rationale": "Correcta. La Medical Liability JUA proporciona cobertura primaria residual a médicos, hospitales y centros que no pueden obtenerla en el mercado voluntario admitido."
+      },
+      {
+        "id": "D",
+        "text": "Texas Windstorm Insurance Association",
+        "rationale": "Incorrecta. TWIA proporciona exclusivamente cobertura costera contra tormenta de viento y granizo."
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "La Medical Liability JUA es el mecanismo residual establecido para proveedores de atención médica y hospitales que no pueden conseguir cobertura de negligencia médica en el mercado voluntario admitido.",
+    "keyTerms": [
+      {
+        "es": "responsabilidad profesional médica",
+        "en": "medical professional liability"
+      },
+      {
+        "es": "asociación de suscripción conjunta",
+        "en": "joint underwriting association"
+      }
+    ],
+    "source": {
+      "file": "TX2 - Texas P&C Exam Research Plan.es.md",
+      "section": "Texas Medical Liability Insurance Underwriting Association (JUA) (TIC Chapter 2203\\)"
+    },
+    "reviewStatus": "pending_expert_review"
   }
 ]

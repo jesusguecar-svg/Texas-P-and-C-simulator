@@ -632,5 +632,791 @@
       "section": "T. Terrorism Risk Insurance Act (TRIA)"
     },
     "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G3-Q014",
+    "domain": "G3",
+    "subtopic": "Características jurídicas del contrato de seguro",
+    "difficulty": "basica",
+    "stem": "Una empresa paga una prima relativamente pequeña y, poco después, sufre una pérdida cubierta muy superior al total pagado. ¿Qué característica del contrato de seguro explica esta desigualdad potencial de valores?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Contrato aleatorio",
+        "rationale": "Es correcta porque las prestaciones económicas dependen de un acontecimiento futuro incierto y pueden ser muy desiguales."
+      },
+      {
+        "id": "B",
+        "text": "Contrato personal",
+        "rationale": "Es incorrecta porque el carácter personal se refiere a que la póliza asegura el interés de una persona, no a la desigualdad económica de las prestaciones."
+      },
+      {
+        "id": "C",
+        "text": "Contrato de adhesión",
+        "rationale": "Es incorrecta porque la adhesión describe que el asegurador redacta el formulario y el solicitante lo acepta o rechaza."
+      },
+      {
+        "id": "D",
+        "text": "Contrato condicional",
+        "rationale": "Es incorrecta porque un contrato condicional vincula el pago al cumplimiento de requisitos contractuales."
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "El seguro es aleatorio porque el valor que finalmente recibe cada parte depende de que ocurra o no una pérdida futura incierta.",
+    "keyTerms": [
+      {
+        "es": "contrato aleatorio",
+        "en": "aleatory contract"
+      }
+    ],
+    "source": {
+      "file": "G3- Texas P&C Domain G3 Research.es.md",
+      "section": "N. Elementos de un contrato"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G3-Q015",
+    "domain": "G3",
+    "subtopic": "Objeto lícito y partes competentes",
+    "difficulty": "intermedia",
+    "stem": "Un solicitante intenta asegurar mercancía que sabe que fue robada y que mantiene para su venta ilegal. Aunque paga la prima y el asegurador emite el documento, ¿qué elemento esencial falta?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Contraprestación",
+        "rationale": "Es incorrecta porque el pago de la prima constituye contraprestación del solicitante."
+      },
+      {
+        "id": "B",
+        "text": "Objeto lícito",
+        "rationale": "Es correcta porque asegurar bienes robados destinados a una actividad ilegal contraviene la ley y el orden público."
+      },
+      {
+        "id": "C",
+        "text": "Aceptación",
+        "rationale": "Es incorrecta porque la emisión del documento indica que el asegurador manifestó aceptación."
+      },
+      {
+        "id": "D",
+        "text": "Capacidad mental",
+        "rationale": "Es incorrecta porque el supuesto no indica incapacidad mental, minoría de edad ni falta de sobriedad."
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Un contrato de seguro debe tener un propósito legal. La cobertura de contrabando ilegal o bienes robados es nula desde su inicio por falta de objeto lícito.",
+    "keyTerms": [
+      {
+        "es": "objeto lícito",
+        "en": "legal purpose"
+      },
+      {
+        "es": "contrato nulo",
+        "en": "void contract"
+      }
+    ],
+    "source": {
+      "file": "G3- Texas P&C Domain G3 Research.es.md",
+      "section": "N. Elementos de un contrato"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G3-Q016",
+    "domain": "G3",
+    "subtopic": "Contrato de adhesión",
+    "difficulty": "intermedia",
+    "stem": "Una disposición estandarizada redactada por el asegurador admite dos interpretaciones jurídicas razonables y no puede aclararse mediante el resto de la póliza. ¿Qué regla resulta aplicable?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La interpretación que produzca la prima más alta debe prevalecer.",
+        "rationale": "Es incorrecta porque la cuantía de la prima no determina cómo se resuelve una ambigüedad contractual."
+      },
+      {
+        "id": "B",
+        "text": "La disposición debe considerarse automáticamente inexistente.",
+        "rationale": "Es incorrecta porque una ambigüedad no elimina por sí sola toda la disposición."
+      },
+      {
+        "id": "C",
+        "text": "La ambigüedad se interpreta contra el asegurador y a favor del asegurado.",
+        "rationale": "Es correcta porque la regla contra proferentem se aplica al contrato de adhesión redactado por el asegurador."
+      },
+      {
+        "id": "D",
+        "text": "El asegurado debe aceptar necesariamente la interpretación elegida por el suscriptor.",
+        "rationale": "Es incorrecta porque la condición de contrato de adhesión no concede al redactor el derecho de resolver a su favor una ambigüedad."
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Como el asegurador redacta el contrato de adhesión, una ambigüedad jurídica se interpreta estrictamente contra él y en favor del asegurado.",
+    "keyTerms": [
+      {
+        "es": "contrato de adhesión",
+        "en": "contract of adhesion"
+      },
+      {
+        "es": "contra proferentem",
+        "en": "contra proferentem"
+      }
+    ],
+    "source": {
+      "file": "G3- Texas P&C Domain G3 Research.es.md",
+      "section": "N. Elementos de un contrato"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G3-Q017",
+    "domain": "G3",
+    "subtopic": "Cesión de la póliza",
+    "difficulty": "avanzada",
+    "stem": "La propietaria vende un almacén y pretende entregar al comprador su póliza de propiedad vigente como parte de la compraventa, antes de que ocurra pérdida alguna. ¿Qué se requiere para transferir la póliza?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Solo entregar al comprador una copia de las Declaraciones.",
+        "rationale": "Es incorrecta porque la entrega física del documento no transfiere los derechos de un contrato personal."
+      },
+      {
+        "id": "B",
+        "text": "Esperar a que el comprador presente su primera reclamación.",
+        "rationale": "Es incorrecta porque una reclamación posterior no sustituye el consentimiento necesario para una cesión previa a la pérdida."
+      },
+      {
+        "id": "C",
+        "text": "Notificar al acreedor hipotecario, sin intervención del asegurador.",
+        "rationale": "Es incorrecta porque el aviso al prestamista no equivale al consentimiento del asegurador."
+      },
+      {
+        "id": "D",
+        "text": "Obtener el consentimiento expreso y escrito del asegurador.",
+        "rationale": "Es correcta porque la póliza asegura el interés personal del asegurado y su cesión antes de una pérdida requiere consentimiento del asegurador."
+      }
+    ],
+    "correctOption": "D",
+    "explanation": "Una póliza de propiedad es un contrato personal y no acompaña automáticamente al inmueble cuando cambia de propietario.",
+    "keyTerms": [
+      {
+        "es": "cesión",
+        "en": "assignment"
+      },
+      {
+        "es": "contrato personal",
+        "en": "personal contract"
+      }
+    ],
+    "source": {
+      "file": "G3- Texas P&C Domain G3 Research.es.md",
+      "section": "N. Elementos de un contrato"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G3-Q018",
+    "domain": "G3",
+    "subtopic": "Fuentes de información para la suscripción",
+    "difficulty": "basica",
+    "stem": "Un suscriptor necesita verificar físicamente el estado del techo, el sistema eléctrico y la protección contra incendios de una fábrica. ¿Qué fuente es la más apropiada?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Una inspección del inmueble o un informe de ingeniería de riesgos",
+        "rationale": "Es correcta porque estas fuentes verifican en el lugar las condiciones físicas y los peligros del inmueble."
+      },
+      {
+        "id": "B",
+        "text": "Un aviso de medida adversa",
+        "rationale": "Es incorrecta porque ese aviso comunica una decisión negativa basada en un informe del consumidor; no inspecciona el inmueble."
+      },
+      {
+        "id": "C",
+        "text": "Un comprobante de pérdida jurado",
+        "rationale": "Es incorrecta porque ese documento se prepara después de una pérdida para detallar una reclamación."
+      },
+      {
+        "id": "D",
+        "text": "Una cláusula de otros seguros",
+        "rationale": "Es incorrecta porque esa cláusula distribuye una pérdida entre pólizas superpuestas."
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "Las inspecciones y los informes de ingeniería permiten confirmar directamente el estado constructivo y los controles de protección del riesgo.",
+    "keyTerms": [
+      {
+        "es": "inspección de bienes",
+        "en": "property inspection"
+      },
+      {
+        "es": "ingeniería de riesgos",
+        "en": "risk engineering"
+      }
+    ],
+    "source": {
+      "file": "G3- Texas P&C Domain G3 Research.es.md",
+      "section": "P. Fuentes de información para la suscripción"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G3-Q019",
+    "domain": "G3",
+    "subtopic": "Informes investigativos del consumidor",
+    "difficulty": "avanzada",
+    "stem": "Para evaluar una solicitud, un asegurador encarga entrevistas personales con vecinos sobre la reputación y el estilo de vida del solicitante. ¿Qué debe hacer conforme a la FCRA?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Esperar hasta que concluya la investigación para informar al solicitante.",
+        "rationale": "Es incorrecta porque el aviso del informe investigativo debe darse a más tardar tres días después de solicitarlo."
+      },
+      {
+        "id": "B",
+        "text": "Dar aviso escrito a más tardar tres días después de solicitar el informe y revelar su naturaleza y alcance dentro de cinco días si el consumidor lo pide.",
+        "rationale": "Es correcta porque las entrevistas personales convierten el documento en un informe investigativo sujeto a ambos plazos."
+      },
+      {
+        "id": "C",
+        "text": "Dar únicamente un aviso anual de privacidad mientras exista la póliza.",
+        "rationale": "Es incorrecta porque un aviso anual de la GLBA no satisface las obligaciones específicas de la FCRA sobre informes investigativos."
+      },
+      {
+        "id": "D",
+        "text": "Solicitar el informe sin aviso porque la suscripción siempre elimina los requisitos de divulgación.",
+        "rationale": "Es incorrecta porque la finalidad permisible permite obtener el informe, pero no elimina los avisos exigidos."
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Las entrevistas personales sobre reputación, características o estilo de vida constituyen un informe investigativo del consumidor y activan las reglas de aviso de tres días y divulgación de cinco días.",
+    "keyTerms": [
+      {
+        "es": "informe investigativo del consumidor",
+        "en": "investigative consumer report"
+      },
+      {
+        "es": "divulgación",
+        "en": "disclosure"
+      }
+    ],
+    "source": {
+      "file": "G3- Texas P&C Domain G3 Research.es.md",
+      "section": "Q. Fair Credit Reporting Act (FCRA)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G3-Q020",
+    "domain": "G3",
+    "subtopic": "Finalidad permisible de la FCRA",
+    "difficulty": "intermedia",
+    "stem": "Una aseguradora solicita a una CRA el informe de una persona que no ha pedido cobertura, únicamente para preparar una lista general de posibles clientes. Según el paquete, ¿cuál es el problema principal?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La CRA solo puede entregar informes después de una pérdida asegurada.",
+        "rationale": "Es incorrecta porque un informe puede utilizarse legítimamente durante la suscripción, antes de cualquier pérdida."
+      },
+      {
+        "id": "B",
+        "text": "Los informes del consumidor nunca pueden utilizarse para seguros de propiedad.",
+        "rationale": "Es incorrecta porque la FCRA permite utilizarlos con una finalidad válida de suscripción."
+      },
+      {
+        "id": "C",
+        "text": "No existe la finalidad permisible de suscribir una póliza que involucre a ese consumidor.",
+        "rationale": "Es correcta porque la mera elaboración de una lista comercial no es la finalidad de suscripción descrita en el paquete."
+      },
+      {
+        "id": "D",
+        "text": "La solicitud es válida si la aseguradora promete no cobrar una prima superior.",
+        "rationale": "Es incorrecta porque la existencia de una finalidad permisible no depende de una promesa sobre la tarifa."
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "La CRA puede proporcionar el informe cuando el asegurador pretende usarlo para suscribir una póliza que involucre al consumidor; el supuesto no presenta esa finalidad.",
+    "keyTerms": [
+      {
+        "es": "finalidad permisible",
+        "en": "permissible purpose"
+      },
+      {
+        "es": "agencia de informes del consumidor",
+        "en": "consumer reporting agency"
+      }
+    ],
+    "source": {
+      "file": "G3- Texas P&C Domain G3 Research.es.md",
+      "section": "Q. Fair Credit Reporting Act (FCRA)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G3-Q021",
+    "domain": "G3",
+    "subtopic": "Consumidor y cliente conforme a la GLBA",
+    "difficulty": "basica",
+    "stem": "Una persona proporciona información personal no pública al solicitar una póliza para su hogar, pero decide no comprarla. ¿Cómo se clasifica conforme a la GLBA?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cliente, porque presentó una solicitud completa",
+        "rationale": "Es incorrecta porque un cliente debe establecer una relación formal y continua con el asegurador."
+      },
+      {
+        "id": "B",
+        "text": "Tercero afiliado, porque no compró la póliza",
+        "rationale": "Es incorrecta porque su relación con el asegurador no la convierte en una entidad afiliada."
+      },
+      {
+        "id": "C",
+        "text": "Asegurado adicional, porque entregó datos personales",
+        "rationale": "Es incorrecta porque la entrega de datos no incorpora a la persona a una póliza mediante endoso."
+      },
+      {
+        "id": "D",
+        "text": "Consumidor, pero no cliente",
+        "rationale": "Es correcta porque buscó un producto personal y proporcionó NPI, pero no estableció una relación continua."
+      }
+    ],
+    "correctOption": "D",
+    "explanation": "La GLBA considera consumidor al solicitante que proporciona NPI para buscar un producto personal, aunque no llegue a convertirse en titular de una póliza.",
+    "keyTerms": [
+      {
+        "es": "consumidor",
+        "en": "consumer"
+      },
+      {
+        "es": "cliente",
+        "en": "customer"
+      },
+      {
+        "es": "información personal no pública",
+        "en": "nonpublic personal information"
+      }
+    ],
+    "source": {
+      "file": "G3- Texas P&C Domain G3 Research.es.md",
+      "section": "R. Protección de la privacidad (Gramm-Leach-Bliley Act \\- GLBA)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G3-Q022",
+    "domain": "G3",
+    "subtopic": "Excepciones operativas de la GLBA",
+    "difficulty": "intermedia",
+    "stem": "Para investigar una reclamación cubierta, un asegurador entrega a un ajustador externo no afiliado los datos de la solicitud y el historial de pérdidas pertinentes. ¿Qué regla de la GLBA corresponde?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Puede compartirlos sin ofrecer exclusión voluntaria porque la divulgación es necesaria para administrar la transacción solicitada.",
+        "rationale": "Es correcta porque la tramitación de reclamaciones es una excepción operativa expresa al requisito de exclusión voluntaria."
+      },
+      {
+        "id": "B",
+        "text": "Debe obtener siempre autorización judicial antes de compartir cualquier NPI.",
+        "rationale": "Es incorrecta porque el paquete no exige autorización judicial para administrar una reclamación."
+      },
+      {
+        "id": "C",
+        "text": "Debe convertir al ajustador en asegurado adicional antes de revelar los datos.",
+        "rationale": "Es incorrecta porque la condición de asegurado adicional no regula el intercambio operativo de NPI."
+      },
+      {
+        "id": "D",
+        "text": "La divulgación está absolutamente prohibida por tratarse de un tercero no afiliado.",
+        "rationale": "Es incorrecta porque la GLBA permite ciertas divulgaciones operativas a terceros no afiliados."
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "La GLBA exceptúa del mecanismo de exclusión voluntaria las divulgaciones necesarias para efectuar, administrar o hacer cumplir una transacción solicitada, incluida la tramitación de reclamaciones.",
+    "keyTerms": [
+      {
+        "es": "excepción operativa",
+        "en": "operational exception"
+      },
+      {
+        "es": "exclusión voluntaria",
+        "en": "opt-out"
+      }
+    ],
+    "source": {
+      "file": "G3- Texas P&C Domain G3 Research.es.md",
+      "section": "R. Protección de la privacidad (Gramm-Leach-Bliley Act \\- GLBA)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G3-Q023",
+    "domain": "G3",
+    "subtopic": "Salvaguardias de información conforme a la GLBA",
+    "difficulty": "basica",
+    "stem": "Una aseguradora diseña controles administrativos, técnicos y físicos para impedir accesos no autorizados a los registros de sus clientes. ¿Qué obligación está cumpliendo?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La regla de contribución por partes iguales",
+        "rationale": "Es incorrecta porque esa regla distribuye pérdidas entre aseguradores y no protege datos."
+      },
+      {
+        "id": "B",
+        "text": "La Safeguards Rule de la GLBA",
+        "rationale": "Es correcta porque exige salvaguardias administrativas, técnicas y físicas para proteger los registros."
+      },
+      {
+        "id": "C",
+        "text": "La condición de avalúo",
+        "rationale": "Es incorrecta porque el avalúo determina el monto de una pérdida de propiedad."
+      },
+      {
+        "id": "D",
+        "text": "La cláusula hipotecaria estándar",
+        "rationale": "Es incorrecta porque esa cláusula protege el interés financiero de un acreedor hipotecario."
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "La Safeguards Rule obliga a las entidades aseguradoras a proteger los registros de clientes contra accesos no autorizados y vulneraciones de seguridad.",
+    "keyTerms": [
+      {
+        "es": "regla de salvaguardias",
+        "en": "Safeguards Rule"
+      },
+      {
+        "es": "acceso no autorizado",
+        "en": "unauthorized access"
+      }
+    ],
+    "source": {
+      "file": "G3- Texas P&C Domain G3 Research.es.md",
+      "section": "R. Protección de la privacidad (Gramm-Leach-Bliley Act \\- GLBA)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G3-Q024",
+    "domain": "G3",
+    "subtopic": "Primer asegurado nombrado",
+    "difficulty": "basica",
+    "stem": "Una póliza comercial enumera primero a Compañía Alfa y después a Compañía Beta. Beta solicita directamente un cambio en los límites sin autorización de Alfa. ¿Quién posee normalmente la autoridad contractual para solicitar el cambio?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cualquier empleado de Beta",
+        "rationale": "Es incorrecta porque ser empleado de otra entidad nombrada no concede la autoridad particular del primer asegurado nombrado."
+      },
+      {
+        "id": "B",
+        "text": "El acreedor hipotecario",
+        "rationale": "Es incorrecta porque el interés del acreedor hipotecario no le concede autoridad general para modificar la póliza."
+      },
+      {
+        "id": "C",
+        "text": "Compañía Alfa, como primer asegurado nombrado",
+        "rationale": "Es correcta porque el primer asegurado nombrado es el agente autorizado para solicitar cambios en la póliza comercial."
+      },
+      {
+        "id": "D",
+        "text": "El tasador elegido para una reclamación",
+        "rationale": "Es incorrecta porque la función del tasador se limita a valorar una pérdida en un procedimiento de avalúo."
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "En una póliza comercial, el primer asegurado nombrado tiene derechos y deberes particulares, incluida la autoridad para solicitar modificaciones.",
+    "keyTerms": [
+      {
+        "es": "primer asegurado nombrado",
+        "en": "first named insured"
+      },
+      {
+        "es": "cambio de póliza",
+        "en": "policy change"
+      }
+    ],
+    "source": {
+      "file": "G3- Texas P&C Domain G3 Research.es.md",
+      "section": "E. Definición del asegurado"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G3-Q025",
+    "domain": "G3",
+    "subtopic": "Precedencia de los endosos",
+    "difficulty": "intermedia",
+    "stem": "El formulario base excluye daños por granizo, pero un endoso adjunto, adquirido por prima adicional, concede expresamente cobertura para ese riesgo. Posteriormente, el granizo daña el edificio. ¿Qué texto controla la reclamación?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La exclusión base, porque todo formulario preimpreso prevalece sobre sus modificaciones.",
+        "rationale": "Es incorrecta porque un endoso adjunto puede sustituir el lenguaje incompatible del formulario base."
+      },
+      {
+        "id": "B",
+        "text": "Las Declaraciones, aunque no describan el riesgo de granizo.",
+        "rationale": "Es incorrecta porque las Declaraciones personalizan datos del riesgo, pero no desplazan por sí solas el texto específico del endoso."
+      },
+      {
+        "id": "C",
+        "text": "La solicitud, aunque no haya sido incorporada a la póliza.",
+        "rationale": "Es incorrecta porque una solicitud no incorporada no controla sobre una modificación contractual adjunta."
+      },
+      {
+        "id": "D",
+        "text": "El endoso, porque modifica y prevalece sobre el lenguaje estándar incompatible.",
+        "rationale": "Es correcta porque el endoso adjunto reemplaza la exclusión base respecto del riesgo expresamente añadido."
+      }
+    ],
+    "correctOption": "D",
+    "explanation": "Los endosos modifican el contrato base y tienen precedencia sobre las disposiciones estándar incompatibles.",
+    "keyTerms": [
+      {
+        "es": "endoso",
+        "en": "endorsement"
+      },
+      {
+        "es": "precedencia contractual",
+        "en": "contractual precedence"
+      }
+    ],
+    "source": {
+      "file": "G3- Texas P&C Domain G3 Research.es.md",
+      "section": "Escenario 2: Exclusión modificada mediante endoso"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G3-Q026",
+    "domain": "G3",
+    "subtopic": "Deber de mitigación",
+    "difficulty": "intermedia",
+    "stem": "Una tubería cubierta se rompe y deja una abertura por la que continúa entrando agua. Antes de la inspección, ¿qué conducta cumple mejor los deberes posteriores a la pérdida?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Tomar medidas razonables para evitar daños adicionales y conservar registros de los gastos.",
+        "rationale": "Es correcta porque la póliza exige proteger los bienes y documentar los costos razonables de mitigación."
+      },
+      {
+        "id": "B",
+        "text": "Dejar intacta la abertura aunque el daño siga aumentando.",
+        "rationale": "Es incorrecta porque el asegurado debe adoptar medidas razonables para proteger los bienes contra daños adicionales."
+      },
+      {
+        "id": "C",
+        "text": "Transferir inmediatamente la propiedad dañada al ajustador.",
+        "rationale": "Es incorrecta porque la mitigación no transfiere el título de los bienes al ajustador."
+      },
+      {
+        "id": "D",
+        "text": "Esperar sesenta días antes de avisar o proteger el inmueble.",
+        "rationale": "Es incorrecta porque el aviso debe ser oportuno y la protección contra daños adicionales no debe aplazarse."
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "El asegurado debe limitar razonablemente el agravamiento de la pérdida y mantener registros detallados de los gastos de protección o reparación.",
+    "keyTerms": [
+      {
+        "es": "mitigación",
+        "en": "mitigation"
+      },
+      {
+        "es": "daños adicionales",
+        "en": "further damage"
+      }
+    ],
+    "source": {
+      "file": "G3- Texas P&C Domain G3 Research.es.md",
+      "section": "F. Deberes del asegurado"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G3-Q027",
+    "domain": "G3",
+    "subtopic": "Pago oportuno de reclamaciones",
+    "difficulty": "avanzada",
+    "stem": "Un asegurador ordinario de Texas comunica por escrito que acepta una reclamación cubierta. Salvo una excepción aplicable, ¿qué plazo y consecuencia corresponden si demora injustificadamente el pago?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Quince días calendario; pérdida automática de la licencia.",
+        "rationale": "Es incorrecta porque el plazo posterior a la aceptación no es de quince días calendario y el paquete no establece pérdida automática de licencia."
+      },
+      {
+        "id": "B",
+        "text": "Cinco días hábiles; el incumplimiento puede generar interés anual del 18% y honorarios razonables de abogados.",
+        "rationale": "Es correcta porque la TPPCA exige el pago ordinario dentro de cinco días hábiles y establece esas consecuencias por incumplimiento."
+      },
+      {
+        "id": "C",
+        "text": "Treinta días calendario; únicamente devolución de la prima.",
+        "rationale": "Es incorrecta porque treinta días se relacionan con ciertas decisiones por sospecha de incendio provocado, no con el pago de una reclamación aceptada."
+      },
+      {
+        "id": "D",
+        "text": "Sesenta días; duplicación automática de la indemnización.",
+        "rationale": "Es incorrecta porque sesenta días suele ser el plazo contractual del comprobante solicitado, no el plazo de pago."
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Después de aceptar la reclamación, un asegurador ordinario debe pagar dentro de cinco días hábiles. El pago tardío puede generar interés del 18% anual más honorarios razonables de abogados.",
+    "keyTerms": [
+      {
+        "es": "pago oportuno",
+        "en": "prompt payment"
+      },
+      {
+        "es": "interés legal",
+        "en": "statutory interest"
+      }
+    ],
+    "source": {
+      "file": "G3- Texas P&C Domain G3 Research.es.md",
+      "section": "G. Obligaciones de la compañía de seguros"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G3-Q028",
+    "domain": "G3",
+    "subtopic": "Otros seguros con cláusulas excedentes en conflicto",
+    "difficulty": "avanzada",
+    "stem": "Dos pólizas cubren una pérdida de $90,000 sobre el mismo interés. Cada una tiene límite de $150,000 y cada cláusula declara que su cobertura es excedente de cualquier otro seguro cobrable. Conforme al enfoque descrito para Texas, ¿cómo se asigna la pérdida?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La póliza emitida primero paga los $90,000.",
+        "rationale": "Es incorrecta porque la fecha de emisión no resuelve el conflicto entre cláusulas excedentes mutuamente incompatibles."
+      },
+      {
+        "id": "B",
+        "text": "Ninguna póliza paga porque ambas son excedentes.",
+        "rationale": "Es incorrecta porque descartar ambas coberturas frustraría la indemnización de una pérdida cubierta."
+      },
+      {
+        "id": "C",
+        "text": "Se descartan las cláusulas excedentes incompatibles y cada póliza paga $45,000.",
+        "rationale": "Es correcta porque los límites son iguales, de modo que la distribución proporcional asigna el 50% a cada póliza."
+      },
+      {
+        "id": "D",
+        "text": "Cada póliza paga $90,000 y el asegurado conserva ambas cantidades.",
+        "rationale": "Es incorrecta porque permitir una recuperación doble violaría el principio de indemnización."
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Cuando dos cláusulas excedentes se contradicen, se consideran mutuamente incompatibles y la pérdida se comparte proporcionalmente. Con límites iguales, cada asegurador paga la mitad.",
+    "keyTerms": [
+      {
+        "es": "cláusulas excedentes en conflicto",
+        "en": "conflicting excess clauses"
+      },
+      {
+        "es": "contribución proporcional",
+        "en": "pro rata contribution"
+      }
+    ],
+    "source": {
+      "file": "G3- Texas P&C Domain G3 Research.es.md",
+      "section": "Ejemplo resuelto 3: Disposiciones excedentes en conflicto (cláusulas mutuamente incompatibles)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G3-Q029",
+    "domain": "G3",
+    "subtopic": "Parámetros financieros de la TRIA",
+    "difficulty": "avanzada",
+    "stem": "Un acto certificado supera el evento activador agregado del programa. El deducible TRIA de un asegurador es de $30 millones y sus pérdidas cubiertas por el acto son de $80 millones. Sin considerar el límite máximo del programa, ¿cuál es la participación federal sobre las pérdidas que exceden el deducible?",
+    "options": [
+      {
+        "id": "A",
+        "text": "$10 millones",
+        "rationale": "Es incorrecta porque representa el copago del 20% del asegurador sobre los $50 millones que exceden el deducible."
+      },
+      {
+        "id": "B",
+        "text": "$16 millones",
+        "rationale": "Es incorrecta porque aplica el 20% a la pérdida total de $80 millones en vez de aplicar la participación federal al exceso sobre el deducible."
+      },
+      {
+        "id": "C",
+        "text": "$50 millones",
+        "rationale": "Es incorrecta porque esa es la pérdida que excede el deducible, antes de aplicar el porcentaje federal."
+      },
+      {
+        "id": "D",
+        "text": "$40 millones",
+        "rationale": "Es correcta porque $80 millones menos $30 millones dejan $50 millones, y el 80% federal equivale a $40 millones."
+      }
+    ],
+    "correctOption": "D",
+    "explanation": "Una vez satisfecho el deducible del asegurador, el gobierno federal reembolsa el 80% de las pérdidas cubiertas excedentes: $50 millones por 80% equivalen a $40 millones.",
+    "keyTerms": [
+      {
+        "es": "deducible del asegurador",
+        "en": "insurer deductible"
+      },
+      {
+        "es": "participación federal",
+        "en": "federal share"
+      },
+      {
+        "es": "evento activador",
+        "en": "program trigger"
+      }
+    ],
+    "source": {
+      "file": "G3- Texas P&C Domain G3 Research.es.md",
+      "section": "T. Terrorism Risk Insurance Act (TRIA)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G3-Q030",
+    "domain": "G3",
+    "subtopic": "Solicitud y contrato provisional",
+    "difficulty": "basica",
+    "stem": "Un agente autorizado entrega un documento que proporciona cobertura temporal inmediata mientras el suscriptor prepara la póliza definitiva. ¿Qué instrumento entregó?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Un contrato provisional",
+        "rationale": "Es correcta porque el binder es un contrato temporal que concede cobertura inmediata y condicional mientras se emite la póliza."
+      },
+      {
+        "id": "B",
+        "text": "Una solicitud",
+        "rationale": "Es incorrecta porque la solicitud es una oferta informativa y por sí sola no concede cobertura."
+      },
+      {
+        "id": "C",
+        "text": "Un informe C.U.E.",
+        "rationale": "Es incorrecta porque un informe C.U.E. proporciona historial de reclamaciones para la suscripción y no crea cobertura."
+      },
+      {
+        "id": "D",
+        "text": "Un comprobante de pérdida",
+        "rationale": "Es incorrecta porque el comprobante de pérdida es una declaración jurada presentada después de un siniestro."
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "El contrato provisional es distinto de la solicitud: crea cobertura temporal mientras se completa y emite la póliza definitiva.",
+    "keyTerms": [
+      {
+        "es": "contrato provisional",
+        "en": "binder"
+      },
+      {
+        "es": "cobertura temporal",
+        "en": "temporary coverage"
+      }
+    ],
+    "source": {
+      "file": "G3- Texas P&C Domain G3 Research.es.md",
+      "section": "S. Solicitud de póliza"
+    },
+    "reviewStatus": "pending_expert_review"
   }
 ]

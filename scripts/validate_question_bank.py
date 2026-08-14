@@ -8,7 +8,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 BANK = ROOT / "question-bank"
 SOURCES = ROOT / "sources"
-EXPECTED = {"G1": 22, "G2": 15, "G3": 13, "G4": 23, "G5": 15, "G6": 12, "TX1": 18, "TX2": 12}
+EXPECTED = {"G1": 51, "G2": 35, "G3": 30, "G4": 53, "G5": 35, "G6": 28, "TX1": 41, "TX2": 27}
 OPTION_IDS = ["A", "B", "C", "D"]
 DIFFICULTIES = {"basica", "intermedia", "avanzada"}
 ID_PATTERN = re.compile(r"^(G[1-6]|TX[12])-Q\d{3}$")
@@ -31,6 +31,10 @@ for domain, expected_count in EXPECTED.items():
         continue
     if len(payload) != expected_count:
         errors.append(f"{path.name}: se esperaban {expected_count} preguntas y hay {len(payload)}")
+    expected_ids = [f"{domain}-Q{number:03d}" for number in range(1, expected_count + 1)]
+    actual_ids = [item.get("id") for item in payload if isinstance(item, dict)]
+    if actual_ids != expected_ids:
+        errors.append(f"{path.name}: los ID deben ser consecutivos del 001 al {expected_count:03d}")
     questions.extend(payload)
 
 seen_ids = set()

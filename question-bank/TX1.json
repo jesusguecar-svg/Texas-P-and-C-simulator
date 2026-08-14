@@ -826,5 +826,1063 @@
       "section": "4.5 Prácticas de mercadotecnia y normas contra prácticas comerciales desleales"
     },
     "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "TX1-Q019",
+    "domain": "TX1",
+    "subtopic": "Exámenes regulatorios de aseguradoras",
+    "difficulty": "basica",
+    "stem": "El TDI programa la revisión financiera rutinaria de una aseguradora constituida en Texas. ¿Qué regla general se aplica a este examen?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Debe realizarse por lo menos una vez cada cinco años, y la aseguradora examinada asume su costo.",
+        "rationale": "Correcta. El TDI debe examinar la situación financiera de las aseguradoras nacionales por lo menos cada cinco años, con los costos a cargo de la aseguradora examinada."
+      },
+      {
+        "id": "B",
+        "text": "Debe realizarse cada dos años, y el TDI asume su costo.",
+        "rationale": "Incorrecta. El ciclo bienal corresponde generalmente a licencias de productores, no al examen financiero rutinario de aseguradoras."
+      },
+      {
+        "id": "C",
+        "text": "Solo puede realizarse después de una queja formal de un asegurado.",
+        "rationale": "Incorrecta. El examen financiero periódico no depende de la presentación previa de una queja."
+      },
+      {
+        "id": "D",
+        "text": "Puede realizarse cada diez años si la aseguradora conserva sus propios informes.",
+        "rationale": "Incorrecta. Los informes internos no sustituyen la frecuencia mínima quinquenal indicada en el paquete."
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "Las aseguradoras nacionales están sujetas a exámenes financieros del TDI por lo menos una vez cada cinco años. Los examinadores tienen acceso a sus registros y el costo se carga a la entidad examinada.",
+    "keyTerms": [
+      {
+        "es": "examen financiero",
+        "en": "financial examination"
+      },
+      {
+        "es": "aseguradora nacional",
+        "en": "domestic insurer"
+      }
+    ],
+    "source": {
+      "file": "TX1 - Texas P&C Insurance Research Plan.es.md",
+      "section": "4.1 Autoridad y aplicación por el Commissioner"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "TX1-Q020",
+    "domain": "TX1",
+    "subtopic": "Audiencias administrativas",
+    "difficulty": "intermedia",
+    "stem": "El TDI pretende celebrar una audiencia administrativa impugnada para suspender una licencia. ¿Qué debe contener y cuándo debe entregarse normalmente la notificación al demandado?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Solo la fecha de la audiencia, entregada cinco días hábiles antes.",
+        "rationale": "Incorrecta. La notificación requiere más información que la fecha y debe respetar un plazo mínimo mayor."
+      },
+      {
+        "id": "B",
+        "text": "La hora, el lugar, la autoridad legal y las alegaciones fácticas, por lo menos diez días antes.",
+        "rationale": "Correcta. Esos son los elementos y el plazo mínimo de notificación señalados para una audiencia administrativa ordinaria."
+      },
+      {
+        "id": "C",
+        "text": "Únicamente las alegaciones generales, entregadas después de que el ALJ emita su decisión.",
+        "rationale": "Incorrecta. La notificación debe preceder a la audiencia y describir las alegaciones específicas."
+      },
+      {
+        "id": "D",
+        "text": "Una orden definitiva del Commissioner, entregada treinta días después de la audiencia.",
+        "rationale": "Incorrecta. Una orden definitiva posterior no sustituye la notificación previa exigida por el debido proceso."
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "En un caso impugnado ordinario, el TDI debe dar aviso escrito al menos diez días antes e indicar la hora, el lugar, la autoridad legal y las alegaciones fácticas específicas.",
+    "keyTerms": [
+      {
+        "es": "notificación de audiencia",
+        "en": "hearing notice"
+      },
+      {
+        "es": "alegaciones fácticas",
+        "en": "factual allegations"
+      }
+    ],
+    "source": {
+      "file": "TX1 - Texas P&C Insurance Research Plan.es.md",
+      "section": "4.1 Autoridad y aplicación por el Commissioner"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "TX1-Q021",
+    "domain": "TX1",
+    "subtopic": "Procedimiento ante la SOAH",
+    "difficulty": "intermedia",
+    "stem": "Después de una audiencia impugnada sobre la revocación de una licencia, ¿qué función corresponde al Administrative Law Judge de la SOAH?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Expedir un Certificate of Authority a la parte vencedora.",
+        "rationale": "Incorrecta. Un Certificate of Authority es un permiso para aseguradoras y no constituye el resultado de una audiencia disciplinaria de productores."
+      },
+      {
+        "id": "B",
+        "text": "Imponer directamente una multa penal sin intervención adicional.",
+        "rationale": "Incorrecta. El paquete describe una propuesta de decisión administrativa, no la imposición directa de una sanción penal por el ALJ."
+      },
+      {
+        "id": "C",
+        "text": "Emitir una Proposal for Decision para que el Commissioner dicte la orden definitiva.",
+        "rationale": "Correcta. El ALJ celebra la audiencia y remite una Proposal for Decision al Commissioner."
+      },
+      {
+        "id": "D",
+        "text": "Renovar automáticamente la licencia mientras se resuelve el caso.",
+        "rationale": "Incorrecta. La función del ALJ no incluye renovar automáticamente la licencia objeto del procedimiento."
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Los casos impugnados se oyen ante un ALJ de la SOAH. El ALJ emite una Proposal for Decision, sobre cuya base el Commissioner dicta la orden definitiva.",
+    "keyTerms": [
+      {
+        "es": "juez de derecho administrativo",
+        "en": "administrative law judge"
+      },
+      {
+        "es": "propuesta de decisión",
+        "en": "proposal for decision"
+      }
+    ],
+    "source": {
+      "file": "TX1 - Texas P&C Insurance Research Plan.es.md",
+      "section": "4.1 Autoridad y aplicación por el Commissioner"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "TX1-Q022",
+    "domain": "TX1",
+    "subtopic": "Multas administrativas",
+    "difficulty": "avanzada",
+    "stem": "Una entidad comete una infracción aislada, sin daño económico al público, la comunica voluntariamente y la corrige de buena fe. Al determinar la sanción, ¿qué actuación concuerda mejor con el paquete?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Imponer obligatoriamente $25,000 porque toda infracción exige la multa máxima.",
+        "rationale": "Incorrecta. $25,000 es el máximo autorizado, no una cuantía obligatoria para toda infracción."
+      },
+      {
+        "id": "B",
+        "text": "Revocar automáticamente todas las licencias relacionadas, sin considerar mitigantes.",
+        "rationale": "Incorrecta. Las sanciones no son automáticamente idénticas y deben valorarse los factores legales pertinentes."
+      },
+      {
+        "id": "C",
+        "text": "Descartar la infracción porque la corrección voluntaria elimina toda responsabilidad.",
+        "rationale": "Incorrecta. La subsanación de buena fe es un factor mitigante, pero no borra necesariamente la infracción."
+      },
+      {
+        "id": "D",
+        "text": "Considerar una multa nominal o amonestación a la luz de la gravedad, el daño, el historial y la subsanación.",
+        "rationale": "Correcta. El importe debe considerar esos factores, por lo que las circunstancias descritas pueden justificar una sanción inferior al máximo."
+      }
+    ],
+    "correctOption": "D",
+    "explanation": "El Commissioner puede imponer hasta $25,000 por infracción o por cada día de continuación, pero debe considerar la gravedad, el peligro económico, el historial, la culpabilidad y los esfuerzos de buena fe.",
+    "keyTerms": [
+      {
+        "es": "multa administrativa",
+        "en": "administrative penalty"
+      },
+      {
+        "es": "factores mitigantes",
+        "en": "mitigating factors"
+      }
+    ],
+    "source": {
+      "file": "TX1 - Texas P&C Insurance Research Plan.es.md",
+      "section": "4.1 Autoridad y aplicación por el Commissioner"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "TX1-Q023",
+    "domain": "TX1",
+    "subtopic": "Órdenes de cese y desistimiento",
+    "difficulty": "intermedia",
+    "stem": "El Commissioner concluye que una operación de seguros está causando un daño público inminente e irreparable. ¿Qué medida puede adoptar sin notificación ni audiencia previa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Una orden de emergencia de cese y desistimiento expedida ex parte.",
+        "rationale": "Correcta. El peligro público inminente e irreparable permite emitir una orden de emergencia ex parte."
+      },
+      {
+        "id": "B",
+        "text": "Una orden ordinaria de cese y desistimiento después de una audiencia completa.",
+        "rationale": "Incorrecta. Esa vía requiere notificación y audiencia y no responde a la pregunta sobre actuación inmediata sin trámite previo."
+      },
+      {
+        "id": "C",
+        "text": "Una licencia temporal para supervisar la operación.",
+        "rationale": "Incorrecta. Una licencia temporal autoriza provisionalmente a ciertos productores; no es una medida para detener daño público."
+      },
+      {
+        "id": "D",
+        "text": "Una renovación condicionada del Certificate of Authority.",
+        "rationale": "Incorrecta. La medida inmediata descrita es una orden de emergencia, no una renovación de autorización."
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "Una Emergency Cease and Desist Order puede emitirse ex parte cuando la conducta causa o previsiblemente causará daño público inminente e irreparable o insolvencia.",
+    "keyTerms": [
+      {
+        "es": "orden de emergencia",
+        "en": "emergency order"
+      },
+      {
+        "es": "ex parte",
+        "en": "ex parte"
+      }
+    ],
+    "source": {
+      "file": "TX1 - Texas P&C Insurance Research Plan.es.md",
+      "section": "4.1 Autoridad y aplicación por el Commissioner"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "TX1-Q024",
+    "domain": "TX1",
+    "subtopic": "Realización de operaciones de seguro",
+    "difficulty": "basica",
+    "stem": "Una empresa sin licencia no expide pólizas, pero cobra primas de residentes de Texas en nombre de una aseguradora. Según el paquete, ¿cómo se caracteriza esa actividad?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Como mera contabilidad, porque la empresa no negocia coberturas.",
+        "rationale": "Incorrecta. La recepción de primas está expresamente incluida entre los actos de realizar operaciones de seguro."
+      },
+      {
+        "id": "B",
+        "text": "Como realización de operaciones de seguro en Texas.",
+        "rationale": "Correcta. Cobrar o recibir primas constituye transacting insurance aunque la entidad no expida directamente la póliza."
+      },
+      {
+        "id": "C",
+        "text": "Como administración de riesgos por honorarios.",
+        "rationale": "Incorrecta. La administración de riesgos consiste en evaluar exposiciones y asesorar, no en cobrar primas."
+      },
+      {
+        "id": "D",
+        "text": "Como una referencia permitida de clientes potenciales.",
+        "rationale": "Incorrecta. Cobrar primas es una función aseguradora sustantiva, no una simple referencia."
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "TIC § 101.051 incluye entre los actos de realizar operaciones de seguro el cobro o recepción de primas, cuotas de afiliación o aportaciones.",
+    "keyTerms": [
+      {
+        "es": "realizar operaciones de seguro",
+        "en": "transacting insurance"
+      },
+      {
+        "es": "cobro de primas",
+        "en": "collection of premiums"
+      }
+    ],
+    "source": {
+      "file": "TX1 - Texas P&C Insurance Research Plan.es.md",
+      "section": "4.2 Definiciones de entidades aseguradoras y del mercado"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "TX1-Q025",
+    "domain": "TX1",
+    "subtopic": "Aseguradoras por acciones y mutuales",
+    "difficulty": "basica",
+    "stem": "Una compañía pertenece a sus asegurados, quienes eligen a la administración y pueden recibir dividendos de póliza cuando existe excedente operativo. ¿Qué estructura describe?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Aseguradora por acciones.",
+        "rationale": "Incorrecta. Una aseguradora por acciones pertenece a accionistas, no a los asegurados."
+      },
+      {
+        "id": "B",
+        "text": "Texas Lloyds Plan.",
+        "rationale": "Incorrecta. Un Texas Lloyds Plan es un grupo no constituido en sociedad de suscriptores que opera mediante un apoderado."
+      },
+      {
+        "id": "C",
+        "text": "Aseguradora mutual.",
+        "rationale": "Correcta. La propiedad de los asegurados y la posibilidad de dividendos de póliza caracterizan a una mutual."
+      },
+      {
+        "id": "D",
+        "text": "Agencia como entidad comercial.",
+        "rationale": "Incorrecta. Una agencia vende o presta servicios de seguros; no es la estructura aseguradora descrita."
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Las aseguradoras mutuales pertenecen a sus asegurados y suelen expedir pólizas participantes, cuyos titulares pueden recibir dividendos cuando existen excedentes.",
+    "keyTerms": [
+      {
+        "es": "aseguradora mutual",
+        "en": "mutual insurer"
+      },
+      {
+        "es": "póliza participante",
+        "en": "participating policy"
+      }
+    ],
+    "source": {
+      "file": "TX1 - Texas P&C Insurance Research Plan.es.md",
+      "section": "4.2 Definiciones de entidades aseguradoras y del mercado"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "TX1-Q026",
+    "domain": "TX1",
+    "subtopic": "Texas Lloyds Plan",
+    "difficulty": "intermedia",
+    "stem": "Varios suscriptores individuales se agrupan sin constituir una sociedad y formalizan seguros mediante un apoderado designado. ¿Cuál es la clasificación correcta?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Aseguradora mutual administrada directamente por todos los asegurados.",
+        "rationale": "Incorrecta. La estructura descrita se basa en suscriptores individuales y un Attorney-in-Fact, no en propiedad mutual de los asegurados."
+      },
+      {
+        "id": "B",
+        "text": "Aseguradora por acciones con pólizas no participantes.",
+        "rationale": "Incorrecta. No se mencionan accionistas ni capital social."
+      },
+      {
+        "id": "C",
+        "text": "Agencia corporativa con una fianza de responsabilidad financiera.",
+        "rationale": "Incorrecta. Una agencia corporativa es una entidad productora, no un grupo de suscriptores que asume riesgos."
+      },
+      {
+        "id": "D",
+        "text": "Texas Lloyds Plan operado mediante un Attorney-in-Fact.",
+        "rationale": "Correcta. Es la estructura organizativa definida para un Texas Lloyds Plan."
+      }
+    ],
+    "correctOption": "D",
+    "explanation": "Un Texas Lloyds Plan es un grupo no constituido en sociedad de suscriptores individuales que formaliza pólizas mediante un Attorney-in-Fact; cada miembro responde por su proporción especificada del riesgo.",
+    "keyTerms": [
+      {
+        "es": "Texas Lloyds Plan",
+        "en": "Texas Lloyds Plan"
+      },
+      {
+        "es": "apoderado",
+        "en": "attorney-in-fact"
+      }
+    ],
+    "source": {
+      "file": "TX1 - Texas P&C Insurance Research Plan.es.md",
+      "section": "4.2 Definiciones de entidades aseguradoras y del mercado"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "TX1-Q027",
+    "domain": "TX1",
+    "subtopic": "Protección de garantía para aseguradoras",
+    "difficulty": "intermedia",
+    "stem": "Dos empresas aseguran riesgos de Texas: una posee un Certificate of Authority activo y la otra participa como aseguradora elegible de líneas excedentes. ¿Qué diferencia señala el paquete respecto de la protección por insolvencia?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La póliza de la aseguradora admitida puede estar protegida por la asociación estatal de garantía; la de líneas excedentes no está respaldada por ese fondo.",
+        "rationale": "Correcta. El respaldo de la Texas Property and Casualty Insurance Guaranty Association se vincula al mercado admitido, no a las líneas excedentes."
+      },
+      {
+        "id": "B",
+        "text": "Ambas pólizas reciben idéntica protección porque cubren riesgos situados en Texas.",
+        "rationale": "Incorrecta. La ubicación del riesgo no extiende el fondo de garantía a las pólizas de líneas excedentes."
+      },
+      {
+        "id": "C",
+        "text": "Solo la póliza de líneas excedentes recibe protección por tratarse de un riesgo especializado.",
+        "rationale": "Incorrecta. El paquete establece expresamente que las colocaciones de líneas excedentes no están respaldadas por fondos estatales de garantía."
+      },
+      {
+        "id": "D",
+        "text": "Ninguna recibe protección porque el Certificate of Authority solo regula a los agentes.",
+        "rationale": "Incorrecta. El Certificate of Authority se expide a aseguradoras, y la condición admitida se relaciona con la protección de garantía descrita."
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "Las aseguradoras admitidas poseen un Certificate of Authority y sus asegurados pueden recibir protección de la asociación de garantía. Las pólizas de líneas excedentes no tienen ese respaldo.",
+    "keyTerms": [
+      {
+        "es": "asociación de garantía",
+        "en": "guaranty association"
+      },
+      {
+        "es": "líneas excedentes",
+        "en": "surplus lines"
+      }
+    ],
+    "source": {
+      "file": "TX1 - Texas P&C Insurance Research Plan.es.md",
+      "section": "4.2 Definiciones de entidades aseguradoras y del mercado"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "TX1-Q028",
+    "domain": "TX1",
+    "subtopic": "Licencias no residentes",
+    "difficulty": "intermedia",
+    "stem": "Una productora domiciliada en Oklahoma mantiene en buen estado su licencia de residencia y su estado concede privilegios recíprocos a productores de Texas. ¿Qué tratamiento puede recibir al solicitar una licencia no residente de Texas?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Debe constituir primero una aseguradora nacional en Texas.",
+        "rationale": "Incorrecta. La constitución de una aseguradora no es requisito para la licencia no residente de una productora."
+      },
+      {
+        "id": "B",
+        "text": "Puede quedar exenta del examen de prelicencia de Texas y de los requisitos de CE de Texas por reciprocidad.",
+        "rationale": "Correcta. El paquete reconoce esas exenciones para no residentes calificados cuyo estado concede reciprocidad."
+      },
+      {
+        "id": "C",
+        "text": "Solo puede recibir una licencia temporal no renovable de 90 días.",
+        "rationale": "Incorrecta. La licencia no residente es una categoría distinta de la licencia temporal."
+      },
+      {
+        "id": "D",
+        "text": "Debe renunciar a su licencia de Oklahoma antes de solicitar en Texas.",
+        "rationale": "Incorrecta. Mantener en buen estado la licencia del estado de residencia es precisamente la base de la reciprocidad."
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Un productor no residente con licencia en buen estado puede obtener autorización de Texas mediante reciprocidad. El paquete indica exención del examen y de la CE de Texas cuando el estado de residencia concede privilegios recíprocos.",
+    "keyTerms": [
+      {
+        "es": "agente no residente",
+        "en": "nonresident agent"
+      },
+      {
+        "es": "reciprocidad",
+        "en": "reciprocity"
+      }
+    ],
+    "source": {
+      "file": "TX1 - Texas P&C Insurance Research Plan.es.md",
+      "section": "4.3 Requisitos y tipos de licencias"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "TX1-Q029",
+    "domain": "TX1",
+    "subtopic": "Exención del examen por CPCU",
+    "difficulty": "basica",
+    "stem": "Una solicitante de licencia General Lines P&C posee la designación Chartered Property Casualty Underwriter (CPCU). ¿Qué efecto específico reconoce el paquete?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Queda exenta de toda verificación de antecedentes y de todos los cargos.",
+        "rationale": "Incorrecta. El paquete solo identifica una exención del examen; no elimina todos los demás requisitos."
+      },
+      {
+        "id": "B",
+        "text": "Recibe automáticamente un nombramiento de todas las aseguradoras admitidas.",
+        "rationale": "Incorrecta. La designación profesional no sustituye los nombramientos presentados por aseguradoras específicas."
+      },
+      {
+        "id": "C",
+        "text": "Puede quedar exenta de presentar el examen de licencia aplicable.",
+        "rationale": "Correcta. La designación CPCU constituye una exención legal del examen según el paquete."
+      },
+      {
+        "id": "D",
+        "text": "Obtiene automáticamente una licencia de líneas excedentes.",
+        "rationale": "Incorrecta. La licencia de líneas excedentes requiere una licencia activa de General Lines P&C o de MGA y una solicitud propia."
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "TIC § 4002.003 reconoce a los titulares de la designación CPCU como exentos del examen de licencia, sin convertir esa exención en una dispensa general de los demás requisitos.",
+    "keyTerms": [
+      {
+        "es": "CPCU",
+        "en": "Chartered Property Casualty Underwriter"
+      },
+      {
+        "es": "exención del examen",
+        "en": "examination exemption"
+      }
+    ],
+    "source": {
+      "file": "TX1 - Texas P&C Insurance Research Plan.es.md",
+      "section": "4.3 Requisitos y tipos de licencias"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "TX1-Q030",
+    "domain": "TX1",
+    "subtopic": "Managing General Agent",
+    "difficulty": "avanzada",
+    "stem": "Una aseguradora delega a una entidad la administración de una cartera, incluida autoridad para suscribir, fijar tarifas y ajustar reclamaciones. ¿Qué licencia y fundamento regulatorio corresponden mejor?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Licencia de ajustador, regulada exclusivamente por TIC Chapter 4101.",
+        "rationale": "Incorrecta. Un ajustador gestiona reclamaciones, pero la autoridad amplia sobre una cartera y suscripción corresponde a una MGA."
+      },
+      {
+        "id": "B",
+        "text": "Licencia de administrador de riesgos, regulada por TIC § 4153.051.",
+        "rationale": "Incorrecta. El administrador de riesgos asesora por honorarios y no recibe autoridad para administrar la suscripción de una aseguradora."
+      },
+      {
+        "id": "C",
+        "text": "Licencia limitada de propiedad crediticia, regulada por TIC § 4051.101.",
+        "rationale": "Incorrecta. Una licencia limitada se restringe a productos específicos y no confiere control sobre una cartera."
+      },
+      {
+        "id": "D",
+        "text": "Licencia de MGA, regulada por 28 TAC §§ 19.1201–19.1206 y TIC Chapter 4053.",
+        "rationale": "Correcta. Esas autoridades regulan a las MGA y su delegación de funciones de suscripción y reclamaciones."
+      }
+    ],
+    "correctOption": "D",
+    "explanation": "La autoridad delegada para administrar una cartera, suscribir, fijar tarifas o ajustar reclamaciones caracteriza a una MGA. El paquete aclara que la cita correcta es 28 TAC Chapter 19, junto con TIC Chapter 4053.",
+    "keyTerms": [
+      {
+        "es": "agente general administrador",
+        "en": "managing general agent"
+      },
+      {
+        "es": "autoridad de suscripción",
+        "en": "underwriting authority"
+      }
+    ],
+    "source": {
+      "file": "TX1 - Texas P&C Insurance Research Plan.es.md",
+      "section": "Resumen de hallazgos de la auditoría de citas"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "TX1-Q031",
+    "domain": "TX1",
+    "subtopic": "Elegibilidad para líneas excedentes",
+    "difficulty": "intermedia",
+    "stem": "Un solicitante desea obtener una licencia de Texas Surplus Lines Agent. Actualmente solo posee una licencia de ajustador. ¿Qué requisito previo le falta según el paquete?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Una licencia activa de Texas General Lines P&C o una licencia de MGA.",
+        "rationale": "Correcta. Una de esas licencias activas constituye el requisito previo indicado para solicitar la licencia de líneas excedentes."
+      },
+      {
+        "id": "B",
+        "text": "Un Certificate of Authority expedido a su nombre.",
+        "rationale": "Incorrecta. El Certificate of Authority se expide a aseguradoras, no a agentes individuales."
+      },
+      {
+        "id": "C",
+        "text": "Una licencia limitada de pérdida de empleo.",
+        "rationale": "Incorrecta. Una licencia limitada no aparece como requisito previo para líneas excedentes."
+      },
+      {
+        "id": "D",
+        "text": "Una licencia de emergencia prorrogada por 90 días.",
+        "rationale": "Incorrecta. La licencia de emergencia preserva temporalmente una agencia tras fallecimiento o incapacidad y no satisface el requisito descrito."
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "Para obtener una licencia de líneas excedentes, el solicitante ya debe poseer una licencia activa de Texas General Lines P&C Agent o una licencia de MGA.",
+    "keyTerms": [
+      {
+        "es": "agente de líneas excedentes",
+        "en": "surplus lines agent"
+      },
+      {
+        "es": "requisito previo",
+        "en": "prerequisite"
+      }
+    ],
+    "source": {
+      "file": "TX1 - Texas P&C Insurance Research Plan.es.md",
+      "section": "4.3 Requisitos y tipos de licencias"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "TX1-Q032",
+    "domain": "TX1",
+    "subtopic": "Funciones del ajustador",
+    "difficulty": "basica",
+    "stem": "Una profesional investiga daños, evalúa pérdidas y negocia liquidaciones en nombre de una aseguradora, pero no capta ni vende pólizas. ¿Qué función desempeña?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Agente de líneas generales.",
+        "rationale": "Incorrecta. Un agente de líneas generales tiene autoridad de venta y captación, que el escenario excluye."
+      },
+      {
+        "id": "B",
+        "text": "Ajustadora de seguros.",
+        "rationale": "Correcta. Investigar, evaluar y negociar reclamaciones en nombre de una aseguradora son funciones propias del ajustador."
+      },
+      {
+        "id": "C",
+        "text": "Agente de líneas excedentes.",
+        "rationale": "Incorrecta. Un agente de líneas excedentes coloca coberturas con aseguradoras no admitidas elegibles."
+      },
+      {
+        "id": "D",
+        "text": "Productora con licencia limitada.",
+        "rationale": "Incorrecta. Una productora limitada vende coberturas restringidas; no se define por la liquidación de reclamaciones."
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "El ajustador investiga, evalúa y negocia reclamaciones para la aseguradora. Su licencia es distinta de la licencia del productor y no autoriza la captación o venta de pólizas.",
+    "keyTerms": [
+      {
+        "es": "ajustador",
+        "en": "adjuster"
+      },
+      {
+        "es": "liquidación de reclamaciones",
+        "en": "claims settlement"
+      }
+    ],
+    "source": {
+      "file": "TX1 - Texas P&C Insurance Research Plan.es.md",
+      "section": "4.3 Requisitos y tipos de licencias"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "TX1-Q033",
+    "domain": "TX1",
+    "subtopic": "Modalidad de educación continua",
+    "difficulty": "intermedia",
+    "stem": "Una agente completa las 24 horas de CE y 3 horas de ética durante su ciclo bienal, pero solo 8 horas fueron en aula o formato equivalente aprobado. ¿Cuál es la conclusión correcta?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cumple porque solo importan las 24 horas totales.",
+        "rationale": "Incorrecta. Además del total, existe un requisito mínimo de modalidad equivalente al aula."
+      },
+      {
+        "id": "B",
+        "text": "Cumple porque las horas de ética sustituyen cualquier requisito de modalidad.",
+        "rationale": "Incorrecta. Las horas de ética son un componente separado y no reemplazan el mínimo de modalidad."
+      },
+      {
+        "id": "C",
+        "text": "No cumple porque al menos 12 horas deben realizarse en aula o formato equivalente.",
+        "rationale": "Correcta. El mínimo es el 50% de las 24 horas, es decir, 12 horas."
+      },
+      {
+        "id": "D",
+        "text": "No cumple porque las 24 horas deben realizarse presencialmente.",
+        "rationale": "Incorrecta. Solo se exige que por lo menos la mitad sea en aula o formato aprobado equivalente."
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "La CE bienal de General Lines P&C exige 24 horas totales, 3 de ética y al menos 12 horas —el 50%— en aula o formato equivalente aprobado.",
+    "keyTerms": [
+      {
+        "es": "educación continua",
+        "en": "continuing education"
+      },
+      {
+        "es": "formato equivalente al aula",
+        "en": "classroom-equivalent format"
+      }
+    ],
+    "source": {
+      "file": "TX1 - Texas P&C Insurance Research Plan.es.md",
+      "section": "4.4 Administración y ciclo de vida de las licencias"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "TX1-Q034",
+    "domain": "TX1",
+    "subtopic": "Restablecimiento de licencia",
+    "difficulty": "avanzada",
+    "stem": "La licencia de una productora lleva vencida ocho meses. No fue suspendida ni revocada disciplinariamente. ¿Qué procedimiento describe el paquete?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Renovación tardía ordinaria con solo el cargo de $50 y el recargo de $25.",
+        "rationale": "Incorrecta. Ese procedimiento corresponde a licencias vencidas no más de 90 días."
+      },
+      {
+        "id": "B",
+        "text": "Prohibición absoluta de solicitar una licencia durante cinco años.",
+        "rationale": "Incorrecta. La prohibición de cinco años sigue a una revocación, no a un vencimiento de ocho meses."
+      },
+      {
+        "id": "C",
+        "text": "Solicitud totalmente nueva y nuevo examen, porque todo vencimiento mayor de 90 días lo exige.",
+        "rationale": "Incorrecta. El nuevo examen se exige cuando la inactividad supera un año, no durante todo el intervalo de 91 días a un año."
+      },
+      {
+        "id": "D",
+        "text": "Solicitud de restablecimiento y pago de cargos y sanciones, sin volver a presentar el examen.",
+        "rationale": "Correcta. Una licencia vencida entre 91 días y un año puede restablecerse sin nuevo examen mediante el procedimiento indicado."
+      }
+    ],
+    "correctOption": "D",
+    "explanation": "Entre 91 días y un año de vencimiento se requiere una solicitud de restablecimiento y el pago de los cargos y sanciones aplicables, pero no un nuevo examen.",
+    "keyTerms": [
+      {
+        "es": "restablecimiento",
+        "en": "reinstatement"
+      },
+      {
+        "es": "licencia vencida",
+        "en": "expired license"
+      }
+    ],
+    "source": {
+      "file": "TX1 - Texas P&C Insurance Research Plan.es.md",
+      "section": "4.4 Administración y ciclo de vida de las licencias"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "TX1-Q035",
+    "domain": "TX1",
+    "subtopic": "Conservación y separación de registros",
+    "difficulty": "intermedia",
+    "stem": "Durante una auditoría, el TDI descubre que una agencia conserva sus documentos de seguros junto con los registros contables de un negocio minorista no relacionado. ¿Qué obligación resulta pertinente?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Los registros de operaciones de seguros deben mantenerse separados de los negocios no relacionados con seguros.",
+        "rationale": "Correcta. El paquete establece expresamente este deber de separación de registros."
+      },
+      {
+        "id": "B",
+        "text": "Todos los registros deben transferirse a la aseguradora que pague más comisiones.",
+        "rationale": "Incorrecta. No existe esa regla y el nivel de comisión no determina la custodia regulatoria."
+      },
+      {
+        "id": "C",
+        "text": "La mezcla es permitida si la agencia renueva su licencia cada dos años.",
+        "rationale": "Incorrecta. La renovación bienal no elimina la obligación de separar los registros."
+      },
+      {
+        "id": "D",
+        "text": "La separación solo es necesaria después de una revocación de licencia.",
+        "rationale": "Incorrecta. Es una obligación continua de productores y agencias, no una medida posterior a la revocación."
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "TIC § 4001.255 exige mantener los registros de operaciones de seguros separados de los correspondientes a negocios no relacionados con seguros.",
+    "keyTerms": [
+      {
+        "es": "conservación de registros",
+        "en": "recordkeeping"
+      },
+      {
+        "es": "separación de registros",
+        "en": "segregation of records"
+      }
+    ],
+    "source": {
+      "file": "TX1 - Texas P&C Insurance Research Plan.es.md",
+      "section": "4.4 Administración y ciclo de vida de las licencias"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "TX1-Q036",
+    "domain": "TX1",
+    "subtopic": "Actualización de correo electrónico",
+    "difficulty": "basica",
+    "stem": "Una productora cambia la dirección oficial de correo electrónico registrada ante el TDI. ¿Dentro de qué plazo debe actualizarla?",
+    "options": [
+      {
+        "id": "A",
+        "text": "En la siguiente renovación bienal.",
+        "rationale": "Incorrecta. La actualización del correo electrónico tiene un plazo específico mucho más corto."
+      },
+      {
+        "id": "B",
+        "text": "Dentro de 10 días hábiles.",
+        "rationale": "Correcta. Ese es el plazo indicado por 28 TAC § 1.1302(c)."
+      },
+      {
+        "id": "C",
+        "text": "Dentro de 30 días calendario.",
+        "rationale": "Incorrecta. Treinta días corresponde a otras divulgaciones, como ciertas sanciones administrativas y condenas."
+      },
+      {
+        "id": "D",
+        "text": "Dentro de 60 días calendario.",
+        "rationale": "Incorrecta. Sesenta días corresponde al plazo para solicitar audiencia sobre una orden de emergencia de cese y desistimiento."
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Los cambios en la dirección oficial de correo electrónico deben notificarse al TDI dentro de diez días hábiles.",
+    "keyTerms": [
+      {
+        "es": "correo electrónico oficial",
+        "en": "official email address"
+      },
+      {
+        "es": "días hábiles",
+        "en": "business days"
+      }
+    ],
+    "source": {
+      "file": "TX1 - Texas P&C Insurance Research Plan.es.md",
+      "section": "Resumen de hallazgos de la auditoría de citas"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "TX1-Q037",
+    "domain": "TX1",
+    "subtopic": "Notificación de medidas administrativas",
+    "difficulty": "intermedia",
+    "stem": "Un organismo regulador de otro estado dicta una medida disciplinaria definitiva contra un productor autorizado en Texas. ¿Qué debe hacer el productor?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Esperar hasta que el TDI solicite expresamente una copia.",
+        "rationale": "Incorrecta. La divulgación es obligatoria y no depende de una solicitud previa del TDI."
+      },
+      {
+        "id": "B",
+        "text": "Informarla únicamente si también existe una condena penal.",
+        "rationale": "Incorrecta. Una medida administrativa de otro estado es un hecho notificable independiente de cualquier condena."
+      },
+      {
+        "id": "C",
+        "text": "Notificarla al TDI dentro de 30 días calendario.",
+        "rationale": "Correcta. Ese es el plazo señalado para medidas administrativas definitivas de otros organismos reguladores."
+      },
+      {
+        "id": "D",
+        "text": "Cancelar voluntariamente todos sus nombramientos dentro de cinco días.",
+        "rationale": "Incorrecta. El paquete exige notificación, no cancelación automática de todos los nombramientos."
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Las medidas administrativas definitivas adoptadas por organismos reguladores de otros estados deben notificarse al TDI dentro de treinta días calendario.",
+    "keyTerms": [
+      {
+        "es": "medida administrativa",
+        "en": "administrative action"
+      },
+      {
+        "es": "divulgación obligatoria",
+        "en": "mandatory disclosure"
+      }
+    ],
+    "source": {
+      "file": "TX1 - Texas P&C Insurance Research Plan.es.md",
+      "section": "4.4 Administración y ciclo de vida de las licencias"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "TX1-Q038",
+    "domain": "TX1",
+    "subtopic": "Pago inicial de reclamaciones",
+    "difficulty": "intermedia",
+    "stem": "Una aseguradora admitida recibe una reclamación de propiedad. Sin que aplique una excepción, ¿qué debe hacer normalmente dentro de los primeros 15 días calendario?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pagar definitivamente toda reclamación, aunque aún falten documentos.",
+        "rationale": "Incorrecta. El pago normalmente sigue a la aceptación y tiene otro plazo; no se exige pagar antes de completar la investigación."
+      },
+      {
+        "id": "B",
+        "text": "Emitir obligatoriamente una denegación provisional.",
+        "rationale": "Incorrecta. La aseguradora no debe denegar por defecto; debe iniciar la tramitación correspondiente."
+      },
+      {
+        "id": "C",
+        "text": "Transferir la reclamación a la TDI Fraud Unit.",
+        "rationale": "Incorrecta. La notificación a la Fraud Unit procede ante sospecha razonable de fraude, no por toda reclamación."
+      },
+      {
+        "id": "D",
+        "text": "Acusar recibo, comenzar la investigación y solicitar los comprobantes necesarios.",
+        "rationale": "Correcta. Esas son las obligaciones iniciales ordinarias dentro de 15 días calendario."
+      }
+    ],
+    "correctOption": "D",
+    "explanation": "La Prompt Payment Act exige normalmente acusar recibo de la reclamación, iniciar la investigación y solicitar los comprobantes de pérdida dentro de quince días calendario.",
+    "keyTerms": [
+      {
+        "es": "acuse de recibo",
+        "en": "acknowledgment of claim"
+      },
+      {
+        "es": "comprobante de pérdida",
+        "en": "proof of loss"
+      }
+    ],
+    "source": {
+      "file": "TX1 - Texas P&C Insurance Research Plan.es.md",
+      "section": "4.5 Prácticas de mercadotecnia y normas contra prácticas comerciales desleales"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "TX1-Q039",
+    "domain": "TX1",
+    "subtopic": "Publicidad falsa y difamación",
+    "difficulty": "avanzada",
+    "stem": "Un agente publica en redes sociales una afirmación que sabe falsa sobre la insolvencia de una aseguradora competidora, con la intención de perjudicarla económicamente. ¿Qué infracción describe mejor la conducta?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Difamación, porque divulga una afirmación falsa y maliciosa para dañar la reputación financiera de una entidad aseguradora.",
+        "rationale": "Correcta. La intención de perjudicar mediante una declaración falsa sobre la situación financiera identifica la difamación."
+      },
+      {
+        "id": "B",
+        "text": "Negocio controlado, porque la comunicación se relaciona con una competidora.",
+        "rationale": "Incorrecta. El negocio controlado se mide por el origen de las primas del productor, no por comentarios sobre competidores."
+      },
+      {
+        "id": "C",
+        "text": "Clasificación lícita de riesgos, porque la afirmación se publicó en un medio público.",
+        "rationale": "Incorrecta. Una clasificación de riesgos exige factores de exposición o datos actuariales, no afirmaciones falsas sobre solvencia."
+      },
+      {
+        "id": "D",
+        "text": "Pago tardío de reclamaciones, porque la insolvencia puede afectar pagos futuros.",
+        "rationale": "Incorrecta. No existe una reclamación ni un incumplimiento de los plazos del Chapter 542 en el escenario."
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "La difamación incluye declaraciones falsas o maliciosamente críticas sobre la situación financiera de una aseguradora o persona del negocio de seguros cuando buscan causar perjuicio económico.",
+    "keyTerms": [
+      {
+        "es": "difamación",
+        "en": "defamation"
+      },
+      {
+        "es": "situación financiera",
+        "en": "financial condition"
+      }
+    ],
+    "source": {
+      "file": "TX1 - Texas P&C Insurance Research Plan.es.md",
+      "section": "4.5 Prácticas de mercadotecnia y normas contra prácticas comerciales desleales"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "TX1-Q040",
+    "domain": "TX1",
+    "subtopic": "Discriminación y clasificación de riesgos",
+    "difficulty": "avanzada",
+    "stem": "Una aseguradora cobra una prima mayor por un almacén que guarda líquidos inflamables, basándose en datos que demuestran una exposición superior a pérdidas. ¿Cuál es la mejor conclusión?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Es discriminación prohibida porque toda diferencia de tarifa es ilícita.",
+        "rationale": "Incorrecta. Texas permite diferencias tarifarias sustentadas por riesgos de pérdida y datos actuariales válidos."
+      },
+      {
+        "id": "B",
+        "text": "Es una clasificación lícita de riesgos basada en un peligro físico demostrable.",
+        "rationale": "Correcta. El almacenamiento de materiales inflamables constituye un factor de exposición pertinente y actuarialmente justificable."
+      },
+      {
+        "id": "C",
+        "text": "Es coacción porque la aseguradora condiciona la cobertura al pago de una prima.",
+        "rationale": "Incorrecta. Cobrar una prima actuarialmente justificada no constituye coacción ni vinculación anticompetitiva."
+      },
+      {
+        "id": "D",
+        "text": "Es difamación porque presupone que el asegurado opera un negocio peligroso.",
+        "rationale": "Incorrecta. La evaluación objetiva del peligro del inmueble no es una declaración falsa o maliciosa sobre la reputación del asegurado."
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Las diferencias de tarifa basadas en peligros físicos de pérdida demostrablemente superiores y respaldadas por datos actuariales constituyen clasificaciones lícitas, no discriminación desleal.",
+    "keyTerms": [
+      {
+        "es": "clasificación de riesgos",
+        "en": "risk classification"
+      },
+      {
+        "es": "justificación actuarial",
+        "en": "actuarial justification"
+      }
+    ],
+    "source": {
+      "file": "TX1 - Texas P&C Insurance Research Plan.es.md",
+      "section": "4.5 Prácticas de mercadotecnia y normas contra prácticas comerciales desleales"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "TX1-Q041",
+    "domain": "TX1",
+    "subtopic": "Comisiones diferidas y doble remuneración",
+    "difficulty": "avanzada",
+    "stem": "¿Cuál de las siguientes operaciones de remuneración está permitida según el paquete?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pagar una comisión nueva a una persona sin licencia que negoció los términos de una póliza.",
+        "rationale": "Incorrecta. Quien realiza actos propios de un agente debe poseer una licencia activa para recibir esa comisión."
+      },
+      {
+        "id": "B",
+        "text": "Cobrar al cliente y recibir una comisión de un tercero por el mismo servicio sin revelar ninguna de las dos remuneraciones.",
+        "rationale": "Incorrecta. La doble remuneración exige divulgación y acuse previo documentado del cliente."
+      },
+      {
+        "id": "C",
+        "text": "Pagar comisiones de renovación a un agente jubilado que tenía licencia válida cuando captó el contrato.",
+        "rationale": "Correcta. Las comisiones diferidas o de renovación pueden pagarse después de terminar la licencia si la persona estaba autorizada al captar o suscribir el contrato."
+      },
+      {
+        "id": "D",
+        "text": "Entregar parte de la comisión al comprador como incentivo no previsto en la póliza.",
+        "rationale": "Incorrecta. Dar al comprador un beneficio de valor no especificado en el contrato para inducir la compra constituye un reembolso ilegal."
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "La prohibición general de pagar comisiones a personas sin licencia admite las comisiones diferidas: un agente jubilado puede recibir renovaciones si estaba debidamente autorizado cuando se captó o suscribió el contrato.",
+    "keyTerms": [
+      {
+        "es": "comisiones diferidas",
+        "en": "deferred commissions"
+      },
+      {
+        "es": "doble remuneración",
+        "en": "dual compensation"
+      }
+    ],
+    "source": {
+      "file": "TX1 - Texas P&C Insurance Research Plan.es.md",
+      "section": "4.6 Deberes de los agentes y distribución de comisiones"
+    },
+    "reviewStatus": "pending_expert_review"
   }
 ]
