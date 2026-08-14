@@ -1,0 +1,602 @@
+[
+  {
+    "id": "G6-Q001",
+    "domain": "G6",
+    "subtopic": "Declaraciones y certificados",
+    "difficulty": "basica",
+    "stem": "Un arrendador recibe un Certificate of Insurance que lo identifica como titular del certificado, pero no existe un endoso que lo añada como asegurado adicional. ¿Cuál es el efecto del certificado?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sirve como documento informativo, pero no concede derechos contractuales ni condición de asegurado.",
+        "rationale": "Correcta. El certificado confirma información sobre la póliza, pero por sí solo no modifica el contrato ni convierte al titular en asegurado adicional."
+      },
+      {
+        "id": "B",
+        "text": "Concede automáticamente al arrendador defensa e indemnización completas.",
+        "rationale": "Incorrecta. Los derechos de defensa e indemnización requieren que el tercero reúna la condición de asegurado, normalmente mediante un endoso de asegurado adicional."
+      },
+      {
+        "id": "C",
+        "text": "Sustituye la página de declaraciones y convierte al arrendador en First Named Insured.",
+        "rationale": "Incorrecta. La página de declaraciones forma parte de la póliza, mientras que el certificado no sustituye esa página ni altera quién es el First Named Insured."
+      },
+      {
+        "id": "D",
+        "text": "Concede al arrendador derechos de responsabilidad equivalentes a los de un Loss Payee.",
+        "rationale": "Incorrecta. Un Loss Payee tiene un interés financiero sobre bienes asegurados; ni esa condición ni los derechos de responsabilidad surgen de un simple certificado."
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "La página de declaraciones es una parte vinculante de la póliza y personaliza datos como asegurados, límites y primas. Un Certificate of Insurance es únicamente informativo y no concede cobertura, modifica la póliza ni crea condición de asegurado sin el endoso correspondiente.",
+    "keyTerms": [
+      {
+        "es": "página de declaraciones",
+        "en": "declarations page"
+      },
+      {
+        "es": "titular del certificado",
+        "en": "certificate holder"
+      },
+      {
+        "es": "asegurado adicional",
+        "en": "additional insured"
+      }
+    ],
+    "source": {
+      "file": "G6 - Texas Casualty Policy Research.es.md",
+      "section": "Declaraciones (reactivo A del plan)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G6-Q002",
+    "domain": "G6",
+    "subtopic": "Activadores de cobertura",
+    "difficulty": "intermedia",
+    "stem": "Una póliza de responsabilidad por suceso estuvo vigente cuando ocurrió un daño corporal. La reclamación se presentó después del vencimiento. ¿Qué hecho determina inicialmente la activación de esa póliza?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La fecha en que el asegurador termina de investigar la reclamación.",
+        "rationale": "Incorrecta. La conclusión de la investigación no es el activador contractual de un formulario por suceso."
+      },
+      {
+        "id": "B",
+        "text": "La ocurrencia del daño corporal durante el período de la póliza.",
+        "rationale": "Correcta. En un formulario por suceso, la cobertura se activa cuando la lesión corporal o el daño a la propiedad ocurre durante el período asegurado."
+      },
+      {
+        "id": "C",
+        "text": "La presentación de la reclamación antes de que venza la póliza.",
+        "rationale": "Incorrecta. Ese criterio corresponde al mecanismo de reclamaciones presentadas, no al activador de un formulario por suceso."
+      },
+      {
+        "id": "D",
+        "text": "La fecha en que un tribunal determina la responsabilidad del asegurado.",
+        "rationale": "Incorrecta. Una sentencia puede establecer la obligación de indemnizar, pero no determina el activador temporal del formulario por suceso."
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "El formulario por suceso se activa por lesiones corporales o daños a la propiedad ocurridos durante el período de la póliza, aunque la reclamación se formule posteriormente. En un formulario claims-made, la presentación o el reporte de la reclamación dentro de la ventana aplicable es una condición esencial.",
+    "keyTerms": [
+      {
+        "es": "formulario por suceso",
+        "en": "occurrence form"
+      },
+      {
+        "es": "formulario de reclamaciones presentadas",
+        "en": "claims-made form"
+      },
+      {
+        "es": "período de la póliza",
+        "en": "policy period"
+      }
+    ],
+    "source": {
+      "file": "G6 - Texas Casualty Policy Research.es.md",
+      "section": "Acuerdos de seguro (reactivo B del plan)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G6-Q003",
+    "domain": "G6",
+    "subtopic": "Exclusiones y limitaciones",
+    "difficulty": "avanzada",
+    "stem": "Una reclamación está comprendida inicialmente en el acuerdo de seguro. El asegurador demuestra que se aplica una exclusión, pero el asegurado sostiene que una excepción a esa exclusión restablece la cobertura. ¿Quién debe probar la excepción?",
+    "options": [
+      {
+        "id": "A",
+        "text": "El reclamante tercero, porque inició la reclamación.",
+        "rationale": "Incorrecta. La cadena descrita asigna las cargas entre el asegurado y el asegurador, no al tercero por el solo hecho de presentar la reclamación."
+      },
+      {
+        "id": "B",
+        "text": "El asegurador, porque todas las disposiciones restrictivas tienen la misma carga probatoria.",
+        "rationale": "Incorrecta. El asegurador debe demostrar la exclusión, pero la carga cambia cuando se invoca una excepción que restablecería la cobertura."
+      },
+      {
+        "id": "C",
+        "text": "El asegurado, porque invoca la excepción para restablecer la cobertura.",
+        "rationale": "Correcta. Después de que el asegurador prueba la exclusión, corresponde al asegurado demostrar que una excepción aplicable devuelve la reclamación al ámbito cubierto."
+      },
+      {
+        "id": "D",
+        "text": "Ninguna parte, porque toda excepción opera automáticamente.",
+        "rationale": "Incorrecta. La aplicación de una excepción debe establecerse con hechos que satisfagan su lenguaje; no opera automáticamente."
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "El asegurado primero debe demostrar que la reclamación entra en la concesión general de cobertura. Luego, el asegurador tiene la carga de probar una exclusión. Si existe una excepción a esa exclusión, el asegurado debe demostrar que la excepción resulta aplicable.",
+    "keyTerms": [
+      {
+        "es": "exclusión",
+        "en": "exclusion"
+      },
+      {
+        "es": "excepción",
+        "en": "exception"
+      },
+      {
+        "es": "carga de la prueba",
+        "en": "burden of proof"
+      }
+    ],
+    "source": {
+      "file": "G6 - Texas Casualty Policy Research.es.md",
+      "section": "Exclusiones y limitaciones (reactivo D del plan)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G6-Q004",
+    "domain": "G6",
+    "subtopic": "Definición del asegurado",
+    "difficulty": "basica",
+    "stem": "Un empleado fuera de servicio toma sin autorización una escalera de la empresa para trabajar en su propia casa y daña el automóvil de un vecino. Según la condición estándar de asegurado empleado en una CGL, ¿cuál es el resultado más adecuado?",
+    "options": [
+      {
+        "id": "A",
+        "text": "El empleado está cubierto porque cualquier uso de bienes de la empresa ocurre dentro del empleo.",
+        "rationale": "Incorrecta. El uso de un bien empresarial no convierte una actividad personal y no autorizada en una función relacionada con el negocio."
+      },
+      {
+        "id": "B",
+        "text": "El empleado está cubierto porque todos los trabajadores son asegurados durante las 24 horas.",
+        "rationale": "Incorrecta. La condición de asegurado del empleado se limita a actos dentro del ámbito laboral o funciones relacionadas con la operación del negocio."
+      },
+      {
+        "id": "C",
+        "text": "El empleado está cubierto únicamente si el vecino también trabaja para la empresa.",
+        "rationale": "Incorrecta. La identidad laboral del vecino no transforma la actividad personal del empleado en una actividad cubierta."
+      },
+      {
+        "id": "D",
+        "text": "El empleado no reúne la condición de asegurado porque actuaba fuera del ámbito de su empleo y con fines personales.",
+        "rationale": "Correcta. La actividad doméstica, personal y no autorizada no se realizó dentro del empleo ni como parte de las operaciones del negocio."
+      }
+    ],
+    "correctOption": "D",
+    "explanation": "En una CGL estándar, los empleados son asegurados respecto de actos dentro del ámbito de su empleo o mientras desempeñan funciones relacionadas con el negocio. Una actividad personal fuera de servicio no satisface esa condición.",
+    "keyTerms": [
+      {
+        "es": "ámbito del empleo",
+        "en": "scope of employment"
+      },
+      {
+        "es": "empleado asegurado",
+        "en": "employee insured"
+      },
+      {
+        "es": "condición de asegurado",
+        "en": "insured status"
+      }
+    ],
+    "source": {
+      "file": "G6 - Texas Casualty Policy Research.es.md",
+      "section": "Definición del asegurado (reactivo E del plan)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G6-Q005",
+    "domain": "G6",
+    "subtopic": "Aviso y prueba de pérdida",
+    "difficulty": "intermedia",
+    "stem": "Después de una pérdida cubierta por deshonestidad de un empleado, el asegurador solicita documentación formal. ¿Qué presentación constituye una Proof of Loss conforme al paquete?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Una declaración firmada y jurada que desglosa el valor reclamado, los recibos, las estimaciones y los derechos de propiedad.",
+        "rationale": "Correcta. La prueba de pérdida es una declaración financiera formal, detallada y bajo juramento que verifica una pérdida de primera parte."
+      },
+      {
+        "id": "B",
+        "text": "Una llamada inicial que informa que posiblemente ocurrió un robo.",
+        "rationale": "Incorrecta. Esa llamada puede funcionar como aviso inicial de pérdida, pero no sustituye la declaración jurada y desglosada."
+      },
+      {
+        "id": "C",
+        "text": "Una copia del citatorio presentado por un tercero contra el asegurado.",
+        "rationale": "Incorrecta. Remitir un citatorio es una obligación propia de una reclamación de responsabilidad, no una prueba financiera de pérdida de primera parte."
+      },
+      {
+        "id": "D",
+        "text": "Una autorización para que el asegurador transija cualquier demanda futura.",
+        "rationale": "Incorrecta. La autoridad para transigir es una disposición de liquidación de responsabilidad y no verifica el importe de una pérdida de bienes."
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "El aviso de pérdida alerta inicialmente al asegurador. La Proof of Loss es un documento distinto: una declaración firmada, jurada y desglosada que acredita el valor y los elementos de una pérdida de primera parte. El lenguaje estándar citado exige presentarla dentro de los 60 días siguientes a la solicitud formal del asegurador.",
+    "keyTerms": [
+      {
+        "es": "prueba de pérdida",
+        "en": "proof of loss"
+      },
+      {
+        "es": "aviso de pérdida",
+        "en": "notice of loss"
+      },
+      {
+        "es": "declaración jurada",
+        "en": "sworn statement"
+      }
+    ],
+    "source": {
+      "file": "G6 - Texas Casualty Policy Research.es.md",
+      "section": "Obligaciones del asegurado después de una pérdida (reactivo F del plan), prueba de pérdida (reactivo I del plan) y aviso de reclamación (reactivo J del plan)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G6-Q006",
+    "domain": "G6",
+    "subtopic": "Cancelación y no renovación",
+    "difficulty": "basica",
+    "stem": "Una aseguradora decide terminar por falta de pago una póliza comercial de Texas antes de su fecha de vencimiento. ¿Cómo se clasifica la terminación y qué aviso mínimo exige el paquete?",
+    "options": [
+      {
+        "id": "A",
+        "text": "No renovación con aviso escrito de 10 días.",
+        "rationale": "Incorrecta. La no renovación ocurre al vencimiento, no durante el período activo de la póliza."
+      },
+      {
+        "id": "B",
+        "text": "Cancelación con aviso escrito de al menos 10 días.",
+        "rationale": "Correcta. Terminar una póliza activa antes del vencimiento es una cancelación, y la falta de pago exige en Texas un aviso escrito mínimo de 10 días."
+      },
+      {
+        "id": "C",
+        "text": "Rescisión automática sin necesidad de aviso.",
+        "rationale": "Incorrecta. El paquete establece expresamente un período legal de aviso por falta de pago."
+      },
+      {
+        "id": "D",
+        "text": "No renovación con aviso escrito de 60 días.",
+        "rationale": "Incorrecta. El aviso comercial de 60 días se relaciona con la no renovación y determinadas cancelaciones permisibles, pero el supuesto específico es cancelación por falta de pago."
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "La cancelación termina un contrato activo a mitad de vigencia; la no renovación impide su continuación al vencimiento. En Texas, la cancelación por falta de pago de la prima exige aviso escrito con al menos 10 días de anticipación.",
+    "keyTerms": [
+      {
+        "es": "cancelación",
+        "en": "cancellation"
+      },
+      {
+        "es": "no renovación",
+        "en": "nonrenewal"
+      },
+      {
+        "es": "falta de pago",
+        "en": "nonpayment"
+      }
+    ],
+    "source": {
+      "file": "G6 - Texas Casualty Policy Research.es.md",
+      "section": "Disposiciones de cancelación y no renovación (reactivo G del plan)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G6-Q007",
+    "domain": "G6",
+    "subtopic": "Pagos suplementarios",
+    "difficulty": "avanzada",
+    "stem": "Una CGL estándar tiene un límite por suceso de $1,000,000. Una demanda cubierta produce una sentencia de $1,000,000, honorarios de defensa de $120,000 y pérdida real de ingresos del asegurado de $1,000 por cuatro días de asistencia solicitada por el asegurador. ¿Qué importe total corresponde pagar conforme a las disposiciones descritas?",
+    "options": [
+      {
+        "id": "A",
+        "text": "$1,000,000, porque la sentencia agota el límite y absorbe todos los demás gastos.",
+        "rationale": "Incorrecta. En la CGL estándar, los honorarios de defensa y la pérdida de ingresos cubierta son pagos suplementarios además del límite."
+      },
+      {
+        "id": "B",
+        "text": "$1,120,000, porque la pérdida de ingresos siempre queda dentro del límite.",
+        "rationale": "Incorrecta. Los cuatro días de ingresos perdidos están cubiertos hasta $250 diarios y también se pagan fuera del límite."
+      },
+      {
+        "id": "C",
+        "text": "$1,121,000, porque la sentencia usa el límite y los $120,000 de defensa más $1,000 de ingresos se pagan adicionalmente.",
+        "rationale": "Correcta. Los cuatro días a $250 suman $1,000, que se agregan a los $120,000 de defensa y a la sentencia cubierta de $1,000,000."
+      },
+      {
+        "id": "D",
+        "text": "$1,120,250, porque la pérdida de ingresos está limitada a $250 por toda la demanda.",
+        "rationale": "Incorrecta. El límite indicado es de $250 por día, no de $250 por toda la demanda; cuatro días permiten hasta $1,000."
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "En los formularios CGL estándar, los costos de defensa y los pagos suplementarios enumerados se pagan además de los límites de responsabilidad. La pérdida real de ingresos está cubierta hasta $250 por día cuando el asegurado asiste a solicitud del asegurador.",
+    "keyTerms": [
+      {
+        "es": "pagos suplementarios",
+        "en": "supplementary payments"
+      },
+      {
+        "es": "límite por suceso",
+        "en": "each occurrence limit"
+      },
+      {
+        "es": "pérdida de ingresos",
+        "en": "loss of earnings"
+      }
+    ],
+    "source": {
+      "file": "G6 - Texas Casualty Policy Research.es.md",
+      "section": "Pagos suplementarios (reactivo H del plan)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G6-Q008",
+    "domain": "G6",
+    "subtopic": "Otros seguros",
+    "difficulty": "intermedia",
+    "stem": "Dos pólizas CGL primarias cubren la misma pérdida de $300,000. La póliza A tiene un límite de $200,000 y la póliza B uno de $500,000. Ambas permiten contribución por partes iguales. ¿Cómo se distribuye la pérdida?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A paga $85,714 y B paga $214,286 según sus límites relativos.",
+        "rationale": "Incorrecta. Ese cálculo aplica el método a prorrata, aunque ambas pólizas permiten expresamente partes iguales."
+      },
+      {
+        "id": "B",
+        "text": "A paga $200,000 y B paga $100,000 porque la póliza con menor límite debe agotarse primero.",
+        "rationale": "Incorrecta. La contribución por partes iguales no exige agotar primero la póliza de menor límite cuando ambas pueden aportar la misma cantidad necesaria."
+      },
+      {
+        "id": "C",
+        "text": "B paga los $300,000 porque tiene el límite mayor.",
+        "rationale": "Incorrecta. Ambas pólizas son primarias y concurrentes, por lo que la existencia de un límite mayor no traslada toda la pérdida a B."
+      },
+      {
+        "id": "D",
+        "text": "Cada póliza paga $150,000.",
+        "rationale": "Correcta. Al permitir ambas la contribución por partes iguales, cada aseguradora aporta la misma cantidad y ninguna alcanza su límite."
+      }
+    ],
+    "correctOption": "D",
+    "explanation": "La CGL estándar utiliza contribución por partes iguales cuando todas las pólizas primarias participantes permiten ese método. Cada aseguradora aporta cantidades iguales hasta satisfacer la pérdida o agotar el límite de alguna póliza.",
+    "keyTerms": [
+      {
+        "es": "otros seguros",
+        "en": "other insurance"
+      },
+      {
+        "es": "contribución por partes iguales",
+        "en": "contribution by equal shares"
+      },
+      {
+        "es": "contribución a prorrata",
+        "en": "pro rata contribution"
+      }
+    ],
+    "source": {
+      "file": "G6 - Texas Casualty Policy Research.es.md",
+      "section": "Otros seguros (reactivo K del plan)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G6-Q009",
+    "domain": "G6",
+    "subtopic": "Subrogación",
+    "difficulty": "avanzada",
+    "stem": "Un asegurado de Texas sufre una pérdida de $10,000 sujeta a un deducible de $1,000. El asegurador paga $9,000 y después recupera solamente $8,000 del tercero negligente. Según la doctrina de indemnización total descrita, ¿quién tiene prioridad sobre los primeros $1,000 recuperados?",
+    "options": [
+      {
+        "id": "A",
+        "text": "El asegurado, para recuperar primero su deducible no indemnizado.",
+        "rationale": "Correcta. La doctrina de indemnización total de Texas da prioridad al asegurado para cubrir su deducible y otros importes no asegurados antes de que el asegurador retenga la recuperación."
+      },
+      {
+        "id": "B",
+        "text": "El asegurador, porque efectuó el pago inicial de $9,000.",
+        "rationale": "Incorrecta. Aunque el asegurador adquiere derechos de subrogación hasta su pago, la regla descrita prioriza que el asegurado quede indemnizado por completo."
+      },
+      {
+        "id": "C",
+        "text": "El tercero negligente, como reducción de su obligación pendiente.",
+        "rationale": "Incorrecta. El tercero es la fuente de la recuperación y no tiene derecho preferente sobre los fondos pagados."
+      },
+      {
+        "id": "D",
+        "text": "Ambos por mitades, porque toda recuperación de subrogación se divide en partes iguales.",
+        "rationale": "Incorrecta. El paquete no establece una división automática por mitades; establece prioridad para indemnizar por completo al asegurado."
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "La subrogación permite al asegurador ocupar la posición jurídica del asegurado contra el tercero responsable. Sin embargo, conforme a la doctrina de indemnización total de Texas, el asegurado tiene prioridad para recuperar su deducible y gastos no asegurados antes de que el asegurador retenga fondos.",
+    "keyTerms": [
+      {
+        "es": "subrogación",
+        "en": "subrogation"
+      },
+      {
+        "es": "doctrina de indemnización total",
+        "en": "made-whole doctrine"
+      },
+      {
+        "es": "deducible",
+        "en": "deductible"
+      }
+    ],
+    "source": {
+      "file": "G6 - Texas Casualty Policy Research.es.md",
+      "section": "Subrogación (reactivo L del plan)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G6-Q010",
+    "domain": "G6",
+    "subtopic": "Liquidación y consentimiento",
+    "difficulty": "intermedia",
+    "stem": "Una póliza E&O contiene una cláusula de consentimiento para transigir y una Hammer Clause estándar. El asegurador recomienda una transacción de $100,000, después de haber gastado $20,000 en defensa, pero el profesional asegurado la rechaza. ¿Cuál será normalmente el límite de responsabilidad del asegurador por la reclamación después de la negativa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "El límite completo de la póliza, sin importar el resultado posterior.",
+        "rationale": "Incorrecta. La Hammer Clause reduce la exposición del asegurador cuando el asegurado rechaza una transacción recomendada."
+      },
+      {
+        "id": "B",
+        "text": "$120,000: la oferta rechazada más los costos de defensa anteriores a la negativa.",
+        "rationale": "Correcta. La cláusula limita la responsabilidad del asegurador a $100,000 de transacción recomendada más $20,000 de defensa incurrida antes del rechazo."
+      },
+      {
+        "id": "C",
+        "text": "$100,000 únicamente, porque nunca se consideran los gastos de defensa.",
+        "rationale": "Incorrecta. La Hammer Clause descrita incluye los costos de defensa anteriores a la negativa junto con la oferta recomendada."
+      },
+      {
+        "id": "D",
+        "text": "Cero, porque rechazar la oferta cancela toda la póliza.",
+        "rationale": "Incorrecta. La negativa limita la obligación financiera del asegurador, pero no elimina retroactivamente toda la cobertura."
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "En responsabilidad profesional, una cláusula de consentimiento puede permitir al asegurado rechazar una transacción. La Hammer Clause asigna el costo de esa decisión limitando la responsabilidad del asegurador a la oferta recomendada más los costos de defensa anteriores a la negativa.",
+    "keyTerms": [
+      {
+        "es": "cláusula martillo",
+        "en": "hammer clause"
+      },
+      {
+        "es": "consentimiento para transigir",
+        "en": "consent to settle"
+      },
+      {
+        "es": "responsabilidad profesional",
+        "en": "professional liability"
+      }
+    ],
+    "source": {
+      "file": "G6 - Texas Casualty Policy Research.es.md",
+      "section": "Disposiciones de liquidación de pérdidas, incluido el consentimiento para transigir (reactivo M del plan)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G6-Q011",
+    "domain": "G6",
+    "subtopic": "Condiciones posteriores a la pérdida",
+    "difficulty": "basica",
+    "stem": "Después de un accidente cubierto, el asegurado paga voluntariamente $15,000 al lesionado sin avisar ni obtener consentimiento del asegurador. No se trató de primeros auxilios de emergencia. ¿Qué efecto tiene la condición de prohibición de pagos voluntarios?",
+    "options": [
+      {
+        "id": "A",
+        "text": "El asegurador debe reembolsar el pago porque cualquier acuerdo reduce la reclamación.",
+        "rationale": "Incorrecta. Un posible beneficio económico no sustituye el consentimiento previo exigido por la condición de la póliza."
+      },
+      {
+        "id": "B",
+        "text": "El asegurador debe reembolsar la mitad porque el asegurado cooperó parcialmente.",
+        "rationale": "Incorrecta. El paquete no establece reembolso parcial automático por un pago voluntario no autorizado."
+      },
+      {
+        "id": "C",
+        "text": "El asegurador puede negar el reembolso de ese pago voluntario no autorizado.",
+        "rationale": "Correcta. El asegurado efectuó un desembolso y asumió una obligación sin consentimiento, por lo que pierde la indemnización correspondiente a ese pago."
+      },
+      {
+        "id": "D",
+        "text": "El asegurador solamente puede negar el pago si el accidente ocurrió fuera del territorio de cobertura.",
+        "rationale": "Incorrecta. La prohibición opera por la falta de consentimiento, independientemente de esa cuestión territorial."
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Las condiciones posteriores a una pérdida prohíben al asegurado efectuar pagos, asumir obligaciones o incurrir en gastos sin consentimiento del asegurador, salvo primeros auxilios de emergencia para terceros. El pago no autorizado se realiza por cuenta del asegurado.",
+    "keyTerms": [
+      {
+        "es": "pago voluntario",
+        "en": "voluntary payment"
+      },
+      {
+        "es": "consentimiento del asegurador",
+        "en": "insurer consent"
+      },
+      {
+        "es": "obligaciones después de una pérdida",
+        "en": "duties after a loss"
+      }
+    ],
+    "source": {
+      "file": "G6 - Texas Casualty Policy Research.es.md",
+      "section": "Obligaciones del asegurado después de una pérdida (reactivo F del plan), prueba de pérdida (reactivo I del plan) y aviso de reclamación (reactivo J del plan)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G6-Q012",
+    "domain": "G6",
+    "subtopic": "TRIA",
+    "difficulty": "avanzada",
+    "stem": "Un acto de terrorismo certificado supera el activador sectorial de TRIA. El asegurador tuvo una Direct Earned Premium de $50,000,000 en los ramos cubiertos durante el año anterior. ¿Cuál es su deducible individual conforme al programa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "$5,000,000, porque el deducible equivale al umbral mínimo para certificar un acto.",
+        "rationale": "Incorrecta. Los $5,000,000 corresponden al mínimo de pérdidas agregadas para la certificación, no al deducible individual del asegurador."
+      },
+      {
+        "id": "B",
+        "text": "$7,500,000, porque el deducible es el 15% de la prima devengada directa.",
+        "rationale": "Incorrecta. El paquete identifica el 15% como un parámetro obsoleto y establece un deducible vigente del 20%."
+      },
+      {
+        "id": "C",
+        "text": "$40,000,000, porque el asegurador retiene el 80% antes de la participación federal.",
+        "rationale": "Incorrecta. El 80% es la participación federal en la capa aplicable por encima del deducible, no el porcentaje usado para calcular el deducible."
+      },
+      {
+        "id": "D",
+        "text": "$10,000,000, porque el deducible es el 20% de la prima devengada directa del año anterior.",
+        "rationale": "Correcta. El 20% de una Direct Earned Premium de $50,000,000 equivale a $10,000,000."
+      }
+    ],
+    "correctOption": "D",
+    "explanation": "TRIA fija el deducible individual del asegurador en el 20% de su Direct Earned Premium del año anterior en los ramos cubiertos. La participación federal del 80% se aplica a la capa correspondiente después del deducible, siempre que se satisfagan los requisitos del programa.",
+    "keyTerms": [
+      {
+        "es": "Ley de Seguro contra Riesgos de Terrorismo",
+        "en": "Terrorism Risk Insurance Act"
+      },
+      {
+        "es": "prima devengada directa",
+        "en": "direct earned premium"
+      },
+      {
+        "es": "deducible del asegurador",
+        "en": "insurer deductible"
+      }
+    ],
+    "source": {
+      "file": "G6 - Texas Casualty Policy Research.es.md",
+      "section": "Terrorism Risk Insurance Act (reactivo N del plan)"
+    },
+    "reviewStatus": "pending_expert_review"
+  }
+]

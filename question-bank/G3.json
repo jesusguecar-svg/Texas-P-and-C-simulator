@@ -1,0 +1,636 @@
+[
+  {
+    "id": "G3-Q001",
+    "domain": "G3",
+    "subtopic": "Estructura de la póliza",
+    "difficulty": "basica",
+    "stem": "¿En qué componente de una póliza de propiedad se encuentran normalmente el asegurado nombrado, la ubicación, los límites, el deducible y el período de vigencia?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Declaraciones",
+        "rationale": "Correcta. Las Declaraciones personalizan la póliza e identifican los datos concretos del riesgo, incluidos nombres, ubicación, límites, deducibles y fechas."
+      },
+      {
+        "id": "B",
+        "text": "Acuerdo de seguro",
+        "rationale": "Incorrecta. El Acuerdo de seguro contiene la promesa fundamental de cobertura y los eventos que la activan, no el programa particular del riesgo."
+      },
+      {
+        "id": "C",
+        "text": "Condiciones",
+        "rationale": "Incorrecta. Las Condiciones establecen deberes, reglas y procedimientos, como el aviso de pérdida, el avalúo y la subrogación."
+      },
+      {
+        "id": "D",
+        "text": "Exclusiones",
+        "rationale": "Incorrecta. Las Exclusiones identifican riesgos, bienes o clases de pérdidas que quedan fuera de la cobertura."
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "Las Declaraciones contienen los datos específicos que adaptan los formularios estándar al riesgo asegurado. El Acuerdo de seguro concede la cobertura básica, las Condiciones regulan su operación y las Exclusiones eliminan determinadas exposiciones.",
+    "keyTerms": [
+      {
+        "es": "Declaraciones",
+        "en": "Declarations"
+      },
+      {
+        "es": "Acuerdo de seguro",
+        "en": "Insuring Agreement"
+      }
+    ],
+    "source": {
+      "file": "G3- Texas P&C Domain G3 Research.es.md",
+      "section": "A. Declaraciones"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G3-Q002",
+    "domain": "G3",
+    "subtopic": "Formación del contrato",
+    "difficulty": "intermedia",
+    "stem": "Una solicitante pide una póliza con deducible de $1,000. El asegurador ofrece emitirla con deducible de $5,000. ¿Qué representa jurídicamente la respuesta del asegurador?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La aceptación incondicional de la oferta original",
+        "rationale": "Incorrecta. La aceptación debe corresponder a los términos ofrecidos; aumentar el deducible modifica una condición solicitada."
+      },
+      {
+        "id": "B",
+        "text": "Una contraoferta que la solicitante debe aceptar",
+        "rationale": "Correcta. Emitir la cobertura en términos diferentes constituye una contraoferta y requiere aceptación para formar el contrato en esos términos."
+      },
+      {
+        "id": "C",
+        "text": "Un contrato provisional automático",
+        "rationale": "Incorrecta. Un contrato provisional concede cobertura temporal; no surge automáticamente de toda modificación propuesta por el asegurador."
+      },
+      {
+        "id": "D",
+        "text": "Una cesión de la póliza",
+        "rationale": "Incorrecta. La cesión transfiere derechos contractuales a un cesionario y no describe una modificación de los términos ofrecidos."
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "La solicitud normalmente constituye la oferta. Si el asegurador propone términos distintos, formula una contraoferta. La formación del contrato exige oferta y aceptación, contraprestación, partes competentes y objeto lícito.",
+    "keyTerms": [
+      {
+        "es": "Oferta y aceptación",
+        "en": "Offer and Acceptance"
+      },
+      {
+        "es": "Contraoferta",
+        "en": "Counteroffer"
+      },
+      {
+        "es": "Contrato provisional",
+        "en": "Binder"
+      }
+    ],
+    "source": {
+      "file": "G3- Texas P&C Domain G3 Research.es.md",
+      "section": "N. Elementos de un contrato"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G3-Q003",
+    "domain": "G3",
+    "subtopic": "Asegurados y endosos",
+    "difficulty": "basica",
+    "stem": "Una empresa desea extender mediante una modificación escrita cierta protección a un arrendador que no aparece originalmente en las Declaraciones. ¿Qué figura corresponde mejor?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Primer asegurado nombrado",
+        "rationale": "Incorrecta. El primer asegurado nombrado es la entidad que aparece primero en las Declaraciones y posee determinados derechos administrativos."
+      },
+      {
+        "id": "B",
+        "text": "Asegurado automático",
+        "rationale": "Incorrecta. Un asegurado automático obtiene esa condición por la definición del formulario, sin necesidad de ser agregado expresamente."
+      },
+      {
+        "id": "C",
+        "text": "Asegurado adicional agregado por endoso",
+        "rationale": "Correcta. Un tercero puede recibir protección respecto de su interés asegurable al ser incorporado como asegurado adicional mediante un endoso."
+      },
+      {
+        "id": "D",
+        "text": "Árbitro dirimente",
+        "rationale": "Incorrecta. El árbitro dirimente interviene en un avalúo cuando los tasadores discrepan; no recibe cobertura como tercero."
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "El asegurado adicional es un tercero incorporado mediante endoso. Los endosos modifican el contrato base y prevalecen sobre el lenguaje estándar incompatible. Su protección depende del alcance concreto del endoso.",
+    "keyTerms": [
+      {
+        "es": "Asegurado adicional",
+        "en": "Additional Insured"
+      },
+      {
+        "es": "Endoso",
+        "en": "Endorsement"
+      },
+      {
+        "es": "Primer asegurado nombrado",
+        "en": "First Named Insured"
+      }
+    ],
+    "source": {
+      "file": "G3- Texas P&C Domain G3 Research.es.md",
+      "section": "E. Definición del asegurado"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G3-Q004",
+    "domain": "G3",
+    "subtopic": "Deberes posteriores a la pérdida",
+    "difficulty": "intermedia",
+    "stem": "Después de un robo, el asegurado avisa inmediatamente por teléfono. Luego, a solicitud del asegurador, presenta un documento firmado y jurado con el inventario, la valoración y el monto reclamado. ¿Cómo se clasifica este segundo documento?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Aviso de reclamación",
+        "rationale": "Incorrecta. El aviso es la notificación inicial e informal que alerta al asegurador para comenzar la tramitación."
+      },
+      {
+        "id": "B",
+        "text": "Informe investigativo del consumidor",
+        "rationale": "Incorrecta. Ese informe reúne datos personales mediante entrevistas para fines de suscripción y está regulado por la FCRA."
+      },
+      {
+        "id": "C",
+        "text": "Endoso de cobertura",
+        "rationale": "Incorrecta. Un endoso modifica los términos de la póliza y no documenta los detalles de una pérdida ya ocurrida."
+      },
+      {
+        "id": "D",
+        "text": "Comprobante de pérdida",
+        "rationale": "Correcta. Es la declaración formal, firmada y jurada que detalla la pérdida, los bienes afectados, su valoración y la suma reclamada."
+      }
+    ],
+    "correctOption": "D",
+    "explanation": "El aviso de reclamación inicia informalmente el proceso. El comprobante de pérdida es formal y jurado; normalmente debe presentarse dentro de los 60 días posteriores a la solicitud del asegurador y activa el plazo aplicable para decidir la reclamación.",
+    "keyTerms": [
+      {
+        "es": "Aviso de reclamación",
+        "en": "Notice of Claim"
+      },
+      {
+        "es": "Comprobante de pérdida",
+        "en": "Proof of Loss"
+      }
+    ],
+    "source": {
+      "file": "G3- Texas P&C Domain G3 Research.es.md",
+      "section": "I. Comprobante de pérdida"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G3-Q005",
+    "domain": "G3",
+    "subtopic": "Plazos de reclamaciones en Texas",
+    "difficulty": "avanzada",
+    "stem": "Un asegurador de Texas recibe todos los elementos solicitados y el comprobante final de una reclamación ordinaria por granizo. No existe sospecha de incendio provocado. ¿Cuál es el plazo general para comunicar por escrito la aceptación o el rechazo?",
+    "options": [
+      {
+        "id": "A",
+        "text": "15 días hábiles",
+        "rationale": "Correcta. La decisión debe notificarse generalmente dentro de los 15 días hábiles posteriores a recibir todos los elementos solicitados y el comprobante final."
+      },
+      {
+        "id": "B",
+        "text": "15 días calendario",
+        "rationale": "Incorrecta. Los 15 días calendario corresponden al acuse de recibo, inicio de la investigación y solicitud de información después del aviso."
+      },
+      {
+        "id": "C",
+        "text": "5 días hábiles",
+        "rationale": "Incorrecta. Ese es el plazo general para pagar después de notificar que la reclamación fue aceptada."
+      },
+      {
+        "id": "D",
+        "text": "30 días calendario",
+        "rationale": "Incorrecta. El plazo de 30 días calendario se relaciona con una sospecha razonable de incendio provocado, ausente en el supuesto."
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "La secuencia general de Texas distingue 15 días calendario para acusar recibo e iniciar la investigación, 15 días hábiles para decidir tras recibir la documentación completa y 5 días hábiles para pagar después de aceptar.",
+    "keyTerms": [
+      {
+        "es": "Ley de Pago Oportuno de Reclamaciones de Texas",
+        "en": "Texas Prompt Payment of Claims Act"
+      },
+      {
+        "es": "Aceptación o rechazo",
+        "en": "Acceptance or Rejection"
+      }
+    ],
+    "source": {
+      "file": "G3- Texas P&C Domain G3 Research.es.md",
+      "section": "G. Obligaciones de la compañía de seguros"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G3-Q006",
+    "domain": "G3",
+    "subtopic": "Cláusula hipotecaria estándar",
+    "difficulty": "intermedia",
+    "stem": "El propietario de un edificio provoca intencionalmente un incendio. La póliza contiene una cláusula hipotecaria estándar y el acreedor hipotecario cumplió sus propias obligaciones. ¿Cuál es el resultado más probable?",
+    "options": [
+      {
+        "id": "A",
+        "text": "El acreedor pierde automáticamente todo derecho porque depende por completo de la reclamación del propietario",
+        "rationale": "Incorrecta. La cláusula hipotecaria estándar crea derechos independientes que no se invalidan automáticamente por el acto intencional del propietario."
+      },
+      {
+        "id": "B",
+        "text": "El acreedor puede conservar su derecho al pago, y el asegurador puede subrogarse en sus derechos después de pagar",
+        "rationale": "Correcta. La protección independiente favorece al acreedor cumplidor, y el pago permite al asegurador ocupar su posición respecto de la deuda hipotecaria."
+      },
+      {
+        "id": "C",
+        "text": "El propietario debe recibir primero el pago y transferirlo voluntariamente al acreedor",
+        "rationale": "Incorrecta. La reclamación del propietario puede denegarse por el incendio intencional, mientras el acreedor posee un derecho contractual separado."
+      },
+      {
+        "id": "D",
+        "text": "El acreedor solo conserva derechos si figura como beneficiario ordinario de pérdidas sobre bienes personales",
+        "rationale": "Incorrecta. El beneficiario ordinario de pérdidas no recibe la protección independiente propia de la cláusula hipotecaria estándar sobre bienes raíces."
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "La Standard Mortgage Clause establece un contrato independiente entre el asegurador y el acreedor hipotecario. Si este cumple sus deberes, su interés puede quedar protegido pese al fraude o acto intencional del asegurado nombrado.",
+    "keyTerms": [
+      {
+        "es": "Cláusula hipotecaria estándar",
+        "en": "Standard Mortgage Clause"
+      },
+      {
+        "es": "Acreedor hipotecario",
+        "en": "Mortgagee"
+      },
+      {
+        "es": "Beneficiario de pérdidas",
+        "en": "Loss Payee"
+      }
+    ],
+    "source": {
+      "file": "G3- Texas P&C Domain G3 Research.es.md",
+      "section": "H. Derechos del acreedor hipotecario"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G3-Q007",
+    "domain": "G3",
+    "subtopic": "Avalúo de pérdidas",
+    "difficulty": "intermedia",
+    "stem": "Después de una tormenta, ambas partes aceptan que el techo está cubierto, pero discrepan sobre el costo de repararlo. También discuten si el deterioro previo de una unidad HVAC está excluido. ¿Qué puede resolver el avalúo?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La interpretación de la exclusión por deterioro, pero no los costos de reparación",
+        "rationale": "Incorrecta. Interpretar una exclusión es una cuestión de cobertura ajena al alcance del avalúo."
+      },
+      {
+        "id": "B",
+        "text": "Todas las controversias, incluida la causalidad de los daños",
+        "rationale": "Incorrecta. El avalúo no sustituye la resolución jurídica de cuestiones de causalidad, cobertura o interpretación contractual."
+      },
+      {
+        "id": "C",
+        "text": "El monto de la pérdida, sin decidir definitivamente la cobertura o la exclusión",
+        "rationale": "Correcta. El avalúo determina la valoración física o el costo de los daños, pero deja al asegurador sus defensas de cobertura."
+      },
+      {
+        "id": "D",
+        "text": "Únicamente si el primer asegurado nombrado renuncia a toda defensa de cobertura",
+        "rationale": "Incorrecta. La activación del avalúo no exige que el asegurado renuncie a las cuestiones jurídicas de cobertura."
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "El avalúo se limita al monto de la pérdida. Cada parte elige un tasador, ambos procuran elegir un árbitro dirimente y el acuerdo firmado por dos de los tres fija la valoración, no la existencia de cobertura.",
+    "keyTerms": [
+      {
+        "es": "Avalúo",
+        "en": "Appraisal"
+      },
+      {
+        "es": "Árbitro dirimente",
+        "en": "Umpire"
+      },
+      {
+        "es": "Monto de la pérdida",
+        "en": "Amount of Loss"
+      }
+    ],
+    "source": {
+      "file": "G3- Texas P&C Domain G3 Research.es.md",
+      "section": "K. Avalúo"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G3-Q008",
+    "domain": "G3",
+    "subtopic": "Otros seguros",
+    "difficulty": "avanzada",
+    "stem": "Dos pólizas cubren el mismo edificio, interés y pérdida. La Póliza A tiene límite de $200,000 y la Póliza B de $600,000; ambas contienen cláusulas proporcionales compatibles. Si la pérdida cubierta es de $40,000 y no hay deducibles, ¿cuánto paga la Póliza A?",
+    "options": [
+      {
+        "id": "A",
+        "text": "$5,000",
+        "rationale": "Incorrecta. Esta cantidad representa solo 12.5% de la pérdida y no corresponde a la relación entre el límite de A y el seguro total."
+      },
+      {
+        "id": "B",
+        "text": "$20,000",
+        "rationale": "Incorrecta. Dividir por partes iguales ignoraría que los límites son distintos y que las cláusulas exigen contribución proporcional."
+      },
+      {
+        "id": "C",
+        "text": "$30,000",
+        "rationale": "Incorrecta. Esta es la participación de 75% correspondiente a la Póliza B, cuyo límite es $600,000 de un total de $800,000."
+      },
+      {
+        "id": "D",
+        "text": "$10,000",
+        "rationale": "Correcta. La Póliza A representa 25% del límite total de $800,000, por lo que paga 25% de $40,000."
+      }
+    ],
+    "correctOption": "D",
+    "explanation": "En la contribución proporcional, cada asegurador paga su límite dividido entre el total de seguros válidos y cobrables, multiplicado por la pérdida. Para A: $200,000 ÷ $800,000 × $40,000 = $10,000.",
+    "keyTerms": [
+      {
+        "es": "Otros seguros",
+        "en": "Other Insurance"
+      },
+      {
+        "es": "Contribución proporcional",
+        "en": "Pro Rata Contribution"
+      }
+    ],
+    "source": {
+      "file": "G3- Texas P&C Domain G3 Research.es.md",
+      "section": "Base 2: Cálculo proporcional de pérdidas"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G3-Q009",
+    "domain": "G3",
+    "subtopic": "Subrogación y recuperación",
+    "difficulty": "avanzada",
+    "stem": "Una pérdida cubierta es de $20,000. Tras aplicar un deducible de $2,000, el asegurador paga $18,000 y luego recupera $10,000 del tercero negligente. Según la regla de indemnización completa descrita para Texas, ¿cómo se distribuye la recuperación?",
+    "options": [
+      {
+        "id": "A",
+        "text": "$2,000 al asegurado y $8,000 al asegurador",
+        "rationale": "Correcta. Primero se reembolsa al asegurado el deducible de $2,000 y el asegurador retiene el resto para compensar su pago."
+      },
+      {
+        "id": "B",
+        "text": "Los $10,000 al asegurador porque inició la subrogación",
+        "rationale": "Incorrecta. La regla Made Whole da prioridad al reembolso del deducible del asegurado antes de la retención del asegurador."
+      },
+      {
+        "id": "C",
+        "text": "$5,000 a cada parte por contribución en partes iguales",
+        "rationale": "Incorrecta. La contribución por partes iguales se refiere a otros seguros, no a la distribución de una recuperación por subrogación."
+      },
+      {
+        "id": "D",
+        "text": "Los $10,000 al asegurado como valor de salvamento",
+        "rationale": "Incorrecta. La recuperación proviene del tercero negligente; el salvamento consiste en el valor o título residual de bienes dañados."
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "La subrogación permite al asegurador ejercer, después del pago, los derechos del asegurado contra el tercero responsable. La doctrina Made Whole descrita da prioridad al reembolso del deducible para evitar que el asegurado quede parcialmente sin indemnizar.",
+    "keyTerms": [
+      {
+        "es": "Subrogación",
+        "en": "Subrogation"
+      },
+      {
+        "es": "Doctrina de indemnización completa",
+        "en": "Made Whole Doctrine"
+      },
+      {
+        "es": "Salvamento",
+        "en": "Salvage"
+      }
+    ],
+    "source": {
+      "file": "G3- Texas P&C Domain G3 Research.es.md",
+      "section": "M. Subrogación"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G3-Q010",
+    "domain": "G3",
+    "subtopic": "Declaraciones falsas en Texas",
+    "difficulty": "avanzada",
+    "stem": "Un asegurador de Texas pretende anular una póliza porque una respuesta de la solicitud era falsa. ¿Qué combinación debe demostrar conforme a la norma descrita en el paquete?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Solo que la respuesta no era literalmente exacta",
+        "rationale": "Incorrecta. Una inexactitud técnica no basta por sí sola para anular la cobertura conforme a la norma de Texas."
+      },
+      {
+        "id": "B",
+        "text": "Entre otros elementos, materialidad para el riesgo e intención de engañar",
+        "rationale": "Correcta. La norma exige una declaración falsa en la que el asegurador confió, material para el riesgo, y realizada con intención de engañar."
+      },
+      {
+        "id": "C",
+        "text": "Únicamente que la solicitud no estaba adjunta a la póliza",
+        "rationale": "Incorrecta. La falta de incorporación de la solicitud puede limitar su uso, pero no demuestra los elementos necesarios de una declaración falsa."
+      },
+      {
+        "id": "D",
+        "text": "Que cualquier garantía fue incumplida, aunque fuera inmaterial y accidental",
+        "rationale": "Incorrecta. Texas trata las garantías técnicas como declaraciones y evita la pérdida automática de derechos por incumplimientos inmateriales."
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Para evitar una póliza por declaración falsa en Texas, el asegurador debe probar la declaración, su falsedad, su confianza en ella, su materialidad y la intención de engañar. Además, la rescisión por falsedad exige aviso escrito dentro de los 90 días posteriores a su descubrimiento.",
+    "keyTerms": [
+      {
+        "es": "Declaración falsa",
+        "en": "Misrepresentation"
+      },
+      {
+        "es": "Materialidad",
+        "en": "Materiality"
+      },
+      {
+        "es": "Intención de engañar",
+        "en": "Intent to Deceive"
+      }
+    ],
+    "source": {
+      "file": "G3- Texas P&C Domain G3 Research.es.md",
+      "section": "O. Garantías, declaraciones y ocultamiento"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G3-Q011",
+    "domain": "G3",
+    "subtopic": "FCRA y suscripción",
+    "difficulty": "intermedia",
+    "stem": "Un suscriptor usa un puntaje de seguro basado en crédito para asignar a una solicitante una prima más alta. ¿Qué obligación se activa conforme a la FCRA?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Entregar únicamente un aviso anual de privacidad",
+        "rationale": "Incorrecta. El aviso anual de privacidad pertenece a la GLBA y no sustituye el aviso exigido por una decisión adversa basada en un informe."
+      },
+      {
+        "id": "B",
+        "text": "Obtener una orden judicial antes de utilizar cualquier informe del consumidor",
+        "rationale": "Incorrecta. La suscripción de seguros que involucra al consumidor constituye una finalidad permisible y no requiere una orden judicial."
+      },
+      {
+        "id": "C",
+        "text": "Emitir un aviso de medida adversa con los datos de la CRA y los derechos de copia gratuita y disputa",
+        "rationale": "Correcta. Cobrar una prima mayor por información del informe es una medida adversa y exige las divulgaciones correspondientes, incluido el derecho a una copia gratuita dentro de 60 días."
+      },
+      {
+        "id": "D",
+        "text": "Cancelar el uso de toda información crediticia y devolver la prima",
+        "rationale": "Incorrecta. La FCRA regula el uso y las divulgaciones; no prohíbe usar información obtenida para una finalidad permisible."
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Una medida adversa incluye denegar o cancelar cobertura, aumentar la prima o reducir términos debido a un informe del consumidor. El aviso debe identificar a la CRA, aclarar que esta no tomó la decisión e informar los derechos de copia gratuita durante 60 días y de disputa.",
+    "keyTerms": [
+      {
+        "es": "Ley de Informes de Crédito Justos",
+        "en": "Fair Credit Reporting Act"
+      },
+      {
+        "es": "Medida adversa",
+        "en": "Adverse Action"
+      },
+      {
+        "es": "Agencia de informes del consumidor",
+        "en": "Consumer Reporting Agency"
+      }
+    ],
+    "source": {
+      "file": "G3- Texas P&C Domain G3 Research.es.md",
+      "section": "Q. Fair Credit Reporting Act (FCRA)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G3-Q012",
+    "domain": "G3",
+    "subtopic": "Privacidad GLBA",
+    "difficulty": "intermedia",
+    "stem": "Un asegurador desea entregar a una empresa de mercadotecnia no afiliada información de activos y pagos de primas de sus clientes. La divulgación no es necesaria para tramitar una reclamación, facturar, reasegurar ni prevenir fraude. ¿Qué exige generalmente la GLBA antes de compartirla?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Solo verificar que la empresa receptora tenga un puntaje crediticio favorable",
+        "rationale": "Incorrecta. La solvencia de la empresa receptora no reemplaza las obligaciones de privacidad aplicables a la información personal no pública."
+      },
+      {
+        "id": "B",
+        "text": "Presentar un comprobante de pérdida por cada cliente",
+        "rationale": "Incorrecta. El comprobante de pérdida documenta una reclamación de propiedad y no autoriza intercambios de datos para mercadotecnia."
+      },
+      {
+        "id": "C",
+        "text": "Emitir un aviso de medida adversa de la FCRA",
+        "rationale": "Incorrecta. No se ha tomado una decisión negativa de suscripción basada en un informe del consumidor, que es el supuesto de la FCRA."
+      },
+      {
+        "id": "D",
+        "text": "Dar aviso de privacidad y una oportunidad razonable de exclusión voluntaria",
+        "rationale": "Correcta. La divulgación de NPI a un tercero no afiliado para mercadotecnia generalmente requiere aviso previo y una oportunidad de exclusión voluntaria."
+      }
+    ],
+    "correctOption": "D",
+    "explanation": "La GLBA protege la información personal no pública. Su intercambio con terceros no afiliados generalmente requiere aviso y opción de exclusión, aunque ciertas funciones necesarias para efectuar o administrar una transacción están exceptuadas.",
+    "keyTerms": [
+      {
+        "es": "Información personal no pública",
+        "en": "Nonpublic Personal Information"
+      },
+      {
+        "es": "Exclusión voluntaria",
+        "en": "Opt-Out"
+      },
+      {
+        "es": "Ley Gramm-Leach-Bliley",
+        "en": "Gramm-Leach-Bliley Act"
+      }
+    ],
+    "source": {
+      "file": "G3- Texas P&C Domain G3 Research.es.md",
+      "section": "R. Protección de la privacidad (Gramm-Leach-Bliley Act \\- GLBA)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G3-Q013",
+    "domain": "G3",
+    "subtopic": "TRIA y territorio",
+    "difficulty": "basica",
+    "stem": "¿Cuál afirmación describe correctamente el alcance de la TRIA y el territorio estándar indicado para pólizas de propiedad?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La TRIA se limita a ramos comerciales; el territorio estándar incluye Estados Unidos, sus territorios y posesiones, Puerto Rico y Canadá",
+        "rationale": "Correcta. La TRIA se aplica a los ramos comerciales cubiertos, mientras el territorio estándar descrito comprende esas jurisdicciones norteamericanas."
+      },
+      {
+        "id": "B",
+        "text": "La TRIA se aplica exclusivamente a pólizas personales; el territorio estándar comprende todo el mundo",
+        "rationale": "Incorrecta. Los ramos personales están excluidos de la TRIA y las pólizas estándar de propiedad no conceden cobertura mundial irrestricta."
+      },
+      {
+        "id": "C",
+        "text": "La TRIA obliga al asegurado comercial a comprar cobertura; el territorio estándar se limita al estado de Texas",
+        "rationale": "Incorrecta. El asegurador debe ofrecer la cobertura, pero el asegurado puede rechazarla; además, el territorio descrito es más amplio que Texas."
+      },
+      {
+        "id": "D",
+        "text": "La TRIA cubre automáticamente los actos de guerra; el territorio estándar incluye Europa sin necesidad de endoso",
+        "rationale": "Incorrecta. La exclusión de guerra continúa aplicándose y una pérdida directa en Europa queda fuera del territorio descrito salvo ampliación expresa."
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "La TRIA exige ofrecer cobertura contra terrorismo en los ramos comerciales aplicables, aunque el asegurado puede rechazarla; no se extiende a los ramos personales. Por separado, el territorio estándar descrito comprende Estados Unidos, sus territorios y posesiones, Puerto Rico y Canadá, con ampliaciones sujetas al formulario o a endosos.",
+    "keyTerms": [
+      {
+        "es": "Ley de Seguro contra Riesgos de Terrorismo",
+        "en": "Terrorism Risk Insurance Act"
+      },
+      {
+        "es": "Ramos comerciales",
+        "en": "Commercial Lines"
+      },
+      {
+        "es": "Territorio de la póliza",
+        "en": "Policy Territory"
+      }
+    ],
+    "source": {
+      "file": "G3- Texas P&C Domain G3 Research.es.md",
+      "section": "T. Terrorism Risk Insurance Act (TRIA)"
+    },
+    "reviewStatus": "pending_expert_review"
+  }
+]

@@ -1,0 +1,830 @@
+[
+  {
+    "id": "TX1-Q001",
+    "domain": "TX1",
+    "subtopic": "Consultas escritas del TDI",
+    "difficulty": "basica",
+    "stem": "Un agente recibe una consulta escrita del Texas Department of Insurance sobre una queja de un consumidor. ¿Dentro de qué plazo debe responder por escrito?",
+    "options": [
+      {
+        "id": "A",
+        "text": "10 días hábiles",
+        "rationale": "Correcta. TIC § 38.001 exige que el destinatario responda por escrito dentro de los 10 días hábiles siguientes a la recepción de la consulta."
+      },
+      {
+        "id": "B",
+        "text": "10 días calendario",
+        "rationale": "Incorrecta. La regla aplicable cuenta días hábiles, no días calendario."
+      },
+      {
+        "id": "C",
+        "text": "30 días calendario",
+        "rationale": "Incorrecta. El plazo de 30 días corresponde a ciertas divulgaciones, como las relacionadas con fraude o medidas administrativas, no a consultas del TDI."
+      },
+      {
+        "id": "D",
+        "text": "60 días calendario",
+        "rationale": "Incorrecta. El plazo de 60 días corresponde a la solicitud de audiencia sobre una orden de emergencia de cese y desistimiento."
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "La falta de respuesta escrita a una consulta del TDI dentro de 10 días hábiles constituye una infracción independiente, aunque la queja que originó la consulta finalmente resulte infundada.",
+    "keyTerms": [
+      {
+        "es": "consulta escrita",
+        "en": "written inquiry"
+      },
+      {
+        "es": "días hábiles",
+        "en": "business days"
+      }
+    ],
+    "source": {
+      "file": "TX1 - Texas P&C Insurance Research Plan.es.md",
+      "section": "4.1 Autoridad y aplicación por el Commissioner"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "TX1-Q002",
+    "domain": "TX1",
+    "subtopic": "Órdenes de emergencia",
+    "difficulty": "intermedia",
+    "stem": "El TDI entrega a una entidad una orden de emergencia de cese y desistimiento. Si la entidad desea impugnarla, ¿qué debe hacer conforme a la regla vigente?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Esperar la audiencia que el TDI debe programar automáticamente dentro de 30 días",
+        "rationale": "Incorrecta. La entidad afectada debe solicitar la audiencia por escrito; el TDI no tiene que iniciarla automáticamente."
+      },
+      {
+        "id": "B",
+        "text": "Solicitar por escrito una audiencia dentro de 60 días calendario desde la entrega",
+        "rationale": "Correcta. 28 TAC § 1.905 y TIC § 83.053 conceden 60 días calendario desde la entrega para solicitar la audiencia."
+      },
+      {
+        "id": "C",
+        "text": "Presentar una respuesta informal dentro de 10 días hábiles",
+        "rationale": "Incorrecta. Diez días hábiles es el plazo aplicable a consultas escritas del TDI, no a la impugnación de esta orden."
+      },
+      {
+        "id": "D",
+        "text": "Solicitar una audiencia antes de que se entregue la orden",
+        "rationale": "Incorrecta. Una orden de emergencia puede dictarse ex parte por daño público inminente; el derecho de solicitar audiencia surge después de su entrega."
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "El Commissioner puede emitir una orden de emergencia sin audiencia previa cuando exista daño público inminente e irreparable o riesgo de insolvencia. La parte afectada conserva el derecho de solicitar una audiencia dentro de 60 días calendario.",
+    "keyTerms": [
+      {
+        "es": "orden de emergencia de cese y desistimiento",
+        "en": "emergency cease and desist order"
+      },
+      {
+        "es": "audiencia administrativa",
+        "en": "administrative hearing"
+      }
+    ],
+    "source": {
+      "file": "TX1 - Texas P&C Insurance Research Plan.es.md",
+      "section": "4.1 Autoridad y aplicación por el Commissioner"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "TX1-Q003",
+    "domain": "TX1",
+    "subtopic": "Clasificación por domicilio",
+    "difficulty": "basica",
+    "stem": "Una aseguradora constituida conforme a las leyes de Ohio solicita autorización para operar en Texas. ¿Cómo se clasifica en Texas según su domicilio?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Nacional",
+        "rationale": "Incorrecta. En Texas, una aseguradora nacional es la constituida conforme a las leyes de Texas."
+      },
+      {
+        "id": "B",
+        "text": "Foránea",
+        "rationale": "Incorrecta. Una aseguradora foránea está constituida fuera de Estados Unidos."
+      },
+      {
+        "id": "C",
+        "text": "Extranjera",
+        "rationale": "Correcta. Una aseguradora constituida en otro estado o territorio de Estados Unidos se considera extranjera en Texas."
+      },
+      {
+        "id": "D",
+        "text": "Mutual",
+        "rationale": "Incorrecta. Mutual describe una estructura de propiedad, no una clasificación por domicilio."
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "La clasificación geográfica depende del lugar de constitución: nacional significa Texas, extranjera significa otro estado o territorio estadounidense y foránea significa una jurisdicción fuera de Estados Unidos.",
+    "keyTerms": [
+      {
+        "es": "aseguradora extranjera",
+        "en": "foreign insurer"
+      },
+      {
+        "es": "domicilio",
+        "en": "domicile"
+      }
+    ],
+    "source": {
+      "file": "TX1 - Texas P&C Insurance Research Plan.es.md",
+      "section": "4.2 Definiciones de entidades aseguradoras y del mercado"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "TX1-Q004",
+    "domain": "TX1",
+    "subtopic": "Mercado no admitido",
+    "difficulty": "avanzada",
+    "stem": "Un negocio de alto riesgo no logra obtener cobertura en el mercado admitido. ¿Cuál de las siguientes colocaciones puede ser lícita según el paquete?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La contratación directa con cualquier aseguradora no admitida, sin intervención de un agente autorizado",
+        "rationale": "Incorrecta. La ausencia de un Certificate of Authority generalmente impide realizar operaciones, salvo que se cumpla la excepción legal de líneas excedentes."
+      },
+      {
+        "id": "B",
+        "text": "La colocación con una aseguradora no admitida si el comprador renuncia a toda protección regulatoria",
+        "rationale": "Incorrecta. Una renuncia del comprador no sustituye los requisitos legales para una colocación de líneas excedentes."
+      },
+      {
+        "id": "C",
+        "text": "La expedición por una aseguradora no admitida mediante cualquier agente de líneas generales",
+        "rationale": "Incorrecta. Una licencia general de P&C por sí sola no concede autoridad para colocar cobertura en el mercado no admitido."
+      },
+      {
+        "id": "D",
+        "text": "La colocación con una aseguradora no admitida elegible mediante un agente de líneas excedentes autorizado",
+        "rationale": "Correcta. Texas permite esta excepción para riesgos difíciles o especializados cuando interviene un Texas Surplus Lines Agent autorizado."
+      }
+    ],
+    "correctOption": "D",
+    "explanation": "Una aseguradora admitida posee un Certificate of Authority de Texas. La cobertura de líneas excedentes constituye una excepción legal que permite usar aseguradoras no admitidas elegibles, pero esas pólizas no están respaldadas por la asociación estatal de garantía.",
+    "keyTerms": [
+      {
+        "es": "aseguradora no admitida",
+        "en": "nonadmitted insurer"
+      },
+      {
+        "es": "líneas excedentes",
+        "en": "surplus lines"
+      }
+    ],
+    "source": {
+      "file": "TX1 - Texas P&C Insurance Research Plan.es.md",
+      "section": "4.2 Definiciones de entidades aseguradoras y del mercado"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "TX1-Q005",
+    "domain": "TX1",
+    "subtopic": "Licencia de agencia",
+    "difficulty": "intermedia",
+    "stem": "Una LLC desea operar como agencia de seguros en Texas. Además de obtener su licencia de entidad comercial y contar con al menos un funcionario o socio activo debidamente autorizado, ¿qué prueba de responsabilidad financiera puede presentar?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Una póliza de E&O mínima de $250,000 con deducible máximo del 10%, o una fianza de $25,000",
+        "rationale": "Correcta. Estas son las alternativas de responsabilidad financiera indicadas para una agencia corporativa."
+      },
+      {
+        "id": "B",
+        "text": "Únicamente una póliza de E&O de $25,000 sin límite de deducible",
+        "rationale": "Incorrecta. La cobertura mínima de E&O es de $250,000 y el deducible no puede superar el 10%."
+      },
+      {
+        "id": "C",
+        "text": "Únicamente una fianza de $250,000",
+        "rationale": "Incorrecta. La fianza alternativa tiene un principal de $25,000, no de $250,000."
+      },
+      {
+        "id": "D",
+        "text": "La licencia individual del funcionario, sin E&O ni fianza",
+        "rationale": "Incorrecta. La licencia individual requerida no elimina la obligación independiente de demostrar responsabilidad financiera de la entidad."
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "La licencia de una persona no sustituye la licencia de la agencia. Una entidad comercial debe satisfacer sus propios requisitos, incluida una póliza de errores y omisiones de al menos $250,000 o una fianza de $25,000.",
+    "keyTerms": [
+      {
+        "es": "errores y omisiones",
+        "en": "errors and omissions"
+      },
+      {
+        "es": "fianza",
+        "en": "surety bond"
+      }
+    ],
+    "source": {
+      "file": "TX1 - Texas P&C Insurance Research Plan.es.md",
+      "section": "4.3 Requisitos y tipos de licencias"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "TX1-Q006",
+    "domain": "TX1",
+    "subtopic": "Funciones especializadas",
+    "difficulty": "avanzada",
+    "stem": "Un consultor cobra honorarios por evaluar las exposiciones de una empresa y recomendar límites de seguro. Luego, el cliente le pide obligar directamente la cobertura. ¿Cuál es la conclusión correcta?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La licencia de ajustador autoriza ambas actividades",
+        "rationale": "Incorrecta. Un ajustador investiga y negocia reclamaciones en nombre de aseguradoras; no vende ni obliga pólizas."
+      },
+      {
+        "id": "B",
+        "text": "La licencia de administrador de riesgos permite la asesoría, pero para obligar la póliza se necesita una licencia activa de General Lines P&C",
+        "rationale": "Correcta. La autoridad de un administrador de riesgos cubre la asesoría remunerada, pero no la captación, venta o formalización de seguros."
+      },
+      {
+        "id": "C",
+        "text": "La licencia de administrador de riesgos permite obligar la póliza si los honorarios son fijos",
+        "rationale": "Incorrecta. La forma de remuneración no amplía la autoridad de esa licencia para vender u obligar cobertura."
+      },
+      {
+        "id": "D",
+        "text": "No se requiere licencia para ninguna actividad porque el cliente es una empresa",
+        "rationale": "Incorrecta. El carácter comercial del cliente no elimina los requisitos de licencia aplicables a la asesoría remunerada y a la venta de seguros."
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Texas separa la asesoría sobre exposiciones, propia de un administrador de riesgos, de la autoridad para captar, vender o vincular seguros, propia de un agente de General Lines P&C.",
+    "keyTerms": [
+      {
+        "es": "administrador de riesgos",
+        "en": "risk manager"
+      },
+      {
+        "es": "obligar cobertura",
+        "en": "bind coverage"
+      }
+    ],
+    "source": {
+      "file": "TX1 - Texas P&C Insurance Research Plan.es.md",
+      "section": "7. Laboratorio de aplicación de licencias y medidas de cumplimiento"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "TX1-Q007",
+    "domain": "TX1",
+    "subtopic": "Licencias provisionales",
+    "difficulty": "basica",
+    "stem": "¿Qué característica distingue a una licencia de emergencia de una licencia temporal en Texas?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La licencia de emergencia se expide para colocar riesgos con aseguradoras no admitidas",
+        "rationale": "Incorrecta. Esa función corresponde a una licencia de líneas excedentes."
+      },
+      {
+        "id": "B",
+        "text": "La licencia de emergencia es la licencia ordinaria de un aprendiz y nunca puede prorrogarse",
+        "rationale": "Incorrecta. La licencia temporal sirve al aprendiz y no es renovable; la de emergencia puede prorrogarse."
+      },
+      {
+        "id": "C",
+        "text": "La licencia de emergencia preserva la continuidad de una agencia tras el fallecimiento o incapacidad total de un agente",
+        "rationale": "Correcta. Ese acontecimiento activa la licencia de emergencia, inicialmente válida por 90 días."
+      },
+      {
+        "id": "D",
+        "text": "La licencia de emergencia autoriza únicamente la asesoría remunerada sobre riesgos",
+        "rationale": "Incorrecta. La asesoría remunerada sobre riesgos corresponde a la licencia de administrador de riesgos."
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "La licencia temporal es provisional para incorporar a un nuevo productor y dura hasta 90 días sin renovación. La licencia de emergencia responde al fallecimiento o incapacidad total de un agente, dura 90 días y puede prorrogarse otros 90 días.",
+    "keyTerms": [
+      {
+        "es": "licencia de emergencia",
+        "en": "emergency license"
+      },
+      {
+        "es": "licencia temporal",
+        "en": "temporary license"
+      }
+    ],
+    "source": {
+      "file": "TX1 - Texas P&C Insurance Research Plan.es.md",
+      "section": "4.3 Requisitos y tipos de licencias"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "TX1-Q008",
+    "domain": "TX1",
+    "subtopic": "Nombramientos",
+    "difficulty": "intermedia",
+    "stem": "Una aseguradora termina el nombramiento de un agente que mantiene vigente su licencia de General Lines P&C. ¿Cuál es el efecto regulatorio principal?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La licencia del agente queda automáticamente revocada durante cinco años",
+        "rationale": "Incorrecta. La prohibición de cinco años se relaciona con una revocación disciplinaria, no con la terminación de un nombramiento."
+      },
+      {
+        "id": "B",
+        "text": "El Certificate of Authority de la aseguradora queda cancelado",
+        "rationale": "Incorrecta. Terminar la relación con un agente no cancela el permiso operativo de la aseguradora."
+      },
+      {
+        "id": "C",
+        "text": "El agente conserva autoridad para obligar a esa aseguradora hasta su siguiente renovación",
+        "rationale": "Incorrecta. Al terminar el nombramiento, cesa la autoridad para representar y obligar a esa aseguradora."
+      },
+      {
+        "id": "D",
+        "text": "El agente pierde la autoridad para representar a esa aseguradora, pero conserva su licencia subyacente",
+        "rationale": "Correcta. El nombramiento y la licencia son credenciales distintas; la terminación afecta la relación con la aseguradora específica."
+      }
+    ],
+    "correctOption": "D",
+    "explanation": "La licencia establece la condición general del productor. El nombramiento presentado por una aseguradora concede autoridad para actuar en nombre de esa compañía; su terminación no equivale a revocar la licencia.",
+    "keyTerms": [
+      {
+        "es": "nombramiento",
+        "en": "appointment"
+      },
+      {
+        "es": "terminación",
+        "en": "termination"
+      }
+    ],
+    "source": {
+      "file": "TX1 - Texas P&C Insurance Research Plan.es.md",
+      "section": "4.4 Administración y ciclo de vida de las licencias"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "TX1-Q009",
+    "domain": "TX1",
+    "subtopic": "Educación continua",
+    "difficulty": "intermedia",
+    "stem": "Una agente completa 20 horas de educación continua durante su período bienal, incluidas 3 horas de ética. ¿Qué consecuencia corresponde por las 4 horas faltantes?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Debe pagar $200 y todavía completar las 4 horas faltantes",
+        "rationale": "Correcta. La multa es de $50 por cada hora no completada; cuatro horas producen $200 y el pago no sustituye los créditos faltantes."
+      },
+      {
+        "id": "B",
+        "text": "Debe pagar $50 en total y queda exenta de completar las horas",
+        "rationale": "Incorrecta. La multa se calcula por hora faltante y no elimina la obligación académica."
+      },
+      {
+        "id": "C",
+        "text": "No existe incumplimiento porque completó las 3 horas de ética",
+        "rationale": "Incorrecta. Además de las 3 horas de ética, debe completar un total de 24 horas durante el período bienal."
+      },
+      {
+        "id": "D",
+        "text": "Su licencia queda revocada automáticamente por cinco años",
+        "rationale": "Incorrecta. El paquete establece una multa por hora y la obligación de completar las horas, no una revocación automática de cinco años."
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "Un agente de General Lines P&C debe completar 24 horas de CE cada dos años, incluidas 3 horas de ética y al menos 12 horas en aula o equivalente. Cada hora faltante genera una multa de $50 sin extinguir el requisito.",
+    "keyTerms": [
+      {
+        "es": "educación continua",
+        "en": "continuing education"
+      },
+      {
+        "es": "créditos de ética",
+        "en": "ethics credits"
+      }
+    ],
+    "source": {
+      "file": "TX1 - Texas P&C Insurance Research Plan.es.md",
+      "section": "4.4 Administración y ciclo de vida de las licencias"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "TX1-Q010",
+    "domain": "TX1",
+    "subtopic": "Renovación tardía",
+    "difficulty": "avanzada",
+    "stem": "La licencia de un productor venció hace 60 días. Suponiendo que satisface la educación continua aplicable, ¿cómo puede renovarla según el paquete?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Debe presentar una solicitud totalmente nueva y repetir el examen estatal",
+        "rationale": "Incorrecta. Repetir el examen corresponde a una inactividad superior a un año, no a un vencimiento de 60 días."
+      },
+      {
+        "id": "B",
+        "text": "Puede pagar el cargo de renovación de $50 y un recargo del 50%, equivalente a $25, sin repetir el examen",
+        "rationale": "Correcta. Una licencia vencida por no más de 90 días puede renovarse tardíamente mediante el cargo y el recargo indicados."
+      },
+      {
+        "id": "C",
+        "text": "Puede reanudar operaciones inmediatamente y pagar el cargo en la siguiente renovación bienal",
+        "rationale": "Incorrecta. Una licencia vencida no concede autoridad activa para realizar operaciones mientras no sea renovada."
+      },
+      {
+        "id": "D",
+        "text": "Debe esperar cinco años antes de volver a solicitar",
+        "rationale": "Incorrecta. La espera de cinco años se aplica después de una revocación, no de un simple vencimiento."
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Texas distingue entre vencimiento y revocación. Dentro de los primeros 90 días posteriores al vencimiento, procede la renovación tardía con un recargo del 50%; una revocación disciplinaria impone una espera de cinco años.",
+    "keyTerms": [
+      {
+        "es": "renovación tardía",
+        "en": "late renewal"
+      },
+      {
+        "es": "revocación",
+        "en": "revocation"
+      }
+    ],
+    "source": {
+      "file": "TX1 - Texas P&C Insurance Research Plan.es.md",
+      "section": "4.4 Administración y ciclo de vida de las licencias"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "TX1-Q011",
+    "domain": "TX1",
+    "subtopic": "Pago oportuno de reclamaciones",
+    "difficulty": "basica",
+    "stem": "Después de recibir todos los documentos solicitados para una reclamación, ¿cuánto tiempo tiene normalmente una aseguradora para notificar por escrito su aceptación o rechazo?",
+    "options": [
+      {
+        "id": "A",
+        "text": "5 días hábiles",
+        "rationale": "Incorrecta. Cinco días hábiles es el plazo ordinario para pagar después de aceptar la reclamación."
+      },
+      {
+        "id": "B",
+        "text": "15 días calendario",
+        "rationale": "Incorrecta. El plazo inicial para acusar recibo de una reclamación se expresa en días calendario; la decisión se mide en días hábiles."
+      },
+      {
+        "id": "C",
+        "text": "15 días hábiles",
+        "rationale": "Correcta. El plazo ordinario para comunicar la aceptación o el rechazo comienza después de recibir todos los comprobantes solicitados."
+      },
+      {
+        "id": "D",
+        "text": "60 días calendario",
+        "rationale": "Incorrecta. Sesenta días es el umbral de demora total relacionado con la penalización por pago tardío."
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "La secuencia ordinaria de pago oportuno es: 15 días calendario para acusar recibo e iniciar la investigación, 15 días hábiles para decidir tras recibir los comprobantes y 5 días hábiles para pagar después de aceptar.",
+    "keyTerms": [
+      {
+        "es": "aceptación o rechazo",
+        "en": "acceptance or rejection"
+      },
+      {
+        "es": "pago oportuno",
+        "en": "prompt payment"
+      }
+    ],
+    "source": {
+      "file": "TX1 - Texas P&C Insurance Research Plan.es.md",
+      "section": "4.5 Prácticas de mercadotecnia y normas contra prácticas comerciales desleales"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "TX1-Q012",
+    "domain": "TX1",
+    "subtopic": "Sanción por pago tardío",
+    "difficulty": "avanzada",
+    "stem": "Una aseguradora admite una reclamación, pero paga 75 días calendario después de recibir el comprobante de pérdida. Suponiendo que no aplica una excepción, ¿qué consecuencia describe el paquete?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Solo debe enviar una explicación escrita; no existe consecuencia monetaria",
+        "rationale": "Incorrecta. Superar el umbral de 60 días activa una consecuencia monetaria legal."
+      },
+      {
+        "id": "B",
+        "text": "Debe pagar una multa fija del 25% exclusivamente al TDI",
+        "rationale": "Incorrecta. La regla descrita no establece esa multa fija; impone interés anual del 18% y honorarios razonables de abogados."
+      },
+      {
+        "id": "C",
+        "text": "Debe pagar interés anual del 12% únicamente si actuó de mala fe",
+        "rationale": "Incorrecta. El paquete establece una tasa del 18% bajo Chapter 542 y no condiciona esta sanción a probar la infracción de Chapter 541."
+      },
+      {
+        "id": "D",
+        "text": "Debe pagar la reclamación, interés legal anual del 18% y honorarios razonables de abogados",
+        "rationale": "Correcta. La demora superior a 60 días calendario activa las consecuencias indicadas por la Prompt Payment of Claims Act."
+      }
+    ],
+    "correctOption": "D",
+    "explanation": "Chapter 542 establece plazos numéricos de tramitación. Una demora superior a 60 días calendario después de recibir el comprobante de pérdida activa interés legal anual del 18% y honorarios razonables de abogados, además del importe debido.",
+    "keyTerms": [
+      {
+        "es": "interés legal",
+        "en": "statutory interest"
+      },
+      {
+        "es": "demora en el pago",
+        "en": "payment delay"
+      }
+    ],
+    "source": {
+      "file": "TX1 - Texas P&C Insurance Research Plan.es.md",
+      "section": "7. Laboratorio de aplicación de licencias y medidas de cumplimiento"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "TX1-Q013",
+    "domain": "TX1",
+    "subtopic": "Negocio controlado",
+    "difficulty": "intermedia",
+    "stem": "Durante un año, un agente genera $200,000 en primas. De esa suma, $140,000 corresponden al negocio de su empleador y $60,000 al público general. ¿Cuál es el resultado?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cumple porque el 30% procede del público general y el negocio controlado es del 70%",
+        "rationale": "Correcta. El público aporta más del mínimo del 25% y el negocio controlado permanece por debajo del máximo del 75%."
+      },
+      {
+        "id": "B",
+        "text": "Incumple porque cualquier seguro relacionado con el empleador está prohibido",
+        "rationale": "Incorrecta. El negocio controlado no está prohibido por completo; se permite dentro de los límites porcentuales anuales."
+      },
+      {
+        "id": "C",
+        "text": "Incumple porque más del 50% de las primas es negocio controlado",
+        "rationale": "Incorrecta. El límite indicado es del 75%, no del 50%."
+      },
+      {
+        "id": "D",
+        "text": "Cumple únicamente si renuncia a las comisiones de las pólizas del empleador",
+        "rationale": "Incorrecta. La prueba de cumplimiento se basa en el volumen anual de primas, no en renunciar a comisiones."
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "Por lo menos el 25% del volumen anual de primas debe proceder del público general. En consecuencia, el negocio controlado puede representar hasta el 75% del total.",
+    "keyTerms": [
+      {
+        "es": "negocio controlado",
+        "en": "controlled business"
+      },
+      {
+        "es": "público general",
+        "en": "general public"
+      }
+    ],
+    "source": {
+      "file": "TX1 - Texas P&C Insurance Research Plan.es.md",
+      "section": "4.5 Prácticas de mercadotecnia y normas contra prácticas comerciales desleales"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "TX1-Q014",
+    "domain": "TX1",
+    "subtopic": "Conducta de mercadotecnia",
+    "difficulty": "basica",
+    "stem": "Un agente dice directamente a un solicitante que una póliza cubre inundación, aunque la póliza la excluye expresamente. ¿Qué práctica describe mejor esta conducta?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Difamación",
+        "rationale": "Incorrecta. La difamación consiste en declaraciones falsas o maliciosas destinadas a perjudicar la reputación de una entidad o persona del negocio de seguros."
+      },
+      {
+        "id": "B",
+        "text": "Tergiversación",
+        "rationale": "Correcta. El agente hizo directamente a un solicitante una declaración falsa sobre los beneficios y términos de la póliza."
+      },
+      {
+        "id": "C",
+        "text": "Boicot",
+        "rationale": "Incorrecta. El boicot se relaciona con actos anticompetitivos que restringen irrazonablemente el comercio."
+      },
+      {
+        "id": "D",
+        "text": "Clasificación lícita de riesgos",
+        "rationale": "Incorrecta. No se está evaluando ni agrupando un riesgo; se está describiendo falsamente una cobertura."
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "La tergiversación comprende declaraciones falsas directas sobre beneficios, exclusiones, dividendos o la situación financiera de una aseguradora. Cuando la afirmación engañosa se difunde públicamente mediante un anuncio, puede constituir publicidad falsa.",
+    "keyTerms": [
+      {
+        "es": "tergiversación",
+        "en": "misrepresentation"
+      },
+      {
+        "es": "exclusión",
+        "en": "exclusion"
+      }
+    ],
+    "source": {
+      "file": "TX1 - Texas P&C Insurance Research Plan.es.md",
+      "section": "7. Laboratorio de aplicación de licencias y medidas de cumplimiento"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "TX1-Q015",
+    "domain": "TX1",
+    "subtopic": "Reembolsos ilegales",
+    "difficulty": "intermedia",
+    "stem": "¿Cuál conducta constituye un reembolso ilegal según el paquete?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Entregar bolígrafos de marca y valor nominal en una feria comercial",
+        "rationale": "Incorrecta. Los artículos promocionales pequeños, de marca y valor nominal se consideran publicidad promocional lícita."
+      },
+      {
+        "id": "B",
+        "text": "Aplicar un descuento incluido en un plan de tarifas presentado y con fundamento actuarial",
+        "rationale": "Incorrecta. Un descuento reflejado en tarifas presentadas constituye una modificación lícita de la tarifa, no un incentivo oculto."
+      },
+      {
+        "id": "C",
+        "text": "Ofrecer al comprador $500 en efectivo, no previstos en la póliza, si adquiere la cobertura",
+        "rationale": "Correcta. Se ofrece una contraprestación de valor no indicada en el contrato para inducir la compra del seguro."
+      },
+      {
+        "id": "D",
+        "text": "Compartir una comisión con otro agente que posee una licencia activa",
+        "rationale": "Incorrecta. Compartir comisiones entre agentes debidamente autorizados puede ser lícito y no equivale a entregar un incentivo al comprador."
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "El reembolso ilegal consiste en ofrecer o pagar al comprador una devolución de prima, favor especial o beneficio de valor no especificado en la póliza para inducir la compra.",
+    "keyTerms": [
+      {
+        "es": "reembolso ilegal",
+        "en": "rebating"
+      },
+      {
+        "es": "incentivo",
+        "en": "inducement"
+      }
+    ],
+    "source": {
+      "file": "TX1 - Texas P&C Insurance Research Plan.es.md",
+      "section": "4.5 Prácticas de mercadotecnia y normas contra prácticas comerciales desleales"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "TX1-Q016",
+    "domain": "TX1",
+    "subtopic": "Notificación de fraude",
+    "difficulty": "avanzada",
+    "stem": "Un ajustador determina razonablemente que un asegurado escenificó una pérdida. La aseguradora deniega la reclamación y avisa a la policía local, pero no informa al TDI. ¿Cuál es la obligación pendiente?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ninguna, porque la denegación de la reclamación satisface el deber legal",
+        "rationale": "Incorrecta. Denegar la reclamación no reemplaza el deber independiente de notificar el fraude."
+      },
+      {
+        "id": "B",
+        "text": "Esperar una condena penal antes de comunicar el asunto",
+        "rationale": "Incorrecta. El deber surge ante una determinación o sospecha razonable; no requiere una condena."
+      },
+      {
+        "id": "C",
+        "text": "Informar al TDI únicamente durante el siguiente examen quinquenal",
+        "rationale": "Incorrecta. La notificación debe hacerse dentro del plazo de 30 días, no esperar un examen regulatorio."
+      },
+      {
+        "id": "D",
+        "text": "Presentar un informe escrito a la TDI Fraud Unit dentro de 30 días calendario de la determinación",
+        "rationale": "Correcta. Informar a la policía local no satisface el deber específico de notificar por escrito a la unidad de fraude del TDI."
+      }
+    ],
+    "correctOption": "D",
+    "explanation": "TIC Chapter 701 exige informar por escrito a la TDI Fraud Unit dentro de 30 días calendario desde la determinación o sospecha razonable de fraude. Quien informa de buena fe recibe inmunidad legal frente a responsabilidad civil.",
+    "keyTerms": [
+      {
+        "es": "fraude de seguros",
+        "en": "insurance fraud"
+      },
+      {
+        "es": "inmunidad por buena fe",
+        "en": "good-faith immunity"
+      }
+    ],
+    "source": {
+      "file": "TX1 - Texas P&C Insurance Research Plan.es.md",
+      "section": "7. Laboratorio de aplicación de licencias y medidas de cumplimiento"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "TX1-Q017",
+    "domain": "TX1",
+    "subtopic": "Referencias y comisiones",
+    "difficulty": "avanzada",
+    "stem": "¿En cuál situación puede un agente pagar lícitamente a una persona sin licencia por referir a un cliente potencial?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cuando paga un importe nominal fijo, no condicionado a la compra, y la persona no analiza términos, tarifas ni condiciones",
+        "rationale": "Correcta. La excepción permite un honorario nominal fijo y no contingente si quien refiere no realiza actos propios de un productor."
+      },
+      {
+        "id": "B",
+        "text": "Cuando paga un porcentaje de la comisión solamente si el cliente compra la póliza",
+        "rationale": "Incorrecta. El pago depende de la venta y equivale a compartir remuneración de seguros con una persona sin licencia."
+      },
+      {
+        "id": "C",
+        "text": "Cuando la persona explica las exclusiones de la póliza, pero no firma la solicitud",
+        "rationale": "Incorrecta. Analizar términos o condiciones de cobertura excede la actividad permitida para una persona sin licencia."
+      },
+      {
+        "id": "D",
+        "text": "Cuando el pago varía según el importe de la prima solicitada",
+        "rationale": "Incorrecta. El honorario permitido debe ser nominal y fijo, no vinculado al valor de la operación."
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "Una persona sin licencia puede recibir un honorario nominal fijo por una referencia si el pago no depende de una solicitud o venta y esa persona no analiza términos, tarifas ni condiciones de la póliza.",
+    "keyTerms": [
+      {
+        "es": "honorario por referencia",
+        "en": "referral fee"
+      },
+      {
+        "es": "pago no contingente",
+        "en": "noncontingent payment"
+      }
+    ],
+    "source": {
+      "file": "TX1 - Texas P&C Insurance Research Plan.es.md",
+      "section": "4.6 Deberes de los agentes y distribución de comisiones"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "TX1-Q018",
+    "domain": "TX1",
+    "subtopic": "Presentaciones de suscripción",
+    "difficulty": "basica",
+    "stem": "Según las reglas Filings Made Easy, ¿con qué frecuencia deben presentarse al TDI las directrices completas de suscripción y cuándo deben presentarse sus modificaciones?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Las directrices completas cada cinco años y las modificaciones dentro de 30 días",
+        "rationale": "Incorrecta. Cinco años corresponde al ciclo mínimo de ciertos exámenes de aseguradoras, no a estas presentaciones."
+      },
+      {
+        "id": "B",
+        "text": "Las directrices completas cada tres años y las modificaciones dentro de 10 días de su implementación",
+        "rationale": "Correcta. El paquete establece un ciclo trienal para las directrices completas y un plazo de 10 días para actualizaciones."
+      },
+      {
+        "id": "C",
+        "text": "Las directrices completas cada dos años y las modificaciones al renovar el Certificate of Authority",
+        "rationale": "Incorrecta. El ciclo bienal se asocia con licencias de productores, no con la presentación de directrices de suscripción."
+      },
+      {
+        "id": "D",
+        "text": "Las directrices completas una sola vez y las modificaciones solo a solicitud del TDI",
+        "rationale": "Incorrecta. Existen obligaciones periódicas y de actualización que no dependen de una solicitud especial del TDI."
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Las aseguradoras de propiedad y accidentes deben presentar sus directrices completas de suscripción al menos cada tres años y presentar cualquier modificación dentro de 10 días de su implementación.",
+    "keyTerms": [
+      {
+        "es": "directrices de suscripción",
+        "en": "underwriting guidelines"
+      },
+      {
+        "es": "presentación regulatoria",
+        "en": "regulatory filing"
+      }
+    ],
+    "source": {
+      "file": "TX1 - Texas P&C Insurance Research Plan.es.md",
+      "section": "4.5 Prácticas de mercadotecnia y normas contra prácticas comerciales desleales"
+    },
+    "reviewStatus": "pending_expert_review"
+  }
+]

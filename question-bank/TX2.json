@@ -1,0 +1,554 @@
+[
+  {
+    "id": "TX2-Q001",
+    "domain": "TX2",
+    "subtopic": "Líneas excedentes",
+    "difficulty": "intermedia",
+    "stem": "Un agente desea colocar un riesgo comercial con una aseguradora de líneas excedentes. El solicitante no reúne los requisitos de comprador comercial exento. ¿Qué debe hacer el agente antes de efectuar la colocación?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Obtener rechazos de por lo menos tres aseguradoras autorizadas que suscriban esa línea en Texas.",
+        "rationale": "Es correcta porque la búsqueda diligente exige, para un solicitante no exento, rechazos de al menos tres aseguradoras autorizadas que suscriban la línea correspondiente en Texas."
+      },
+      {
+        "id": "B",
+        "text": "Obtener rechazos de dos aseguradoras autorizadas dentro de los 60 días anteriores.",
+        "rationale": "Es incorrecta porque la regla de dos rechazos corresponde a ciertos mercados residuales, como TAIPA o el FAIR Plan, no a la búsqueda diligente de líneas excedentes."
+      },
+      {
+        "id": "C",
+        "text": "Solicitar al TDI la aprobación previa de cada tarifa de la aseguradora no admitida.",
+        "rationale": "Es incorrecta porque las pólizas de líneas excedentes no están sujetas a la regulación ordinaria de tarifas y formularios del TDI."
+      },
+      {
+        "id": "D",
+        "text": "Demostrar que la aseguradora no admitida participa en TPCIGA.",
+        "rationale": "Es incorrecta porque las aseguradoras no admitidas y las líneas excedentes están excluidas de la protección de TPCIGA."
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "Salvo la excepción aplicable a un comprador comercial exento, la colocación de líneas excedentes requiere una búsqueda diligente documentada mediante rechazos de por lo menos tres aseguradoras autorizadas que suscriban esa línea en Texas.",
+    "keyTerms": [
+      {
+        "es": "búsqueda diligente",
+        "en": "diligent search"
+      },
+      {
+        "es": "líneas excedentes",
+        "en": "surplus lines"
+      }
+    ],
+    "source": {
+      "file": "TX2 - Texas P&C Exam Research Plan.es.md",
+      "section": "2. Líneas excedentes (TIC Chapter 981; 28 TAC §§ 15.2–15.6)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "TX2-Q002",
+    "domain": "TX2",
+    "subtopic": "Tarifas y formularios",
+    "difficulty": "basica",
+    "stem": "¿Cuál combinación describe correctamente los sistemas vigentes de Texas para las tarifas y los formularios de pólizas admitidas de propiedad y accidentes?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Las tarifas y los formularios se rigen únicamente por el antiguo TIC § 5.35.",
+        "rationale": "Es incorrecta porque TIC § 5.35 es una referencia obsoleta anterior a la recodificación del Insurance Code."
+      },
+      {
+        "id": "B",
+        "text": "Las tarifas siguen File-and-Use bajo el Chapter 2251 y los formularios siguen Prior Approval bajo el Chapter 2301.",
+        "rationale": "Es correcta porque el Chapter 2251 rige la presentación y uso de tarifas, mientras que el Chapter 2301 exige la presentación previa de formularios."
+      },
+      {
+        "id": "C",
+        "text": "Las tarifas requieren aprobación previa de 60 días, pero los formularios pueden usarse sin presentación.",
+        "rationale": "Es incorrecta porque invierte los marcos: el plazo de aprobación previa de 60 días corresponde a los formularios, no al sistema tarifario general descrito."
+      },
+      {
+        "id": "D",
+        "text": "Las tarifas y los formularios de aseguradoras admitidas están exentos de toda presentación ante el TDI.",
+        "rationale": "Es incorrecta porque las aseguradoras admitidas están sujetas a los requisitos de presentación aplicables, salvo exenciones legales específicas."
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "La legislación vigente separa la regulación: TIC Chapter 2251 establece File-and-Use para tarifas y TIC Chapter 2301 establece aprobación previa para formularios, que generalmente deben presentarse al menos 60 días antes de su uso propuesto.",
+    "keyTerms": [
+      {
+        "es": "presentación y uso",
+        "en": "file-and-use"
+      },
+      {
+        "es": "aprobación previa",
+        "en": "prior approval"
+      }
+    ],
+    "source": {
+      "file": "TX2 - Texas P&C Exam Research Plan.es.md",
+      "section": "3. Aprobación de tarifas y formularios (TIC Chapters 2251 & 2301\\)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "TX2-Q003",
+    "domain": "TX2",
+    "subtopic": "No renovación de vivienda",
+    "difficulty": "intermedia",
+    "stem": "Una póliza de propietarios de vivienda vence el 31 de agosto. La aseguradora entrega el aviso escrito de no renovación 45 días antes del vencimiento. Si el titular solicita continuar la cobertura, ¿qué resultado corresponde?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La no renovación es válida porque se dieron más de 30 días de aviso.",
+        "rationale": "Es incorrecta porque la norma vigente exige por lo menos 60 días de aviso, no 30."
+      },
+      {
+        "id": "B",
+        "text": "La póliza termina automáticamente, pero la aseguradora debe devolver toda la prima pagada.",
+        "rationale": "Es incorrecta porque el efecto del aviso tardío no es una terminación automática acompañada de devolución total de prima."
+      },
+      {
+        "id": "C",
+        "text": "La aseguradora debe renovar la póliza a solicitud del titular porque no proporcionó el aviso completo de 60 días.",
+        "rationale": "Es correcta porque TIC § 551.105 exige un aviso escrito con al menos 60 días de anticipación y obliga a renovar a solicitud del titular cuando el aviso es insuficiente."
+      },
+      {
+        "id": "D",
+        "text": "La aseguradora puede convertir la no renovación en una cancelación inmediata.",
+        "rationale": "Es incorrecta porque una cancelación durante la vigencia requiere fundamentos legales propios y no puede utilizarse para subsanar un aviso tardío de no renovación."
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Desde la modificación de HB 1900, la no renovación de una póliza residencial exige aviso escrito al menos 60 días antes del vencimiento. Si falta ese aviso completo, el titular puede solicitar la renovación.",
+    "keyTerms": [
+      {
+        "es": "no renovación",
+        "en": "nonrenewal"
+      },
+      {
+        "es": "aviso de 60 días",
+        "en": "60-day notice"
+      }
+    ],
+    "source": {
+      "file": "TX2 - Texas P&C Exam Research Plan.es.md",
+      "section": "Rechazo, cancelación y no renovación (TIC Chapter 551 Subchapter C)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "TX2-Q004",
+    "domain": "TX2",
+    "subtopic": "FAIR Plan y TWIA",
+    "difficulty": "basica",
+    "stem": "Una vivienda situada en Galveston cumple las normas de construcción aplicables y necesita exclusivamente cobertura residual contra tormenta de viento y granizo. ¿Qué mecanismo corresponde?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Texas FAIR Plan Association, porque proporciona toda cobertura costera de propiedad.",
+        "rationale": "Es incorrecta porque el FAIR Plan no proporciona cobertura de viento y granizo para propiedades ubicadas en áreas elegibles para TWIA."
+      },
+      {
+        "id": "B",
+        "text": "TAIPA, porque asigna riesgos que el mercado voluntario no acepta.",
+        "rationale": "Es incorrecta porque TAIPA es el mecanismo residual de responsabilidad de automóvil, no de propiedad costera."
+      },
+      {
+        "id": "C",
+        "text": "TPCIGA, porque cubre pérdidas catastróficas costeras.",
+        "rationale": "Es incorrecta porque TPCIGA responde ante la insolvencia de aseguradoras admitidas; no emite cobertura ordinaria contra tormentas."
+      },
+      {
+        "id": "D",
+        "text": "Texas Windstorm Insurance Association, sujeta a requisitos como el certificado WPI-8 o WPI-8-E.",
+        "rationale": "Es correcta porque TWIA ofrece cobertura residual exclusivamente contra viento y granizo en las áreas costeras de catástrofe designadas, incluido Galveston."
+      }
+    ],
+    "correctOption": "D",
+    "explanation": "TWIA es el mercado residual para tormentas de viento y granizo en los 14 condados costeros del primer nivel y las áreas designadas del condado de Harris. Las estructuras sujetas a las reglas aplicables deben demostrar cumplimiento mediante un certificado WPI-8 o WPI-8-E.",
+    "keyTerms": [
+      {
+        "es": "tormenta de viento",
+        "en": "windstorm"
+      },
+      {
+        "es": "certificado de cumplimiento",
+        "en": "certificate of compliance"
+      }
+    ],
+    "source": {
+      "file": "TX2 - Texas P&C Exam Research Plan.es.md",
+      "section": "Texas Windstorm Insurance Association (TWIA) (TIC Chapter 2210\\)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "TX2-Q005",
+    "domain": "TX2",
+    "subtopic": "Pago oportuno de reclamaciones",
+    "difficulty": "intermedia",
+    "stem": "Una aseguradora recibe todos los documentos que había solicitado para evaluar una reclamación de primera parte. Conforme al calendario ordinario de pago oportuno, ¿qué obligación sigue?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Comunicar por escrito la aceptación o el rechazo dentro de 15 días hábiles.",
+        "rationale": "Es correcta porque, después de recibir los elementos solicitados, la aseguradora normalmente dispone de 15 días hábiles para notificar por escrito su decisión."
+      },
+      {
+        "id": "B",
+        "text": "Pagar la reclamación dentro de 15 días naturales, aunque todavía no la haya aprobado.",
+        "rationale": "Es incorrecta porque el deber de pago se activa después de la aprobación y el plazo ordinario de pago es de 5 días hábiles."
+      },
+      {
+        "id": "C",
+        "text": "Esperar 60 días antes de iniciar la investigación formal.",
+        "rationale": "Es incorrecta porque la investigación debe iniciarse durante la primera etapa del calendario, no después de una espera de 60 días."
+      },
+      {
+        "id": "D",
+        "text": "Notificar al asegurado dentro de 10 días que se aceptó un acuerdo de responsabilidad de terceros.",
+        "rationale": "Es incorrecta porque esa regla de 10 días se refiere al aviso posterior a la aceptación de un acuerdo de responsabilidad de terceros, no a la evaluación de una reclamación de primera parte."
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "La regla ordinaria 15/15/5 exige 15 días hábiles para acusar recibo, iniciar la investigación y solicitar información; otros 15 días hábiles para aceptar o rechazar después de recibirla; y 5 días hábiles para pagar una reclamación aprobada.",
+    "keyTerms": [
+      {
+        "es": "pago oportuno",
+        "en": "prompt payment"
+      },
+      {
+        "es": "días hábiles",
+        "en": "business days"
+      }
+    ],
+    "source": {
+      "file": "TX2 - Texas P&C Exam Research Plan.es.md",
+      "section": "Liquidación de pérdidas y pago oportuno de reclamaciones (TIC Chapter 542\\)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "TX2-Q006",
+    "domain": "TX2",
+    "subtopic": "Demanda liquidada por incendio",
+    "difficulty": "avanzada",
+    "stem": "Un edificio asegurado por $500,000, con valor real en efectivo de $380,000, queda totalmente destruido por un incendio cubierto. No se incluyen bienes muebles en la pregunta. ¿Cómo se aplica TIC § 862.053?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La pérdida se limita a $380,000 porque siempre se utiliza el valor real en efectivo.",
+        "rationale": "Es incorrecta porque una pérdida total por incendio de bienes inmuebles activa la regla especial de demanda liquidada."
+      },
+      {
+        "id": "B",
+        "text": "La pérdida constituye una demanda liquidada por el valor nominal completo de $500,000.",
+        "rationale": "Es correcta porque TIC § 862.053 fija la demanda en el valor nominal total de la póliza cuando un incendio causa la pérdida total de bienes inmuebles."
+      },
+      {
+        "id": "C",
+        "text": "La aseguradora paga solamente la diferencia de $120,000 entre el límite y el valor real en efectivo.",
+        "rationale": "Es incorrecta porque la regla no calcula una diferencia entre el límite y el valor real; establece el valor nominal completo como demanda liquidada."
+      },
+      {
+        "id": "D",
+        "text": "La regla solo se aplicaría si la causa fuera inundación o tormenta de viento.",
+        "rationale": "Es incorrecta porque la demanda liquidada se aplica específicamente a la pérdida total de bienes inmuebles por incendio, no a esos otros riesgos."
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "En Texas, la pérdida total de bienes inmuebles causada por incendio constituye una demanda liquidada por el valor nominal completo indicado en la póliza. La regla no se extiende a bienes muebles ni a pérdidas causadas por otros riesgos.",
+    "keyTerms": [
+      {
+        "es": "demanda liquidada",
+        "en": "liquidated demand"
+      },
+      {
+        "es": "bienes inmuebles",
+        "en": "real property"
+      }
+    ],
+    "source": {
+      "file": "TX2 - Texas P&C Exam Research Plan.es.md",
+      "section": "Escenario 3: Pérdida por incendio como demanda liquidada (TIC § 862.053)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "TX2-Q007",
+    "domain": "TX2",
+    "subtopic": "PIP y UM/UIM",
+    "difficulty": "basica",
+    "stem": "Durante la contratación de una póliza de automóvil personal, el asegurado nombrado declara verbalmente que no desea PIP ni UM/UIM. ¿Qué debe hacer la aseguradora?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Eliminar ambas coberturas porque cualquier rechazo verbal es suficiente.",
+        "rationale": "Es incorrecta porque un rechazo verbal de PIP o UM/UIM no satisface el requisito legal de Texas."
+      },
+      {
+        "id": "B",
+        "text": "Eliminar únicamente UM/UIM y conservar PIP, porque solo PIP exige rechazo escrito.",
+        "rationale": "Es incorrecta porque tanto PIP como UM/UIM requieren rechazo por escrito del asegurado nombrado."
+      },
+      {
+        "id": "C",
+        "text": "Mantener las coberturas ofrecidas salvo que el asegurado nombrado formalice el rechazo por escrito.",
+        "rationale": "Es correcta porque la eliminación válida de PIP y UM/UIM exige un rechazo escrito del asegurado nombrado."
+      },
+      {
+        "id": "D",
+        "text": "Sustituir automáticamente ambas coberturas por colisión y cobertura amplia.",
+        "rationale": "Es incorrecta porque las coberturas de daños físicos no sustituyen legalmente a PIP ni a UM/UIM."
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Las pólizas de automóvil personal deben incluir u ofrecer PIP y UM/UIM según las reglas aplicables. El asegurado nombrado solo puede eliminarlas mediante un rechazo por escrito; una manifestación verbal no es válida.",
+    "keyTerms": [
+      {
+        "es": "protección contra lesiones personales",
+        "en": "personal injury protection"
+      },
+      {
+        "es": "rechazo por escrito",
+        "en": "written rejection"
+      }
+    ],
+    "source": {
+      "file": "TX2 - Texas P&C Exam Research Plan.es.md",
+      "section": "Coberturas legales y responsabilidad financiera"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "TX2-Q008",
+    "domain": "TX2",
+    "subtopic": "Transporte compartido TNC",
+    "difficulty": "intermedia",
+    "stem": "Un conductor de una empresa de red de transporte ya aceptó un viaje y se dirige a recoger al pasajero. ¿Qué límite mínimo de responsabilidad primaria corresponde a esta fase?",
+    "options": [
+      {
+        "id": "A",
+        "text": "30/60/25, porque todavía no hay un pasajero dentro del vehículo.",
+        "rationale": "Es incorrecta porque los límites personales mínimos de 30/60/25 no son el requisito de la fase posterior a la aceptación del viaje."
+      },
+      {
+        "id": "B",
+        "text": "50/100/25, porque la aplicación está encendida.",
+        "rationale": "Es incorrecta porque 50/100/25 corresponde al Periodo 1, cuando el conductor está conectado pero aún no ha aceptado un viaje."
+      },
+      {
+        "id": "C",
+        "text": "$1,773,000 para daños combinados, porque se trata de un límite estatal de catástrofe.",
+        "rationale": "Es incorrecta porque $1,773,000 es el tope residencial de TWIA para 2026 y no guarda relación con una actividad TNC."
+      },
+      {
+        "id": "D",
+        "text": "$1,000,000 agregados por lesiones corporales y daños a la propiedad.",
+        "rationale": "Es correcta porque la aceptación del viaje inicia el Periodo 2, que exige al menos $1,000,000 de cobertura primaria agregada."
+      }
+    ],
+    "correctOption": "D",
+    "explanation": "El Periodo 1 de una TNC, conectado y buscando pasajero, exige 50/100/25. Una vez aceptado el viaje comienza el Periodo 2, y tanto este como el Periodo 3 requieren cobertura primaria agregada de al menos $1,000,000.",
+    "keyTerms": [
+      {
+        "es": "empresa de red de transporte",
+        "en": "transportation network company"
+      },
+      {
+        "es": "viaje aceptado",
+        "en": "accepted ride"
+      }
+    ],
+    "source": {
+      "file": "TX2 - Texas P&C Exam Research Plan.es.md",
+      "section": "Empresas de red de transporte (TNC/transporte compartido) (TIC Chapter 1954\\)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "TX2-Q009",
+    "domain": "TX2",
+    "subtopic": "TAIPA",
+    "difficulty": "basica",
+    "stem": "Un conductor presenta comprobantes de rechazo de dos aseguradoras autorizadas durante los 60 días anteriores y solicita cobertura mediante TAIPA. ¿Qué cobertura no puede emitir TAIPA?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Daños físicos por colisión y cobertura amplia.",
+        "rationale": "Es correcta porque la ley prohíbe a TAIPA suscribir coberturas de daños físicos, incluidas colisión y cobertura amplia."
+      },
+      {
+        "id": "B",
+        "text": "Responsabilidad de automóvil con límites mínimos 30/60/25.",
+        "rationale": "Es incorrecta porque proporcionar la responsabilidad mínima legal es una función principal de TAIPA."
+      },
+      {
+        "id": "C",
+        "text": "PIP con un límite de $2,500.",
+        "rationale": "Es incorrecta porque TAIPA puede proporcionar la cobertura PIP indicada en el paquete."
+      },
+      {
+        "id": "D",
+        "text": "UM/UIM con los límites legales aplicables.",
+        "rationale": "Es incorrecta porque TAIPA contempla UM/UIM dentro de su alcance legal, a diferencia de los daños físicos."
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "TAIPA es el mecanismo residual de responsabilidad de automóvil para solicitantes que acreditan al menos dos rechazos recientes. Proporciona responsabilidad mínima, PIP y UM/UIM, pero no puede suscribir colisión ni cobertura amplia.",
+    "keyTerms": [
+      {
+        "es": "riesgo asignado",
+        "en": "assigned risk"
+      },
+      {
+        "es": "daños físicos",
+        "en": "physical damage"
+      }
+    ],
+    "source": {
+      "file": "TX2 - Texas P&C Exam Research Plan.es.md",
+      "section": "Texas Automobile Insurance Plan Association (TAIPA) (TIC Chapter 2151\\)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "TX2-Q010",
+    "domain": "TX2",
+    "subtopic": "Suscripción de compensación laboral",
+    "difficulty": "intermedia",
+    "stem": "Un empleador privado de Texas decide no adquirir compensación para trabajadores y un empleado lesionado presenta una demanda civil por negligencia. ¿Cuál consecuencia legal corresponde a la condición de no suscriptor?",
+    "options": [
+      {
+        "id": "A",
+        "text": "El empleador conserva la protección de recurso exclusivo, pero debe pagar un deducible mayor.",
+        "rationale": "Es incorrecta porque la protección de recurso exclusivo corresponde al empleador suscriptor, no al no suscriptor."
+      },
+      {
+        "id": "B",
+        "text": "El empleador pierde defensas como negligencia contributiva, asunción del riesgo y la regla del compañero de trabajo.",
+        "rationale": "Es correcta porque un no suscriptor queda expuesto a demandas civiles y pierde esas defensas afirmativas del derecho consuetudinario."
+      },
+      {
+        "id": "C",
+        "text": "El empleado recibe automáticamente los beneficios legales de TIB e IIB sin probar negligencia.",
+        "rationale": "Es incorrecta porque esos beneficios pertenecen al sistema legal de compensación para trabajadores; en la demanda contra un no suscriptor, el empleado debe demostrar negligencia."
+      },
+      {
+        "id": "D",
+        "text": "El empleador queda exento de notificar su condición al DWC y a sus empleados.",
+        "rationale": "Es incorrecta porque el no suscriptor debe presentar la notificación correspondiente ante el DWC y avisar a sus empleados."
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Texas permite que los empleadores privados opten por no suscribirse al sistema. Sin embargo, el no suscriptor pierde la protección de recurso exclusivo y determinadas defensas tradicionales cuando un empleado lesionado lo demanda por negligencia.",
+    "keyTerms": [
+      {
+        "es": "no suscriptor",
+        "en": "nonsubscriber"
+      },
+      {
+        "es": "recurso exclusivo",
+        "en": "exclusive remedy"
+      }
+    ],
+    "source": {
+      "file": "TX2 - Texas P&C Exam Research Plan.es.md",
+      "section": "6. Compensación para trabajadores (Texas Labor Code Title 5\\)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "TX2-Q011",
+    "domain": "TX2",
+    "subtopic": "Beneficios IIB",
+    "difficulty": "avanzada",
+    "stem": "Un trabajador alcanza la mejoría médica máxima con una calificación de impedimento del 10%. Su salario semanal promedio era de $1,400 y se aplican los topes de 2026. ¿Cuál es la duración y el pago semanal de sus IIB?",
+    "options": [
+      {
+        "id": "A",
+        "text": "10 semanas a $890 por semana.",
+        "rationale": "Es incorrecta porque los IIB duran tres semanas por cada punto porcentual de impedimento, no una semana por punto."
+      },
+      {
+        "id": "B",
+        "text": "30 semanas a $980 por semana.",
+        "rationale": "Es incorrecta porque, aunque el 70% de $1,400 es $980, esa cantidad supera el máximo semanal de IIB de $890 para 2026."
+      },
+      {
+        "id": "C",
+        "text": "30 semanas a $890 por semana.",
+        "rationale": "Es correcta porque un impedimento del 10% produce 30 semanas de IIB y el cálculo de $980 semanales se reduce al tope de 2026 de $890."
+      },
+      {
+        "id": "D",
+        "text": "40 semanas a $1,271.05 por semana.",
+        "rationale": "Es incorrecta porque utiliza una duración no sustentada y el máximo de TIB, no el tope específico de IIB."
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Los IIB se pagan durante tres semanas por cada 1% de impedimento y equivalen al 70% del salario semanal promedio, sujetos al máximo aplicable. Una calificación del 10% genera 30 semanas; el 70% de $1,400 es $980, pero el tope de IIB de 2026 reduce el pago a $890 semanales.",
+    "keyTerms": [
+      {
+        "es": "beneficios de ingresos por impedimento",
+        "en": "impairment income benefits"
+      },
+      {
+        "es": "calificación de impedimento",
+        "en": "impairment rating"
+      }
+    ],
+    "source": {
+      "file": "TX2 - Texas P&C Exam Research Plan.es.md",
+      "section": "6. Compensación para trabajadores (Texas Labor Code Title 5\\)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "TX2-Q012",
+    "domain": "TX2",
+    "subtopic": "Protección por insolvencia",
+    "difficulty": "avanzada",
+    "stem": "Una aseguradora admitida es declarada insolvente. Deja una reclamación cubierta de propiedad por $360,000 y una reclamación legal de compensación para trabajadores por $450,000. ¿Cómo aplica TPCIGA sus topes?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Paga $360,000 por propiedad y limita compensación para trabajadores a $300,000.",
+        "rationale": "Es incorrecta porque invierte las reglas: la reclamación general de propiedad está sujeta al tope, mientras que compensación para trabajadores no tiene ese límite monetario."
+      },
+      {
+        "id": "B",
+        "text": "Limita ambas reclamaciones a $300,000.",
+        "rationale": "Es incorrecta porque el tope general de $300,000 no se aplica a las reclamaciones legales de compensación para trabajadores."
+      },
+      {
+        "id": "C",
+        "text": "Paga ambas reclamaciones en su totalidad porque la aseguradora era admitida.",
+        "rationale": "Es incorrecta porque la condición de aseguradora admitida permite la protección de TPCIGA, pero no elimina el tope aplicable a la reclamación general de propiedad."
+      },
+      {
+        "id": "D",
+        "text": "Limita la reclamación de propiedad a $300,000 y paga en su totalidad los $450,000 de compensación para trabajadores.",
+        "rationale": "Es correcta porque las reclamaciones cubiertas ordinarias de propiedad y accidentes tienen un tope de $300,000, mientras que las de compensación para trabajadores se pagan sin límite monetario."
+      }
+    ],
+    "correctOption": "D",
+    "explanation": "TPCIGA protege frente a la insolvencia de aseguradoras admitidas. Su límite general es de $300,000 por reclamación cubierta, pero las reclamaciones legales de compensación para trabajadores constituyen una excepción y se pagan en su totalidad.",
+    "keyTerms": [
+      {
+        "es": "asociación de garantía",
+        "en": "guaranty association"
+      },
+      {
+        "es": "insolvencia",
+        "en": "insolvency"
+      }
+    ],
+    "source": {
+      "file": "TX2 - Texas P&C Exam Research Plan.es.md",
+      "section": "Texas Property and Casualty Insurance Guaranty Association (TPCIGA) (TIC Chapter 462\\)"
+    },
+    "reviewStatus": "pending_expert_review"
+  }
+]

@@ -1,0 +1,728 @@
+[
+  {
+    "id": "G2-Q001",
+    "domain": "G2",
+    "subtopic": "Ley de los Grandes Números",
+    "difficulty": "basica",
+    "stem": "¿Qué efecto produce la Ley de los Grandes Números cuando un asegurador agrupa muchas unidades de exposición independientes y razonablemente homogéneas?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Mejora la precisión con la que se proyecta la frecuencia de pérdidas del grupo.",
+        "rationale": "Correcta. Al aumentar el número de exposiciones similares e independientes, la frecuencia observada tiende a aproximarse a la frecuencia teórica esperada."
+      },
+      {
+        "id": "B",
+        "text": "Permite identificar qué propiedad individual sufrirá la próxima pérdida.",
+        "rationale": "Incorrecta. La ley mejora las predicciones para el conjunto, pero no determina el resultado de una propiedad específica."
+      },
+      {
+        "id": "C",
+        "text": "Elimina la posibilidad de pérdidas catastróficas simultáneas.",
+        "rationale": "Incorrecta. Los eventos regionales pueden afectar numerosas exposiciones a la vez y reducir su independencia estadística."
+      },
+      {
+        "id": "D",
+        "text": "Garantiza que las primas producirán una utilidad de suscripción.",
+        "rationale": "Incorrecta. La previsibilidad estadística no garantiza rentabilidad, pues también influyen los gastos, la selección de riesgos y la experiencia real de pérdidas."
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "La Ley de los Grandes Números sustenta la agrupación de riesgos: una muestra mayor de exposiciones independientes y similares permite proyectar con mayor precisión las pérdidas del grupo, pero no predice pérdidas individuales ni garantiza utilidades.",
+    "keyTerms": [
+      {
+        "es": "Ley de los Grandes Números",
+        "en": "Law of Large Numbers"
+      },
+      {
+        "es": "unidad de exposición",
+        "en": "exposure unit"
+      }
+    ],
+    "source": {
+      "file": "G2 - Texas P&C Exam G2 Research.es.md",
+      "section": "3.1 El seguro y la Ley de los Grandes Números (Incisos A y A.1 del plan)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G2-Q002",
+    "domain": "G2",
+    "subtopic": "Interés asegurable",
+    "difficulty": "intermedia",
+    "stem": "Una propietaria vende y transfiere totalmente una vivienda el 1 de agosto, pero olvida cancelar su póliza. Un incendio destruye la vivienda el 12 de agosto. ¿Cuál es el resultado respecto de la antigua propietaria?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Puede cobrar porque pagó la prima correspondiente a agosto.",
+        "rationale": "Incorrecta. El pago de la prima no sustituye el interés económico exigido cuando ocurre la pérdida."
+      },
+      {
+        "id": "B",
+        "text": "No puede cobrar porque ya no tenía interés asegurable al momento del incendio.",
+        "rationale": "Correcta. La transferencia total terminó su interés económico antes de la pérdida, por lo que no puede recibir indemnización."
+      },
+      {
+        "id": "C",
+        "text": "Puede cobrar hasta el costo de reemplazo si la póliza seguía formalmente vigente.",
+        "rationale": "Incorrecta. La vigencia documental de la póliza no crea un interés asegurable después de haberse transferido totalmente la propiedad."
+      },
+      {
+        "id": "D",
+        "text": "Puede cobrar únicamente el valor de salvamento de la estructura.",
+        "rationale": "Incorrecta. Sin interés asegurable al momento de la pérdida, no existe una base recuperable, incluido el valor de salvamento."
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "En el seguro de propiedad, el interés asegurable debe existir al inicio de la póliza y al momento exacto de la pérdida. La indemnización queda limitada al valor del interés económico que exista en ese momento.",
+    "keyTerms": [
+      {
+        "es": "interés asegurable",
+        "en": "insurable interest"
+      },
+      {
+        "es": "momento de la pérdida",
+        "en": "time of loss"
+      }
+    ],
+    "source": {
+      "file": "G2 - Texas P&C Exam G2 Research.es.md",
+      "section": "3.2 Interés asegurable (Inciso B del plan)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G2-Q003",
+    "domain": "G2",
+    "subtopic": "Riesgo puro y especulativo",
+    "difficulty": "basica",
+    "stem": "Un almacén sufre daños físicos por granizo y, durante el mismo año, pierde valor de mercado debido a una recesión local. ¿Cómo se clasifican estas dos exposiciones?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ambas son riesgos puros porque afectan la misma propiedad.",
+        "rationale": "Incorrecta. La clasificación depende de los resultados posibles de cada exposición, no de que ambas afecten el mismo inmueble."
+      },
+      {
+        "id": "B",
+        "text": "Ambas son riesgos especulativos porque pueden medirse en dinero.",
+        "rationale": "Incorrecta. La posibilidad de medir una pérdida no convierte automáticamente una exposición en especulativa."
+      },
+      {
+        "id": "C",
+        "text": "El granizo es riesgo puro y la fluctuación del mercado es riesgo especulativo.",
+        "rationale": "Correcta. El granizo presenta pérdida o ausencia de pérdida, mientras que el mercado puede generar pérdida, estabilidad o ganancia."
+      },
+      {
+        "id": "D",
+        "text": "El granizo es un riesgo especulativo y la recesión es un riesgo puro.",
+        "rationale": "Incorrecta. Esta opción invierte las clasificaciones: el daño fortuito es puro y la variación de inversión es especulativa."
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "El riesgo puro ofrece únicamente pérdida o ausencia de pérdida y constituye el objeto habitual del seguro de propiedad. El riesgo especulativo incorpora también una posibilidad de ganancia y generalmente no es asegurable mediante estas pólizas.",
+    "keyTerms": [
+      {
+        "es": "riesgo puro",
+        "en": "pure risk"
+      },
+      {
+        "es": "riesgo especulativo",
+        "en": "speculative risk"
+      }
+    ],
+    "source": {
+      "file": "G2 - Texas P&C Exam G2 Research.es.md",
+      "section": "3.3 Riesgo y riesgo puro frente a riesgo especulativo (Incisos C y C.1 del plan)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G2-Q004",
+    "domain": "G2",
+    "subtopic": "Peligros moral, de actitud y físico",
+    "difficulty": "intermedia",
+    "stem": "El dueño de un restaurante deja de inspeccionar el sistema de extinción porque piensa que el seguro pagará cualquier incendio. Además, existe grasa acumulada junto a las líneas de cocción. ¿Cómo se clasifican estas condiciones, respectivamente?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Peligro moral y riesgo cubierto.",
+        "rationale": "Incorrecta. El descuido no demuestra intención fraudulenta, y la grasa acumulada es una condición física, no la fuerza activa que causa el daño."
+      },
+      {
+        "id": "B",
+        "text": "Peligro físico y peligro moral.",
+        "rationale": "Incorrecta. Esta clasificación invierte la naturaleza de las condiciones descritas."
+      },
+      {
+        "id": "C",
+        "text": "Peligro moral y peligro de actitud.",
+        "rationale": "Incorrecta. No inspeccionar por indiferencia es un peligro de actitud, mientras que la grasa tangible constituye un peligro físico."
+      },
+      {
+        "id": "D",
+        "text": "Peligro de actitud y peligro físico.",
+        "rationale": "Correcta. La indiferencia derivada de tener seguro es un peligro de actitud, y la acumulación tangible de grasa es un peligro físico."
+      }
+    ],
+    "correctOption": "D",
+    "explanation": "El peligro de actitud consiste en descuido o indiferencia sin intención de fraude. El peligro físico es una condición tangible que aumenta la probabilidad o gravedad de la pérdida; el peligro moral exige deshonestidad intencional.",
+    "keyTerms": [
+      {
+        "es": "peligro de actitud",
+        "en": "morale hazard"
+      },
+      {
+        "es": "peligro físico",
+        "en": "physical hazard"
+      },
+      {
+        "es": "peligro moral",
+        "en": "moral hazard"
+      }
+    ],
+    "source": {
+      "file": "G2 - Texas P&C Exam G2 Research.es.md",
+      "section": "3.4 Peligros: moral, de actitud y físico (Incisos D, D.1, D.2 y D.3 del plan)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G2-Q005",
+    "domain": "G2",
+    "subtopic": "Pérdida directa e indirecta",
+    "difficulty": "intermedia",
+    "stem": "Un incendio cubierto destruye la cocina de un restaurante y obliga al negocio a cerrar durante dos meses, ocasionando pérdida de utilidades. ¿Cuál afirmación describe correctamente las pérdidas?",
+    "options": [
+      {
+        "id": "A",
+        "text": "El daño a la cocina es pérdida directa y las utilidades perdidas son pérdida indirecta.",
+        "rationale": "Correcta. La destrucción física es inmediata y tangible; la pérdida de utilidades es una consecuencia económica vinculada al tiempo."
+      },
+      {
+        "id": "B",
+        "text": "Ambas son pérdidas directas porque proceden del mismo incendio.",
+        "rationale": "Incorrecta. Compartir una causa no convierte la pérdida económica consecuencial en daño físico directo."
+      },
+      {
+        "id": "C",
+        "text": "El daño a la cocina es indirecto y las utilidades perdidas son directas.",
+        "rationale": "Incorrecta. Esta opción invierte las definiciones de daño físico y pérdida económica consecuencial."
+      },
+      {
+        "id": "D",
+        "text": "Las utilidades perdidas se incluyen automáticamente en toda póliza estándar de propiedad.",
+        "rationale": "Incorrecta. La pérdida indirecta requiere una disposición o cobertura específica vinculada al tiempo."
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "La pérdida directa es el daño físico inmediato a bienes cubiertos. La pérdida indirecta es el perjuicio económico consecuencial, como ingresos o utilidades perdidos durante las reparaciones, y requiere cobertura específica.",
+    "keyTerms": [
+      {
+        "es": "pérdida directa",
+        "en": "direct loss"
+      },
+      {
+        "es": "pérdida indirecta",
+        "en": "indirect loss"
+      },
+      {
+        "es": "ingresos del negocio",
+        "en": "business income"
+      }
+    ],
+    "source": {
+      "file": "G2 - Texas P&C Exam G2 Research.es.md",
+      "section": "3.6 Pérdida: directa frente a indirecta (Incisos F, F.1 y F.2 del plan)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G2-Q006",
+    "domain": "G2",
+    "subtopic": "Valor real en efectivo",
+    "difficulty": "intermedia",
+    "stem": "Un equipo totalmente destruido tiene un costo actual de reemplazo de $50,000 y una depreciación física del 40%. Si la pérdida se liquida mediante valor real en efectivo, ¿cuál es la valoración?",
+    "options": [
+      {
+        "id": "A",
+        "text": "$20,000",
+        "rationale": "Incorrecta. Esa cantidad representa únicamente la depreciación de $50,000 multiplicados por 40%."
+      },
+      {
+        "id": "B",
+        "text": "$30,000",
+        "rationale": "Correcta. El valor real en efectivo es $50,000 menos $20,000 de depreciación."
+      },
+      {
+        "id": "C",
+        "text": "$40,000",
+        "rationale": "Incorrecta. Esta cifra no resulta de restar al costo de reemplazo la depreciación física indicada."
+      },
+      {
+        "id": "D",
+        "text": "$50,000",
+        "rationale": "Incorrecta. Ese sería el costo de reemplazo antes de deducir la depreciación, no el valor real en efectivo."
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Como regla básica, el valor real en efectivo se calcula restando la depreciación física al costo actual de reemplazo. Aquí, la depreciación es $20,000 y el resultado es $30,000.",
+    "keyTerms": [
+      {
+        "es": "valor real en efectivo",
+        "en": "Actual Cash Value"
+      },
+      {
+        "es": "costo de reemplazo",
+        "en": "replacement cost"
+      },
+      {
+        "es": "depreciación",
+        "en": "depreciation"
+      }
+    ],
+    "source": {
+      "file": "G2 - Texas P&C Exam G2 Research.es.md",
+      "section": "5.5 Situación: Mecánica de selección de la valoración de pérdidas"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G2-Q007",
+    "domain": "G2",
+    "subtopic": "Valor declarado y valor acordado",
+    "difficulty": "avanzada",
+    "stem": "Un artículo tiene un endoso de valor declarado de $30,000. Después de una pérdida total, su valor real en efectivo es $20,000 y su costo de reemplazo es $25,000. Sin considerar deducibles, ¿cuánto corresponde pagar?",
+    "options": [
+      {
+        "id": "A",
+        "text": "$30,000, porque el importe declarado constituye un pago garantizado.",
+        "rationale": "Incorrecta. El valor declarado fija un máximo, pero no garantiza el pago íntegro de la cantidad declarada."
+      },
+      {
+        "id": "B",
+        "text": "$25,000, porque siempre prevalece el costo de reemplazo.",
+        "rationale": "Incorrecta. En un endoso de valor declarado se paga el menor entre las bases aplicables, no necesariamente el costo de reemplazo."
+      },
+      {
+        "id": "C",
+        "text": "$20,000, porque es el menor entre el valor real en efectivo, el costo de reemplazo y el límite declarado.",
+        "rationale": "Correcta. El valor declarado limita la recuperación al menor de los tres importes especificados."
+      },
+      {
+        "id": "D",
+        "text": "$5,000, porque debe restarse el valor real en efectivo del costo de reemplazo.",
+        "rationale": "Incorrecta. La diferencia entre esas valoraciones no constituye el pago de una pérdida total."
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "El valor declarado funciona como tope de responsabilidad y no como pago fijo. La liquidación corresponde al menor entre el valor real en efectivo, el costo de reparación o reemplazo y el límite declarado. El valor acordado, en cambio, establece anticipadamente la base de liquidación y exime del coaseguro.",
+    "keyTerms": [
+      {
+        "es": "valor declarado",
+        "en": "stated value"
+      },
+      {
+        "es": "valor acordado",
+        "en": "agreed value"
+      }
+    ],
+    "source": {
+      "file": "G2 - Texas P&C Exam G2 Research.es.md",
+      "section": "Base G2-G4: Mecánica de valoración del valor declarado"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G2-Q008",
+    "domain": "G2",
+    "subtopic": "Causa próxima y causalidad anticoncurrente",
+    "difficulty": "avanzada",
+    "stem": "Un huracán arranca el techo de una tienda; la lluvia que entra por la abertura causa $100,000 en daños. Horas después, una inundación marina excluida causa otros $200,000. La póliza contiene una cláusula de causalidad anticoncurrente respecto de inundaciones. ¿Cuál es el tratamiento indicado?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Se cubren los $300,000 porque el huracán inició toda la secuencia.",
+        "rationale": "Incorrecta. Los daños separados causados por la inundación excluida no se vuelven cubiertos por la existencia previa del vendaval."
+      },
+      {
+        "id": "B",
+        "text": "Se excluyen los $300,000 porque una inundación ocurrió durante el mismo huracán.",
+        "rationale": "Incorrecta. Los daños por lluvia derivados de la abertura creada por el vendaval se evalúan separadamente como consecuencia del riesgo cubierto."
+      },
+      {
+        "id": "C",
+        "text": "Se cubren únicamente los $200,000 de inundación porque fueron los daños más cercanos al final del evento.",
+        "rationale": "Incorrecta. La proximidad cronológica no determina la causa próxima y la inundación está expresamente excluida."
+      },
+      {
+        "id": "D",
+        "text": "Se cubren los $100,000 derivados del vendaval y se excluyen los $200,000 causados por la inundación.",
+        "rationale": "Correcta. El vendaval abrió el techo y fue la causa próxima de la lluvia interior, mientras que la pérdida marina procede de un riesgo excluido sujeto a la cláusula anticoncurrente."
+      }
+    ],
+    "correctOption": "D",
+    "explanation": "La causa próxima es la causa eficaz y determinante de una cadena ininterrumpida, no necesariamente el último evento cronológico. Una cláusula de causalidad anticoncurrente puede excluir la parte de la pérdida en la que contribuya un riesgo expresamente excluido.",
+    "keyTerms": [
+      {
+        "es": "causa próxima",
+        "en": "proximate cause"
+      },
+      {
+        "es": "causalidad anticoncurrente",
+        "en": "Anti-Concurrent Causation"
+      },
+      {
+        "es": "vendaval",
+        "en": "windstorm"
+      }
+    ],
+    "source": {
+      "file": "G2 - Texas P&C Exam G2 Research.es.md",
+      "section": "5.3 Situación: Cadena de causa próxima con causalidad anticoncurrente"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G2-Q009",
+    "domain": "G2",
+    "subtopic": "Deducible y límite",
+    "difficulty": "intermedia",
+    "stem": "Una propiedad sufre una pérdida cubierta demostrada de $120,000. La póliza tiene un deducible fijo de $2,000 y un límite de $100,000. Conforme al orden de cálculo descrito para los formularios estándar ISO, ¿cuál es el pago?",
+    "options": [
+      {
+        "id": "A",
+        "text": "$100,000",
+        "rationale": "Correcta. Se resta primero el deducible, obteniendo $118,000, y después se aplica el límite máximo de $100,000."
+      },
+      {
+        "id": "B",
+        "text": "$118,000",
+        "rationale": "Incorrecta. Aunque ese es el resultado después del deducible, excede el límite contractual de la póliza."
+      },
+      {
+        "id": "C",
+        "text": "$98,000",
+        "rationale": "Incorrecta. Esta cifra resulta de aplicar primero el límite y luego restar el deducible, contrario al orden especificado."
+      },
+      {
+        "id": "D",
+        "text": "$120,000",
+        "rationale": "Incorrecta. El pago no puede ignorar el deducible ni superar el límite de responsabilidad."
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "Según el orden de cálculo indicado, el deducible se resta de la pérdida demostrada antes de aplicar el límite. Como $118,000 todavía supera el límite de $100,000, el pago queda topado en $100,000.",
+    "keyTerms": [
+      {
+        "es": "deducible",
+        "en": "deductible"
+      },
+      {
+        "es": "límite de responsabilidad",
+        "en": "limit of liability"
+      }
+    ],
+    "source": {
+      "file": "G2 - Texas P&C Exam G2 Research.es.md",
+      "section": "5.6 Situación: Aplicación del deducible y del límite de la póliza"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G2-Q010",
+    "domain": "G2",
+    "subtopic": "Coaseguro de propiedad",
+    "difficulty": "avanzada",
+    "stem": "Al momento de una pérdida, un edificio vale $1,000,000 y está sujeto a coaseguro del 80%. El asegurado contrató $600,000, la pérdida cubierta es $200,000 y el deducible es $1,000. ¿Cuál es el pago?",
+    "options": [
+      {
+        "id": "A",
+        "text": "$199,000",
+        "rationale": "Incorrecta. Este resultado resta únicamente el deducible y omite la penalización por mantener menos del seguro requerido."
+      },
+      {
+        "id": "B",
+        "text": "$149,000",
+        "rationale": "Correcta. El seguro requerido es $800,000; $600,000 dividido entre $800,000 equivale a 75%, que aplicado a $200,000 produce $150,000, menos $1,000."
+      },
+      {
+        "id": "C",
+        "text": "$150,000",
+        "rationale": "Incorrecta. Esta cantidad refleja la proporción de coaseguro antes de restar el deducible indicado."
+      },
+      {
+        "id": "D",
+        "text": "$99,000",
+        "rationale": "Incorrecta. Esta cifra no corresponde a la proporción de 75% aplicada a la pérdida de $200,000."
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "La fórmula es seguro contratado dividido entre seguro requerido, multiplicado por la pérdida, menos el deducible. El requisito es $800,000 y la proporción de cumplimiento es 75%, por lo que el pago neto es $149,000.",
+    "keyTerms": [
+      {
+        "es": "coaseguro",
+        "en": "coinsurance"
+      },
+      {
+        "es": "seguro al valor",
+        "en": "insurance to value"
+      },
+      {
+        "es": "seguro requerido",
+        "en": "required insurance"
+      }
+    ],
+    "source": {
+      "file": "G2 - Texas P&C Exam G2 Research.es.md",
+      "section": "Base G2-L1: Cálculo de la penalización por coaseguro"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G2-Q011",
+    "domain": "G2",
+    "subtopic": "Desocupación comercial",
+    "difficulty": "avanzada",
+    "stem": "Un local comercial permanece sin ocupantes ni contenido durante 75 días. Después sufre $15,000 por vandalismo y $50,000 por incendio. Conforme a la condición estándar de desocupación comercial, ¿qué tratamiento corresponde antes del deducible?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ambas pérdidas se pagan íntegramente porque son daños físicos directos.",
+        "rationale": "Incorrecta. La desocupación superior a 60 días modifica expresamente la cobertura de determinados riesgos."
+      },
+      {
+        "id": "B",
+        "text": "Ambas pérdidas se reducen en 15%.",
+        "rationale": "Incorrecta. El vandalismo pertenece al grupo de riesgos completamente excluidos, no al de riesgos sujetos solamente a reducción."
+      },
+      {
+        "id": "C",
+        "text": "El vandalismo se excluye y el pago por incendio se reduce a $42,500.",
+        "rationale": "Correcta. Después de 60 días, el vandalismo queda excluido y los demás riesgos cubiertos, como el incendio, sufren una reducción de 15%."
+      },
+      {
+        "id": "D",
+        "text": "El incendio se excluye y el vandalismo se paga con una reducción de 15%.",
+        "rationale": "Incorrecta. Esta opción invierte el tratamiento contractual de los dos riesgos."
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Después de más de 60 días consecutivos de desocupación, el formulario comercial excluye seis riesgos, incluido el vandalismo. Las pérdidas causadas por otros riesgos cubiertos, como incendio o viento, se reducen en 15%.",
+    "keyTerms": [
+      {
+        "es": "desocupación",
+        "en": "vacancy"
+      },
+      {
+        "es": "vandalismo",
+        "en": "vandalism"
+      },
+      {
+        "es": "permiso de desocupación",
+        "en": "Vacancy Permit"
+      }
+    ],
+    "source": {
+      "file": "G2 - Texas P&C Exam G2 Research.es.md",
+      "section": "5.9 Situación: Aplicación de pérdidas por desocupación frente a falta de ocupación"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G2-Q012",
+    "domain": "G2",
+    "subtopic": "Negligencia",
+    "difficulty": "intermedia",
+    "stem": "Una persona observa una mancha aceitosa en la entrada de una vivienda, pero no pisa la propiedad, no cae y no sufre una pérdida física o económica mensurable. ¿Por qué fracasaría una reclamación por negligencia?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Porque el propietario nunca tiene un deber respecto del mantenimiento de su propiedad.",
+        "rationale": "Incorrecta. Puede existir un deber de cuidado relacionado con el mantenimiento, aunque todavía deban probarse los demás elementos."
+      },
+      {
+        "id": "B",
+        "text": "Porque toda mancha aceitosa constituye un acto ilícito intencional y no negligencia.",
+        "rationale": "Incorrecta. La existencia de aceite no demuestra por sí sola una conducta intencional."
+      },
+      {
+        "id": "C",
+        "text": "Porque la causa próxima reemplaza la necesidad de demostrar daños.",
+        "rationale": "Incorrecta. La causa próxima y los daños reales son elementos separados, y ambos deben acreditarse."
+      },
+      {
+        "id": "D",
+        "text": "Porque faltan causa próxima y daños reales.",
+        "rationale": "Correcta. Sin contacto, caída ni pérdida mensurable, no existe un nexo causal con daños reales que complete la reclamación."
+      }
+    ],
+    "correctOption": "D",
+    "explanation": "La negligencia requiere deber legal, incumplimiento, causa próxima y daños reales. La ausencia de cualquiera de estos elementos impide establecer responsabilidad, aunque alguno de los demás pueda existir.",
+    "keyTerms": [
+      {
+        "es": "negligencia",
+        "en": "negligence"
+      },
+      {
+        "es": "deber legal",
+        "en": "legal duty"
+      },
+      {
+        "es": "daños reales",
+        "en": "actual damages"
+      }
+    ],
+    "source": {
+      "file": "G2 - Texas P&C Exam G2 Research.es.md",
+      "section": "5.10 Situación: Negligencia con un elemento ausente"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G2-Q013",
+    "domain": "G2",
+    "subtopic": "Responsabilidad absoluta y vicaria",
+    "difficulty": "intermedia",
+    "stem": "Un contratista almacena dinamita que detona y daña un edificio vecino. En otro incidente, uno de sus empleados daña negligentemente la propiedad de un cliente mientras trabaja. ¿Qué doctrinas corresponden, respectivamente?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Responsabilidad absoluta y responsabilidad vicaria.",
+        "rationale": "Correcta. El almacenamiento de explosivos es una actividad ultrapeligrosa, mientras que la negligencia laboral del empleado puede imputarse al empleador."
+      },
+      {
+        "id": "B",
+        "text": "Responsabilidad vicaria y responsabilidad estricta por productos.",
+        "rationale": "Incorrecta. El primer hecho no depende de una relación de agencia y el segundo no describe un producto defectuoso."
+      },
+      {
+        "id": "C",
+        "text": "Negligencia ordinaria y responsabilidad absoluta.",
+        "rationale": "Incorrecta. La dinamita activa responsabilidad sin necesidad de probar negligencia, y el daño del empleado se imputa vicariamente."
+      },
+      {
+        "id": "D",
+        "text": "Responsabilidad estricta por productos y negligencia del propietario vecino.",
+        "rationale": "Incorrecta. No se describe un producto defectuoso ni conducta negligente del propietario afectado."
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "La responsabilidad absoluta se aplica sin prueba de culpa a actividades ultrapeligrosas, como el almacenamiento de explosivos. La responsabilidad vicaria atribuye al empleador la negligencia de un empleado cometida dentro de la relación laboral.",
+    "keyTerms": [
+      {
+        "es": "responsabilidad absoluta",
+        "en": "absolute liability"
+      },
+      {
+        "es": "responsabilidad vicaria",
+        "en": "vicarious liability"
+      },
+      {
+        "es": "respondeat superior",
+        "en": "respondeat superior"
+      }
+    ],
+    "source": {
+      "file": "G2 - Texas P&C Exam G2 Research.es.md",
+      "section": "5.11 Situación: Responsabilidad absoluta frente a responsabilidad vicaria"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G2-Q014",
+    "domain": "G2",
+    "subtopic": "Cancelación y no renovación",
+    "difficulty": "basica",
+    "stem": "¿Cuál situación constituye una no renovación y no una cancelación?",
+    "options": [
+      {
+        "id": "A",
+        "text": "El asegurador termina la póliza antes del vencimiento por falta de pago.",
+        "rationale": "Incorrecta. Terminar la cobertura durante el plazo de la póliza constituye cancelación."
+      },
+      {
+        "id": "B",
+        "text": "El asegurador decide que la cobertura terminará en la fecha natural de vencimiento y no emitirá otro plazo.",
+        "rationale": "Correcta. La negativa a continuar la cobertura cuando vence el contrato es una no renovación."
+      },
+      {
+        "id": "C",
+        "text": "El asegurado solicita terminar la póliza a mitad del plazo.",
+        "rationale": "Incorrecta. La terminación solicitada antes del vencimiento sigue siendo una cancelación."
+      },
+      {
+        "id": "D",
+        "text": "Un endoso reduce la cobertura durante el plazo vigente.",
+        "rationale": "Incorrecta. La reducción de cobertura mediante endoso a mitad del plazo se trata como un evento legal de cancelación."
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "La cancelación termina una póliza antes de su fecha de vencimiento. La no renovación consiste en no continuar o prorrogar la cobertura cuando llega la fecha natural de vencimiento.",
+    "keyTerms": [
+      {
+        "es": "cancelación",
+        "en": "cancellation"
+      },
+      {
+        "es": "no renovación",
+        "en": "nonrenewal"
+      }
+    ],
+    "source": {
+      "file": "G2 - Texas P&C Exam G2 Research.es.md",
+      "section": "3.14 Cancelación y no renovación (Incisos N y O del plan)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G2-Q015",
+    "domain": "G2",
+    "subtopic": "Cobertura provisional y endosos",
+    "difficulty": "basica",
+    "stem": "Un agente de Texas con autoridad expresa emite una cobertura provisional escrita de propiedad el 1 de julio mientras se prepara la póliza formal. Un incendio ocurre el 20 de julio. ¿Cuál afirmación es correcta?",
+    "options": [
+      {
+        "id": "A",
+        "text": "No existe cobertura porque todavía no se entregó la póliza formal.",
+        "rationale": "Incorrecta. Una cobertura provisional autorizada es un contrato temporal activo y no una mera solicitud."
+      },
+      {
+        "id": "B",
+        "text": "Solo existe cobertura si el asegurado recibe antes un certificado de seguro.",
+        "rationale": "Incorrecta. Un certificado únicamente acredita la existencia de cobertura y no es requisito para que la cobertura provisional sea vinculante."
+      },
+      {
+        "id": "C",
+        "text": "La pérdida está dentro del periodo máximo de 30 días y debe ajustarse conforme a los términos aplicables.",
+        "rationale": "Correcta. El incendio ocurrió durante la vigencia temporal permitida de la cobertura provisional emitida por un agente autorizado."
+      },
+      {
+        "id": "D",
+        "text": "La cobertura provisional funciona únicamente como una cotización de prima no vinculante.",
+        "rationale": "Incorrecta. A diferencia de una cotización, la cobertura provisional crea cobertura temporal exigible."
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "En Texas, una cobertura provisional emitida por un agente con autoridad para obligar al asegurador proporciona cobertura temporal mientras se emite la póliza, por un máximo de 30 días. No debe confundirse con una cotización o un certificado de seguro.",
+    "keyTerms": [
+      {
+        "es": "cobertura provisional",
+        "en": "binder"
+      },
+      {
+        "es": "autoridad vinculante",
+        "en": "binding authority"
+      },
+      {
+        "es": "certificado de seguro",
+        "en": "Certificate of Insurance"
+      }
+    ],
+    "source": {
+      "file": "G2 - Texas P&C Exam G2 Research.es.md",
+      "section": "5.12 Situación: Análisis de una disputa sobre cobertura provisional"
+    },
+    "reviewStatus": "pending_expert_review"
+  }
+]

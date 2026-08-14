@@ -1,0 +1,1038 @@
+[
+  {
+    "id": "G1-Q001",
+    "domain": "G1",
+    "subtopic": "Coberturas de propiedad Homeowners",
+    "difficulty": "basica",
+    "stem": "En una póliza Homeowners para un propietario ocupante, ¿qué cobertura protege normalmente un garaje independiente separado de la vivienda por un espacio libre?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cobertura B — Otras estructuras",
+        "rationale": "Correcta. La Cobertura B protege estructuras separadas de la vivienda, como garajes independientes, cobertizos y cercas."
+      },
+      {
+        "id": "B",
+        "text": "Cobertura A — Vivienda",
+        "rationale": "Incorrecta. La Cobertura A protege la vivienda principal, las estructuras adosadas y las instalaciones permanentes, no un garaje separado por un espacio libre."
+      },
+      {
+        "id": "C",
+        "text": "Cobertura C — Bienes personales",
+        "rationale": "Incorrecta. La Cobertura C se aplica a los bienes personales del asegurado, no a una estructura independiente."
+      },
+      {
+        "id": "D",
+        "text": "Cobertura D — Pérdida de uso",
+        "rationale": "Incorrecta. La Cobertura D atiende gastos adicionales de manutención y pérdida del valor justo de alquiler después de una pérdida cubierta."
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "La Sección I de Homeowners asigna las estructuras separadas de la vivienda a la Cobertura B, cuyo límite predeterminado suele equivaler al 10% de la Cobertura A.",
+    "keyTerms": [
+      {
+        "es": "Otras estructuras",
+        "en": "Other Structures"
+      },
+      {
+        "es": "Vivienda",
+        "en": "Dwelling"
+      }
+    ],
+    "source": {
+      "file": "G1 - Texas G1 Exam Research Plan.es.md",
+      "section": "Propiedad personal: formularios Homeowners (programa HO)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G1-Q002",
+    "domain": "G1",
+    "subtopic": "HO-3 frente a HO-5",
+    "difficulty": "intermedia",
+    "stem": "Una propietaria quiere cobertura de riesgos abiertos tanto para la vivienda como para sus bienes personales. ¿Qué formulario satisface directamente esa necesidad?",
+    "options": [
+      {
+        "id": "A",
+        "text": "HO-3 Special Form",
+        "rationale": "Incorrecta. El HO-3 aplica riesgos abiertos a la vivienda y otras estructuras, pero riesgos nombrados amplios a los bienes personales."
+      },
+      {
+        "id": "B",
+        "text": "HO-5 Comprehensive Form",
+        "rationale": "Correcta. El HO-5 proporciona riesgos abiertos para las Coberturas A, B y C, sujeto a sus exclusiones."
+      },
+      {
+        "id": "C",
+        "text": "HO-4 Contents Broad Form",
+        "rationale": "Incorrecta. El HO-4 está destinado a inquilinos, no incluye cobertura de vivienda y cubre el contenido contra riesgos nombrados amplios."
+      },
+      {
+        "id": "D",
+        "text": "HO-8 Modified Coverage Form",
+        "rationale": "Incorrecta. El HO-8 usa una lista reducida de riesgos nombrados básicos y está orientado a viviendas antiguas o de valor de mercado reducido."
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "La diferencia decisiva entre HO-3 y HO-5 es la Cobertura C: el HO-5 extiende la base de riesgos abiertos a los bienes personales, mientras que el HO-3 conserva para ellos una base de riesgos nombrados amplios.",
+    "keyTerms": [
+      {
+        "es": "Riesgos abiertos",
+        "en": "Open Perils"
+      },
+      {
+        "es": "Bienes personales",
+        "en": "Personal Property"
+      }
+    ],
+    "source": {
+      "file": "G1 - Texas G1 Exam Research Plan.es.md",
+      "section": "HO-5 Comprehensive Form (ISO HO 00 05\\)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G1-Q003",
+    "domain": "G1",
+    "subtopic": "HO-4 para inquilinos",
+    "difficulty": "basica",
+    "stem": "Una persona alquila un apartamento y desea asegurar sus muebles, ropa y gastos adicionales de manutención si un incendio vuelve inhabitable la unidad. ¿Qué formulario es el más apropiado?",
+    "options": [
+      {
+        "id": "A",
+        "text": "HO-2 Broad Form",
+        "rationale": "Incorrecta. El HO-2 está diseñado para propietarios que ocupan la vivienda y proporciona coberturas estructurales A y B."
+      },
+      {
+        "id": "B",
+        "text": "HO-6 Unit-Owners Form",
+        "rationale": "Incorrecta. El HO-6 corresponde al propietario de una unidad de condominio y puede asegurar elementos interiores de inmueble bajo la Cobertura A."
+      },
+      {
+        "id": "C",
+        "text": "HO-4 Contents Broad Form",
+        "rationale": "Correcta. El HO-4 asegura los bienes personales y la pérdida de uso de un inquilino, con límites de cero para las Coberturas A y B."
+      },
+      {
+        "id": "D",
+        "text": "HO-8 Modified Coverage Form",
+        "rationale": "Incorrecta. El HO-8 se usa para ciertas viviendas antiguas ocupadas por sus propietarios, no como formulario principal para inquilinos."
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "El HO-4 está diseñado para inquilinos residenciales. Su protección principal comprende la Cobertura C para contenido y la Cobertura D para pérdida de uso, sin asegurar el edificio alquilado bajo las Coberturas A o B.",
+    "keyTerms": [
+      {
+        "es": "Formulario para inquilinos",
+        "en": "Renters Form"
+      },
+      {
+        "es": "Pérdida de uso",
+        "en": "Loss of Use"
+      }
+    ],
+    "source": {
+      "file": "G1 - Texas G1 Exam Research Plan.es.md",
+      "section": "HO-4 Contents Broad Form / Renters (ISO HO 00 04\\)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G1-Q004",
+    "domain": "G1",
+    "subtopic": "HO-6 para condominios",
+    "difficulty": "intermedia",
+    "stem": "El propietario de un condominio instaló, a su propio costo, gabinetes y pisos interiores que debe asegurar conforme a los estatutos de la asociación. ¿Qué cobertura del HO-6 responde principalmente a esta exposición?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cobertura B — Otras estructuras",
+        "rationale": "Incorrecta. La Cobertura B se excluye del HO-6 básico y no es la cobertura principal para instalaciones interiores de la unidad."
+      },
+      {
+        "id": "B",
+        "text": "Cobertura C — Bienes personales",
+        "rationale": "Incorrecta. La Cobertura C protege contenido personal, pero los gabinetes y pisos incorporados son elementos inmobiliarios interiores."
+      },
+      {
+        "id": "C",
+        "text": "Cobertura D — Pérdida de uso",
+        "rationale": "Incorrecta. La Cobertura D atiende gastos de manutención y pérdida del valor justo de alquiler, no daños físicos a instalaciones interiores."
+      },
+      {
+        "id": "D",
+        "text": "Cobertura A — Vivienda",
+        "rationale": "Correcta. En el HO-6, la Cobertura A asegura instalaciones, adiciones, modificaciones y otros elementos interiores que corresponden al propietario de la unidad."
+      }
+    ],
+    "correctOption": "D",
+    "explanation": "Aunque su límite básico puede ser nominal y ajustarse al alza, la Cobertura A del HO-6 protege los elementos inmobiliarios interiores que son responsabilidad del propietario de la unidad.",
+    "keyTerms": [
+      {
+        "es": "Propietario de unidad",
+        "en": "Unit Owner"
+      },
+      {
+        "es": "Adiciones y modificaciones",
+        "en": "Additions and Alterations"
+      }
+    ],
+    "source": {
+      "file": "G1 - Texas G1 Exam Research Plan.es.md",
+      "section": "HO-6 Unit-Owners Form / Condominium (ISO HO 00 06\\)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G1-Q005",
+    "domain": "G1",
+    "subtopic": "HO-8 y valoración funcional",
+    "difficulty": "intermedia",
+    "stem": "Una casa histórica tiene paredes de yeso artesanal cuyo costo de reproducción supera ampliamente su valor de mercado. El propietario acepta reparaciones con materiales modernos equivalentes. ¿Qué combinación de formulario y valoración es la más adecuada?",
+    "options": [
+      {
+        "id": "A",
+        "text": "HO-8 con costo de reemplazo funcional",
+        "rationale": "Correcta. El HO-8 está diseñado para viviendas antiguas con una gran diferencia entre costo de reemplazo y valor de mercado, y permite usar materiales modernos comunes."
+      },
+      {
+        "id": "B",
+        "text": "HO-5 con valor acordado automático",
+        "rationale": "Incorrecta. El paquete básico HO-5 no establece automáticamente un valor acordado ni está diseñado específicamente para sustituir acabados históricos por equivalentes funcionales."
+      },
+      {
+        "id": "C",
+        "text": "HO-4 con valor real en efectivo",
+        "rationale": "Incorrecta. El HO-4 asegura principalmente el contenido de inquilinos y no la vivienda histórica propiedad del solicitante."
+      },
+      {
+        "id": "D",
+        "text": "DP-1 con costo de reemplazo de reproducción",
+        "rationale": "Incorrecta. El DP-1 liquida normalmente las pérdidas a ACV y no promete reproducir técnicas artesanales históricas."
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "El costo de reemplazo funcional indemniza mediante materiales y métodos modernos que restauran la función del bien sin reproducir componentes históricos costosos, como reemplazar yeso artesanal por paneles de yeso.",
+    "keyTerms": [
+      {
+        "es": "Costo de reemplazo funcional",
+        "en": "Functional Replacement Cost"
+      },
+      {
+        "es": "Valor de mercado",
+        "en": "Market Value"
+      }
+    ],
+    "source": {
+      "file": "G1 - Texas G1 Exam Research Plan.es.md",
+      "section": "HO-8 Modified Coverage Form (ISO HO 00 08\\)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G1-Q006",
+    "domain": "G1",
+    "subtopic": "Selección de póliza Dwelling",
+    "difficulty": "intermedia",
+    "stem": "Un inversionista alquila una vivienda unifamiliar a terceros y desea riesgos abiertos para la estructura, costo de reemplazo para la vivienda y valor justo de alquiler. ¿Qué formulario se ajusta mejor?",
+    "options": [
+      {
+        "id": "A",
+        "text": "HO-3 Special Form",
+        "rationale": "Incorrecta. El HO-3 para propietarios exige ocupación por el propietario, condición que no cumple esta vivienda de alquiler."
+      },
+      {
+        "id": "B",
+        "text": "DP-3 Special Form",
+        "rationale": "Correcta. El DP-3 admite propiedades de alquiler, cubre A y B con riesgos abiertos y RCV sujeto a la condición aplicable, e incluye valor justo de alquiler."
+      },
+      {
+        "id": "C",
+        "text": "DP-1 Basic Form",
+        "rationale": "Incorrecta. El DP-1 ofrece riesgos nombrados básicos y liquida la estructura a ACV, por lo que no satisface los requisitos indicados."
+      },
+      {
+        "id": "D",
+        "text": "HO-4 Contents Broad Form",
+        "rationale": "Incorrecta. El HO-4 protege al inquilino y sus bienes personales, no el interés estructural del arrendador."
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "El programa Dwelling acepta viviendas no ocupadas por el propietario. El DP-3 es su formulario más amplio: aplica riesgos abiertos a las estructuras y riesgos nombrados amplios al contenido.",
+    "keyTerms": [
+      {
+        "es": "Póliza de vivienda",
+        "en": "Dwelling Policy"
+      },
+      {
+        "es": "Valor justo de alquiler",
+        "en": "Fair Rental Value"
+      },
+      {
+        "es": "Costo de reemplazo",
+        "en": "Replacement Cost Value"
+      }
+    ],
+    "source": {
+      "file": "G1 - Texas G1 Exam Research Plan.es.md",
+      "section": "DP-3 Special Form (ISO DP 00 03\\)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G1-Q007",
+    "domain": "G1",
+    "subtopic": "DP-1 Basic Form",
+    "difficulty": "basica",
+    "stem": "Sin selecciones opcionales en las Declaraciones, ¿qué conjunto de riesgos cubre el DP-1 básico?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Incendio, rayo, viento y granizo",
+        "rationale": "Incorrecta. Viento y granizo pertenecen a la cobertura extendida opcional y no están incluidos automáticamente en el DP-1 básico."
+      },
+      {
+        "id": "B",
+        "text": "Incendio, robo y vandalismo",
+        "rationale": "Incorrecta. El vandalismo requiere selección de VMM, y el robo no forma parte de los tres riesgos básicos indicados."
+      },
+      {
+        "id": "C",
+        "text": "Incendio, rayo y explosión interna",
+        "rationale": "Correcta. Estos son los tres riesgos principales cubiertos por el DP-1 sin EC ni VMM."
+      },
+      {
+        "id": "D",
+        "text": "Todos los riesgos físicos directos no excluidos",
+        "rationale": "Incorrecta. El DP-1 es un formulario de riesgos nombrados básicos, no de riesgos abiertos."
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "El DP-1 básico cubre incendio, rayo y explosión interna. Los riesgos de cobertura extendida y el vandalismo o daño malicioso deben seleccionarse expresamente.",
+    "keyTerms": [
+      {
+        "es": "Cobertura extendida",
+        "en": "Extended Coverage"
+      },
+      {
+        "es": "Vandalismo y daños maliciosos",
+        "en": "Vandalism and Malicious Mischief"
+      }
+    ],
+    "source": {
+      "file": "G1 - Texas G1 Exam Research Plan.es.md",
+      "section": "DP-1 Basic Form (ISO DP 00 01\\)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G1-Q008",
+    "domain": "G1",
+    "subtopic": "Comparación DP-1 y DP-2",
+    "difficulty": "avanzada",
+    "stem": "Una pérdida cubierta daña la vivienda y los muebles asegurados bajo un DP-2 que cumple la condición del 80% del costo de reemplazo. ¿Cuál es la base de liquidación aplicable?",
+    "options": [
+      {
+        "id": "A",
+        "text": "ACV para la vivienda y RCV para los muebles",
+        "rationale": "Incorrecta. Esta combinación invierte las bases de valoración del DP-2."
+      },
+      {
+        "id": "B",
+        "text": "ACV para la vivienda y para los muebles",
+        "rationale": "Incorrecta. Esa es la regla general del DP-1, no la del DP-2 para una vivienda que cumple la condición del 80%."
+      },
+      {
+        "id": "C",
+        "text": "RCV para la vivienda y para los muebles",
+        "rationale": "Incorrecta. El DP-2 básico conserva la liquidación de los bienes personales a ACV."
+      },
+      {
+        "id": "D",
+        "text": "RCV para la vivienda y ACV para los muebles",
+        "rationale": "Correcta. El DP-2 liquida A y B a RCV cuando se cumple la condición del 80%, mientras la Cobertura C se liquida a ACV."
+      }
+    ],
+    "correctOption": "D",
+    "explanation": "En el DP-2, las estructuras pueden recibir liquidación a costo de reemplazo si se satisface la condición de seguro correspondiente; los bienes personales continúan valorándose a valor real en efectivo.",
+    "keyTerms": [
+      {
+        "es": "Valor real en efectivo",
+        "en": "Actual Cash Value"
+      },
+      {
+        "es": "Costo de reemplazo",
+        "en": "Replacement Cost Value"
+      }
+    ],
+    "source": {
+      "file": "G1 - Texas G1 Exam Research Plan.es.md",
+      "section": "DP-2 Broad Form (ISO DP 00 02\\)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G1-Q009",
+    "domain": "G1",
+    "subtopic": "Arquitectura de la CPP",
+    "difficulty": "basica",
+    "stem": "¿Qué combinación constituye la arquitectura mínima descrita para una Commercial Package Policy válida?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Declaraciones comunes, condiciones comunes y dos o más secciones de cobertura comercial",
+        "rationale": "Correcta. Una CPP combina los componentes comunes de la póliza con al menos dos secciones comerciales seleccionadas."
+      },
+      {
+        "id": "B",
+        "text": "Una sola sección de propiedad comercial y sus declaraciones",
+        "rationale": "Incorrecta. Una póliza con una sola sección de cobertura es monolínea, no una CPP con dos o más secciones."
+      },
+      {
+        "id": "C",
+        "text": "Únicamente propiedad comercial y responsabilidad general, sin condiciones comunes",
+        "rationale": "Incorrecta. Las Common Policy Conditions forman parte de la arquitectura requerida de una CPP."
+      },
+      {
+        "id": "D",
+        "text": "Una BOP y cualquier endoso de propiedad",
+        "rationale": "Incorrecta. La BOP es un paquete autónomo y preempaquetado, no el armazón modular de una CPP."
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "La CPP es modular: incluye Common Policy Declarations, Common Policy Conditions y dos o más secciones de cobertura comercial, como propiedad, crimen o Inland Marine.",
+    "keyTerms": [
+      {
+        "es": "Póliza de paquete comercial",
+        "en": "Commercial Package Policy"
+      },
+      {
+        "es": "Condiciones comunes de la póliza",
+        "en": "Common Policy Conditions"
+      },
+      {
+        "es": "Póliza monolínea",
+        "en": "Monoline Policy"
+      }
+    ],
+    "source": {
+      "file": "G1 - Texas G1 Exam Research Plan.es.md",
+      "section": "Arquitectura de la Commercial Package Policy (CPP)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G1-Q010",
+    "domain": "G1",
+    "subtopic": "CP 00 10 y BPP",
+    "difficulty": "intermedia",
+    "stem": "Una empresa tiene inventario propio dentro de una camioneta estacionada a 60 pies del predio comercial descrito. Según el parámetro de ubicación del CP 00 10, ¿cómo se clasifica normalmente este bien?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cobertura del edificio, porque se usa en el predio",
+        "rationale": "Incorrecta. El inventario móvil propiedad de la empresa no se convierte en parte del edificio por estar cerca del predio."
+      },
+      {
+        "id": "B",
+        "text": "Sus bienes personales comerciales, porque está en un vehículo dentro de 100 pies",
+        "rationale": "Correcta. El BPP propio puede estar dentro del edificio, al aire libre o en un vehículo dentro de 100 pies del predio descrito."
+      },
+      {
+        "id": "C",
+        "text": "Bienes personales de terceros, porque está fuera del edificio",
+        "rationale": "Incorrecta. La categoría depende de la propiedad y el interés sobre el bien, no de que se encuentre fuera del edificio."
+      },
+      {
+        "id": "D",
+        "text": "Bienes necesariamente no cubiertos por estar en una camioneta",
+        "rationale": "Incorrecta. La ubicación en un vehículo no elimina por sí sola la cobertura cuando el bien permanece dentro del radio de 100 pies."
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "El CP 00 10 incluye como BPP los bienes personales del asegurado usados en el negocio cuando están dentro del edificio o al aire libre, incluso en un vehículo, dentro de 100 pies del predio descrito.",
+    "keyTerms": [
+      {
+        "es": "Bienes personales comerciales",
+        "en": "Business Personal Property"
+      },
+      {
+        "es": "Predio descrito",
+        "en": "Described Premises"
+      }
+    ],
+    "source": {
+      "file": "G1 - Texas G1 Exam Research Plan.es.md",
+      "section": "Propiedad comercial: Building and Personal Property Coverage Form (CP 00 10\\)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G1-Q011",
+    "domain": "G1",
+    "subtopic": "Causas de pérdida comerciales",
+    "difficulty": "intermedia",
+    "stem": "Una empresa quiere añadir caída de objetos, peso de nieve o hielo y descarga accidental de agua a los once riesgos básicos, pero no solicita una base de riesgos abiertos. ¿Qué formulario corresponde?",
+    "options": [
+      {
+        "id": "A",
+        "text": "CP 10 10 Basic Form",
+        "rationale": "Incorrecta. El formulario básico contiene once riesgos y no añade los tres riesgos indicados."
+      },
+      {
+        "id": "B",
+        "text": "CP 10 30 Special Form",
+        "rationale": "Incorrecta. El formulario especial usa riesgos abiertos, amplitud que el negocio no solicitó."
+      },
+      {
+        "id": "C",
+        "text": "CP 10 20 Broad Form",
+        "rationale": "Correcta. El formulario amplio añade esos tres riesgos nombrados a los once básicos e incluye cobertura limitada de colapso."
+      },
+      {
+        "id": "D",
+        "text": "EB 00 20 Equipment Breakdown",
+        "rationale": "Incorrecta. EB 00 20 atiende averías repentinas y accidentales de equipo, no amplía la lista general de causas de pérdida de esta manera."
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "El CP 10 20 conserva una estructura de riesgos nombrados, pero amplía el CP 10 10 con caída de objetos, peso de nieve, hielo o aguanieve y ciertos daños por agua.",
+    "keyTerms": [
+      {
+        "es": "Formulario amplio",
+        "en": "Broad Form"
+      },
+      {
+        "es": "Causas de pérdida",
+        "en": "Causes of Loss"
+      }
+    ],
+    "source": {
+      "file": "G1 - Texas G1 Exam Research Plan.es.md",
+      "section": "Formularios comerciales de causas de pérdida"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G1-Q012",
+    "domain": "G1",
+    "subtopic": "Ingresos comerciales y gastos adicionales",
+    "difficulty": "avanzada",
+    "stem": "Un incendio cubierto ocurre el lunes a las 9:00 a. m. Una empresa asegurada bajo CP 00 30 sin modificación del período de espera alquila un local temporal el martes. ¿Cuándo comienzan, respectivamente, las coberturas de ingresos comerciales y gastos adicionales?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ambas comienzan inmediatamente después del incendio",
+        "rationale": "Incorrecta. Los gastos adicionales comienzan inmediatamente, pero los ingresos comerciales están sujetos al período de espera de 72 horas."
+      },
+      {
+        "id": "B",
+        "text": "Ambas comienzan 72 horas después del incendio",
+        "rationale": "Incorrecta. El período de espera de 72 horas no se aplica a la cobertura de gastos adicionales."
+      },
+      {
+        "id": "C",
+        "text": "Los ingresos comerciales comienzan inmediatamente y los gastos adicionales después de 72 horas",
+        "rationale": "Incorrecta. Esta opción invierte las reglas temporales de las dos coberturas."
+      },
+      {
+        "id": "D",
+        "text": "Los ingresos comerciales comienzan el jueves a las 9:00 a. m. y los gastos adicionales inmediatamente",
+        "rationale": "Correcta. Setenta y dos horas después del lunes a las 9:00 a. m. es el jueves a la misma hora; Extra Expense no tiene esa espera."
+      }
+    ],
+    "correctOption": "D",
+    "explanation": "En CP 00 30, el período de restauración para Business Income comienza 72 horas después de la pérdida física directa. Para Extra Expense comienza inmediatamente, permitiendo cubrir gastos necesarios para reducir la suspensión.",
+    "keyTerms": [
+      {
+        "es": "Ingresos comerciales",
+        "en": "Business Income"
+      },
+      {
+        "es": "Gastos adicionales",
+        "en": "Extra Expense"
+      },
+      {
+        "es": "Período de restauración",
+        "en": "Period of Restoration"
+      }
+    ],
+    "source": {
+      "file": "G1 - Texas G1 Exam Research Plan.es.md",
+      "section": "Cobertura de elemento temporal: ingresos comerciales y gastos adicionales (CP 00 30\\)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G1-Q013",
+    "domain": "G1",
+    "subtopic": "Avería de equipo",
+    "difficulty": "intermedia",
+    "stem": "El transformador de una fábrica sufre repentinamente un arco eléctrico interno que exige reemplazarlo. ¿Qué cobertura está diseñada específicamente para esa causa de pérdida?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Equipment Breakdown Protection",
+        "rationale": "Correcta. EB 00 20 cubre averías físicas repentinas y accidentales, incluido el arco eléctrico de equipo cubierto."
+      },
+      {
+        "id": "B",
+        "text": "Causes of Loss — Basic Form",
+        "rationale": "Incorrecta. El formulario básico de propiedad comercial no está diseñado para cubrir el arco eléctrico interno como avería de equipo."
+      },
+      {
+        "id": "C",
+        "text": "Builders Risk",
+        "rationale": "Incorrecta. Builders Risk protege estructuras y materiales durante la construcción, no la avería operativa de un transformador."
+      },
+      {
+        "id": "D",
+        "text": "Personal Articles Floater",
+        "rationale": "Incorrecta. Una PAF cubre artículos personales valiosos especificados, no maquinaria eléctrica industrial."
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "Equipment Breakdown cubre fallas físicas repentinas y accidentales de equipo, como arco eléctrico, avería mecánica y ruptura por presión. El desgaste y la corrosión graduales no constituyen una avería cubierta.",
+    "keyTerms": [
+      {
+        "es": "Avería de equipo",
+        "en": "Equipment Breakdown"
+      },
+      {
+        "es": "Arco eléctrico",
+        "en": "Electrical Arcing"
+      }
+    ],
+    "source": {
+      "file": "G1 - Texas G1 Exam Research Plan.es.md",
+      "section": "Protección por avería de equipo (EB 00 20\\)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G1-Q014",
+    "domain": "G1",
+    "subtopic": "Businessowners Policy",
+    "difficulty": "avanzada",
+    "stem": "Una boutique elegible asegurada mediante una ISO BOP sin endosos cierra nueve meses por un incendio cubierto. ¿Cómo se estructura normalmente su cobertura de ingresos comerciales?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Con un límite automático de $50,000 y coaseguro del 50%",
+        "rationale": "Incorrecta. El paquete descrito no aplica ese sublímite ni esa penalización estándar a los ingresos comerciales."
+      },
+      {
+        "id": "B",
+        "text": "Como pérdida real sufrida durante un máximo de 12 meses, sin límite monetario declarado",
+        "rationale": "Correcta. La BOP incluye automáticamente Business Income y Extra Expense sobre base ALS durante hasta 12 meses consecutivos."
+      },
+      {
+        "id": "C",
+        "text": "Solo mediante CP 00 30 y un límite monetario separado",
+        "rationale": "Incorrecta. CP 00 30 corresponde a la estructura de propiedad comercial de una CPP; la BOP ya incorpora esta cobertura."
+      },
+      {
+        "id": "D",
+        "text": "Únicamente durante los primeros 30 días posteriores al incendio",
+        "rationale": "Incorrecta. La duración estándar descrita para la BOP es de hasta 12 meses consecutivos, no 30 días."
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "La BOP incluye ingresos comerciales y gastos adicionales basados en la pérdida real sufrida durante un máximo de 12 meses consecutivos después de una pérdida cubierta, sin un límite monetario declarado en las Declaraciones.",
+    "keyTerms": [
+      {
+        "es": "Póliza para propietarios de negocios",
+        "en": "Businessowners Policy"
+      },
+      {
+        "es": "Pérdida real sufrida",
+        "en": "Actual Loss Sustained"
+      }
+    ],
+    "source": {
+      "file": "G1 - Texas G1 Exam Research Plan.es.md",
+      "section": "Businessowners Policy (BOP \\- ISO BP 00 03\\)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G1-Q015",
+    "domain": "G1",
+    "subtopic": "Builders Risk",
+    "difficulty": "avanzada",
+    "stem": "Un edificio asegurado mediante Builders Risk se termina el 1 de abril y comienza a utilizarse para su propósito previsto el 10 de abril. Si no ocurre antes otro acontecimiento de terminación, ¿cuándo termina la cobertura según la regla aplicable a la ocupación o uso?",
+    "options": [
+      {
+        "id": "A",
+        "text": "El 1 de mayo, 30 días después de terminarse la obra",
+        "rationale": "Incorrecta. La regla indicada no establece terminación a los 30 días de completarse la obra."
+      },
+      {
+        "id": "B",
+        "text": "El 30 de junio, 90 días después de terminarse la obra",
+        "rationale": "Incorrecta. Aunque existe una regla de 90 días después de terminada la obra, el plazo de 60 días desde la ocupación vence primero."
+      },
+      {
+        "id": "C",
+        "text": "El 9 de junio, 60 días después de comenzar el uso previsto",
+        "rationale": "Correcta. Builders Risk termina al ocurrir primero uno de los acontecimientos enumerados, incluido 60 días después de la ocupación o uso previsto."
+      },
+      {
+        "id": "D",
+        "text": "Solo al vencimiento anual de la póliza",
+        "rationale": "Incorrecta. La cobertura puede terminar antes del vencimiento por ocupación, terminación, aceptación, abandono, cancelación u otros eventos enumerados."
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Builders Risk termina cuando ocurre primero cualquiera de varios acontecimientos. En este caso, 60 días después del inicio del uso previsto ocurre antes que 90 días después de finalizar la construcción.",
+    "keyTerms": [
+      {
+        "es": "Riesgo del constructor",
+        "en": "Builders Risk"
+      },
+      {
+        "es": "Valor terminado",
+        "en": "Completed Value"
+      },
+      {
+        "es": "Terminación de cobertura",
+        "en": "Coverage Termination"
+      }
+    ],
+    "source": {
+      "file": "G1 - Texas G1 Exam Research Plan.es.md",
+      "section": "Builders Risk Coverage Form (CP 00 20\\)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G1-Q016",
+    "domain": "G1",
+    "subtopic": "Cobertura cibernética de primera parte",
+    "difficulty": "intermedia",
+    "stem": "Después de un ataque de ransomware, una empresa incurre en costos para reconstruir datos dañados y pierde ganancias mientras sus sistemas permanecen inactivos. ¿Qué categoría de seguro atiende directamente estas pérdidas propias?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Responsabilidad cibernética de terceros",
+        "rationale": "Incorrecta. Esa cobertura se dirige a reclamaciones de terceros por brechas o divulgación no autorizada, no principalmente a las pérdidas directas descritas."
+      },
+      {
+        "id": "B",
+        "text": "Commercial General Liability",
+        "rationale": "Incorrecta. La CGL no es la cobertura de primera parte identificada para restauración de datos e interrupción digital."
+      },
+      {
+        "id": "C",
+        "text": "Equipment Dealers Floater",
+        "rationale": "Incorrecta. Este floater cubre inventario de equipo móvil mantenido por concesionarios para la venta."
+      },
+      {
+        "id": "D",
+        "text": "Cobertura cibernética de primera parte",
+        "rationale": "Correcta. Esta cobertura puede pagar restauración de datos, extorsión cibernética e interrupción digital del negocio."
+      }
+    ],
+    "correctOption": "D",
+    "explanation": "La cobertura cibernética de primera parte protege los intereses financieros propios de la organización, incluidos datos dañados, pagos de extorsión, respuesta a incidentes y pérdidas por interrupción de sistemas.",
+    "keyTerms": [
+      {
+        "es": "Cobertura cibernética de primera parte",
+        "en": "First-Party Cyber Coverage"
+      },
+      {
+        "es": "Restauración de datos",
+        "en": "Data Restoration"
+      },
+      {
+        "es": "Interrupción digital del negocio",
+        "en": "Digital Business Interruption"
+      }
+    ],
+    "source": {
+      "file": "G1 - Texas G1 Exam Research Plan.es.md",
+      "section": "Cobertura cibernética de primera parte"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G1-Q017",
+    "domain": "G1",
+    "subtopic": "Personal Articles Floater",
+    "difficulty": "basica",
+    "stem": "¿Cuál es una característica típica de una Personal Articles Floater estándar para joyas especificadas?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cobertura mundial de riesgos abiertos y sin deducible",
+        "rationale": "Correcta. Una PAF estándar cubre artículos valiosos especificados mundialmente contra riesgos abiertos y normalmente no aplica deducible."
+      },
+      {
+        "id": "B",
+        "text": "Cobertura exclusiva dentro de la residencia y con deducible obligatorio",
+        "rationale": "Incorrecta. La PAF se caracteriza por su alcance mundial y por no aplicar normalmente un deducible."
+      },
+      {
+        "id": "C",
+        "text": "Cobertura limitada únicamente a incendio, rayo y explosión interna",
+        "rationale": "Incorrecta. Esos son riesgos básicos asociados con DP-1; una PAF opera normalmente sobre una base de riesgos abiertos."
+      },
+      {
+        "id": "D",
+        "text": "Cobertura automática para cualquier bien personal sin especificarlo",
+        "rationale": "Incorrecta. La PAF está destinada a artículos de alto valor especificados o programados."
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "Una Personal Articles Floater amplía la protección de bienes valiosos programados, como joyas, cámaras o bellas artes, mediante riesgos abiertos, alcance mundial y ausencia normal de deducible.",
+    "keyTerms": [
+      {
+        "es": "Póliza flotante de artículos personales",
+        "en": "Personal Articles Floater"
+      },
+      {
+        "es": "Bienes especificados",
+        "en": "Scheduled Property"
+      }
+    ],
+    "source": {
+      "file": "G1 - Texas G1 Exam Research Plan.es.md",
+      "section": "Personal Articles Floaters (PAF)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G1-Q018",
+    "domain": "G1",
+    "subtopic": "Commercial Inland Marine",
+    "difficulty": "intermedia",
+    "stem": "Un contratista necesita asegurar una excavadora mientras se traslada entre proyectos, se utiliza en distintos lugares de trabajo y se almacena temporalmente. ¿Qué póliza flotante corresponde mejor?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Installation Floater",
+        "rationale": "Incorrecta. Un Installation Floater cubre materiales y equipo destinados a ser instalados hasta su aceptación por el comprador."
+      },
+      {
+        "id": "B",
+        "text": "Contractors Equipment Floater",
+        "rationale": "Correcta. Esta póliza cubre maquinaria pesada móvil y herramientas del contratista en lugares de trabajo, en tránsito o almacenadas."
+      },
+      {
+        "id": "C",
+        "text": "Equipment Dealers Floater",
+        "rationale": "Incorrecta. Esta cobertura corresponde al inventario que un concesionario mantiene para la venta, no al equipo operativo del contratista."
+      },
+      {
+        "id": "D",
+        "text": "Personal Articles Floater",
+        "rationale": "Incorrecta. Una PAF asegura artículos personales valiosos, no excavadoras utilizadas comercialmente."
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Commercial Inland Marine sigue bienes comerciales móviles. El Contractors Equipment Floater está diseñado para maquinaria y herramientas que se desplazan entre obras o permanecen temporalmente almacenadas.",
+    "keyTerms": [
+      {
+        "es": "Póliza flotante de equipo de contratistas",
+        "en": "Contractors Equipment Floater"
+      },
+      {
+        "es": "Transporte terrestre",
+        "en": "Inland Marine"
+      }
+    ],
+    "source": {
+      "file": "G1 - Texas G1 Exam Research Plan.es.md",
+      "section": "Pólizas flotantes de propiedad comercial"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G1-Q019",
+    "domain": "G1",
+    "subtopic": "Formularios SFIP",
+    "difficulty": "basica",
+    "stem": "¿Qué formulario de la Standard Flood Insurance Policy se utiliza para un edificio comercial?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Dwelling Form",
+        "rationale": "Incorrecta. El Dwelling Form se utiliza para viviendas residenciales de una a cuatro familias y ciertas unidades residenciales de condominios."
+      },
+      {
+        "id": "B",
+        "text": "RCBAP",
+        "rationale": "Incorrecta. La RCBAP se emite a asociaciones de condominios residenciales para el edificio y sus elementos comunes."
+      },
+      {
+        "id": "C",
+        "text": "General Property Form",
+        "rationale": "Correcta. Este formulario cubre edificios comerciales, riesgos no residenciales y edificios residenciales de cinco o más unidades."
+      },
+      {
+        "id": "D",
+        "text": "HO-3 Special Form",
+        "rationale": "Incorrecta. El HO-3 es un formulario Homeowners y excluye la inundación; no es una SFIP."
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "El NFIP utiliza tres formularios SFIP. El General Property Form corresponde a edificios comerciales, riesgos no residenciales y edificios residenciales con cinco o más unidades.",
+    "keyTerms": [
+      {
+        "es": "Formulario de propiedad general",
+        "en": "General Property Form"
+      },
+      {
+        "es": "Póliza estándar de seguro contra inundaciones",
+        "en": "Standard Flood Insurance Policy"
+      }
+    ],
+    "source": {
+      "file": "G1 - Texas G1 Exam Research Plan.es.md",
+      "section": "Formularios de la Standard Flood Insurance Policy (SFIP)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G1-Q020",
+    "domain": "G1",
+    "subtopic": "Período de espera del NFIP",
+    "difficulty": "avanzada",
+    "stem": "Un comprador obtiene una póliza NFIP porque el prestamista la exige para el cierre de un nuevo préstamo hipotecario. ¿Qué regla de vigencia se aplica?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La cobertura comienza 30 días después del cierre",
+        "rationale": "Incorrecta. El período estándar de 30 días no se aplica cuando la cobertura se exige en relación con la concesión del préstamo."
+      },
+      {
+        "id": "B",
+        "text": "La cobertura comienza un día después del cierre",
+        "rationale": "Incorrecta. La espera de un día corresponde a determinadas compras posteriores a una revisión de mapas de FEMA."
+      },
+      {
+        "id": "C",
+        "text": "La cobertura comienza cuando termina el primer período de pago hipotecario",
+        "rationale": "Incorrecta. El calendario de pagos del préstamo no determina la vigencia de la SFIP en esta excepción."
+      },
+      {
+        "id": "D",
+        "text": "La cobertura puede entrar en vigor al cierre del préstamo, sin espera de 30 días",
+        "rationale": "Correcta. La conexión con la concesión, aumento, prórroga o renovación de un préstamo permite una espera de cero días."
+      }
+    ],
+    "correctOption": "D",
+    "explanation": "Aunque una póliza NFIP nueva está normalmente sujeta a 30 días de espera, la cobertura exigida en relación con un préstamo puede entrar en vigor al cierre.",
+    "keyTerms": [
+      {
+        "es": "Período de espera",
+        "en": "Waiting Period"
+      },
+      {
+        "es": "Programa Nacional de Seguro contra Inundaciones",
+        "en": "National Flood Insurance Program"
+      }
+    ],
+    "source": {
+      "file": "G1 - Texas G1 Exam Research Plan.es.md",
+      "section": "Períodos de espera y excepciones legales"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G1-Q021",
+    "domain": "G1",
+    "subtopic": "Limitaciones de sótanos NFIP",
+    "difficulty": "avanzada",
+    "stem": "Una inundación cubierta daña el sótano de una vivienda asegurada mediante una SFIP. ¿Cuál de los siguientes bienes es el que mejor encaja dentro de la cobertura limitada disponible para sótanos?",
+    "options": [
+      {
+        "id": "A",
+        "text": "El sistema HVAC instalado",
+        "rationale": "Correcta. La cobertura limitada del sótano incluye ciertos elementos estructurales y de servicios, entre ellos el equipo HVAC."
+      },
+      {
+        "id": "B",
+        "text": "La alfombra terminada de pared a pared",
+        "rationale": "Incorrecta. Las alfombras ubicadas en el sótano están excluidas por las restricciones de la SFIP."
+      },
+      {
+        "id": "C",
+        "text": "Los muebles de una sala recreativa",
+        "rationale": "Incorrecta. Los muebles y otros bienes personales ordinarios situados en el sótano quedan excluidos."
+      },
+      {
+        "id": "D",
+        "text": "Los paneles de yeso y acabados decorativos",
+        "rationale": "Incorrecta. Las paredes acabadas, paneles de yeso y acabados del sótano no reciben cobertura."
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "La SFIP restringe severamente la cobertura en áreas cuyo piso está bajo el nivel del suelo en todos sus lados. Puede cubrir ciertos sistemas esenciales, pero excluye acabados, alfombras, muebles y gran parte del contenido.",
+    "keyTerms": [
+      {
+        "es": "Sótano",
+        "en": "Basement"
+      },
+      {
+        "es": "Sistema de calefacción, ventilación y aire acondicionado",
+        "en": "HVAC System"
+      }
+    ],
+    "source": {
+      "file": "G1 - Texas G1 Exam Research Plan.es.md",
+      "section": "Exclusiones y limitaciones"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G1-Q022",
+    "domain": "G1",
+    "subtopic": "Riesgos especializados y residuales",
+    "difficulty": "avanzada",
+    "stem": "¿Cuál situación relaciona correctamente una exposición de propiedad especializada con su mecanismo de cobertura?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Una vivienda estándar cubre automáticamente el terremoto porque el movimiento de tierra es un riesgo abierto",
+        "rationale": "Incorrecta. Los formularios estándar excluyen movimiento de tierra; la protección contra terremotos requiere un endoso o una póliza independiente."
+      },
+      {
+        "id": "B",
+        "text": "Una casa móvil en traslado conserva automáticamente toda la cobertura de un HO-3 sin modificación",
+        "rationale": "Incorrecta. Las casas móviles requieren un endoso o formulario especializado, incluida la extensión correspondiente para transporte o colisión."
+      },
+      {
+        "id": "C",
+        "text": "Una embarcación recreativa valiosa queda plenamente protegida por el sublímite estándar de Homeowners",
+        "rationale": "Incorrecta. Homeowners proporciona cobertura de propiedad muy restringida para embarcaciones; una póliza Boatowners es más adecuada para protección amplia."
+      },
+      {
+        "id": "D",
+        "text": "Una propiedad costera con viento y granizo excluidos puede buscar esa protección en el mercado residual de TWIA si cumple sus condiciones",
+        "rationale": "Correcta. En áreas costeras designadas, las pólizas estándar pueden excluir viento y granizo, y TWIA funciona como mecanismo residual para riesgos elegibles rechazados por aseguradoras admitidas."
+      }
+    ],
+    "correctOption": "D",
+    "explanation": "Los riesgos especializados suelen requerir endosos, pólizas independientes o mercados residuales. En la costa de Texas, la exclusión de viento y granizo puede crear la necesidad de cobertura separada mediante TWIA para propiedades elegibles.",
+    "keyTerms": [
+      {
+        "es": "Mercado residual",
+        "en": "Residual Market"
+      },
+      {
+        "es": "Tormenta de viento y granizo",
+        "en": "Windstorm and Hail"
+      },
+      {
+        "es": "Asociación de Seguros contra Tormentas de Viento de Texas",
+        "en": "Texas Windstorm Insurance Association"
+      }
+    ],
+    "source": {
+      "file": "G1 - Texas G1 Exam Research Plan.es.md",
+      "section": "Límite de tormentas de viento costeras y TWIA"
+    },
+    "reviewStatus": "pending_expert_review"
+  }
+]

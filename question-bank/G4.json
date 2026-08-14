@@ -1,0 +1,1064 @@
+[
+  {
+    "id": "G4-Q001",
+    "domain": "G4",
+    "subtopic": "CGL por ocurrencia",
+    "difficulty": "intermedia",
+    "stem": "Una empresa tuvo una póliza CGL por ocurrencia vigente durante 2024. Un cliente sufrió una lesión corporal en diciembre de 2024, pero presentó su reclamación en marzo de 2026. ¿Qué hecho determina principalmente si la póliza de 2024 responde?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Que la lesión corporal ocurrió durante la vigencia de la póliza de 2024.",
+        "rationale": "Correcta. En un formulario por ocurrencia, la cobertura se activa cuando la lesión corporal o el daño a la propiedad ocurre durante el período de la póliza, aunque la reclamación se presente después."
+      },
+      {
+        "id": "B",
+        "text": "Que la reclamación se presentó durante un período extendido de notificación.",
+        "rationale": "Incorrecta. Los períodos extendidos de notificación corresponden al mecanismo de las pólizas de reclamaciones presentadas, no al factor de activación del formulario por ocurrencia."
+      },
+      {
+        "id": "C",
+        "text": "Que el asegurado descubrió la lesión dentro de un año del vencimiento.",
+        "rationale": "Incorrecta. Un plazo posterior de descubrimiento de un año pertenece al formulario de delitos basado en pérdida sufrida, no a una CGL por ocurrencia."
+      },
+      {
+        "id": "D",
+        "text": "Que la reclamación se presentó durante la vigencia de una póliza posterior.",
+        "rationale": "Incorrecta. La fecha de presentación no desplaza la cobertura a una póliza posterior cuando el formulario aplicable se activa por la fecha de la lesión."
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "El formulario CGL por ocurrencia CG 00 01 responde cuando la lesión corporal o el daño a la propiedad sucede durante su vigencia. La reclamación resultante puede presentarse después del vencimiento.",
+    "keyTerms": [
+      {
+        "es": "formulario por ocurrencia",
+        "en": "Occurrence Coverage Form"
+      },
+      {
+        "es": "lesión corporal",
+        "en": "bodily injury"
+      }
+    ],
+    "source": {
+      "file": "G4 - Texas G4 Exam Research Packet.es.md",
+      "section": "Mecánica de activación de la cobertura: por ocurrencia frente a reclamaciones presentadas"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G4-Q002",
+    "domain": "G4",
+    "subtopic": "CGL de reclamaciones presentadas",
+    "difficulty": "avanzada",
+    "stem": "Una póliza CGL de reclamaciones presentadas está vigente en 2026 y tiene fecha retroactiva del 1 de enero de 2024. Una lesión ocurrió en 2023 y la primera reclamación contra el asegurado se presentó en 2026. ¿Cuál es el resultado conforme al factor de activación descrito?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La reclamación está cubierta porque se presentó durante la vigencia.",
+        "rationale": "Incorrecta. La presentación durante la vigencia satisface solo una condición; la lesión también debe haber ocurrido en la fecha retroactiva o después de ella."
+      },
+      {
+        "id": "B",
+        "text": "La reclamación queda excluida porque la lesión ocurrió antes de la fecha retroactiva.",
+        "rationale": "Correcta. El formulario de reclamaciones presentadas excluye los incidentes anteriores a la fecha retroactiva, aunque la reclamación se presente durante la vigencia."
+      },
+      {
+        "id": "C",
+        "text": "La reclamación queda cubierta automáticamente por el período extendido básico.",
+        "rationale": "Incorrecta. El BERP no elimina la fecha retroactiva ni convierte en cubierto un incidente ocurrido antes de ella."
+      },
+      {
+        "id": "D",
+        "text": "La reclamación depende únicamente de cuándo el asegurado descubrió la lesión.",
+        "rationale": "Incorrecta. El factor relevante es la primera presentación de la reclamación, junto con la fecha del incidente respecto de la fecha retroactiva."
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Una CGL de reclamaciones presentadas requiere que la reclamación se presente por primera vez durante la vigencia o un ERP aplicable y que la lesión o daño haya ocurrido en la fecha retroactiva o después.",
+    "keyTerms": [
+      {
+        "es": "reclamaciones presentadas",
+        "en": "claims-made"
+      },
+      {
+        "es": "fecha retroactiva",
+        "en": "Retroactive Date"
+      }
+    ],
+    "source": {
+      "file": "G4 - Texas G4 Exam Research Packet.es.md",
+      "section": "Mecánica de activación de la cobertura: por ocurrencia frente a reclamaciones presentadas"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G4-Q003",
+    "domain": "G4",
+    "subtopic": "Períodos extendidos de notificación",
+    "difficulty": "avanzada",
+    "stem": "Al terminar una CGL de reclamaciones presentadas, el asegurado desea una cobertura de cola ilimitada y permanente. ¿Qué alternativa debe solicitar?",
+    "options": [
+      {
+        "id": "A",
+        "text": "El plazo corto automático de 60 días del BERP.",
+        "rationale": "Incorrecta. Ese plazo automático es limitado y no proporciona una cola permanente para reclamaciones futuras."
+      },
+      {
+        "id": "B",
+        "text": "El plazo de cinco años del BERP sin haber notificado una ocurrencia.",
+        "rationale": "Incorrecta. El plazo largo del BERP se aplica a reclamaciones derivadas de ocurrencias notificadas por escrito dentro de los 60 días posteriores al vencimiento."
+      },
+      {
+        "id": "C",
+        "text": "El SERP, solicitado por escrito dentro de 60 días y sujeto a una prima adicional.",
+        "rationale": "Correcta. El período extendido suplementario proporciona una cola ilimitada y permanente cuando se solicita oportunamente y se paga la prima única correspondiente."
+      },
+      {
+        "id": "D",
+        "text": "Una conversión automática al formulario CGL por ocurrencia.",
+        "rationale": "Incorrecta. La terminación de una póliza de reclamaciones presentadas no la convierte automáticamente en una póliza por ocurrencia."
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "El SERP es un endoso opcional de cola ilimitada. Debe solicitarse por escrito dentro de los 60 días posteriores a la terminación y requiere una prima única adicional.",
+    "keyTerms": [
+      {
+        "es": "período extendido suplementario de notificación",
+        "en": "Supplemental Extended Reporting Period"
+      },
+      {
+        "es": "cobertura de cola",
+        "en": "tail coverage"
+      }
+    ],
+    "source": {
+      "file": "G4 - Texas G4 Exam Research Packet.es.md",
+      "section": "Mecánica de activación de la cobertura: por ocurrencia frente a reclamaciones presentadas"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G4-Q004",
+    "domain": "G4",
+    "subtopic": "Exclusiones de la Cobertura A",
+    "difficulty": "intermedia",
+    "stem": "Un fabricante entrega un producto defectuoso. El producto se daña a sí mismo, sin causar lesiones ni daños a otros bienes. ¿Qué exclusión de la Cobertura A resulta más directamente pertinente?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Responsabilidad civil por bebidas alcohólicas.",
+        "rationale": "Incorrecta. Esa exclusión se refiere a responsabilidad derivada de fabricar, distribuir, vender o servir bebidas alcohólicas."
+      },
+      {
+        "id": "B",
+        "text": "Aeronaves, automóviles o embarcaciones.",
+        "rationale": "Incorrecta. El supuesto no surge de la propiedad, mantenimiento, operación o uso de uno de esos medios de transporte."
+      },
+      {
+        "id": "C",
+        "text": "Daños a bienes bajo cuidado, custodia o control.",
+        "rationale": "Incorrecta. Aunque esa exclusión protege contra exposiciones relativas a bienes controlados por el asegurado, el hecho central aquí es que el producto se dañó por sí mismo."
+      },
+      {
+        "id": "D",
+        "text": "Daños a su producto.",
+        "rationale": "Correcta. La CGL excluye el daño al producto del asegurado nombrado cuando el daño surge del producto mismo."
+      }
+    ],
+    "correctOption": "D",
+    "explanation": "La exclusión de daños a su producto impide que la CGL funcione como garantía de calidad del producto del asegurado. Puede haber cobertura para daños resultantes a otros bienes, pero no para el daño del producto a sí mismo bajo este supuesto.",
+    "keyTerms": [
+      {
+        "es": "daños a su producto",
+        "en": "Damage to Your Product"
+      },
+      {
+        "es": "riesgo empresarial",
+        "en": "business risk"
+      }
+    ],
+    "source": {
+      "file": "G4 - Texas G4 Exam Research Packet.es.md",
+      "section": "Cobertura A: Responsabilidad civil por lesiones corporales y daños a la propiedad"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G4-Q005",
+    "domain": "G4",
+    "subtopic": "Cobertura B de la CGL",
+    "difficulty": "basica",
+    "stem": "¿Cuál de los siguientes agravios se incluye entre los delitos específicamente cubiertos por la Cobertura B de una CGL?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Proceso judicial malicioso.",
+        "rationale": "Correcta. El proceso judicial malicioso es uno de los siete delitos expresamente comprendidos en daños personales y publicitarios."
+      },
+      {
+        "id": "B",
+        "text": "Lesión física de un empleado durante su trabajo.",
+        "rationale": "Incorrecta. Las lesiones laborales de empleados están excluidas de la CGL y corresponden a compensación para trabajadores o responsabilidad patronal."
+      },
+      {
+        "id": "C",
+        "text": "Pérdida de dinero causada por falsificación de un cheque.",
+        "rationale": "Incorrecta. La falsificación de instrumentos financieros pertenece al seguro comercial contra delitos."
+      },
+      {
+        "id": "D",
+        "text": "Daño al producto del asegurado causado por el propio producto.",
+        "rationale": "Incorrecta. Ese daño corresponde a una exclusión de riesgo empresarial de la Cobertura A, no a un delito de la Cobertura B."
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "La Cobertura B protege contra siete categorías definidas de daños personales y publicitarios, incluido el proceso judicial malicioso, además de ciertos actos como difamación, invasión de privacidad y determinadas infracciones publicitarias.",
+    "keyTerms": [
+      {
+        "es": "daños personales y publicitarios",
+        "en": "personal and advertising injury"
+      },
+      {
+        "es": "proceso judicial malicioso",
+        "en": "malicious prosecution"
+      }
+    ],
+    "source": {
+      "file": "G4 - Texas G4 Exam Research Packet.es.md",
+      "section": "Cobertura B: Responsabilidad civil por daños personales y publicitarios"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G4-Q006",
+    "domain": "G4",
+    "subtopic": "Pagos médicos de la CGL",
+    "difficulty": "intermedia",
+    "stem": "Una visitante se lesiona accidentalmente en el establecimiento del asegurado. No se ha demostrado negligencia. ¿Qué característica de la Cobertura C es más relevante?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Solo paga después de una sentencia definitiva contra el asegurado.",
+        "rationale": "Incorrecta. La Cobertura C puede pagar gastos médicos sin que exista una determinación judicial de responsabilidad."
+      },
+      {
+        "id": "B",
+        "text": "Puede reembolsar gastos médicos de terceros independientemente de la culpa, si se incurren y notifican dentro de un año.",
+        "rationale": "Correcta. La Cobertura C funciona de forma semejante a una cobertura de primera parte para gastos médicos elegibles de terceros y no exige probar negligencia."
+      },
+      {
+        "id": "C",
+        "text": "Cubre los gastos médicos de cualquier asegurado lesionado.",
+        "rationale": "Incorrecta. Las lesiones sufridas por un asegurado están excluidas de la Cobertura C."
+      },
+      {
+        "id": "D",
+        "text": "Solo cubre lesiones derivadas de productos terminados fuera del establecimiento.",
+        "rationale": "Incorrecta. La cobertura se aplica a lesiones en el establecimiento o debidas a las operaciones del asegurado, sujeto a sus condiciones y exclusiones."
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "La Cobertura C paga determinados gastos médicos de terceros sin considerar la culpa. Los gastos deben incurrirse y notificarse al asegurador dentro de un año desde el accidente.",
+    "keyTerms": [
+      {
+        "es": "pagos médicos",
+        "en": "Medical Payments"
+      },
+      {
+        "es": "independientemente de la culpa",
+        "en": "regardless of fault"
+      }
+    ],
+    "source": {
+      "file": "G4 - Texas G4 Exam Research Packet.es.md",
+      "section": "Cobertura C: Pagos médicos y pagos suplementarios"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G4-Q007",
+    "domain": "G4",
+    "subtopic": "Límites agregados de la CGL",
+    "difficulty": "avanzada",
+    "stem": "Durante el período de una CGL, varias reclamaciones surgen de productos terminados fuera de los establecimientos del asegurado. ¿Qué límite restringe específicamente el total pagadero por esas reclamaciones?",
+    "options": [
+      {
+        "id": "A",
+        "text": "El límite de gastos médicos por persona.",
+        "rationale": "Incorrecta. Ese sublímite regula los gastos médicos de una persona en un solo accidente, no el total de pérdidas de productos terminados."
+      },
+      {
+        "id": "B",
+        "text": "El límite de daños a establecimientos alquilados al asegurado.",
+        "rationale": "Incorrecta. Ese sublímite se aplica a determinados daños por incendio en un establecimiento alquilado u ocupado temporalmente."
+      },
+      {
+        "id": "C",
+        "text": "El límite agregado de productos y operaciones terminadas.",
+        "rationale": "Correcta. Este agregado separado limita los pagos totales por lesiones corporales y daños a la propiedad surgidos de productos o trabajos terminados fuera de los establecimientos pertinentes."
+      },
+      {
+        "id": "D",
+        "text": "Únicamente el límite de daños personales y publicitarios.",
+        "rationale": "Incorrecta. Ese límite corresponde a la Cobertura B y no regula las reclamaciones por lesiones corporales o daños a la propiedad de productos terminados."
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Las pérdidas del riesgo de productos y operaciones terminadas están sujetas a un agregado propio y se excluyen del límite agregado general de la CGL.",
+    "keyTerms": [
+      {
+        "es": "agregado de productos y operaciones terminadas",
+        "en": "Products-Completed Operations Aggregate Limit"
+      },
+      {
+        "es": "límite agregado general",
+        "en": "General Aggregate Limit"
+      }
+    ],
+    "source": {
+      "file": "G4 - Texas G4 Exam Research Packet.es.md",
+      "section": "Estructura de los límites de seguro de la CGL"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G4-Q008",
+    "domain": "G4",
+    "subtopic": "Elegibilidad general de la BOP",
+    "difficulty": "basica",
+    "stem": "Según los límites generales de elegibilidad indicados para la BOP ISO, ¿qué combinación se encuentra dentro de los máximos por establecimiento?",
+    "options": [
+      {
+        "id": "A",
+        "text": "$7,000,000 en ventas y 30,000 pies cuadrados.",
+        "rationale": "Incorrecta. Aunque la superficie está dentro del máximo general, las ventas exceden el límite de $6,000,000."
+      },
+      {
+        "id": "B",
+        "text": "$5,000,000 en ventas y 40,000 pies cuadrados.",
+        "rationale": "Incorrecta. Las ventas están dentro del máximo, pero la superficie excede el límite general de 35,000 pies cuadrados."
+      },
+      {
+        "id": "C",
+        "text": "$6,500,000 en ventas y 36,000 pies cuadrados.",
+        "rationale": "Incorrecta. Tanto las ventas como la superficie exceden los máximos generales indicados."
+      },
+      {
+        "id": "D",
+        "text": "$5,500,000 en ventas y 34,000 pies cuadrados.",
+        "rationale": "Correcta. Ambas cifras se mantienen dentro de los máximos generales de $6,000,000 en ventas y 35,000 pies cuadrados."
+      }
+    ],
+    "correctOption": "D",
+    "explanation": "Como regla general de elegibilidad, una BOP admite hasta $6,000,000 en ventas brutas anuales y hasta 35,000 pies cuadrados ocupados por edificio o establecimiento, sujeto a las reglas específicas de cada clase.",
+    "keyTerms": [
+      {
+        "es": "póliza para propietarios de negocios",
+        "en": "Businessowners Policy"
+      },
+      {
+        "es": "límite de ventas brutas",
+        "en": "Gross Sales Limitation"
+      }
+    ],
+    "source": {
+      "file": "G4 - Texas G4 Exam Research Packet.es.md",
+      "section": "Marco de elegibilidad y criterios operativos"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G4-Q009",
+    "domain": "G4",
+    "subtopic": "Elegibilidad de contratistas para BOP",
+    "difficulty": "intermedia",
+    "stem": "Un contratista de oficio especializado tiene una nómina anual de $280,000, realiza trabajo exterior hasta tres pisos y subcontrata el 8% de sus ingresos brutos. ¿Qué conclusión es más adecuada respecto de esos criterios de BOP?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cumple los tres parámetros específicos indicados para contratistas especializados.",
+        "rationale": "Correcta. La nómina no excede $300,000, la altura no supera tres pisos y el trabajo subcontratado no rebasa el 10% de los ingresos brutos."
+      },
+      {
+        "id": "B",
+        "text": "No cumple porque cualquier trabajo exterior impide la elegibilidad.",
+        "rationale": "Incorrecta. El trabajo exterior está permitido hasta una altura de tres pisos."
+      },
+      {
+        "id": "C",
+        "text": "No cumple porque toda subcontratación está prohibida.",
+        "rationale": "Incorrecta. Se permite trabajo subcontratado siempre que no exceda el 10% de los ingresos brutos."
+      },
+      {
+        "id": "D",
+        "text": "No cumple porque el límite de nómina es $250,000.",
+        "rationale": "Incorrecta. El límite indicado para esta categoría es de $300,000 en nómina anual."
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "Los contratistas de oficios especializados pueden ser elegibles si su nómina anual no excede $300,000, el trabajo exterior se limita a tres pisos y la subcontratación no supera el 10% de los ingresos brutos.",
+    "keyTerms": [
+      {
+        "es": "contratista de oficio especializado",
+        "en": "specialty trade contractor"
+      },
+      {
+        "es": "trabajo subcontratado",
+        "en": "subcontracted work"
+      }
+    ],
+    "source": {
+      "file": "G4 - Texas G4 Exam Research Packet.es.md",
+      "section": "Marco de elegibilidad y criterios operativos"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G4-Q010",
+    "domain": "G4",
+    "subtopic": "Límite combinado de la BOP",
+    "difficulty": "avanzada",
+    "stem": "Una reclamación bajo una BOP incluye daños corporales y daños personales y publicitarios derivados de una sola infracción u ocurrencia. ¿Cómo se estructura el límite estándar de responsabilidad en comparación con una CGL monolínea?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La BOP excluye siempre los daños personales y publicitarios.",
+        "rationale": "Incorrecta. La sección de responsabilidad de la BOP incluye daños personales y publicitarios."
+      },
+      {
+        "id": "B",
+        "text": "La BOP aplica un solo límite combinado de responsabilidad civil y gastos médicos.",
+        "rationale": "Correcta. El límite único abarca lesiones corporales, daños a la propiedad, daños personales y publicitarios y gastos médicos derivados de una sola ocurrencia o infracción."
+      },
+      {
+        "id": "C",
+        "text": "La BOP usa obligatoriamente un agregado distinto para cada tipo de daño.",
+        "rationale": "Incorrecta. Esa descripción contradice la estructura de límite combinado que distingue a la BOP estándar."
+      },
+      {
+        "id": "D",
+        "text": "La BOP solo paga después de agotarse una CGL monolínea.",
+        "rationale": "Incorrecta. La BOP es una póliza primaria combinada de propiedad y responsabilidad, no una capa excedente sobre una CGL."
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "La BOP estándar utiliza un límite combinado de responsabilidad civil y gastos médicos por una sola ocurrencia o infracción, mientras que la CGL monolínea tiene un límite separado para daños personales y publicitarios.",
+    "keyTerms": [
+      {
+        "es": "límite combinado de responsabilidad civil y gastos médicos",
+        "en": "Liability and Medical Expenses limit"
+      },
+      {
+        "es": "CGL monolínea",
+        "en": "monoline CGL"
+      }
+    ],
+    "source": {
+      "file": "G4 - Texas G4 Exam Research Packet.es.md",
+      "section": "Estructura de cobertura de accidentes en BP 00 03 frente a la CGL monolínea"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G4-Q011",
+    "domain": "G4",
+    "subtopic": "Micro-BOP BP 00 04",
+    "difficulty": "basica",
+    "stem": "¿Qué empresa encaja en los parámetros de tamaño indicados para el formulario Micro-Businessowners BP 00 04?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Una empresa con cinco empleados y ventas de $450,000.",
+        "rationale": "Incorrecta. Las ventas están dentro del máximo, pero la empresa excede el límite de cuatro empleados."
+      },
+      {
+        "id": "B",
+        "text": "Una empresa con tres empleados y ventas de $650,000.",
+        "rationale": "Incorrecta. El número de empleados cumple, pero las ventas exceden el máximo de $500,000."
+      },
+      {
+        "id": "C",
+        "text": "Una empresa con cuatro empleados y ventas de $480,000.",
+        "rationale": "Correcta. No excede ni el máximo de cuatro empleados ni el máximo de $500,000 en ventas anuales."
+      },
+      {
+        "id": "D",
+        "text": "Una empresa con seis empleados y ventas de $700,000.",
+        "rationale": "Incorrecta. Excede ambos parámetros de tamaño establecidos para el formulario."
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "El BP 00 04 está diseñado para microempresas con hasta cuatro empleados y ventas anuales de no más de $500,000. Se concentra principalmente en responsabilidad general y límites básicos de bienes muebles comerciales.",
+    "keyTerms": [
+      {
+        "es": "formulario para microempresas",
+        "en": "Micro-Businessowners Coverage Form"
+      },
+      {
+        "es": "bienes muebles comerciales",
+        "en": "Business Personal Property"
+      }
+    ],
+    "source": {
+      "file": "G4 - Texas G4 Exam Research Packet.es.md",
+      "section": "Estructura de cobertura de accidentes en BP 00 03 frente a la CGL monolínea"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G4-Q012",
+    "domain": "G4",
+    "subtopic": "Símbolos de automóviles cubiertos",
+    "difficulty": "basica",
+    "stem": "Una empresa desea que la responsabilidad civil de su BAP se aplique a cualquier automóvil. ¿Qué símbolo proporciona la designación más amplia para esa cobertura?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Símbolo 2.",
+        "rationale": "Incorrecta. El símbolo 2 se limita a automóviles propios."
+      },
+      {
+        "id": "B",
+        "text": "Símbolo 7.",
+        "rationale": "Incorrecta. El símbolo 7 se aplica únicamente a los automóviles específicamente descritos."
+      },
+      {
+        "id": "C",
+        "text": "Símbolo 9.",
+        "rationale": "Incorrecta. El símbolo 9 se limita a automóviles no propios usados en el negocio."
+      },
+      {
+        "id": "D",
+        "text": "Símbolo 1.",
+        "rationale": "Correcta. El símbolo 1 significa cualquier automóvil y es la designación más amplia, disponible únicamente para responsabilidad civil."
+      }
+    ],
+    "correctOption": "D",
+    "explanation": "En el sistema de símbolos de la BAP, el símbolo 1 cubre cualquier automóvil, pero solo puede utilizarse para la cobertura de responsabilidad civil.",
+    "keyTerms": [
+      {
+        "es": "cualquier automóvil",
+        "en": "Any Auto"
+      },
+      {
+        "es": "símbolo de automóvil cubierto",
+        "en": "Covered Auto Designation Symbol"
+      }
+    ],
+    "source": {
+      "file": "G4 - Texas G4 Exam Research Packet.es.md",
+      "section": "Business Auto Coverage Form (CA 00 01\\) y sistema de símbolos"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G4-Q013",
+    "domain": "G4",
+    "subtopic": "Automóviles contratados y no propios",
+    "difficulty": "intermedia",
+    "stem": "Una compañía quiere distinguir entre automóviles alquilados por la empresa y vehículos propiedad de empleados utilizados en sus actividades comerciales. ¿Qué símbolos corresponden, respectivamente?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Símbolos 8 y 9.",
+        "rationale": "Correcta. El símbolo 8 cubre automóviles contratados y el símbolo 9 cubre automóviles no propios, como los vehículos de empleados usados en el negocio."
+      },
+      {
+        "id": "B",
+        "text": "Símbolos 2 y 3.",
+        "rationale": "Incorrecta. Ambos símbolos se refieren a vehículos propios: todos los automóviles propios y automóviles particulares de pasajeros propios."
+      },
+      {
+        "id": "C",
+        "text": "Símbolos 7 y 19.",
+        "rationale": "Incorrecta. El símbolo 7 corresponde a vehículos específicamente descritos y el 19 a equipo móvil sujeto a leyes obligatorias para vehículos automotores."
+      },
+      {
+        "id": "D",
+        "text": "Símbolos 5 y 6.",
+        "rationale": "Incorrecta. Estos símbolos se relacionan con automóviles propios sujetos a beneficios sin culpa o a una ley obligatoria de automovilistas sin seguro."
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "El símbolo 8 identifica vehículos alquilados, arrendados, contratados o tomados en préstamo por el asegurado. El símbolo 9 identifica vehículos no propios, incluidos los de empleados usados en el negocio.",
+    "keyTerms": [
+      {
+        "es": "automóviles contratados",
+        "en": "hired autos"
+      },
+      {
+        "es": "automóviles no propios",
+        "en": "nonowned autos"
+      }
+    ],
+    "source": {
+      "file": "G4 - Texas G4 Exam Research Packet.es.md",
+      "section": "Business Auto Coverage Form (CA 00 01\\) y sistema de símbolos"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G4-Q014",
+    "domain": "G4",
+    "subtopic": "Endoso Drive Other Car",
+    "difficulty": "avanzada",
+    "stem": "Una corporación entrega a su presidenta un automóvil de la empresa para uso comercial y personal. Ella ya no posee automóvil ni PAP y desea protección al alquilar un vehículo durante sus vacaciones. ¿Qué endoso atiende mejor esta brecha?",
+    "options": [
+      {
+        "id": "A",
+        "text": "CA 99 33, Employees as Insureds.",
+        "rationale": "Incorrecta. El CA 99 33 protege a empleados mientras usan sus vehículos personales en nombre de la empresa, no principalmente el uso personal de vehículos no propios por una ejecutiva designada."
+      },
+      {
+        "id": "B",
+        "text": "CA 99 10, Drive Other Car Coverage.",
+        "rationale": "Correcta. El CA 99 10 extiende protecciones semejantes a una PAP a la persona indicada y su cónyuge residente cuando conducen vehículos no propios para uso personal."
+      },
+      {
+        "id": "C",
+        "text": "CA 99 17, Individual Named Insured.",
+        "rationale": "Incorrecta. El CA 99 17 está dirigido principalmente al propietario único que asegura sus vehículos personales y comerciales mediante la BAP."
+      },
+      {
+        "id": "D",
+        "text": "Símbolo 9 sin ningún endoso.",
+        "rationale": "Incorrecta. La BAP básica limita la exposición de automóviles no propios a fines comerciales y no cubre por sí sola esta brecha personal."
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "El CA 99 10 está diseñado para ejecutivos o empleados designados que dependen de un automóvil de la compañía y carecen de PAP. Puede extender responsabilidad, pagos médicos, UM/UIM y daños físicos si aparecen prima y cobertura específicas.",
+    "keyTerms": [
+      {
+        "es": "cobertura ampliada para conducir otros automóviles",
+        "en": "Drive Other Car Coverage"
+      },
+      {
+        "es": "póliza de automóvil personal",
+        "en": "Personal Auto Policy"
+      }
+    ],
+    "source": {
+      "file": "G4 - Texas G4 Exam Research Packet.es.md",
+      "section": "Formulario CA 99 10: cobertura ampliada para conducir otros automóviles (Drive Other Car, DOC)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G4-Q015",
+    "domain": "G4",
+    "subtopic": "Limitaciones del CA 99 10",
+    "difficulty": "intermedia",
+    "stem": "Un ejecutivo indicado en un endoso CA 99 10 conduce para uso personal un automóvil propiedad de su hija, quien reside en su hogar. ¿Qué limitación es determinante?",
+    "options": [
+      {
+        "id": "A",
+        "text": "El endoso cubre todos los automóviles de familiares residentes sin restricciones.",
+        "rationale": "Incorrecta. El CA 99 10 no convierte automáticamente todos los vehículos del hogar en automóviles cubiertos."
+      },
+      {
+        "id": "B",
+        "text": "El endoso solo excluye automóviles utilizados para viajes de negocios.",
+        "rationale": "Incorrecta. Su propósito incluye el uso personal de vehículos no propios, pero contiene exclusiones específicas sobre propiedad y negocios automotrices."
+      },
+      {
+        "id": "C",
+        "text": "El automóvil queda fuera porque pertenece a un miembro del hogar de la persona indicada.",
+        "rationale": "Correcta. El CA 99 10 excluye vehículos propiedad de la persona indicada o de miembros de su hogar."
+      },
+      {
+        "id": "D",
+        "text": "El automóvil queda cubierto siempre que el ejecutivo no tenga una PAP.",
+        "rationale": "Incorrecta. Carecer de PAP explica la necesidad del endoso, pero no elimina su exclusión para vehículos propiedad de miembros del hogar."
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "El CA 99 10 amplía la protección para vehículos personales no propios, pero excluye los vehículos propiedad de la persona designada o de miembros de su hogar, además de ciertos vehículos usados en negocios automotrices.",
+    "keyTerms": [
+      {
+        "es": "persona indicada",
+        "en": "named individual"
+      },
+      {
+        "es": "miembro del hogar",
+        "en": "household member"
+      }
+    ],
+    "source": {
+      "file": "G4 - Texas G4 Exam Research Packet.es.md",
+      "section": "Formulario CA 99 10: cobertura ampliada para conducir otros automóviles (Drive Other Car, DOC)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G4-Q016",
+    "domain": "G4",
+    "subtopic": "Activación del seguro contra delitos",
+    "difficulty": "avanzada",
+    "stem": "Una empresa descubre durante la vigencia de su póliza CR 00 22 un robo cometido después de la fecha retroactiva, aunque el acto ocurrió antes del inicio del período actual. ¿Qué característica respalda la cobertura?",
+    "options": [
+      {
+        "id": "A",
+        "text": "El formulario exige que la pérdida ocurra y se descubra durante el mismo período.",
+        "rationale": "Incorrecta. Esa afirmación no describe la base de descubrimiento, que se centra en cuándo se descubre la pérdida."
+      },
+      {
+        "id": "B",
+        "text": "El formulario solo cubre actos cometidos por empleados durante el período actual.",
+        "rationale": "Incorrecta. La base de descubrimiento no se limita necesariamente a actos de empleados ni exige que el acto suceda durante el período vigente."
+      },
+      {
+        "id": "C",
+        "text": "El formulario concede automáticamente un plazo permanente después del vencimiento.",
+        "rationale": "Incorrecta. La cobertura deriva del descubrimiento durante la vigencia y del cumplimiento de la fecha retroactiva, no de una cola permanente."
+      },
+      {
+        "id": "D",
+        "text": "El formulario se activa al descubrirse la pérdida durante la vigencia, si el acto ocurrió en la fecha retroactiva o después.",
+        "rationale": "Correcta. El CR 00 22 se basa en descubrimiento y puede cubrir una pérdida anterior al período actual cuando se descubre durante la vigencia y respeta la fecha retroactiva."
+      }
+    ],
+    "correctOption": "D",
+    "explanation": "El formulario CR 00 22 cubre pérdidas descubiertas durante el período vigente, independientemente de cuándo ocurrió el acto, siempre que haya sucedido en la fecha retroactiva especificada o después.",
+    "keyTerms": [
+      {
+        "es": "base de descubrimiento",
+        "en": "Discovery Basis"
+      },
+      {
+        "es": "seguro comercial contra delitos",
+        "en": "Commercial Crime Insurance"
+      }
+    ],
+    "source": {
+      "file": "G4 - Texas G4 Exam Research Packet.es.md",
+      "section": "Factores desencadenantes de la cobertura: pérdida sufrida frente a descubrimiento"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G4-Q017",
+    "domain": "G4",
+    "subtopic": "Contratos de seguro contra delitos",
+    "difficulty": "intermedia",
+    "stem": "Un empleado autorizado altera instrucciones electrónicas para que el banco transfiera dinero desde la cuenta de la empresa a una cuenta fraudulenta. ¿Qué contrato de seguro contra delitos responde más directamente a instrucciones fraudulentas dirigidas a una institución financiera?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Fraude en transferencias de fondos.",
+        "rationale": "Correcta. Esta cobertura se dirige a pérdidas causadas directamente por instrucciones fraudulentas que ordenan a una institución financiera transferir, pagar o entregar fondos desde la cuenta del asegurado."
+      },
+      {
+        "id": "B",
+        "text": "Dentro del establecimiento: robo de dinero y valores.",
+        "rationale": "Incorrecta. Esa cobertura se centra en robo, desaparición o destrucción de dinero y valores dentro del establecimiento o de un banco, no específicamente en órdenes fraudulentas de transferencia."
+      },
+      {
+        "id": "C",
+        "text": "Fuera del establecimiento.",
+        "rationale": "Incorrecta. Esa cobertura protege dinero y valores bajo la custodia de un mensajero o compañía de vehículos blindados fuera del establecimiento."
+      },
+      {
+        "id": "D",
+        "text": "Falsificación o alteración.",
+        "rationale": "Incorrecta. Esa cobertura se refiere directamente a cheques, giros, pagarés y otros instrumentos escritos similares, no a instrucciones fraudulentas de transferencia de fondos."
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "La cobertura de fraude en transferencias de fondos protege frente a instrucciones fraudulentas impartidas a una institución financiera para retirar fondos de la cuenta de transferencias del asegurado.",
+    "keyTerms": [
+      {
+        "es": "fraude en transferencias de fondos",
+        "en": "Funds Transfer Fraud"
+      },
+      {
+        "es": "institución financiera",
+        "en": "financial institution"
+      }
+    ],
+    "source": {
+      "file": "G4 - Texas G4 Exam Research Packet.es.md",
+      "section": "Los siete contratos de seguro principales contra delitos"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G4-Q018",
+    "domain": "G4",
+    "subtopic": "Sistema electivo de Texas",
+    "difficulty": "basica",
+    "stem": "¿Cómo se denomina en Texas a un empleador privado que adquiere seguro legal de compensación para trabajadores o obtiene una certificación aprobada de autoseguro?",
+    "options": [
+      {
+        "id": "A",
+        "text": "No suscriptor.",
+        "rationale": "Incorrecta. Un no suscriptor es un empleador que decide no mantener el seguro legal de compensación para trabajadores."
+      },
+      {
+        "id": "B",
+        "text": "Suscriptor.",
+        "rationale": "Correcta. El empleador que obtiene cobertura legal o autoseguro aprobado se clasifica como suscriptor."
+      },
+      {
+        "id": "C",
+        "text": "Beneficiario de fianza.",
+        "rationale": "Incorrecta. El beneficiario es la parte protegida en una relación de fianza, no una categoría de empleador en compensación para trabajadores."
+      },
+      {
+        "id": "D",
+        "text": "Mensajero.",
+        "rationale": "Incorrecta. Mensajero es un término del seguro contra delitos para quien custodia bienes fuera del establecimiento."
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Texas utiliza un sistema electivo. Los empleadores que mantienen seguro legal de compensación para trabajadores o autoseguro aprobado son suscriptores y reciben inmunidad frente a determinadas demandas laborales de derecho consuetudinario.",
+    "keyTerms": [
+      {
+        "es": "suscriptor",
+        "en": "subscriber"
+      },
+      {
+        "es": "autoseguro",
+        "en": "self-insurance"
+      }
+    ],
+    "source": {
+      "file": "G4 - Texas G4 Exam Research Packet.es.md",
+      "section": "Sistema electivo de compensación para trabajadores de Texas"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G4-Q019",
+    "domain": "G4",
+    "subtopic": "Defensas de no suscriptores",
+    "difficulty": "avanzada",
+    "stem": "Un empleador de Texas decidió no adquirir compensación para trabajadores. Tras una lesión laboral, el empleado presenta una demanda. ¿Cuál de las siguientes defensas pierde el empleador por su condición de no suscriptor?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Que la reclamación excede un límite agregado de productos terminados.",
+        "rationale": "Incorrecta. Ese límite pertenece a una CGL y no es una defensa de derecho consuetudinario en una demanda laboral."
+      },
+      {
+        "id": "B",
+        "text": "Que el empleado no notificó una ocurrencia dentro de un ERP.",
+        "rationale": "Incorrecta. Los ERP corresponden a pólizas de reclamaciones presentadas, no a las defensas legales de un no suscriptor."
+      },
+      {
+        "id": "C",
+        "text": "Que la negligencia de otro empleado causó la lesión.",
+        "rationale": "Correcta. El no suscriptor pierde la defensa conocida como regla del compañero de trabajo, además de la negligencia contributiva y la asunción del riesgo."
+      },
+      {
+        "id": "D",
+        "text": "Que una institución financiera recibió instrucciones fraudulentas.",
+        "rationale": "Incorrecta. Ese asunto pertenece al seguro contra delitos y no constituye una defensa aplicable a la lesión laboral."
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Los no suscriptores de Texas pierden tres defensas principales: negligencia contributiva del empleado, regla del compañero de trabajo y asunción del riesgo laboral.",
+    "keyTerms": [
+      {
+        "es": "no suscriptor",
+        "en": "non-subscriber"
+      },
+      {
+        "es": "regla del compañero de trabajo",
+        "en": "fellow-servant rule"
+      }
+    ],
+    "source": {
+      "file": "G4 - Texas G4 Exam Research Packet.es.md",
+      "section": "Sistema electivo de compensación para trabajadores de Texas"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G4-Q020",
+    "domain": "G4",
+    "subtopic": "Partes de la póliza de compensación",
+    "difficulty": "intermedia",
+    "stem": "Un empleador asegurado enfrenta una demanda de derecho consuetudinario por una lesión laboral que no está cubierta por los beneficios legales de compensación para trabajadores. ¿Qué parte de la póliza estándar está diseñada para esa exposición?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Parte Uno: Compensación para trabajadores.",
+        "rationale": "Incorrecta. La Parte Uno paga las prestaciones médicas, de ingresos, entierro y fallecimiento exigidas por la ley de compensación para trabajadores."
+      },
+      {
+        "id": "B",
+        "text": "Parte Tres: Seguro para otros estados.",
+        "rationale": "Incorrecta. La Parte Tres extiende cobertura legal a operaciones que comienzan en ciertos estados enumerados, no atiende por sí misma esta demanda de derecho consuetudinario."
+      },
+      {
+        "id": "C",
+        "text": "La cobertura de pagos médicos de una CGL.",
+        "rationale": "Incorrecta. La CGL excluye las obligaciones de compensación para trabajadores y las lesiones corporales de empleados surgidas del empleo."
+      },
+      {
+        "id": "D",
+        "text": "Parte Dos: Responsabilidad civil patronal.",
+        "rationale": "Correcta. La Parte Dos protege al empleador frente a demandas laborales de derecho consuetudinario por lesiones relacionadas con el trabajo que no estén cubiertas por la compensación legal."
+      }
+    ],
+    "correctOption": "D",
+    "explanation": "La Parte Dos de la póliza estándar proporciona responsabilidad civil patronal para determinadas demandas de empleados fuera del alcance de las prestaciones legales cubiertas por la Parte Uno.",
+    "keyTerms": [
+      {
+        "es": "responsabilidad civil patronal",
+        "en": "Employers Liability"
+      },
+      {
+        "es": "compensación para trabajadores",
+        "en": "Workers' Compensation"
+      }
+    ],
+    "source": {
+      "file": "G4 - Texas G4 Exam Research Packet.es.md",
+      "section": "Estructura de la póliza estándar de compensación para trabajadores"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G4-Q021",
+    "domain": "G4",
+    "subtopic": "Sombrilla frente a exceso",
+    "difficulty": "intermedia",
+    "stem": "Una empresa necesita límites adicionales y también protección para ciertos riesgos excluidos de sus pólizas primarias, sujeta a una retención autoasegurada. ¿Qué póliza satisface mejor ambos objetivos?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Una póliza comercial tipo sombrilla.",
+        "rationale": "Correcta. La sombrilla proporciona límites excedentes y puede cubrir ciertas brechas de las pólizas primarias, aplicando una SIR cuando actúa como cobertura primaria."
+      },
+      {
+        "id": "B",
+        "text": "Una póliza básica de responsabilidad excedente.",
+        "rationale": "Incorrecta. Una póliza excedente básica aumenta los límites de las coberturas subyacentes, pero no amplía su alcance."
+      },
+      {
+        "id": "C",
+        "text": "Una cobertura de pagos médicos CGL.",
+        "rationale": "Incorrecta. Los pagos médicos cubren ciertos gastos de terceros y no constituyen una capa catastrófica sobre varias pólizas primarias."
+      },
+      {
+        "id": "D",
+        "text": "Una fianza de cumplimiento.",
+        "rationale": "Incorrecta. Una fianza de cumplimiento garantiza que un contratista complete un proyecto según el contrato; no amplía la responsabilidad civil primaria."
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "La póliza comercial tipo sombrilla combina límites excedentes sobre CGL, automóvil comercial y responsabilidad patronal con una posible cobertura más amplia. Cuando cubre una brecha primaria, puede exigir una retención autoasegurada.",
+    "keyTerms": [
+      {
+        "es": "póliza comercial tipo sombrilla",
+        "en": "Commercial Umbrella Liability Policy"
+      },
+      {
+        "es": "retención autoasegurada",
+        "en": "Self-Insured Retention"
+      }
+    ],
+    "source": {
+      "file": "G4 - Texas G4 Exam Research Packet.es.md",
+      "section": "Responsabilidad civil comercial tipo sombrilla frente a pólizas de responsabilidad civil excedente"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G4-Q022",
+    "domain": "G4",
+    "subtopic": "Partes de una fianza",
+    "difficulty": "basica",
+    "stem": "En una fianza de garantía, ¿qué parte tiene la obligación principal de cumplir el compromiso especificado?",
+    "options": [
+      {
+        "id": "A",
+        "text": "El beneficiario.",
+        "rationale": "Incorrecta. El beneficiario es la parte protegida y aquella a quien se debe la obligación."
+      },
+      {
+        "id": "B",
+        "text": "El principal u obligado.",
+        "rationale": "Correcta. El principal es quien debe ejecutar la obligación o compromiso garantizado por la fianza."
+      },
+      {
+        "id": "C",
+        "text": "El fiador.",
+        "rationale": "Incorrecta. El fiador garantiza al beneficiario el cumplimiento del principal, pero la obligación subyacente sigue perteneciendo al principal."
+      },
+      {
+        "id": "D",
+        "text": "El asegurador primario de accidentes.",
+        "rationale": "Incorrecta. Una fianza es una relación tripartita distinta de un contrato bilateral ordinario de seguro de accidentes."
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "La fianza vincula a tres partes: el principal que debe cumplir, el beneficiario protegido y el fiador que garantiza el cumplimiento. El riesgo y la obligación permanecen con el principal.",
+    "keyTerms": [
+      {
+        "es": "principal u obligado",
+        "en": "Principal/Obligor"
+      },
+      {
+        "es": "beneficiario",
+        "en": "Obligee"
+      },
+      {
+        "es": "fiador",
+        "en": "Surety"
+      }
+    ],
+    "source": {
+      "file": "G4 - Texas G4 Exam Research Packet.es.md",
+      "section": "Estructura de las fianzas de garantía"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G4-Q023",
+    "domain": "G4",
+    "subtopic": "Fianzas contractuales",
+    "difficulty": "intermedia",
+    "stem": "El propietario de un proyecto de construcción quiere garantizar que el contratista pague a los subcontratistas, trabajadores y proveedores de materiales especificados. ¿Qué fianza corresponde?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Fianza de licitación.",
+        "rationale": "Incorrecta. La fianza de licitación garantiza que el adjudicatario celebrará el contrato y proporcionará las fianzas requeridas."
+      },
+      {
+        "id": "B",
+        "text": "Fianza de mantenimiento.",
+        "rationale": "Incorrecta. La fianza de mantenimiento garantiza contra mano de obra o materiales defectuosos durante un período posterior a la terminación."
+      },
+      {
+        "id": "C",
+        "text": "Fianza de pago.",
+        "rationale": "Correcta. La fianza de pago garantiza que el contratista pagará a los subcontratistas, trabajadores y proveedores de materiales comprendidos."
+      },
+      {
+        "id": "D",
+        "text": "Fianza fiduciaria.",
+        "rationale": "Incorrecta. Una fianza fiduciaria garantiza el desempeño y la rendición de cuentas de una persona nombrada por un tribunal."
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Dentro de las fianzas contractuales, la fianza de pago protege el cumplimiento de las obligaciones del contratista frente a subcontratistas, trabajadores y proveedores de materiales.",
+    "keyTerms": [
+      {
+        "es": "fianza de pago",
+        "en": "payment bond"
+      },
+      {
+        "es": "fianza contractual",
+        "en": "contract bond"
+      }
+    ],
+    "source": {
+      "file": "G4 - Texas G4 Exam Research Packet.es.md",
+      "section": "Estructura de las fianzas de garantía"
+    },
+    "reviewStatus": "pending_expert_review"
+  }
+]

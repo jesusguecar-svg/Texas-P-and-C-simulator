@@ -1,0 +1,752 @@
+[
+  {
+    "id": "G5-Q001",
+    "domain": "G5",
+    "subtopic": "Riesgo puro y especulativo",
+    "difficulty": "basica",
+    "stem": "Una empresa evalúa dos exposiciones: una posible colisión de sus camiones de reparto y la posibilidad de ganar o perder dinero al lanzar una nueva línea de productos. ¿Cómo deben clasificarse?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La colisión es riesgo puro y el lanzamiento es riesgo especulativo.",
+        "rationale": "Correcta. La colisión solo puede producir pérdida o ausencia de pérdida, mientras que el lanzamiento también ofrece una posibilidad de ganancia."
+      },
+      {
+        "id": "B",
+        "text": "Ambas exposiciones son riesgos puros.",
+        "rationale": "Incorrecta. El lanzamiento comercial puede producir una ganancia, por lo que constituye un riesgo especulativo."
+      },
+      {
+        "id": "C",
+        "text": "La colisión es riesgo especulativo y el lanzamiento es riesgo puro.",
+        "rationale": "Incorrecta. Una colisión no ofrece una oportunidad de lucro, mientras que una nueva línea de productos sí puede generar ganancias."
+      },
+      {
+        "id": "D",
+        "text": "Ambas exposiciones son riesgos especulativos.",
+        "rationale": "Incorrecta. La exposición a una colisión es un riesgo puro porque sus resultados son pérdida o ausencia de pérdida."
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "El riesgo puro comprende únicamente pérdida o ausencia de pérdida y es asegurable. El riesgo especulativo también incluye la posibilidad de ganancia y no constituye un riesgo asegurable.",
+    "keyTerms": [
+      {
+        "es": "riesgo puro",
+        "en": "pure risk"
+      },
+      {
+        "es": "riesgo especulativo",
+        "en": "speculative risk"
+      }
+    ],
+    "source": {
+      "file": "G5 - Texas G5 Casualty Insurance Research.es.md",
+      "section": "3.16. Riesgo puro frente a riesgo especulativo (Pure vs. Speculative Risk) (Tema P del temario)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G5-Q002",
+    "domain": "G5",
+    "subtopic": "Riesgos agravantes",
+    "difficulty": "basica",
+    "stem": "Los conductores de una empresa dejan habitualmente las llaves en camionetas encendidas porque consideran que el seguro pagará cualquier pérdida. No existe evidencia de fraude. ¿Qué tipo de riesgo agravante representa esta conducta?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Riesgo moral",
+        "rationale": "Incorrecta. El riesgo moral exige deshonestidad intencional o fraude, elementos que no aparecen en la situación."
+      },
+      {
+        "id": "B",
+        "text": "Riesgo de actitud",
+        "rationale": "Correcta. La indiferencia o imprudencia motivada por la existencia del seguro constituye un riesgo de actitud."
+      },
+      {
+        "id": "C",
+        "text": "Riesgo físico",
+        "rationale": "Incorrecta. La situación describe una conducta imprudente, no una condición física tangible del vehículo."
+      },
+      {
+        "id": "D",
+        "text": "Peligro",
+        "rationale": "Incorrecta. Un peligro es la causa activa de una pérdida; aquí se identifica una condición conductual que aumenta su probabilidad."
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "El riesgo moral implica fraude o deshonestidad deliberada; el riesgo de actitud consiste en apatía o imprudencia sin intención fraudulenta; y el riesgo físico es una condición tangible u observable.",
+    "keyTerms": [
+      {
+        "es": "riesgo de actitud",
+        "en": "morale hazard"
+      },
+      {
+        "es": "riesgo moral",
+        "en": "moral hazard"
+      },
+      {
+        "es": "riesgo físico",
+        "en": "physical hazard"
+      }
+    ],
+    "source": {
+      "file": "G5 - Texas G5 Casualty Insurance Research.es.md",
+      "section": "3.2. Riesgos agravantes (Hazards) (Temas B, B.1, B.2 y B.3 del temario)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G5-Q003",
+    "domain": "G5",
+    "subtopic": "Indemnización e interés asegurable",
+    "difficulty": "intermedia",
+    "stem": "Un inquilino comercial puede ser legalmente responsable por daños que sus operaciones causen al edificio arrendado. ¿Qué fundamento establece su interés asegurable de contingencias respecto del edificio?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La posibilidad de obtener una ganancia si aumenta el valor del edificio",
+        "rationale": "Incorrecta. Una oportunidad de ganancia constituye riesgo especulativo y no fundamenta este interés asegurable."
+      },
+      {
+        "id": "B",
+        "text": "La posesión temporal del inmueble, aunque no exista exposición financiera",
+        "rationale": "Incorrecta. La mera posesión no es la base indicada; debe existir una posible pérdida o responsabilidad legal."
+      },
+      {
+        "id": "C",
+        "text": "Su posible exposición a responsabilidad legal por los daños",
+        "rationale": "Correcta. En contingencias, el interés asegurable surge de una exposición real a responsabilidad legal frente a terceros."
+      },
+      {
+        "id": "D",
+        "text": "El derecho a recibir más que el importe real de cualquier pérdida",
+        "rationale": "Incorrecta. El principio de indemnización busca restituir la situación financiera anterior, no permitir una ganancia."
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "El interés asegurable de contingencias no depende necesariamente de ser propietario del bien. Se fundamenta en la posible responsabilidad legal del asegurado y debe existir cuando ocurre el evento que origina esa responsabilidad.",
+    "keyTerms": [
+      {
+        "es": "interés asegurable",
+        "en": "insurable interest"
+      },
+      {
+        "es": "responsabilidad legal",
+        "en": "legal liability"
+      },
+      {
+        "es": "indemnización",
+        "en": "indemnity"
+      }
+    ],
+    "source": {
+      "file": "G5 - Texas G5 Casualty Insurance Research.es.md",
+      "section": "3.4. Interés asegurable (Insurable Interest) (Tema D del temario)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G5-Q004",
+    "domain": "G5",
+    "subtopic": "Valoración de pérdidas",
+    "difficulty": "intermedia",
+    "stem": "Un automóvil tiene un costo de reposición actual de $40,000 y una depreciación física de $10,000. La póliza liquida la pérdida total según valor real en efectivo. ¿Cuál es el valor aplicable?",
+    "options": [
+      {
+        "id": "A",
+        "text": "$10,000",
+        "rationale": "Incorrecta. Esa cifra representa únicamente la depreciación, no el costo de reposición menos la depreciación."
+      },
+      {
+        "id": "B",
+        "text": "$40,000",
+        "rationale": "Incorrecta. Ese sería el costo de reposición antes de efectuar la deducción por depreciación."
+      },
+      {
+        "id": "C",
+        "text": "$50,000",
+        "rationale": "Incorrecta. El valor real en efectivo resta la depreciación del costo de reposición; no la suma."
+      },
+      {
+        "id": "D",
+        "text": "$30,000",
+        "rationale": "Correcta. El valor real en efectivo se calcula restando $10,000 de depreciación al costo de reposición de $40,000."
+      }
+    ],
+    "correctOption": "D",
+    "explanation": "El valor real en efectivo se determina normalmente como el costo de reposición vigente menos la depreciación física, el desgaste y la obsolescencia económica.",
+    "keyTerms": [
+      {
+        "es": "valor real en efectivo",
+        "en": "actual cash value"
+      },
+      {
+        "es": "costo de reposición",
+        "en": "replacement cost"
+      },
+      {
+        "es": "depreciación",
+        "en": "depreciation"
+      }
+    ],
+    "source": {
+      "file": "G5 - Texas G5 Casualty Insurance Research.es.md",
+      "section": "3.5. Valoración de pérdidas (Loss Valuation) (Temas E, E.1, E.2, E.3, E.4 y E.5 del temario)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G5-Q005",
+    "domain": "G5",
+    "subtopic": "Valor declarado y acordado",
+    "difficulty": "avanzada",
+    "stem": "Un vehículo clásico tiene un valor real en efectivo de $32,000, un costo de reparación de $35,000 y un límite de valor declarado de $40,000. Si ocurre una pérdida total liquidada conforme a la cláusula de valor declarado, ¿cuánto corresponde pagar antes de considerar otras disposiciones?",
+    "options": [
+      {
+        "id": "A",
+        "text": "$32,000",
+        "rationale": "Correcta. El valor declarado paga el menor entre el valor real en efectivo, el costo de reparación y el límite declarado."
+      },
+      {
+        "id": "B",
+        "text": "$35,000",
+        "rationale": "Incorrecta. Aunque es el costo de reparación, supera el valor real en efectivo de $32,000, que es la menor cifra."
+      },
+      {
+        "id": "C",
+        "text": "$40,000",
+        "rationale": "Incorrecta. El límite declarado establece un máximo, pero no garantiza el pago de esa cantidad."
+      },
+      {
+        "id": "D",
+        "text": "$107,000",
+        "rationale": "Incorrecta. Los tres valores no se suman; se comparan para identificar el menor importe aplicable."
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "El valor declarado limita el pago al menor entre el valor real en efectivo, el costo de reparación o el límite declarado. A diferencia del valor acordado, no garantiza el pago de la cifra programada.",
+    "keyTerms": [
+      {
+        "es": "valor declarado",
+        "en": "stated value"
+      },
+      {
+        "es": "valor acordado",
+        "en": "agreed value"
+      },
+      {
+        "es": "límite máximo",
+        "en": "maximum limit"
+      }
+    ],
+    "source": {
+      "file": "G5 - Texas G5 Casualty Insurance Research.es.md",
+      "section": "3.5. Valoración de pérdidas (Loss Valuation) (Temas E, E.1, E.2, E.3, E.4 y E.5 del temario)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G5-Q006",
+    "domain": "G5",
+    "subtopic": "Elementos de negligencia",
+    "difficulty": "intermedia",
+    "stem": "El gerente de una tienda no corrige un piso mojado conocido. Una clienta evita el derrame, pero su computadora cae y se rompe debido a un espasmo muscular no relacionado. ¿Qué elemento de negligencia falta principalmente respecto del daño a la computadora?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Deber legal",
+        "rationale": "Incorrecta. La tienda conserva un deber de cuidado hacia sus clientes, aunque ese deber no haya causado este daño particular."
+      },
+      {
+        "id": "B",
+        "text": "Causalidad real y próxima",
+        "rationale": "Correcta. El piso mojado no produjo la caída de la computadora ni fue una causa jurídicamente previsible de ese daño."
+      },
+      {
+        "id": "C",
+        "text": "Incumplimiento del deber",
+        "rationale": "Incorrecta. No corregir ni advertir sobre un derrame conocido puede constituir incumplimiento, pero no conecta causalmente con la computadora rota."
+      },
+      {
+        "id": "D",
+        "text": "Existencia de una pérdida financiera",
+        "rationale": "Incorrecta. La computadora rota representa una pérdida financiera real; lo que falta es vincularla causalmente con la conducta de la tienda."
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Una reclamación por negligencia exige deber, incumplimiento, causa real, causa próxima y daños. Aunque exista conducta deficiente y una pérdida, la reclamación fracasa si esa conducta no causó real y próximamente el daño.",
+    "keyTerms": [
+      {
+        "es": "causa real",
+        "en": "actual cause"
+      },
+      {
+        "es": "causa próxima",
+        "en": "proximate cause"
+      },
+      {
+        "es": "negligencia",
+        "en": "negligence"
+      }
+    ],
+    "source": {
+      "file": "G5 - Texas G5 Casualty Insurance Research.es.md",
+      "section": "3.6. Negligencia (Negligence) (Tema F del temario)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G5-Q007",
+    "domain": "G5",
+    "subtopic": "Clasificaciones de responsabilidad",
+    "difficulty": "intermedia",
+    "stem": "Un empleado causa por negligencia una colisión mientras realiza una entrega autorizada para su empleador. ¿Qué doctrina puede hacer responsable indirectamente al empleador?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Responsabilidad absoluta",
+        "rationale": "Incorrecta. La responsabilidad absoluta surge automáticamente en ciertas actividades ultrapeligrosas y no depende de una relación laboral."
+      },
+      {
+        "id": "B",
+        "text": "Responsabilidad contractual",
+        "rationale": "Incorrecta. La situación no indica que el empleador haya asumido la obligación mediante una cláusula de indemnización."
+      },
+      {
+        "id": "C",
+        "text": "Responsabilidad vicaria",
+        "rationale": "Correcta. La doctrina de respondeat superior puede atribuir al empleador la negligencia de un empleado que actúa dentro del ámbito laboral."
+      },
+      {
+        "id": "D",
+        "text": "Responsabilidad estricta por productos",
+        "rationale": "Incorrecta. La colisión no deriva de la fabricación de un producto defectuoso ni requiere aplicar responsabilidad por productos."
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "La responsabilidad vicaria atribuye a una parte la responsabilidad por los actos ilícitos de otra debido a una relación jurídica, como la relación entre empleador y empleado cuando este actúa dentro del ámbito de su empleo.",
+    "keyTerms": [
+      {
+        "es": "responsabilidad vicaria",
+        "en": "vicarious liability"
+      },
+      {
+        "es": "ámbito del empleo",
+        "en": "scope of employment"
+      },
+      {
+        "es": "respondeat superior",
+        "en": "respondeat superior"
+      }
+    ],
+    "source": {
+      "file": "G5 - Texas G5 Casualty Insurance Research.es.md",
+      "section": "3.7. Responsabilidad (Liability) (Tema G del temario)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G5-Q008",
+    "domain": "G5",
+    "subtopic": "Suceso y límites",
+    "difficulty": "avanzada",
+    "stem": "Una planta descarga continuamente la misma sustancia perjudicial durante tres meses y causa daños por $240,000 a varios propietarios. La póliza basada en sucesos tiene un límite de $100,000 por suceso. Si la exposición continua se considera un solo suceso, ¿cuál es el pago máximo sujeto a ese límite?",
+    "options": [
+      {
+        "id": "A",
+        "text": "$240,000, porque cada propietario presenta una reclamación separada",
+        "rationale": "Incorrecta. Las reclamaciones derivadas de una exposición continua a condiciones sustancialmente iguales pueden agregarse como un solo suceso."
+      },
+      {
+        "id": "B",
+        "text": "$300,000, porque la exposición duró tres meses",
+        "rationale": "Incorrecta. La duración mensual no multiplica automáticamente el límite cuando la exposición constituye un único suceso."
+      },
+      {
+        "id": "C",
+        "text": "$30,000, porque debe aplicarse una reducción por exposición gradual",
+        "rationale": "Incorrecta. El paquete no establece una reducción proporcional por el carácter gradual de la exposición."
+      },
+      {
+        "id": "D",
+        "text": "$100,000, porque todas las reclamaciones están sujetas al límite de un solo suceso",
+        "rationale": "Correcta. La exposición continua se trata como un suceso y el pago conjunto queda limitado a $100,000."
+      }
+    ],
+    "correctOption": "D",
+    "explanation": "Un suceso incluye tanto un accidente como la exposición continua o repetida a condiciones perjudiciales sustancialmente iguales. Cuando varias reclamaciones derivan de un solo suceso, se aplica conjuntamente el límite por suceso.",
+    "keyTerms": [
+      {
+        "es": "suceso",
+        "en": "occurrence"
+      },
+      {
+        "es": "exposición continua",
+        "en": "continuous exposure"
+      },
+      {
+        "es": "límite por suceso",
+        "en": "per-occurrence limit"
+      }
+    ],
+    "source": {
+      "file": "G5 - Texas G5 Casualty Insurance Research.es.md",
+      "section": "3.8. Suceso (Occurrence) (Tema H del temario)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G5-Q009",
+    "domain": "G5",
+    "subtopic": "Constancias provisionales",
+    "difficulty": "basica",
+    "stem": "En Texas, un solicitante recibe una constancia provisional de seguro de automóvil personal por 15 días y pretende utilizarla para renovar el registro del vehículo. ¿Cuál es el resultado conforme a la regla aplicable?",
+    "options": [
+      {
+        "id": "A",
+        "text": "No puede utilizarla para renovar el registro porque fue emitida por menos de 30 días.",
+        "rationale": "Correcta. Texas prohíbe utilizar una póliza o constancia provisional de automóvil personal de menos de 30 días para ese propósito."
+      },
+      {
+        "id": "B",
+        "text": "Puede utilizarla porque toda constancia provisional equivale a una póliza anual.",
+        "rationale": "Incorrecta. La constancia proporciona cobertura interina, pero su plazo corto activa la restricción legal indicada."
+      },
+      {
+        "id": "C",
+        "text": "Puede utilizarla únicamente si también presenta un Certificate of Insurance.",
+        "rationale": "Incorrecta. Un certificado es informativo y no elimina la prohibición aplicable a la constancia de corto plazo."
+      },
+      {
+        "id": "D",
+        "text": "No puede utilizarla porque las constancias provisionales nunca crean cobertura vinculante.",
+        "rationale": "Incorrecta. Una constancia sí puede crear cobertura temporal vinculante; el impedimento se debe a que su plazo es menor de 30 días."
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "Una constancia provisional crea cobertura temporal. Sin embargo, Texas Insurance Code § 1952.054 impide usar una póliza o constancia provisional de automóvil personal emitida por menos de 30 días para obtener o renovar determinados documentos, incluido el registro vehicular.",
+    "keyTerms": [
+      {
+        "es": "constancia provisional",
+        "en": "binder"
+      },
+      {
+        "es": "cobertura interina",
+        "en": "interim coverage"
+      },
+      {
+        "es": "registro vehicular",
+        "en": "vehicle registration"
+      }
+    ],
+    "source": {
+      "file": "G5 - Texas G5 Casualty Insurance Research.es.md",
+      "section": "3.9. Constancias provisionales (Binders) (Tema I del temario)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G5-Q010",
+    "domain": "G5",
+    "subtopic": "Declaraciones falsas y ocultación",
+    "difficulty": "avanzada",
+    "stem": "Un solicitante de seguro comercial proporciona una cifra de ventas incorrecta porque transpuso accidentalmente dos números. La cifra era material, pero la aseguradora no puede demostrar intención real de engañar. Según la regla de Texas descrita en el paquete, ¿qué conclusión es la más adecuada?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La póliza queda anulada automáticamente por cualquier error material.",
+        "rationale": "Incorrecta. En Texas, la materialidad por sí sola no satisface todos los elementos exigidos para rescindir por declaración falsa."
+      },
+      {
+        "id": "B",
+        "text": "La aseguradora no puede rescindir por esa declaración falsa sin probar intención real de engañar.",
+        "rationale": "Correcta. Además de otros elementos, la aseguradora debe demostrar que el solicitante tuvo intención real de engañarla."
+      },
+      {
+        "id": "C",
+        "text": "El error se convierte en ocultación porque no fue una afirmación verdadera.",
+        "rationale": "Incorrecta. Una afirmación expresa inexacta es una declaración falsa; la ocultación consiste en retener silenciosamente un hecho material conocido."
+      },
+      {
+        "id": "D",
+        "text": "La aseguradora solo necesita demostrar que se basó en la cifra, aunque esta no fuera material.",
+        "rationale": "Incorrecta. La regla exige, entre otros elementos, dependencia, materialidad e intención real de engañar."
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Para rescindir una póliza o denegar una reclamación por una declaración falsa en una solicitud de Texas, la aseguradora debe probar la declaración, su falsedad, la dependencia, la materialidad y la intención real de engañar. Un error inocente o negligente no basta.",
+    "keyTerms": [
+      {
+        "es": "declaración falsa",
+        "en": "misrepresentation"
+      },
+      {
+        "es": "materialidad",
+        "en": "materiality"
+      },
+      {
+        "es": "intención de engañar",
+        "en": "intent to deceive"
+      }
+    ],
+    "source": {
+      "file": "G5 - Texas G5 Casualty Insurance Research.es.md",
+      "section": "3.11. Declaraciones (Representations) (Tema K del temario)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G5-Q011",
+    "domain": "G5",
+    "subtopic": "Auditoría de primas",
+    "difficulty": "avanzada",
+    "stem": "Una póliza cobra una prima de depósito de $4,000. La auditoría produce una prima calculada de $2,000, pero la póliza establece una prima mínima de $3,000. ¿Qué prima de devolución corresponde?",
+    "options": [
+      {
+        "id": "A",
+        "text": "$2,000",
+        "rationale": "Incorrecta. Esa devolución reduciría la prima retenida a $2,000, por debajo de la prima mínima contractual."
+      },
+      {
+        "id": "B",
+        "text": "$3,000",
+        "rationale": "Incorrecta. Esa devolución dejaría solo $1,000 retenidos, lo que incumpliría el piso de $3,000."
+      },
+      {
+        "id": "C",
+        "text": "$1,000",
+        "rationale": "Correcta. La aseguradora debe retener la prima mínima de $3,000, de modo que puede devolver $1,000 del depósito."
+      },
+      {
+        "id": "D",
+        "text": "$0",
+        "rationale": "Incorrecta. La prima mínima limita la devolución, pero no impide devolver la parte del depósito que excede ese piso."
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "La auditoría ajusta la prima según la exposición real. Cuando el cálculo resulta inferior a la prima mínima, esta actúa como piso: depósito de $4,000 menos prima mínima de $3,000 equivale a una devolución de $1,000.",
+    "keyTerms": [
+      {
+        "es": "prima de depósito",
+        "en": "deposit premium"
+      },
+      {
+        "es": "auditoría de primas",
+        "en": "premium audit"
+      },
+      {
+        "es": "prima mínima",
+        "en": "minimum premium"
+      }
+    ],
+    "source": {
+      "file": "G5 - Texas G5 Casualty Insurance Research.es.md",
+      "section": "3.13. Prima de depósito / auditoría (Deposit Premium / Audit) (Tema M del temario)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G5-Q012",
+    "domain": "G5",
+    "subtopic": "Certificado de seguro",
+    "difficulty": "intermedia",
+    "stem": "Un propietario aparece como Certificate Holder en un COI de su inquilino, pero la póliza subyacente no contiene un endoso de Additional Insured. Después de una demanda, el propietario exige cobertura. ¿Cuál es la respuesta correcta?",
+    "options": [
+      {
+        "id": "A",
+        "text": "El propietario tiene cobertura porque cualquier titular del certificado es un asegurado adicional.",
+        "rationale": "Incorrecta. La condición de Certificate Holder no confiere derechos contractuales ni la calidad de asegurado adicional."
+      },
+      {
+        "id": "B",
+        "text": "El propietario tiene cobertura si el COI menciona la demanda en el cuadro de observaciones.",
+        "rationale": "Incorrecta. Las observaciones de un COI no pueden crear ni ampliar cobertura inexistente en la póliza."
+      },
+      {
+        "id": "C",
+        "text": "El COI funciona como constancia provisional y crea cobertura temporal para el propietario.",
+        "rationale": "Incorrecta. Un COI es informativo; una constancia provisional es el documento que puede crear cobertura interina vinculante."
+      },
+      {
+        "id": "D",
+        "text": "El propietario no adquiere cobertura como Additional Insured sin un endoso formal de la póliza.",
+        "rationale": "Correcta. El COI no modifica la póliza y la condición de asegurado adicional requiere un endoso."
+      }
+    ],
+    "correctOption": "D",
+    "explanation": "Conforme al Texas Insurance Code Chapter 1811, un COI solamente resume cobertura existente. No puede modificar términos, conferir derechos ni convertir al titular del certificado en Additional Insured; para ello se requiere un endoso.",
+    "keyTerms": [
+      {
+        "es": "certificado de seguro",
+        "en": "certificate of insurance"
+      },
+      {
+        "es": "titular del certificado",
+        "en": "certificate holder"
+      },
+      {
+        "es": "asegurado adicional",
+        "en": "additional insured"
+      }
+    ],
+    "source": {
+      "file": "G5 - Texas G5 Casualty Insurance Research.es.md",
+      "section": "3.14. Certificado de seguro (Certificate of Insurance) (Tema N del temario)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G5-Q013",
+    "domain": "G5",
+    "subtopic": "Ley de los Grandes Números",
+    "difficulty": "basica",
+    "stem": "¿Qué permite principalmente la Ley de los Grandes Números en la tarificación de seguros de contingencias?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Que la experiencia agregada de un grupo grande y homogéneo se aproxime a las pérdidas esperadas",
+        "rationale": "Correcta. Al aumentar las unidades semejantes e independientes, mejora la predictibilidad de las pérdidas del grupo."
+      },
+      {
+        "id": "B",
+        "text": "Que se determine con certeza qué asegurado individual sufrirá una pérdida",
+        "rationale": "Incorrecta. La ley mejora la predicción grupal, pero no elimina la incertidumbre de cada exposición individual."
+      },
+      {
+        "id": "C",
+        "text": "Que todas las unidades de exposición tengan exactamente la misma pérdida",
+        "rationale": "Incorrecta. Las pérdidas individuales pueden variar; el principio se refiere a la experiencia agregada."
+      },
+      {
+        "id": "D",
+        "text": "Que los riesgos especulativos se conviertan en riesgos asegurables",
+        "rationale": "Incorrecta. El tamaño del grupo no elimina la posibilidad de ganancia propia de un riesgo especulativo."
+      }
+    ],
+    "correctOption": "A",
+    "explanation": "La Ley de los Grandes Números establece que la experiencia real de pérdidas de un grupo grande de exposiciones semejantes e independientes tiende a aproximarse a la probabilidad esperada. No predice pérdidas individuales.",
+    "keyTerms": [
+      {
+        "es": "Ley de los Grandes Números",
+        "en": "Law of Large Numbers"
+      },
+      {
+        "es": "grupo homogéneo",
+        "en": "homogeneous group"
+      },
+      {
+        "es": "pérdidas agregadas",
+        "en": "aggregate losses"
+      }
+    ],
+    "source": {
+      "file": "G5 - Texas G5 Casualty Insurance Research.es.md",
+      "section": "3.15. Ley de los Grandes Números (Law of Large Numbers) (Tema O del temario)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G5-Q014",
+    "domain": "G5",
+    "subtopic": "Endosos y garantías",
+    "difficulty": "intermedia",
+    "stem": "Una póliza contiene una exclusión en su formulario principal, pero un endoso adjunto concede expresamente cobertura para esa misma exposición. ¿Qué disposición controla?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La exclusión del formulario principal, porque se imprimió primero",
+        "rationale": "Incorrecta. El orden de impresión no determina la prioridad cuando un endoso contradice el formulario principal."
+      },
+      {
+        "id": "B",
+        "text": "El endoso, porque prevalece sobre el lenguaje contradictorio del formulario principal",
+        "rationale": "Correcta. Un endoso modifica el contrato y controla respecto de las disposiciones incompatibles de la póliza base."
+      },
+      {
+        "id": "C",
+        "text": "El Certificate of Insurance, aunque solo resuma la póliza",
+        "rationale": "Incorrecta. Un COI no puede alterar ni ampliar los términos contractuales de la póliza."
+      },
+      {
+        "id": "D",
+        "text": "La solicitud, porque toda declaración previa sustituye el contrato emitido",
+        "rationale": "Incorrecta. La solicitud contiene declaraciones para la suscripción, pero no desplaza automáticamente un endoso contractual."
+      }
+    ],
+    "correctOption": "B",
+    "explanation": "Un endoso puede añadir, eliminar, restringir, aclarar o modificar las disposiciones y los límites de una póliza. Si existe una contradicción, el lenguaje del endoso prevalece sobre el formulario principal.",
+    "keyTerms": [
+      {
+        "es": "endoso",
+        "en": "endorsement"
+      },
+      {
+        "es": "formulario principal",
+        "en": "main policy form"
+      },
+      {
+        "es": "modificación contractual",
+        "en": "contractual modification"
+      }
+    ],
+    "source": {
+      "file": "G5 - Texas G5 Casualty Insurance Research.es.md",
+      "section": "3.17. Endosos (Endorsements) (Tema Q del temario)"
+    },
+    "reviewStatus": "pending_expert_review"
+  },
+  {
+    "id": "G5-Q015",
+    "domain": "G5",
+    "subtopic": "Daños y cumplimiento FCRA",
+    "difficulty": "avanzada",
+    "stem": "Una aseguradora aplica un recargo basándose parcialmente en un informe del consumidor. En la reclamación relacionada, el tercero presenta facturas médicas y solicita además daños por dolor y sufrimiento. ¿Qué combinación clasifica correctamente las obligaciones y los daños?",
+    "options": [
+      {
+        "id": "A",
+        "text": "El recargo no es una medida adversa; las facturas y el dolor son daños punitivos.",
+        "rationale": "Incorrecta. Un recargo basado en el informe es una medida adversa; las facturas y el dolor son daños compensatorios, no punitivos."
+      },
+      {
+        "id": "B",
+        "text": "El consumidor dispone de 3 días para obtener gratuitamente el informe; ambos daños son especiales.",
+        "rationale": "Incorrecta. Los 3 días corresponden a la divulgación de informes investigativos; el derecho al informe gratuito tras una medida adversa se ejerce dentro de 60 días, y el dolor es un daño general."
+      },
+      {
+        "id": "C",
+        "text": "Debe emitirse un aviso de medida adversa con el derecho a pedir un informe gratuito dentro de 60 días; las facturas son daños especiales y el dolor es un daño general.",
+        "rationale": "Correcta. La FCRA exige el aviso por el recargo basado en el informe, y distingue las pérdidas económicas cuantificables de las pérdidas no económicas."
+      },
+      {
+        "id": "D",
+        "text": "La CRA debe justificar el recargo; las facturas son daños generales y el dolor es un daño especial.",
+        "rationale": "Incorrecta. La CRA no toma la decisión de suscripción ni explica sus motivos; además, las categorías de daños están invertidas."
+      }
+    ],
+    "correctOption": "C",
+    "explanation": "Un recargo basado total o parcialmente en un informe del consumidor constituye una medida adversa y exige el aviso correspondiente, incluido el derecho a solicitar gratuitamente el informe dentro de 60 días. Las facturas médicas son daños compensatorios especiales y el dolor y sufrimiento son daños compensatorios generales.",
+    "keyTerms": [
+      {
+        "es": "medida adversa",
+        "en": "adverse action"
+      },
+      {
+        "es": "daños especiales",
+        "en": "special damages"
+      },
+      {
+        "es": "daños generales",
+        "en": "general damages"
+      },
+      {
+        "es": "agencia de informes del consumidor",
+        "en": "consumer reporting agency"
+      }
+    ],
+    "source": {
+      "file": "G5 - Texas G5 Casualty Insurance Research.es.md",
+      "section": "3.19. Cumplimiento de las disposiciones de la Fair Credit Reporting Act (FCRA) (Tema S del temario)"
+    },
+    "reviewStatus": "pending_expert_review"
+  }
+]

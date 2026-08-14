@@ -1,0 +1,54 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://alleanza.academy/schemas/texas-pc-question.schema.json",
+  "title": "Pregunta del simulador Texas P&C",
+  "type": "object",
+  "required": ["id", "domain", "subtopic", "difficulty", "stem", "options", "correctOption", "explanation", "keyTerms", "source", "reviewStatus"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^(G[1-6]|TX[12])-Q[0-9]{3}$" },
+    "domain": { "enum": ["G1", "G2", "G3", "G4", "G5", "G6", "TX1", "TX2"] },
+    "subtopic": { "type": "string", "minLength": 3 },
+    "difficulty": { "enum": ["basica", "intermedia", "avanzada"] },
+    "stem": { "type": "string", "minLength": 20 },
+    "options": {
+      "type": "array",
+      "minItems": 4,
+      "maxItems": 4,
+      "items": {
+        "type": "object",
+        "required": ["id", "text", "rationale"],
+        "properties": {
+          "id": { "enum": ["A", "B", "C", "D"] },
+          "text": { "type": "string", "minLength": 1 },
+          "rationale": { "type": "string", "minLength": 15 }
+        },
+        "additionalProperties": false
+      }
+    },
+    "correctOption": { "enum": ["A", "B", "C", "D"] },
+    "explanation": { "type": "string", "minLength": 25 },
+    "keyTerms": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["es", "en"],
+        "properties": {
+          "es": { "type": "string", "minLength": 1 },
+          "en": { "type": "string", "minLength": 1 }
+        },
+        "additionalProperties": false
+      }
+    },
+    "source": {
+      "type": "object",
+      "required": ["file", "section"],
+      "properties": {
+        "file": { "type": "string", "pattern": "\\.es\\.md$" },
+        "section": { "type": "string", "minLength": 3 }
+      },
+      "additionalProperties": false
+    },
+    "reviewStatus": { "const": "pending_expert_review" }
+  },
+  "additionalProperties": false
+}
