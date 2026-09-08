@@ -39,6 +39,9 @@ import {
 import {
   createSession,
   HISTORY_KEY,
+  optionsInSessionOrder,
+  parseStoredHistory,
+  parseStoredSession,
   scoreSession,
   SESSION_KEY,
   THEME_KEY,
@@ -120,17 +123,15 @@ export function Simulator() {
   useEffect(() => {
     const timer = window.setTimeout(() => {
       const savedTheme = localStorage.getItem(THEME_KEY) === "dark";
-      const savedHistory = JSON.parse(localStorage.getItem(HISTORY_KEY) ?? "[]") as string[];
-      const savedSession = localStorage.getItem(SESSION_KEY);
+      const historyRaw = localStorage.getItem(HISTORY_KEY);
+      const parsedHistory = parseStoredHistory(historyRaw);
+      if (historyRaw !== null && !parsedHistory.valid) localStorage.removeItem(HISTORY_KEY);
+      const sessionRaw = localStorage.getItem(SESSION_KEY);
+      const restoredSession = parseStoredSession(sessionRaw, new Set(QUESTIONS.map((question) => question.id)));
+      if (sessionRaw && !restoredSession) localStorage.removeItem(SESSION_KEY);
       setDark(savedTheme);
-      setHistory(savedHistory);
-      if (savedSession) {
-        try {
-          setSession(JSON.parse(savedSession) as SessionState);
-        } catch {
-          localStorage.removeItem(SESSION_KEY);
-        }
-      }
+      setHistory(parsedHistory.ids);
+      if (restoredSession) setSession(restoredSession);
       setHydrated(true);
     });
     return () => window.clearTimeout(timer);
@@ -145,8 +146,17 @@ export function Simulator() {
     if (hydrated && session) localStorage.setItem(SESSION_KEY, JSON.stringify(session));
   }, [session, hydrated]);
 
-  const submitSession = useCallback(() => {
-    setSession((current) => current ? { ...current, status: "submitted", submittedAt: Date.now() } : current);
+  const finish = useCallback(() => {
+    setSession((current) => {
+      if (!current || current.status !== "active") return current;
+      const answeredIds = Object.keys(current.answers);
+      setHistory((previous) => {
+        const mergedHistory = Array.from(new Set([...previous, ...answeredIds]));
+        localStorage.setItem(HISTORY_KEY, JSON.stringify(mergedHistory));
+        return mergedHistory;
+      });
+      return { ...current, status: "submitted", submittedAt: Date.now() };
+    });
     setShowSubmit(false);
     setReviewIndex(0);
   }, []);
@@ -156,15 +166,18 @@ export function Simulator() {
     const tick = () => {
       const remaining = Math.max(0, Math.ceil((session.expiresAt! - Date.now()) / 1000));
       setSecondsLeft(remaining);
-      if (remaining === 0) submitSession();
+      if (remaining === 0) finish();
     };
     tick();
     const interval = window.setInterval(tick, 1000);
     return () => window.clearInterval(interval);
-  }, [paused, session?.expiresAt, session?.status, submitSession]);
+  }, [finish, paused, session?.expiresAt, session?.status]);
 
   const questionsById = useMemo(() => new Map(QUESTIONS.map((question) => [question.id, question])), []);
-  const activeQuestions = useMemo(() => session?.questionIds.map((id) => questionsById.get(id)!).filter(Boolean) ?? [], [session?.questionIds, questionsById]);
+  const activeQuestions = useMemo(
+    () => session?.questionIds.map((id) => questionsById.get(id)).filter((question): question is Question => question != null) ?? [],
+    [session?.questionIds, questionsById],
+  );
 
   const updateSession = (patch: Partial<SessionState>) => setSession((current) => current ? { ...current, ...patch } : current);
 
@@ -175,15 +188,6 @@ export function Simulator() {
     setPaused(false);
     setShowNavigator(false);
     setReviewIndex(0);
-  };
-
-  const finish = () => {
-    if (!session) return;
-    const answeredIds = Object.keys(session.answers);
-    const mergedHistory = Array.from(new Set([...history, ...answeredIds]));
-    setHistory(mergedHistory);
-    localStorage.setItem(HISTORY_KEY, JSON.stringify(mergedHistory));
-    submitSession();
   };
 
   const reset = () => {
@@ -210,7 +214,7 @@ export function Simulator() {
       <div className="app-shell setup-shell">
         <header className="topbar public-topbar">
           <Brand />
-          <div className="topbar-actions"><span className="bank-count"><BookOpenCheck size={17} /> 300 preguntas</span><ThemeButton dark={dark} onToggle={() => setDark(!dark)} /></div>
+          <div className="topbar-actions"><span className="bank-count"><BookOpenCheck size={17} /> {QUESTIONS.length} preguntas</span><ThemeButton dark={dark} onToggle={() => setDark(!dark)} /></div>
         </header>
         <main className="setup-main">
           <section className="setup-intro">
@@ -256,11 +260,12 @@ export function Simulator() {
   }
 
   const question = activeQuestions[session.current];
+  if (!question) return <div className="loading"><div className="brand-mark">AA</div><span>Preparando simulador…</span></div>;
   const answer = session.answers[question.id];
   const struck = session.strikeouts[question.id] ?? [];
   const highlights = session.highlights[question.id] ?? [];
   const order = session.optionOrders[question.id] ?? ["A", "B", "C", "D"];
-  const orderedOptions = order.map((id) => question.options.find((option) => option.id === id)!);
+  const orderedOptions = optionsInSessionOrder(question, order);
   const immediate = session.setup.explanationMode === "inmediata" && Boolean(answer);
   const answeredCount = Object.keys(session.answers).length;
   const isFlagged = session.flagged.includes(question.id);
@@ -323,7 +328,7 @@ export function Simulator() {
           <footer className="exam-footer"><button className="secondary" disabled={session.current === 0} onClick={() => updateSession({ current: session.current - 1 })}><ArrowLeft size={18} /> Anterior</button><span>{answer ? "Respuesta registrada" : "Sin respuesta"}</span>{session.current < activeQuestions.length - 1 ? <button className="primary" onClick={() => updateSession({ current: session.current + 1 })}>Siguiente <ArrowRight size={18} /></button> : <button className="primary" onClick={() => setShowSubmit(true)}>Revisar y finalizar</button>}</footer>
         </section>
       </main>
-      {paused && <div className="pause-overlay"><div><Pause size={28} /><h2>Práctica en pausa</h2><p>El temporizador está desactivado para esta sesión.</p><button className="primary" onClick={() => setPaused(false)}><Play size={18} /> Continuar</button></div></div>}
+      {paused && <div className="pause-overlay"><div><Pause size={28} /><h2>Práctica en pausa</h2><p>Esta práctica no tiene temporizador. Puedes reanudar cuando quieras.</p><button className="primary" onClick={() => setPaused(false)}><Play size={18} /> Continuar</button></div></div>}
       {showSubmit && <div className="modal-backdrop"><div className="modal"><div className="modal-icon"><ListChecks size={23} /></div><h2>¿Finalizar la sesión?</h2><p>Has contestado <strong>{answeredCount} de {activeQuestions.length}</strong> preguntas. {activeQuestions.length - answeredCount > 0 && `Quedan ${activeQuestions.length - answeredCount} sin contestar.`}</p><div className="modal-stats"><span><CheckCircle2 size={17} /> {answeredCount} contestadas</span><span><Flag size={17} /> {session.flagged.length} marcadas</span></div><div className="modal-actions"><button className="secondary" onClick={() => setShowSubmit(false)}>Continuar revisando</button><button className="primary" onClick={finish}>Entregar respuestas</button></div></div></div>}
     </div>
   );
@@ -335,5 +340,5 @@ function Results({ session, questions, reviewIndex, setReviewIndex, dark, setDar
   const question = questions[reviewIndex];
   const selected = question ? session.answers[question.id] : undefined;
   const elapsed = Math.round(((session.submittedAt ?? session.startedAt) - session.startedAt) / 1000);
-  return <div className="app-shell results-shell"><header className="topbar public-topbar"><Brand /><div className="topbar-actions"><ThemeButton dark={dark} onToggle={() => setDark(!dark)} /></div></header><main className="results-main"><div className="results-heading"><div><span className="eyebrow">Sesión completada</span><h1>Resultados</h1><p>Desempeño educativo para orientar tu estudio. No representa una calificación oficial.</p></div><button className="primary" onClick={onReset}><RotateCcw size={18} /> Nueva sesión</button></div><div className="tabs"><button className={tab === "resumen" ? "active" : ""} onClick={() => setTab("resumen")}><BarChart3 size={17} /> Resumen</button><button className={tab === "revision" ? "active" : ""} onClick={() => setTab("revision")}><BookOpenCheck size={17} /> Revisar respuestas</button></div>{tab === "resumen" ? <><section className="score-grid"><div className="score-hero panel"><div className="score-ring" style={{ "--score": `${score.percentage * 3.6}deg` } as React.CSSProperties}><div><strong>{score.percentage}%</strong><span>resultado</span></div></div><div><h2>{score.percentage >= 75 ? "Buen dominio general" : "Hay áreas por reforzar"}</h2><p>{score.correct} respuestas correctas de {score.total}.</p></div></div><div className="metric panel"><CheckCircle2 /><strong>{score.correct}</strong><span>Correctas</span></div><div className="metric panel"><XCircle /><strong>{score.incorrect}</strong><span>Incorrectas</span></div><div className="metric panel"><CircleHelp /><strong>{score.unanswered}</strong><span>Sin contestar</span></div><div className="metric panel"><Clock3 /><strong>{formatTime(elapsed)}</strong><span>Tiempo utilizado</span></div></section><section className="panel domain-results"><div className="section-heading"><div><h2>Rendimiento por dominio</h2></div></div><div className="domain-results-list">{Object.entries(score.byDomain).map(([domain, result]) => { const percent = Math.round((result.correct / result.total) * 100); return <div key={domain}><div className="domain-result-label"><span><strong>{domain}</strong> {DOMAIN_META[domain as DomainId].name}</span><span>{result.correct}/{result.total} · <strong>{percent}%</strong></span></div><div className="bar"><span style={{ width: `${percent}%` }} /></div></div>; })}</div></section></> : question && <section className="review-layout"><aside className="review-list">{questions.map((item, index) => { const answer = session.answers[item.id]; const correct = answer === item.correctOption; return <button key={item.id} className={`${index === reviewIndex ? "active" : ""} ${correct ? "correct" : "wrong"}`} onClick={() => setReviewIndex(index)}><span>{index + 1}</span><div><strong>{item.domain}</strong><small>{correct ? "Correcta" : answer ? "Incorrecta" : "Sin contestar"}</small></div>{correct ? <CheckCircle2 size={17} /> : <XCircle size={17} />}</button>; })}</aside><article className="panel review-card"><div className="question-meta"><span className="domain-tag">{question.domain}</span><span>{question.subtopic}</span></div><h2>{question.stem}</h2><div className="review-options">{question.options.map((option) => { const isCorrect = option.id === question.correctOption; const wasSelected = selected === option.id; return <div key={option.id} className={`${isCorrect ? "correct" : ""} ${wasSelected && !isCorrect ? "wrong" : ""}`}><span>{option.id}</span><div><strong>{option.text}</strong><p>{option.rationale}</p></div>{isCorrect && <CheckCircle2 size={19} />}{wasSelected && !isCorrect && <XCircle size={19} />}</div>; })}</div>{session.setup.explanationMode !== "nunca" && <div className="explanation"><div><CircleHelp size={19} /><strong>Explicación</strong></div><p>{question.explanation}</p><div className="terms">{question.keyTerms.map((term) => <span key={term.es}>{term.es} <em>({term.en})</em></span>)}</div><small>Fuente de estudio: {question.source.section}</small></div>}<div className="review-nav"><button className="secondary" disabled={reviewIndex === 0} onClick={() => setReviewIndex(reviewIndex - 1)}><ArrowLeft size={17} /> Anterior</button><span>{reviewIndex + 1} de {questions.length}</span><button className="secondary" disabled={reviewIndex === questions.length - 1} onClick={() => setReviewIndex(reviewIndex + 1)}>Siguiente <ArrowRight size={17} /></button></div></article></section>}</main></div>;
+  return <div className="app-shell results-shell"><header className="topbar public-topbar"><Brand /><div className="topbar-actions"><ThemeButton dark={dark} onToggle={() => setDark(!dark)} /></div></header><main className="results-main"><div className="results-heading"><div><span className="eyebrow">Sesión completada</span><h1>Resultados</h1><p>Desempeño educativo para orientar tu estudio. No representa una calificación oficial.</p></div><button className="primary" onClick={onReset}><RotateCcw size={18} /> Nueva sesión</button></div><div className="tabs"><button className={tab === "resumen" ? "active" : ""} onClick={() => setTab("resumen")}><BarChart3 size={17} /> Resumen</button><button className={tab === "revision" ? "active" : ""} onClick={() => setTab("revision")}><BookOpenCheck size={17} /> Revisar respuestas</button></div>{tab === "resumen" ? <><section className="score-grid"><div className="score-hero panel"><div className="score-ring" style={{ "--score": `${score.percentage * 3.6}deg` } as React.CSSProperties}><div><strong>{score.percentage}%</strong><span>resultado</span></div></div><div><h2>{score.percentage >= 75 ? "Buen dominio general" : "Hay áreas por reforzar"}</h2><p>{score.correct} respuestas correctas de {score.total}.</p></div></div><div className="metric panel"><CheckCircle2 /><strong>{score.correct}</strong><span>Correctas</span></div><div className="metric panel"><XCircle /><strong>{score.incorrect}</strong><span>Incorrectas</span></div><div className="metric panel"><CircleHelp /><strong>{score.unanswered}</strong><span>Sin contestar</span></div><div className="metric panel"><Clock3 /><strong>{formatTime(elapsed)}</strong><span>Tiempo utilizado</span></div></section><section className="panel domain-results"><div className="section-heading"><div><h2>Rendimiento por dominio</h2></div></div><div className="domain-results-list">{Object.entries(score.byDomain).map(([domain, result]) => { const percent = Math.round((result.correct / result.total) * 100); return <div key={domain}><div className="domain-result-label"><span><strong>{domain}</strong> {DOMAIN_META[domain as DomainId].name}</span><span>{result.correct}/{result.total} · <strong>{percent}%</strong></span></div><div className="bar"><span style={{ width: `${percent}%` }} /></div></div>; })}</div></section></> : question && <section className="review-layout"><aside className="review-list">{questions.map((item, index) => { const answer = session.answers[item.id]; const correct = answer === item.correctOption; return <button key={item.id} className={`${index === reviewIndex ? "active" : ""} ${correct ? "correct" : "wrong"}`} onClick={() => setReviewIndex(index)}><span>{index + 1}</span><div><strong>{item.domain}</strong><small>{correct ? "Correcta" : answer ? "Incorrecta" : "Sin contestar"}</small></div>{correct ? <CheckCircle2 size={17} /> : <XCircle size={17} />}</button>; })}</aside><article className="panel review-card"><div className="question-meta"><span className="domain-tag">{question.domain}</span><span>{question.subtopic}</span></div><h2>{question.stem}</h2><div className="review-options">{optionsInSessionOrder(question, session.optionOrders[question.id]).map((option, displayIndex) => { const isCorrect = option.id === question.correctOption; const wasSelected = selected === option.id; return <div key={option.id} className={`${isCorrect ? "correct" : ""} ${wasSelected && !isCorrect ? "wrong" : ""}`}><span>{String.fromCharCode(65 + displayIndex)}</span><div><strong>{option.text}</strong><p>{option.rationale}</p></div>{isCorrect && <CheckCircle2 size={19} />}{wasSelected && !isCorrect && <XCircle size={19} />}</div>; })}</div>{session.setup.explanationMode !== "nunca" && <div className="explanation"><div><CircleHelp size={19} /><strong>Explicación</strong></div><p>{question.explanation}</p><div className="terms">{question.keyTerms.map((term) => <span key={term.es}>{term.es} <em>({term.en})</em></span>)}</div><small>Fuente de estudio: {question.source.section}</small></div>}<div className="review-nav"><button className="secondary" disabled={reviewIndex === 0} onClick={() => setReviewIndex(reviewIndex - 1)}><ArrowLeft size={17} /> Anterior</button><span>{reviewIndex + 1} de {questions.length}</span><button className="secondary" disabled={reviewIndex === questions.length - 1} onClick={() => setReviewIndex(reviewIndex + 1)}>Siguiente <ArrowRight size={17} /></button></div></article></section>}</main></div>;
 }

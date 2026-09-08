@@ -32,10 +32,13 @@ Abre `http://localhost:3000`.
 npm run typecheck
 npm run lint
 npm test
+npx playwright install chromium
 npm run test:e2e
 npm run build -- --webpack
 npm run questions:validate
 ```
+
+`test:e2e` arranca el app en el puerto `3100` y usa el Chromium de Playwright. No hace falta Google Chrome instalado en el sistema.
 
 ## Vercel
 
@@ -47,6 +50,6 @@ El proyecto usa Next.js y no requiere variables de entorno. Importa el repositor
 
 ## Contenido
 
-- `question-bank/`: banco estructurado y esquema de validación.
+- `question-bank/`: banco estructurado. `schema.json` documenta la forma de cada pregunta; `npm run questions:validate` aplica los controles estructurales del banco.
 - `sources/`: paquetes de investigación en inglés y español.
 - `scripts/validate_question_bank.py`: controles estructurales del banco.
