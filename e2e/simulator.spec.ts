@@ -28,6 +28,14 @@ test("configura, contesta y finaliza una práctica", async ({ page }) => {
   await page.screenshot({ path: "test-results/results-desktop.png", fullPage: true });
 });
 
+test("un enlace abre la práctica del dominio sin configuración", async ({ page }) => {
+  await page.goto("/?dominio=G1&n=10");
+  await expect(page.getByText(/Pregunta 1 de 10/)).toBeVisible();
+  await expect(page.locator(".domain-tag")).toHaveText("G1");
+  await expect(page).toHaveURL((url) => url.search === "");
+  await expect(page.getByRole("heading", { name: "Configura tu sesión" })).toHaveCount(0);
+});
+
 test("la configuración y el examen funcionan en móvil", async ({ page }) => {
   await page.setViewportSize({ width: 390, height: 844 });
   await page.goto("/");

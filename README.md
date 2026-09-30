@@ -15,6 +15,19 @@ Simulador educativo en español para el examen **Texas General Lines Property an
 - Resultados, rendimiento por dominio y revisión detallada de cada opción.
 - Temas claro y oscuro; diseño adaptable para escritorio y móvil.
 
+## Enlaces directos
+
+Una URL con `dominio` inicia la práctica al abrirla, sin la pantalla de configuración. Al arrancar, la app quita la consulta de la barra de direcciones para que recargar reanude esa sesión en lugar de crear otra.
+
+| Parámetro | Ejemplo | Efecto |
+| --- | --- | --- |
+| `dominio` | `G1` o `G1,G2,TX1` | Dominios separados por coma. Mayúsculas o minúsculas. Si ninguno es válido, se muestra la configuración. |
+| `n` | `10` | Cantidad de preguntas. Por defecto 10. Se limita entre 1 y 130. |
+| `exp` | `inmediata` | `inmediata` (defecto), `al_final` o `nunca`. |
+| `tiempo` | `20` | Minutos. Si es mayor que 0, la sesión tiene temporizador. Si se omite o no es positivo, no hay límite de tiempo. |
+
+Ejemplo: `https://texas-p-and-c-simulator.vercel.app/?dominio=G1&n=10`
+
 > Producto educativo independiente. No está afiliado, patrocinado ni respaldado por Pearson VUE, el Texas Department of Insurance ni ninguna entidad examinadora. Las preguntas son originales y no son reactivos reales del examen.
 
 ## Desarrollo

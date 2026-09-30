@@ -36,6 +36,7 @@ import {
   type OptionId,
   type Question,
 } from "@/lib/questions";
+import { parseDeepLink } from "@/lib/deeplink";
 import {
   createSession,
   HISTORY_KEY,
@@ -132,6 +133,13 @@ export function Simulator() {
       setDark(savedTheme);
       setHistory(parsedHistory.ids);
       if (restoredSession) setSession(restoredSession);
+      const deep = parseDeepLink(window.location.search);
+      if (deep) {
+        const selected = selectQuestions(deep.domains, deep.amount, new Set(parsedHistory.ids), true);
+        setSession(createSession(selected, deep));
+        setSetup(deep);
+        window.history.replaceState(null, "", window.location.pathname);
+      }
       setHydrated(true);
     });
     return () => window.clearTimeout(timer);
